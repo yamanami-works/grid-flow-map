@@ -1,0 +1,48 @@
+{
+  "name": "tohoku-grid-map",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1 --port 5173",
+    "build": "npm run data:prepare && npm run data:validate && tsc --noEmit && vite build && node scripts/verify-build.mjs",
+    "preview": "vite preview --host 127.0.0.1 --port 4173",
+    "test": "node --experimental-strip-types --test tests/*.test.ts tests/*.test.mjs",
+    "data:fetch": "node --use-system-ca scripts/fetch-sources.mjs official",
+    "data:official": "node scripts/import-official.mjs",
+    "data:osm:fetch": "node --use-system-ca scripts/fetch-sources.mjs osm",
+    "data:osm": "node scripts/import-osm.mjs",
+    "ios:add": "cap add ios",
+    "ios:sync": "npm run build && cap sync ios",
+    "ios:open": "cap open ios",
+    "data:dc:fetch": "node --use-system-ca scripts/fetch-sources.mjs dc",
+    "data:dc": "node scripts/import-osm.mjs dc && node scripts/review-dc.mjs",
+    "data:dc:review": "node scripts/review-dc.mjs",
+    "data:ac:review": "node scripts/review-ac.mjs",
+    "data:trunk:fetch": "node --use-system-ca scripts/fetch-sources.mjs trunk",
+    "data:trunk": "node scripts/assemble-trunk.mjs && node scripts/import-osm.mjs trunk && node scripts/review-ac.mjs && node scripts/review-connections.mjs && node scripts/export-gaps.mjs",
+    "data:equipment": "node scripts/enrich-equipment.mjs",
+    "data:network-capacity": "node --use-system-ca scripts/import-network-capacity.mjs",
+    "data:prepare": "node scripts/prepare-foundation.mjs",
+    "data:validate": "node scripts/validate-foundation.mjs",
+    "validate:flows": "node scripts/validate-flows.mjs",
+    "build:private": "node -e \"process.env.VITE_PRIVATE_PREVIEW='true';require('child_process').execSync('npx vite build --outDir tmp/private-dist --emptyOutDir',{stdio:'inherit',env:process.env})\"",
+    "check:publish": "node scripts/verify-build.mjs && node scripts/check-publish.mjs"
+  },
+  "dependencies": {
+    "@capacitor/core": "^8.0.0",
+    "@capacitor/ios": "^8.0.0",
+    "leaflet": "1.9.4"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0",
+    "@types/leaflet": "^1.9.16",
+    "typescript": "~5.9.3",
+    "vite": "^6.4.1"
+  },
+  "overrides": {
+    "xcode": {
+      "uuid": "11.1.1"
+    }
+  }
+}

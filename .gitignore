@@ -1,0 +1,21 @@
+node_modules/
+dist/
+.DS_Store
+*.log
+test-results/
+data/raw/
+data/processed/
+tmp/
+backups/
+*.previous
+# 潮流の分割ファイル（scripts/flow-split.mjs が30日分のファイルから作る。ビルド・更新で作り直す）
+public/data/*-flow-latest.json
+public/data/occto-tohoku-latest.json
+public/data/*-flow-days/
+public/data/occto-tohoku-days/
+# 各社の表（許諾を確認するまで公開しない。build:private のときだけ携帯用ビルドへコピー。docs/RULES.md 5節）
+data/private/
+# 自動更新で取得のたびに変わる潮流データ（scripts/update-*.mjs・tie-flow.mjs が書く。2026-10-11 に Git の管理から外す。docs/RULES.md 5節）
+public/data/occto-tohoku.json
+public/data/*-flow.json
+public/data/occto/

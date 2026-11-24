@@ -1,0 +1,133 @@
+/* 詳細パネル（2026-10-09 再設計、仕様 docs/mockups/detail-panel/README.md）。本文15px・補足13px、タップ領域44px以上 */
+.real-detail.dp-panel{width:360px;padding:8px 20px 20px;font-size:15px;line-height:1.55;color:#1B2328;border-radius:16px}
+.dp-panel .dp-handle{display:none;width:40px;height:4px;border-radius:2px;background:#C9D1D5;margin:0 auto 12px}
+.dp-panel .dp-head{display:flex;align-items:flex-start;gap:12px;margin-top:8px}
+.dp-panel .dp-icon{width:40px;height:40px;border-radius:10px;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.dp-panel .dp-title{flex:1;min-width:0}
+.dp-panel .dp-title h2{margin:0;font-size:21px;font-weight:700;line-height:1.3;overflow-wrap:anywhere}
+.dp-panel .dp-title p{margin:2px 0 0;font-size:14px;color:#4F5B63;line-height:1.5}
+.dp-panel .dp-close{width:44px;height:44px;border:0;border-radius:22px;background:#F1F4F5;color:#1B2328;display:flex;align-items:center;justify-content:center;cursor:pointer;flex-shrink:0}
+.dp-panel .dp-badges{display:flex;flex-wrap:wrap;gap:8px;margin-top:12px}
+.dp-panel .dp-badge{display:inline-block;font-size:13px;font-weight:500;padding:3px 10px;border-radius:999px;line-height:1.5;white-space:nowrap}
+.dp-panel .dp-ok{background:#E3F1EC;color:#145C48}
+.dp-panel .dp-muted{background:#EEF1F3;color:#333E45}
+.dp-panel .dp-warn{background:#FFF1D6;color:#6B4600}
+.dp-panel .dp-retired{background:#4A555C;color:#fff}
+.dp-panel .dp-unknown{color:#6B767D}
+.dp-panel .dp-sub{font-size:13px;color:#4F5B63}
+.dp-panel .dp-banner{margin-top:14px;padding:12px 14px;border-radius:12px;background:#F1F4F5;font-size:14px;line-height:1.6;color:#333E45}
+.dp-panel .dp-banner b{display:block;font-size:14px;color:#1B2328}
+.dp-panel .dp-banner-retired{background:#EBEEEF}
+/* 潮流カード */
+.dp-panel .dp-flow{margin-top:14px;border:1px solid #DDE3E6;border-radius:14px;padding:12px 14px}
+.dp-panel .dp-flow-head{display:flex;justify-content:space-between;gap:8px;font-size:13px;color:#4F5B63}
+.dp-panel .dp-flow-head span:first-child{font-weight:700}
+.dp-panel .dp-flow-main{display:flex;align-items:baseline;gap:8px;margin-top:4px;flex-wrap:wrap}
+/* 符号を反転した日だけの1行（2026-11-04） */
+.dp-panel .dp-flow-flip{margin:2px 0 0}
+.dp-panel .dp-flow-mw{font-size:16px;font-weight:500}
+.dp-panel .dp-flow-mw b{font-variant-numeric:tabular-nums;font-size:32px;font-weight:600;letter-spacing:-.5px}
+.dp-panel .dp-flow-dir{margin-left:auto;font-size:15px;font-weight:700;display:flex;align-items:center;gap:6px}
+.dp-panel .dp-bar{position:relative;height:10px;border-radius:5px;background:#EEF1F3;overflow:hidden;margin-top:10px}
+.dp-panel .dp-bar i{position:absolute;left:0;top:0;bottom:0}
+.dp-panel .dp-bar b{position:absolute;top:0;bottom:0;width:2px;background:#fff}
+.dp-panel .dp-flow-foot{display:flex;justify-content:space-between;align-items:center;gap:8px;margin-top:4px;font-size:13px}
+.dp-panel .dp-spark{display:block;width:100%;height:44px;margin-top:6px}
+.dp-panel .dp-flow-none p{margin:6px 0 0}
+/* 潮流公表対象外（需要家線、2026-10-11）：未確認の灰色と区別する */
+.dp-panel .dp-flow-excluded{border-style:dashed}
+.dp-panel .dp-excluded{display:inline-block;padding:1px 7px;border:1px dashed #7a6248;border-radius:4px;color:#5e4a35;background:#f6f0e8;font-weight:600}
+/* タブ */
+.dp-panel .dp-tabs{display:flex;margin-top:14px;border-bottom:1px solid #DDE3E6}
+.dp-panel .dp-tabs button{flex:1;height:44px;border:0;background:none;font:inherit;font-size:15px;color:#4F5B63;cursor:pointer;border-bottom:3px solid transparent}
+.dp-panel .dp-tabs button[aria-selected=true]{color:#1B2328;font-weight:700;border-bottom-color:#1B2328}
+/* 概要の一覧 */
+.dp-panel .dp-rows{margin:0;display:grid;grid-template-columns:112px minmax(0,1fr)}
+.dp-panel .dp-rows dt{padding:11px 0;color:#4F5B63;border-bottom:1px solid #EEF1F3;line-height:1.35}
+.dp-panel .dp-rows dd{margin:0;padding:11px 0;border-bottom:1px solid #EEF1F3;line-height:1.6;overflow-wrap:anywhere}
+.dp-panel .dp-rows dd a{color:#1558AC;font-size:13px}
+.dp-panel .dp-chips{display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.dp-panel .dp-chip{min-height:44px;padding:4px 10px;border:1px solid #C9D1D5;border-radius:8px;background:#fff;color:#1B2328;font:inherit;font-size:14px;cursor:pointer;text-align:left}
+.dp-panel .dp-chip-plain{display:inline-flex;align-items:center;cursor:default;color:#4F5B63}
+.dp-panel .dp-section-head{display:flex;justify-content:space-between;align-items:baseline;gap:8px;margin:14px 0 2px}
+.dp-panel .dp-cline{display:flex;align-items:center;gap:12px;width:100%;min-height:56px;padding:8px 0;border:0;border-bottom:1px solid #EEF1F3;background:none;font:inherit;color:#1B2328;text-align:left;cursor:pointer}
+.dp-panel .dp-cline>i{width:5px;align-self:stretch;min-height:36px;border-radius:3px;flex-shrink:0}
+.dp-panel .dp-cline-main{flex:1;min-width:0;display:flex;flex-direction:column}
+.dp-panel .dp-cline-main b{font-weight:500;overflow-wrap:anywhere}
+.dp-panel .dp-cline-main small,.dp-panel .dp-cline-value small{font-size:13px;color:#4F5B63;display:block;line-height:1.4}
+.dp-panel .dp-cline-value{text-align:right;font-size:13px;white-space:nowrap}
+.dp-panel .dp-cline-value b{font-variant-numeric:tabular-nums;font-size:16px}
+.dp-panel .dp-chev{color:#6B767D;font-size:18px}
+.dp-panel .dp-capacity{margin-top:14px;border:1px solid #DDE3E6;border-radius:14px;padding:12px 14px}
+.dp-panel .dp-capacity-osm{border-style:dashed;border-color:#B9C2C7}
+.dp-panel .dp-cap-label{font-size:13px;font-weight:700;color:#4F5B63}
+.dp-panel .dp-cap-value{font-size:16px;margin:2px 0}
+.dp-panel .dp-cap-value b{font-variant-numeric:tabular-nums;font-size:32px;font-weight:600}
+.dp-panel .dp-capacity p{margin:4px 0 0}
+/* 注意 */
+.dp-panel .dp-notes-button{margin-top:12px;width:100%;min-height:44px;display:flex;align-items:center;gap:10px;border:0;border-radius:10px;background:#FFF6E5;padding:8px 14px;font:inherit;font-size:14px;color:#5C3D05;cursor:pointer;text-align:left}
+.dp-panel .dp-notes-button span:nth-child(2){flex:1}
+.dp-panel .dp-notes-list,.dp-panel .dp-notes-full{margin:8px 0 0;padding-left:22px;font-size:14px;line-height:1.7}
+.dp-panel .dp-notes-list li,.dp-panel .dp-notes-full li{margin-bottom:4px}
+/* 公表値の比較 */
+.dp-panel .dp-compare{margin-top:12px;border:1px solid #DDE3E6;border-radius:12px}
+.dp-panel .dp-compare summary{list-style:none;min-height:48px;display:flex;align-items:center;gap:10px;padding:0 14px;cursor:pointer;font-weight:700}
+.dp-panel .dp-compare summary::-webkit-details-marker,.dp-panel .dp-verify summary::-webkit-details-marker{display:none}
+.dp-panel .dp-compare summary .dp-chev,.dp-panel .dp-verify summary span{margin-left:auto;transition:transform .15s}
+.dp-panel details[open]>summary .dp-chev,.dp-panel details[open]>summary span:last-child{transform:rotate(90deg)}
+.dp-panel .dp-compare-table{display:grid;grid-template-columns:76px minmax(0,1fr) minmax(0,1fr);padding:0 14px;font-size:14px}
+.dp-panel .dp-compare-table>*{padding:9px 0;border-bottom:1px solid #EEF1F3}
+.dp-panel .dp-compare-table b{font-size:13px;color:#4F5B63}
+.dp-panel .dp-compare-table span:nth-child(3n+1){color:#4F5B63}
+.dp-panel .dp-compare>p{padding:6px 14px 12px;margin:0}
+/* 出典タブ */
+.dp-panel .dp-tier{display:flex;gap:14px;align-items:center;margin-top:14px;border:1px solid #DDE3E6;border-radius:14px;padding:14px}
+.dp-panel .dp-tier-letter{width:52px;height:52px;border-radius:12px;background:#1B2328;color:#fff;font-size:26px;font-weight:700;display:flex;align-items:center;justify-content:center;flex-shrink:0}
+.dp-panel .dp-tier-none{background:#EEF1F3;color:#6B767D}
+.dp-panel .dp-tier b{font-size:15px}
+.dp-panel .dp-tier p{margin:2px 0 0;font-size:13px;color:#4F5B63;line-height:1.6}
+.dp-panel .dp-tier-scale{display:grid;grid-template-columns:repeat(4,1fr);gap:6px;margin-top:8px}
+.dp-panel .dp-tier-scale span{text-align:center;padding:6px 2px;border-radius:8px;background:#EEF1F3;color:#333E45;font-size:13px;white-space:nowrap}
+.dp-panel .dp-tier-scale .dp-tier-on{background:#1B2328;color:#fff;font-weight:700}
+.dp-panel .dp-h3{font-size:15px;font-weight:700;margin:18px 0 4px}
+.dp-panel .dp-source{display:grid;grid-template-columns:84px minmax(0,1fr) 44px;align-items:center;gap:8px;min-height:44px;border-bottom:1px solid #EEF1F3;padding:6px 0}
+.dp-panel .dp-source-label{color:#4F5B63;font-size:14px}
+.dp-panel .dp-source-name{font-size:14px;overflow-wrap:anywhere}
+.dp-panel .dp-source-link{display:flex;align-items:center;justify-content:center;width:44px;height:44px;color:#1558AC;text-decoration:none;font-size:18px}
+.dp-panel .dp-verify{margin-top:14px;border:1px solid #DDE3E6;border-radius:12px}
+.dp-panel .dp-verify summary{list-style:none;min-height:48px;display:flex;align-items:center;padding:0 14px;cursor:pointer;font-size:15px}
+.dp-panel .dp-verify-body{padding:0 14px 12px;font-size:14px}
+.dp-panel .dp-verify-body h4{font-size:14px;margin:12px 0 2px}
+.dp-panel .dp-verify-body p{margin:0;line-height:1.7}
+.dp-panel .dp-row-button{display:flex;justify-content:space-between;align-items:center;gap:8px;width:100%;min-height:44px;margin-top:6px;padding:6px 12px;border:1px solid #DDE3E6;border-radius:8px;background:#fff;font:inherit;font-size:14px;color:#1B2328;text-align:left;cursor:pointer}
+.dp-panel .dp-row-button span{color:#1558AC;font-size:13px;white-space:nowrap}
+.dp-panel .dp-attrs{margin:4px 0 0;font-size:13px;line-height:1.6}
+.dp-panel .dp-attrs dt{color:#4F5B63;margin-top:6px}
+.dp-panel .dp-attrs dd{margin:0;overflow-wrap:anywhere}
+@media(max-width:1100px){.real-detail.dp-panel{width:340px}}
+/* スマホ：下から出るシート */
+@media(max-width:760px){
+ .real-detail.dp-panel{z-index:1100;left:0;right:0;width:auto;bottom:0;max-height:72dvh;border-radius:18px 18px 0 0;padding:8px 20px calc(20px + env(safe-area-inset-bottom));box-shadow:0 -4px 20px rgba(20,30,35,.14)}
+ .dp-panel .dp-handle{display:block}
+ #app:not(.mobile-flow-open) .real-detail.dp-panel{bottom:0;max-height:72dvh}
+ #app.mobile-flow-open .real-detail.dp-panel{bottom:290px;max-height:32dvh;border-radius:18px}
+}
+/* 号機別（段階③） */
+.dp-panel .dp-units{margin-top:8px;border-top:1px solid #EEF1F3}
+.dp-panel .dp-units>div{display:flex;justify-content:space-between;gap:8px;padding:8px 0;border-bottom:1px solid #EEF1F3;font-size:15px}
+.dp-panel .dp-units>div:last-child{border-bottom:0}
+.dp-panel .dp-units>div span:last-child{font-variant-numeric:tabular-nums;text-align:right}
+.dp-panel .dp-units small{font-size:13px;color:#4F5B63}
+.dp-panel .dp-units .dp-unit-off{color:#6B767D}
+.dp-panel .dp-units .dp-unit-off span:last-child{font-size:13px}
+.dp-panel .dp-units-off{margin-top:6px}
+.dp-panel .dp-units-off summary{min-height:44px;display:flex;align-items:center;cursor:pointer;font-size:13px;color:#4F5B63}
+
+/* 発電所の「種別」カード（2026-10-10、docs/mockups/detail-panel/README.md「発電所の種別」）：設備出力と同じ枠。大分類だけ・未確認は点線 */
+.dp-panel .dp-type-value{margin-top:4px;font-size:20px;font-weight:700;line-height:1.45;color:#1B2328}
+.dp-panel .dp-type-retired .dp-type-value{color:#4F5B63}
+.dp-panel .dp-type-value .dp-unknown{font-size:20px}
+.dp-units .dp-unit-type{flex:1;color:#4F5B63;text-align:left!important;font-size:15px}
+.dp-units>div>span:first-child{min-width:72px}
+/* 使用率100%超（2026-10-10） */
+.dp-panel .dp-over{display:inline-block;margin-left:6px;padding:0 6px;border-radius:4px;background:#F3E8FA;color:#6B2A93;font-size:12px;font-weight:700;vertical-align:2px}

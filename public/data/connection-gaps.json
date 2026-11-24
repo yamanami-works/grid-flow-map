@@ -1,0 +1,279 @@
+{
+  "license": "ODbL-1.0",
+  "attribution": "© OpenStreetMap contributors",
+  "sources": [
+    {
+      "hash": "6eeb0352fca386326d859e5060beceaac935b227cd79f53d46d28aff4a4cdcba",
+      "time": "2026-09-20T14:05:06Z – 2026-09-20T21:48:27Z"
+    },
+    {
+      "hash": "3f3e95f390fa230a9e5effe33e7dca09ed93e3aec1574e30ec3d12d7c59d1c01",
+      "time": "2026-09-20T13:44:48Z"
+    }
+  ],
+  "gaps": [
+    {
+      "name": "西上武幹線",
+      "voltageKV": 500,
+      "node": 1470933641,
+      "position": [
+        35.9304819,
+        139.3696587
+      ],
+      "status": "unresolved",
+      "facilities": [],
+      "neighborWays": [],
+      "otherVoltages": [],
+      "nearest": {
+        "id": "osm-way-887614684",
+        "name": "キヤノン美里変電所",
+        "meters": 31134
+      }
+    },
+    {
+      "name": "朝日幹線",
+      "voltageKV": 500,
+      "node": 2568870838,
+      "position": [
+        38.2523492,
+        140.6379363
+      ],
+      "status": "unresolved",
+      "facilities": [],
+      "neighborWays": [],
+      "otherVoltages": [
+        {
+          "id": 1427959997,
+          "power": "line",
+          "voltage": "275000"
+        }
+      ],
+      "nearest": {
+        "id": "osm-way-659138214",
+        "name": "西仙台変電所",
+        "meters": 561
+      }
+    },
+    {
+      "name": "JR東日本小千谷第二発電所ーTEPCO中東京線",
+      "voltageKV": 275,
+      "node": 3255433966,
+      "position": [
+        37.2936441,
+        138.8086192
+      ],
+      "status": "unresolved",
+      "facilities": [],
+      "neighborWays": [],
+      "otherVoltages": [],
+      "nearest": {
+        "id": "osm-way-658690610",
+        "name": "JR東日本 小千谷第二発電所",
+        "meters": 43
+      }
+    },
+    {
+      "name": "児玉線;キヤノン美里線",
+      "voltageKV": 275,
+      "node": 2029865044,
+      "position": [
+        36.1804971,
+        139.1891928
+      ],
+      "status": "unresolved",
+      "facilities": [],
+      "neighborWays": [],
+      "otherVoltages": [],
+      "nearest": {
+        "id": "osm-way-887614684",
+        "name": "キヤノン美里変電所",
+        "meters": 1249
+      }
+    },
+    {
+      "name": "新仙台火力線",
+      "voltageKV": 275,
+      "node": 1196938146,
+      "position": [
+        38.2828827,
+        140.99362
+      ],
+      "status": "unresolved",
+      "facilities": [],
+      "neighborWays": [],
+      "otherVoltages": [
+        {
+          "id": 829088640,
+          "power": "line",
+          "voltage": "154000"
+        }
+      ],
+      "nearest": {
+        "id": "osm-way-548888573",
+        "name": "仙台港変電所",
+        "meters": 688
+      }
+    },
+    {
+      "name": "新仙台火力線",
+      "voltageKV": 275,
+      "node": 1196938409,
+      "position": [
+        38.2831402,
+        140.996315
+      ],
+      "status": "unresolved",
+      "facilities": [],
+      "neighborWays": [],
+      "otherVoltages": [
+        {
+          "id": 829088639,
+          "power": "line",
+          "voltage": "154000"
+        }
+      ],
+      "nearest": {
+        "id": "osm-way-548888573",
+        "name": "仙台港変電所",
+        "meters": 743
+      }
+    },
+    {
+      "name": "朝日幹線",
+      "voltageKV": 275,
+      "node": 2568870838,
+      "position": [
+        38.2523492,
+        140.6379363
+      ],
+      "status": "unresolved",
+      "facilities": [],
+      "neighborWays": [],
+      "otherVoltages": [
+        {
+          "id": 250430938,
+          "power": "line",
+          "voltage": "500000"
+        }
+      ],
+      "nearest": {
+        "id": "osm-way-659138214",
+        "name": "西仙台変電所",
+        "meters": 561
+      }
+    },
+    {
+      "name": "八木沢線",
+      "voltageKV": 275,
+      "node": 5061618107,
+      "position": [
+        36.9101641,
+        139.055771
+      ],
+      "status": "unresolved",
+      "facilities": [],
+      "neighborWays": [],
+      "otherVoltages": [],
+      "nearest": {
+        "id": "osm-way-1050123271",
+        "name": "五十沢第一発電所",
+        "meters": 16456
+      }
+    },
+    {
+      "name": "名称未登録（way 1019876508）",
+      "voltageKV": 275,
+      "node": 2568867806,
+      "position": [
+        38.1042242,
+        140.2277672
+      ],
+      "status": "unresolved",
+      "facilities": [],
+      "neighborWays": [],
+      "otherVoltages": [
+        {
+          "id": 250430938,
+          "power": "line",
+          "voltage": "500000"
+        }
+      ],
+      "nearest": {
+        "id": "osm-way-293707207",
+        "name": "名称未登録（way 293707207）",
+        "meters": 3124
+      }
+    },
+    {
+      "name": "名称未登録（way 1042235622）",
+      "voltageKV": 275,
+      "node": 3323993369,
+      "position": [
+        38.64114,
+        140.958222
+      ],
+      "status": "unresolved",
+      "facilities": [],
+      "neighborWays": [],
+      "otherVoltages": [
+        {
+          "id": 106076899,
+          "power": "line",
+          "voltage": "66000"
+        }
+      ],
+      "nearest": {
+        "id": "osm-way-325791897",
+        "name": "高清水変電所",
+        "meters": 3971
+      }
+    },
+    {
+      "name": "名称未登録（way 1042235622）",
+      "voltageKV": 275,
+      "node": 9594359845,
+      "position": [
+        38.6627497,
+        140.9042904
+      ],
+      "status": "unresolved",
+      "facilities": [],
+      "neighborWays": [],
+      "otherVoltages": [],
+      "nearest": {
+        "id": "osm-way-833554523",
+        "name": "名称未登録（way 833554523）",
+        "meters": 3907
+      }
+    },
+    {
+      "name": "名称未登録（way 659266330）",
+      "voltageKV": 275,
+      "node": 6172447601,
+      "position": [
+        37.0525827,
+        138.6863074
+      ],
+      "status": "unresolved",
+      "facilities": [],
+      "neighborWays": [],
+      "otherVoltages": [
+        {
+          "id": 659266327,
+          "power": "line",
+          "voltage": null
+        },
+        {
+          "id": 659266328,
+          "power": "line",
+          "voltage": null
+        }
+      ],
+      "nearest": {
+        "id": "osm-way-319098734",
+        "name": "信濃川水力発電所",
+        "meters": 319
+      }
+    }
+  ]
+}

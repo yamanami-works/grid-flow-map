@@ -1,0 +1,2014 @@
+{
+  "source": "data/raw/tokyo-prestart/forecast.pdf",
+  "version": "2026-06-22",
+  "checkedAt": "2026-09-27T13:38:29.845Z",
+  "sections": [
+    {
+      "section": 1,
+      "name": "川内線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 1                  川内線                                                                              500         2       13,164      6,582                        熱容量            新いわき（開）               →     南いわき（開）                  -280            -               -                不可 ♯１                   -               -        -             -",
+      "publicEndpoints": [
+        "新いわき（開）",
+        "南いわき（開）"
+      ],
+      "geoName": "川内線",
+      "existingRecords": [
+        {
+          "id": "osm-104392607-500",
+          "assetId": "asset-1a26a3bc-dcce-4301-b2aa-0bb5fe451329",
+          "osmIds": [
+            104392607,
+            897526306,
+            897526308,
+            897932358,
+            897932359
+          ]
+        }
+      ],
+      "facilityCandidates": [
+        [
+          {
+            "id": "osm-way-104391636",
+            "name": "新いわき開閉所",
+            "assetId": "asset-4cf46b21-0213-4505-99ea-8013fe606f0f"
+          }
+        ],
+        [
+          {
+            "id": "osm-way-253566674",
+            "name": "南いわき開閉所",
+            "assetId": "asset-e0df1ffe-01cd-4abb-93a8-32320555d01c"
+          }
+        ]
+      ],
+      "pathPoints": 60,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "公表両端・同電圧連続辺・設備区画到達を照合。母線実結線は未確認。",
+      "resumeCondition": null
+    },
+    {
+      "section": 2,
+      "name": "南いわき幹線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 2                  南いわき幹線                                                                           500         2        8,886       4,936                       熱容量        東群馬      →                      南いわき（開）                -4,550           -               -                 不可 ♯１                   -              有り           -          基幹 500kV 52                                                                        フェンス管理",
+      "publicEndpoints": [
+        "東群馬",
+        "南いわき（開）"
+      ],
+      "geoName": "南いわき幹線",
+      "existingRecords": [
+        {
+          "id": "osm-104391627-500",
+          "assetId": "asset-1a142cce-e810-47ac-9786-254e52c52bcc",
+          "osmIds": [
+            104391627,
+            897526305,
+            897526307,
+            1427100855,
+            1427100854
+          ]
+        }
+      ],
+      "facilityCandidates": [
+        [
+          {
+            "id": "osm-way-250540807",
+            "name": "東群馬変電所",
+            "assetId": "asset-43d72666-7952-4c73-be4b-efc087f5199e"
+          }
+        ],
+        [
+          {
+            "id": "osm-way-253566674",
+            "name": "南いわき開閉所",
+            "assetId": "asset-e0df1ffe-01cd-4abb-93a8-32320555d01c"
+          }
+        ]
+      ],
+      "pathPoints": 337,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "公表両端・同電圧連続辺・設備区画到達を照合。母線実結線は未確認。",
+      "resumeCondition": null
+    },
+    {
+      "section": 3,
+      "name": "富岡線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 3                  富岡線                                                                              500         2        8,280       4,693                       熱容量                     -            →              -                0               -               -                     可             1,400              有り           -          基幹 500kV 52",
+      "publicEndpoints": [
+        "-",
+        "-"
+      ],
+      "geoName": "富岡線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": false,
+      "reason": "C区分（一次資料で区間・端点を確定できずOSMの地理だけで描く参考表示）。東京PG No.3 富岡線（500kV・2回線、端点匿名）。OSMに富岡線の名称はなく、福島第二原子力発電所から新福島変電所へ延びる無名500kV線（途中分岐なし）を、名称と発電所所在地（富岡町）から対応付けた推定。OCCTOに行がなく潮流なし。",
+      "resumeCondition": "公式図の発電所番号・分岐と名称・施設区画を結ぶ一次資料",
+      "tier": "C"
+    },
+    {
+      "section": 4,
+      "name": "福島山幹線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 4                  福島山幹線                                                                            500         2        5,574       3,291                       熱容量            新いわき（開）               →      新福島                   -2,500           -               -                       可             1,400              有り           -          基幹 500kV 52",
+      "publicEndpoints": [
+        "新いわき（開）",
+        "新福島"
+      ],
+      "geoName": "福島幹線",
+      "existingRecords": [
+        {
+          "id": "osm-104392606-500",
+          "assetId": "asset-f73b043c-3be9-4c1f-ae51-49dba222b54d",
+          "osmIds": [
+            104392606,
+            104392608,
+            897932356,
+            897932357,
+            897932362,
+            897932364,
+            897932367,
+            897932368
+          ]
+        }
+      ],
+      "facilityCandidates": [
+        [
+          {
+            "id": "osm-way-104391636",
+            "name": "新いわき開閉所",
+            "assetId": "asset-4cf46b21-0213-4505-99ea-8013fe606f0f"
+          }
+        ],
+        [
+          {
+            "id": "osm-way-106309481",
+            "name": "新福島変電所",
+            "assetId": "asset-74fead66-7c7b-4412-9472-fc0058f65634"
+          }
+        ]
+      ],
+      "pathPoints": 82,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "公表両端・同電圧連続辺・設備区画到達を照合。母線実結線は未確認。",
+      "resumeCondition": null
+    },
+    {
+      "section": 5,
+      "name": "福島東幹線山線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 5                  福島東幹線山線                                                                          500         2        5,574       3,291                       熱容量            新いわき（開）               →      新福島                   -1,910           -               -                       可             1,400              有り           -          基幹 500kV 52",
+      "publicEndpoints": [
+        "新いわき（開）",
+        "新福島"
+      ],
+      "geoName": "福島東幹線",
+      "existingRecords": [
+        {
+          "id": "osm-104392602-500",
+          "assetId": "asset-78697f8f-1095-474b-a992-3e3b9deb4023",
+          "osmIds": [
+            104392602,
+            104392604,
+            897932365,
+            897932366
+          ]
+        }
+      ],
+      "facilityCandidates": [
+        [
+          {
+            "id": "osm-way-104391636",
+            "name": "新いわき開閉所",
+            "assetId": "asset-4cf46b21-0213-4505-99ea-8013fe606f0f"
+          }
+        ],
+        [
+          {
+            "id": "osm-way-106309481",
+            "name": "新福島変電所",
+            "assetId": "asset-74fead66-7c7b-4412-9472-fc0058f65634"
+          }
+        ]
+      ],
+      "pathPoints": 79,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "公表両端・同電圧連続辺・設備区画到達を照合。母線実結線は未確認。",
+      "resumeCondition": null
+    },
+    {
+      "section": 6,
+      "name": "新いわき線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 6                  新いわき線                                                                            500         2       13,164      6,582                        熱容量            新今市（開）                →     新いわき（開）                -2,680           -               -                 不可 ♯１                   -               -        -             -",
+      "publicEndpoints": [
+        "新今市（開）",
+        "新いわき（開）"
+      ],
+      "geoName": "新いわき線",
+      "existingRecords": [
+        {
+          "id": "osm-170408769-500",
+          "assetId": "asset-5ca52e1b-b95c-41c8-90bd-584a1519a83a",
+          "osmIds": [
+            170408769
+          ]
+        }
+      ],
+      "facilityCandidates": [
+        [
+          {
+            "id": "osm-way-168857610",
+            "name": "新今市開閉所",
+            "assetId": "asset-53078578-8c8c-494f-bb21-22fd92ba3d7b"
+          }
+        ],
+        [
+          {
+            "id": "osm-way-104391636",
+            "name": "新いわき開閉所",
+            "assetId": "asset-4cf46b21-0213-4505-99ea-8013fe606f0f"
+          }
+        ]
+      ],
+      "pathPoints": 254,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "公表両端・同電圧連続辺・設備区画到達を照合。母線実結線は未確認。",
+      "resumeCondition": null
+    },
+    {
+      "section": 7,
+      "name": "福島中幹線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 7                  福島中幹線                                                                            500         2        5,574       3,291                       熱容量        新茂木      →                      新いわき（開）                -2,280           -               -                       可             1,400              有り           -          基幹 500kV 52",
+      "publicEndpoints": [
+        "新茂木",
+        "新いわき（開）"
+      ],
+      "geoName": "福島幹線",
+      "existingRecords": [
+        {
+          "id": "osm-104392606-500",
+          "assetId": "asset-f73b043c-3be9-4c1f-ae51-49dba222b54d",
+          "osmIds": [
+            104392606,
+            104392608,
+            897932356,
+            897932357,
+            897932362,
+            897932364,
+            897932367,
+            897932368
+          ]
+        }
+      ],
+      "facilityCandidates": [
+        [
+          {
+            "id": "osm-way-168839127",
+            "name": "新茂木",
+            "assetId": "asset-e11e7bb4-d4d3-4ebd-9c75-eafc9bfd6119"
+          }
+        ],
+        [
+          {
+            "id": "osm-way-104391636",
+            "name": "新いわき開閉所",
+            "assetId": "asset-4cf46b21-0213-4505-99ea-8013fe606f0f"
+          }
+        ]
+      ],
+      "pathPoints": 221,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "公表両端・同電圧連続辺・設備区画到達を照合。母線実結線は未確認。",
+      "resumeCondition": null
+    },
+    {
+      "section": 8,
+      "name": "福島東幹線里線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 8                  福島東幹線里線                                                                          500         2        5,574       3,291                       熱容量        新筑波      →                      新いわき（開）                -1,270           -               -                       可             1,400              有り           -          基幹 500kV 52",
+      "publicEndpoints": [
+        "新筑波",
+        "新いわき（開）"
+      ],
+      "geoName": "福島東幹線",
+      "existingRecords": [
+        {
+          "id": "osm-104392602-500",
+          "assetId": "asset-78697f8f-1095-474b-a992-3e3b9deb4023",
+          "osmIds": [
+            104392602,
+            104392604,
+            897932365,
+            897932366
+          ]
+        }
+      ],
+      "facilityCandidates": [
+        [
+          {
+            "id": "osm-way-132913106",
+            "name": "新筑波変電所",
+            "assetId": "asset-40d061c0-fd5d-4e9c-8002-4156649c6253"
+          }
+        ],
+        [
+          {
+            "id": "osm-way-104391636",
+            "name": "新いわき開閉所",
+            "assetId": "asset-4cf46b21-0213-4505-99ea-8013fe606f0f"
+          }
+        ]
+      ],
+      "pathPoints": 324,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "公表両端・同電圧連続辺・設備区画到達を照合。母線実結線は未確認。",
+      "resumeCondition": null
+    },
+    {
+      "section": 9,
+      "name": "送電線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 9                  送電線                                                                              500         2            -               -               -                 -           -           -                 -               -               -               -               -                                   有り     対象               基幹 500kV 52",
+      "publicEndpoints": [],
+      "geoName": "送電線",
+      "existingRecords": [],
+      "facilityCandidates": [],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": false,
+      "reason": "C区分。東京PG No.9「送電線」（500kV・2回線、名称・端点とも匿名）。系統構成図で(9)は新いわきから匿名発電所2か所（《1001004》ほか）へ向かう線として描かれ、OSMの広野火力線（新いわき側から広野方面へ約30km、発電所区画の手前で終わる）と構成が一致するため対応付けた。発電所への到達は未確認のため部分表示。OCCTOに行がなく潮流なし。 【仕上げ】末端の直線：広野火力発電所側の末端はルート不明のため直線で表示（地中・架空の別は不明・破線）。根拠：線名「広野火力線」と東京PG系統構成図(9)の発電所端点（新いわき→匿名発電所）。OSMの線路末端から発電所区画の代表点まで。系統図の発電所記号は2つあり、もう一方（広野IGCC等）との接続は未確定。地中・架空の別は不明。",
+      "resumeCondition": "公式図の発電所番号・分岐と名称・施設区画を結ぶ一次資料",
+      "tier": "C"
+    },
+    {
+      "section": 10,
+      "name": "新茂木線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 10                新茂木線                                                                              500         2       11,874      6,582                        熱容量        新栃木      →      新茂木                                    -3,870           -               -                       可             1,400              有り           -          基幹 500kV 18",
+      "publicEndpoints": [
+        "新栃木",
+        "新茂木"
+      ],
+      "geoName": "新茂木線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        [
+          {
+            "id": "osm-way-168839127",
+            "name": "新茂木",
+            "assetId": "asset-e11e7bb4-d4d3-4ebd-9c75-eafc9bfd6119"
+          }
+        ]
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "公表端点・500kV同名参照経路・設備区画到達・OCCTO区間と方向照合済み。母線実結線未確認。",
+      "resumeCondition": "新たな公表変更時に再照合"
+    },
+    {
+      "section": 16,
+      "name": "福島幹線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 16                福島幹線                                                                              500         2        5,574       3,291                       熱容量        新古河      →      新茂木                                      -100            -               -                      可             1,400              有り           -          基幹 500kV 52",
+      "publicEndpoints": [
+        "新古河",
+        "新茂木"
+      ],
+      "geoName": "福島幹線",
+      "existingRecords": [
+        {
+          "id": "osm-104392606-500",
+          "assetId": "asset-f73b043c-3be9-4c1f-ae51-49dba222b54d",
+          "osmIds": [
+            104392606,
+            104392608,
+            897932356,
+            897932357,
+            897932362,
+            897932364,
+            897932367,
+            897932368
+          ]
+        }
+      ],
+      "facilityCandidates": [
+        [],
+        [
+          {
+            "id": "osm-way-168839127",
+            "name": "新茂木",
+            "assetId": "asset-e11e7bb4-d4d3-4ebd-9c75-eafc9bfd6119"
+          }
+        ]
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "公表両端（分岐点は共有ノード）への同名線の連続経路を照合。OCCTO区間・方向を照合。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json",
+          "data/raw/tokyo-500-support/lines.json",
+          "data/raw/tokyo-500-support/facilities.json"
+        ],
+        "candidateWayIds": [
+          104392606,
+          104392608,
+          133135141,
+          287373645,
+          340290782,
+          340290785,
+          897932328,
+          897932356,
+          897932357,
+          897932362,
+          897932364
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-adopted.json",
+        "continuous": true,
+        "verdict": "same-name-only",
+        "lengthM": {
+          "same": 59034,
+          "variant": 0,
+          "unnamed": 0,
+          "other": 0
+        }
+      }
+    },
+    {
+      "section": 17,
+      "name": "中栃木線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 17                中栃木線                                                                              500         2       13,164      6,582                        熱容量        新栃木      →                      新今市（開）                 -2,680           -               -                 不可 ♯１                   -               -        -             -",
+      "publicEndpoints": [
+        "新栃木",
+        "新今市（開）"
+      ],
+      "geoName": "中栃木線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        [
+          {
+            "id": "osm-way-168857610",
+            "name": "新今市開閉所",
+            "assetId": "asset-53078578-8c8c-494f-bb21-22fd92ba3d7b"
+          }
+        ]
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "同名500kV線分の共有ノード連続性、公表両端の設備区画到達を照合。無名線分は設備区画へ入る1径間の引込だけ。OCCTO区間・方向を照合。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json"
+        ],
+        "candidateWayIds": [
+          104530061
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-east-adopted.json",
+        "continuous": true,
+        "verdict": "same-plus-unnamed",
+        "lengthM": {
+          "same": 11290,
+          "unnamed": 169,
+          "other": 0
+        },
+        "facilityIds": [
+          104530060,
+          168857610
+        ]
+      }
+    },
+    {
+      "section": 18,
+      "name": "新栃木線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 18                新栃木線                                                                              500         2       13,164      6,582                        熱容量        新新田      →      新栃木                                    -6,940           -               -                 不可 ♯１                   -              有り     対象               -                                                                                  フェンス管理",
+      "publicEndpoints": [
+        "新新田",
+        "新栃木"
+      ],
+      "geoName": "新栃木線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "同名500kV線分の共有ノード連続性、公表両端の設備区画到達を照合。無名線分は設備区画へ入る1径間の引込だけ。OCCTO区間・方向を照合。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json"
+        ],
+        "candidateWayIds": [
+          104530062,
+          1030329122,
+          1072474187,
+          1145463569
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-east-adopted.json",
+        "continuous": true,
+        "verdict": "needs-other-named",
+        "lengthM": {
+          "same": 74584,
+          "unnamed": 71,
+          "other": 528
+        },
+        "facilityIds": [
+          505170104,
+          104530060
+        ]
+      }
+    },
+    {
+      "section": 19,
+      "name": "下郷線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 19                下郷線                                                                               500         1        3,290       3,290           -                 -                              →              -                 -               -               -               -               -               -        -                    -",
+      "publicEndpoints": [],
+      "geoName": "下郷線",
+      "existingRecords": [
+        {
+          "id": "osm-233220611-500",
+          "assetId": "asset-73621302-2ec7-46c2-8040-699dd646ee7c",
+          "osmIds": [
+            233220611
+          ]
+        }
+      ],
+      "facilityCandidates": [],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": false,
+      "reason": "公表両端（分岐点は共有ノード）への同名線の連続経路を照合。東京PG予想潮流資料（2026-06-22版）の系統構成図で(19)(21)の線は新今市に入り、上部(19)・下部(21)が同一線として描かれる（共架）。発電所側は匿名。OSMの下郷線（way 233220611、ref=19）は下郷水力発電所（電源開発）区画の約25m外から、塩原線との共架区間と新今市側の無名引込を経て新今市開閉所区画に到達。発電所区画への到達は未確認のため部分表示。OCCTO行なしのため潮流を割り当てない。個別回線・母線未確認。 【仕上げ】末端の直線：下郷水力発電所側の末端はルート不明のため直線で表示（地中・架空の別は不明・破線）。根拠：東京PG系統構成図(19)の発電所端点、OSMの下郷線（ref=19）。OSMの線路末端から発電所区画の代表点まで。地中・架空の別は不明。",
+      "resumeCondition": "公式図の発電所番号・分岐と名称・施設区画を結ぶ一次資料",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500-support/lines.json",
+          "data/raw/tokyo-500-support/facilities.json"
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-adopted.json",
+        "continuous": true,
+        "verdict": "no-path",
+        "lengthM": null
+      }
+    },
+    {
+      "section": 20,
+      "name": "今市線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 20                今市線                                                                               500         1        1,645       1,645           -                 -                              →              -                 -               -               -               -               -               -        -                    -",
+      "publicEndpoints": [],
+      "geoName": "今市線",
+      "existingRecords": [],
+      "facilityCandidates": [],
+      "pathPoints": 0,
+      "geography": "partial",
+      "research": "reviewed",
+      "flowReviewed": false,
+      "reason": "C区分（一次資料で区間・端点を確定できずOSMの地理だけで描く参考表示）。東京PG No.20 今市線（500kV・1回線、端点匿名）。東京PG系統構成図では(20)は新今市に入る独立の線として描かれ、OSMの構成（共架線の途中に接続）と一致しない。共有ノードから新今市までは描かない。OCCTOに行がなく潮流なし。",
+      "resumeCondition": "公式図の発電所番号・分岐と名称・施設区画を結ぶ一次資料",
+      "tier": "C"
+    },
+    {
+      "section": 21,
+      "name": "塩原線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 21                塩原線                                                                               500         1        2,000       2,000           -                 -                              →              -                 -               -               -               -               -               -        -                    -",
+      "publicEndpoints": [],
+      "geoName": "塩原線",
+      "existingRecords": [
+        {
+          "id": "osm-308208570-500",
+          "assetId": "asset-d75c94b3-c35c-4e46-a2a8-effd8b2cd81c",
+          "osmIds": [
+            308208570
+          ]
+        }
+      ],
+      "facilityCandidates": [],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": false,
+      "reason": "公表両端（分岐点は共有ノード）への同名線の連続経路を照合。東京PG予想潮流資料（2026-06-22版）の系統構成図で(19)(21)の線は新今市に入り、上部(19)・下部(21)が同一線として描かれる（共架）。発電所側は匿名。OSMの塩原線（way 308208570、ref=21）は塩原発電所区画から、共架区間「下郷線 / 塩原線」（way 233220596、ref=19、2回線）と新今市側の無名引込（約1.1km、途中分岐なし）を経て新今市開閉所区画に到達。共架名の構成名一致で採用し、下郷線側との電気的接続は推定しない。OCCTO行なしのため潮流を割り当てない。個別回線・母線未確認。",
+      "resumeCondition": "公式図の発電所番号・分岐と名称・施設区画を結ぶ一次資料",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500-support/lines.json",
+          "data/raw/tokyo-500-support/facilities.json"
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-adopted.json",
+        "continuous": true,
+        "verdict": "long-unnamed",
+        "lengthM": {
+          "same": 18378,
+          "variant": 45056,
+          "unnamed": 1129,
+          "other": 0
+        }
+      }
+    },
+    {
+      "section": 23,
+      "name": "送電線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 23                送電線                                                                               500         2            -               -               -                 -           -           -                 -               -               -               -               -                                   有り     対象               基幹 500kV 25,基幹 500kV 46",
+      "publicEndpoints": [],
+      "geoName": "送電線",
+      "existingRecords": [],
+      "facilityCandidates": [],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": false,
+      "reason": "C区分（一次資料で区間・端点を確定できずOSMの地理だけで描く参考表示）。東京PG No.23「送電線」（500kV・2回線、名称・端点とも匿名）。東京PG予想潮流資料（2026-06-22版）p.4系統構成図で(23)は匿名発電所《1001011》から新木更津に直接入る線として描かれ、OSMの富津火力線（富津火力発電所側―新木更津）と構成が一致するため対応付けた。経路中のOSM名は富津火力線・富津線・上総線。OCCTOに行がなく潮流なし。",
+      "resumeCondition": "公式図の発電所番号・分岐と名称・施設区画を結ぶ一次資料",
+      "tier": "C"
+    },
+    {
+      "section": 24,
+      "name": "新袖ヶ浦線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 24                新袖ヶ浦線                                                                             500         2            -               -               -                 -           -           -                 -               -               -               -               -                                   有り           -          基幹 500kV 25,基幹 500kV 46",
+      "publicEndpoints": [],
+      "geoName": "新袖ヶ浦線",
+      "existingRecords": [],
+      "facilityCandidates": [],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": false,
+      "reason": "C区分（一次資料で区間・端点を確定できずOSMの地理だけで描く参考表示）。東京PG No.24 新袖ヶ浦線（端点匿名）。系統構成図で(24)は匿名発電所《1001010》から新木更津手前でNo.25に合流する線として描かれる。No.25（新佐原―新木更津）と同名で、袖ヶ浦火力発電所側の区間と推定。OCCTOの新袖ヶ浦線（新木更津→新佐原）はNo.25の区間で、この区間には割り当てない。",
+      "resumeCondition": "公式図の発電所番号・分岐と名称・施設区画を結ぶ一次資料",
+      "tier": "C"
+    },
+    {
+      "section": 25,
+      "name": "新袖ヶ浦線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 25                新袖ヶ浦線                                                                             500         2        9,946       6,671                       熱容量        新佐原      →    新木更津                                     -5,960           -               -                 不可 ♯１                   -              有り     対象               基幹 500kV 46",
+      "publicEndpoints": [
+        "新佐原",
+        "新木更津"
+      ],
+      "geoName": "新袖ヶ浦線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "同名500kV線分の共有ノード連続性、公表両端の設備区画到達を照合。無名線分は設備区画へ入る1径間の引込だけ。OCCTO区間・方向を照合。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json"
+        ],
+        "candidateWayIds": [
+          105298149,
+          171280349
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-east-adopted.json",
+        "continuous": true,
+        "verdict": "same-plus-unnamed",
+        "lengthM": {
+          "same": 79297,
+          "unnamed": 128,
+          "other": 0
+        },
+        "facilityIds": [
+          105298089,
+          315461272
+        ]
+      }
+    },
+    {
+      "section": 37,
+      "name": "房総線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 37                房総線                                                                               500         2        5,574       3,143                       熱容量        新京葉      →        房総                                   -4,210           -               -                       可             1,400              有り     対象               基幹 500kV 47",
+      "publicEndpoints": [
+        "新京葉",
+        "房総"
+      ],
+      "geoName": "房総線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "同名500kV線分の共有ノード連続性、公表両端の設備区画到達、OCCTO区間・方向を照合。新坂戸の容量行なしは補完しない。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json"
+        ],
+        "candidateWayIds": [
+          152344102,
+          168833306,
+          168833307,
+          1028595815,
+          1028595816
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-paths.json",
+        "continuous": true,
+        "facilityIds": [
+          168727982,
+          151379730
+        ],
+        "starts": 2,
+        "ends": 5
+      }
+    },
+    {
+      "section": 38,
+      "name": "印旛線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 38                印旛線                                                                               500         2        9,946       5,578                       熱容量        新京葉      →      新佐原                                    -1,590           -               -                 不可 ♯１                   -              有り           -          基幹 500kV 46",
+      "publicEndpoints": [
+        "新京葉",
+        "新佐原"
+      ],
+      "geoName": "印旛線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "同名500kV線分の共有ノード連続性、公表両端の設備区画到達を照合。無名線分は設備区画へ入る1径間の引込だけ。OCCTO区間・方向を照合。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json"
+        ],
+        "candidateWayIds": [
+          168727984
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-east-adopted.json",
+        "continuous": true,
+        "verdict": "same-plus-unnamed",
+        "lengthM": {
+          "same": 43344,
+          "unnamed": 106,
+          "other": 0
+        },
+        "facilityIds": [
+          168727982,
+          105298089
+        ]
+      }
+    },
+    {
+      "section": 46,
+      "name": "新佐原線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 46                新佐原線                                                                              500         2       11,874      6,671                        熱容量        新筑波      →      新佐原                                    -5,140           -               -                 不可 ♯１                   -              有り     対象               -                                                                                  フェンス管理",
+      "publicEndpoints": [
+        "新筑波",
+        "新佐原"
+      ],
+      "geoName": "新佐原線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [
+          {
+            "id": "osm-way-132913106",
+            "name": "新筑波変電所",
+            "assetId": "asset-40d061c0-fd5d-4e9c-8002-4156649c6253"
+          }
+        ],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "同名500kV線分の共有ノード連続性、公表両端の設備区画到達を照合。無名線分は設備区画へ入る1径間の引込だけ。OCCTO区間・方向を照合。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json"
+        ],
+        "candidateWayIds": [
+          143931898
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-east-adopted.json",
+        "continuous": true,
+        "verdict": "same-plus-unnamed",
+        "lengthM": {
+          "same": 66632,
+          "unnamed": 60,
+          "other": 0
+        },
+        "facilityIds": [
+          132913106,
+          105298089
+        ]
+      }
+    },
+    {
+      "section": 47,
+      "name": "新京葉線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 47                新京葉線                                                                              500         2        5,574       3,143                       熱容量        新古河      →      新京葉                                    -7,260           -               -                       可             1,400              有り     対象               -                                                                                  フェンス管理",
+      "publicEndpoints": [
+        "新古河",
+        "新京葉"
+      ],
+      "geoName": "新京葉線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "公表両端（分岐点は共有ノード）への同名線の連続経路を照合。OCCTO区間・方向を照合。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json",
+          "data/raw/tokyo-500-support/lines.json",
+          "data/raw/tokyo-500-support/facilities.json"
+        ],
+        "candidateWayIds": [
+          168727983,
+          168833310,
+          1039507758,
+          168833308,
+          168833309
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-adopted.json",
+        "continuous": true,
+        "verdict": "same-name-only",
+        "lengthM": {
+          "same": 45708,
+          "variant": 0,
+          "unnamed": 0,
+          "other": 0
+        }
+      }
+    },
+    {
+      "section": 48,
+      "name": "新筑波線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 48                新筑波線                                                                              500         2       11,874      6,582                        熱容量        新古河      →      新筑波                                    -4,190           -               -                       可             1,400              有り           -          基幹 500kV 52",
+      "publicEndpoints": [
+        "新古河",
+        "新筑波"
+      ],
+      "geoName": "新筑波線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        [
+          {
+            "id": "osm-way-132913106",
+            "name": "新筑波変電所",
+            "assetId": "asset-40d061c0-fd5d-4e9c-8002-4156649c6253"
+          }
+        ]
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "公表両端（分岐点は共有ノード）への同名線の連続経路を照合。新筑波側の無名500kV引込（way 132913145、4ノード・198mのうち経路は105m）は途中ノードを他の引込と共有する構内寄りの線分。区画外の他線への分岐としては扱わない。OCCTO区間・方向を照合。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json",
+          "data/raw/tokyo-500-support/lines.json",
+          "data/raw/tokyo-500-support/facilities.json"
+        ],
+        "candidateWayIds": [
+          132913294
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-adopted.json",
+        "continuous": true,
+        "verdict": "long-unnamed",
+        "lengthM": {
+          "same": 9250,
+          "variant": 0,
+          "unnamed": 105,
+          "other": 0
+        }
+      }
+    },
+    {
+      "section": 52,
+      "name": "新古河線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 52                新古河線                                                                              500         2        8,820       4,936                       熱容量                 新坂戸              →      新古河                   -5,810           -               -                       可             1,400              有り     対象               -                                                                                  フェンス管理",
+      "publicEndpoints": [
+        "新坂戸",
+        "新古河"
+      ],
+      "geoName": "新古河線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "公表両端（分岐点は共有ノード）への同名線の連続経路を照合。東京PG送電線インピーダンス資料（現行版）で新古河線は新古河―分岐・新坂戸―分岐・新所沢―分岐の3区間構成、新所沢―分岐はインピーダンス≒0。OSMでは新古河線が新所沢変電所の構内引込で終わり、新坂戸側はOSM名「新鶴ヶ島線」（way 152937160、2回線、東京PG資料に同名なし）が新坂戸―新所沢を結ぶ。分岐点を新所沢変電所として2脚で表示し、構内の母線接続は描かない。OCCTOは新古河→新所沢の1行で、潮流はこの脚だけに割り当てる。OCCTO区間・方向を照合。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json",
+          "data/raw/tokyo-500-support/lines.json",
+          "data/raw/tokyo-500-support/facilities.json"
+        ],
+        "candidateWayIds": [
+          133641856,
+          133641859,
+          340290781
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-adopted.json",
+        "continuous": true,
+        "verdict": "no-path",
+        "lengthM": null
+      }
+    },
+    {
+      "section": 58,
+      "name": "東群馬幹線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 58                東群馬幹線                                                                             500         2       11,254      6,430                        熱容量            西群馬（開）                →      東群馬                   -6,130           -               -                 不可 ♯１                   -               -        -             -",
+      "publicEndpoints": [
+        "西群馬（開）",
+        "東群馬"
+      ],
+      "geoName": "東群馬幹線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [
+          {
+            "id": "osm-way-66098469",
+            "name": "西群馬開閉所",
+            "assetId": "asset-6bdaefe9-4681-4881-afba-87ec68a7a7b6"
+          }
+        ],
+        [
+          {
+            "id": "osm-way-250540807",
+            "name": "東群馬変電所",
+            "assetId": "asset-43d72666-7952-4c73-be4b-efc087f5199e"
+          }
+        ]
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "公表端点・500kV同名参照経路・設備区画到達・OCCTO区間と方向照合済み。母線実結線未確認。",
+      "resumeCondition": "新たな公表変更時に再照合"
+    },
+    {
+      "section": 59,
+      "name": "新赤城線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 59                新赤城線                                                                              500         2       13,164      6,582                        熱容量        東群馬      →      新新田                                      -970            -               -                不可 ♯１                   -               -        -             -",
+      "publicEndpoints": [
+        "東群馬",
+        "新新田"
+      ],
+      "geoName": "新赤城線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [
+          {
+            "id": "osm-way-250540807",
+            "name": "東群馬変電所",
+            "assetId": "asset-43d72666-7952-4c73-be4b-efc087f5199e"
+          }
+        ],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "公表端点・500kV同名参照経路・設備区画到達・OCCTO区間と方向照合済み。母線実結線未確認。",
+      "resumeCondition": "新たな公表変更時に再照合"
+    },
+    {
+      "section": 60,
+      "name": "新新田線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 60                新新田線                                                                              500         2       13,164      6,582                        熱容量        新岡部      →      新新田                                    -9,030           -               -                 不可 ♯１                   -              有り     対象               -",
+      "publicEndpoints": [
+        "新岡部",
+        "新新田"
+      ],
+      "geoName": "新新田線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "公表端点・500kV同名参照経路・設備区画到達・OCCTO区間と方向照合済み。母線実結線未確認。",
+      "resumeCondition": "新たな公表変更時に再照合"
+    },
+    {
+      "section": 62,
+      "name": "新坂戸線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 62                               新坂戸線                                                               500         2       13,164      6,582                        熱容量        新新田      →                          新坂戸                -3,810           -               -                 不可 ♯１                   -               -        -             -",
+      "publicEndpoints": [
+        "新新田",
+        "新坂戸"
+      ],
+      "geoName": "新坂戸線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "同名500kV線分の共有ノード連続性、公表両端の設備区画到達、OCCTO区間・方向を照合。新坂戸の容量行なしは補完しない。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json"
+        ],
+        "candidateWayIds": [
+          168895499,
+          168895500,
+          192430384,
+          884848266,
+          884848267,
+          884848268,
+          884848269,
+          884848270,
+          884848271,
+          1030329130
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-paths.json",
+        "continuous": true,
+        "facilityIds": [
+          505170104,
+          128581912
+        ],
+        "starts": 6,
+        "ends": 3
+      }
+    },
+    {
+      "section": 63,
+      "name": "新岡部線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 63                新岡部線                                                                              500         2       13,164      6,582                        熱容量        新岡部      →                      新秩父（開）                  7,550           -               -                 不可 ♯１                   -               -        -             -",
+      "publicEndpoints": [
+        "新岡部",
+        "新秩父（開）"
+      ],
+      "geoName": "新岡部線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "同名500kV線分の共有ノード連続性、公表両端の設備区画到達、OCCTO区間・方向を照合。新坂戸の容量行なしは補完しない。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json"
+        ],
+        "candidateWayIds": [
+          193191580,
+          738024265,
+          738024266,
+          882666767,
+          882666768,
+          883660140
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-paths.json",
+        "continuous": true,
+        "facilityIds": [
+          315434358,
+          195615141
+        ],
+        "starts": 3,
+        "ends": 2
+      }
+    },
+    {
+      "section": 67,
+      "name": "南新潟幹線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 67                南新潟幹線                                                                             500         2            -               -               -                 -           -           -                 -               -               -               -               -               -        -                                  -",
+      "publicEndpoints": [],
+      "geoName": "南新潟幹線",
+      "existingRecords": [
+        {
+          "id": "osm-66739042-500",
+          "assetId": "asset-dc3f82f9-d0cd-40cb-8e81-6c04ef019105",
+          "osmIds": [
+            66739042,
+            1427099343,
+            1460546562
+          ]
+        },
+        {
+          "id": "osm-66098195-500",
+          "assetId": "asset-dba03c38-27d4-4be0-84e8-a1a2c8e45a9d",
+          "osmIds": [
+            66098195,
+            287954326
+          ]
+        }
+      ],
+      "facilityCandidates": [],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": false,
+      "reason": "公表両端（分岐点は共有ノード）への同名線の連続経路を照合。東京PG資料は発電所端点を匿名化。柏崎市公式「柏崎刈羽原子力発電所からの送電線」（2020-01-31更新）に「柏崎刈羽原子力発電所から西群馬開閉所まで、50万ボルト、2回線（一部区間100万ボルト設計）」と記載。OSMでは同名線だけで発電所区画から西群馬開閉所区画へ到達。OCCTO行なしのため潮流を割り当てない。個別回線・母線未確認。",
+      "resumeCondition": "公式図の発電所番号・分岐と名称・施設区画を結ぶ一次資料",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500-support/lines.json",
+          "data/raw/tokyo-500-support/facilities.json"
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-adopted.json",
+        "continuous": true,
+        "verdict": "same-name-only",
+        "lengthM": {
+          "same": 108670,
+          "variant": 0,
+          "unnamed": 0,
+          "other": 0
+        }
+      }
+    },
+    {
+      "section": 68,
+      "name": "新新潟幹線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 68                新新潟幹線                                                                             500         2            -               -               -                 -           -           -                 -               -               -               -               -               -        -                                  -",
+      "publicEndpoints": [],
+      "geoName": "新新潟幹線",
+      "existingRecords": [
+        {
+          "id": "osm-66332078-500",
+          "assetId": "asset-10a4a165-a556-419b-85ab-ba213372d169",
+          "osmIds": [
+            66332078,
+            1460546563
+          ]
+        }
+      ],
+      "facilityCandidates": [],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": false,
+      "reason": "公表両端（分岐点は共有ノード）への同名線の連続経路を照合。東京PG資料は発電所端点を匿名化。柏崎市公式「柏崎刈羽原子力発電所からの送電線」（2020-01-31更新）に「柏崎刈羽原子力発電所から西群馬開閉所まで、50万ボルト、2回線」と記載。OSMでは同名線と発電所区画へ入る1径間の無名引込で到達。OCCTO行なしのため潮流を割り当てない。個別回線・母線未確認。",
+      "resumeCondition": "公式図の発電所番号・分岐と名称・施設区画を結ぶ一次資料",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500-support/lines.json",
+          "data/raw/tokyo-500-support/facilities.json"
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-adopted.json",
+        "continuous": true,
+        "verdict": "same-plus-unnamed",
+        "lengthM": {
+          "same": 98404,
+          "variant": 0,
+          "unnamed": 76,
+          "other": 0
+        }
+      }
+    },
+    {
+      "section": 69,
+      "name": "送電線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 69                送電線                                                                               500         2            -               -               -                 -           -           -                 -               -               -               -               -               -        -                                  -",
+      "publicEndpoints": [],
+      "geoName": "送電線",
+      "existingRecords": [],
+      "facilityCandidates": [],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": false,
+      "reason": "C区分（一次資料で区間・端点を確定できずOSMの地理だけで描く参考表示）。東京PG No.69「送電線」（500kV・2回線、名称・端点とも匿名）。系統構成図で(69)は匿名発電所《1001020》《1001021》から新新潟幹線(68)の途中に接続する線として描かれ、OSMの奥清津発電所から新新潟幹線の途中ノードへの無名線と構成が一致するため対応付けた（2つの発電所記号は奥清津・奥清津第二と推定）。共有ノードから先は新新潟幹線として描画済み。OCCTOに行がなく潮流なし。",
+      "resumeCondition": "公式図の発電所番号・分岐と名称・施設区画を結ぶ一次資料",
+      "tier": "C"
+    },
+    {
+      "section": 70,
+      "name": "西群馬幹線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 70                               西群馬幹線                                                              500         2       13,164      6,582                        熱容量        東山梨      →                      西群馬（開）                 -2,560           -               -                 不可 ♯１                   -               -        -             -",
+      "publicEndpoints": [
+        "東山梨",
+        "西群馬（開）"
+      ],
+      "geoName": "西群馬幹線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        [
+          {
+            "id": "osm-way-66098469",
+            "name": "西群馬開閉所",
+            "assetId": "asset-6bdaefe9-4681-4881-afba-87ec68a7a7b6"
+          }
+        ]
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "同名500kV線分の共有ノード連続性、公表両端の設備区画到達を照合。無名線分は設備区画へ入る1径間の引込だけ。個別回線・母線未確認。 OCCTO「西群馬幹線 西群馬→新富士」1行（1号線直通＋2号線No.70/80の合算範囲）をNo.70＋No.80の連続参照経路に参考表示。区間別の値ではない。 OCCTO「西群馬幹線 西群馬→新富士」1行（1号線直通＋2号線No.70/80の合算範囲）をNo.70＋No.80の連続参照経路に参考表示。区間別の値ではない。 OCCTO「西群馬幹線 西群馬→新富士」1行（1号線直通＋2号線No.70/80の合算範囲）をNo.70＋No.80の連続参照経路に参考表示。区間別の値ではない。 OCCTO「西群馬幹線 西群馬→新富士」1行（1号線直通＋2号線No.70/80の合算範囲）をNo.70＋No.80の連続参照経路に参考表示。区間別の値ではない。 OCCTO「西群馬幹線 西群馬→新富士」1行（1号線直通＋2号線No.70/80の合算範囲）をNo.70＋No.80の連続参照経路に参考表示。区間別の値ではない。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json"
+        ],
+        "candidateWayIds": [
+          66332620,
+          150033221,
+          167569136,
+          287954340,
+          1029623377,
+          1427098769
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-east-adopted.json",
+        "continuous": true,
+        "verdict": "needs-other-named",
+        "lengthM": {
+          "same": 137371,
+          "unnamed": 69,
+          "other": 342
+        },
+        "facilityIds": [
+          150035494,
+          66098469
+        ]
+      }
+    },
+    {
+      "section": 71,
+      "name": "神流川線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 71                神流川線                                                                              500         1            -               -               -                 -           -           -                 -               -               -               -               -               -        -                                  -",
+      "publicEndpoints": [],
+      "geoName": "神流川線",
+      "existingRecords": [],
+      "facilityCandidates": [],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": false,
+      "reason": "C区分（一次資料で区間・端点を確定できずOSMの地理だけで描く参考表示）。東京PG No.71 神流川線（500kV・1回線、端点匿名）。OSMでは西群馬幹線の途中に接続（葛野川線と同型）。接続を示す一次資料は未確認。OCCTOに行がなく潮流なし。 【仕上げ】末端の直線：神流川水力発電所側の末端はルート不明のため直線で表示（地中・架空の別は不明・破線）。根拠：線名「神流川線」と東京PG系統構成図(71)の発電所端点。OSMの線路末端から発電所区画の代表点まで。地中・架空の別は不明。",
+      "resumeCondition": "公式図の発電所番号・分岐と名称・施設区画を結ぶ一次資料",
+      "tier": "C"
+    },
+    {
+      "section": 72,
+      "name": "新吾妻線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 72                新吾妻線                                                                              500         2       13,164      6,582                        熱容量        新榛名      →                      西群馬（開）                   -480            -               -                不可 ♯１                   -               -        -             -",
+      "publicEndpoints": [
+        "新榛名",
+        "西群馬（開）"
+      ],
+      "geoName": "新吾妻線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        [
+          {
+            "id": "osm-way-66098469",
+            "name": "西群馬開閉所",
+            "assetId": "asset-6bdaefe9-4681-4881-afba-87ec68a7a7b6"
+          }
+        ]
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "同名500kV線分の共有ノード連続性、公表両端の設備区画到達を照合。無名線分は設備区画へ入る1径間の引込だけ。OCCTO区間・方向を照合。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json"
+        ],
+        "candidateWayIds": [
+          66319478,
+          66319631,
+          66329932,
+          1029623378
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-east-adopted.json",
+        "continuous": true,
+        "verdict": "same-plus-unnamed",
+        "lengthM": {
+          "same": 9483,
+          "unnamed": 157,
+          "other": 0
+        },
+        "facilityIds": [
+          169963227,
+          66098469
+        ]
+      }
+    },
+    {
+      "section": 73,
+      "name": "西上武幹線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 73                               西上武幹線                                                              500         2       13,164      6,582                        熱容量        新所沢      →                      西群馬（開）                 -3,100           -               -                 不可 ♯１                   -               -        -             -",
+      "publicEndpoints": [
+        "新所沢",
+        "西群馬（開）"
+      ],
+      "geoName": "西上武幹線",
+      "existingRecords": [
+        {
+          "id": "osm-1029623368-500",
+          "assetId": "asset-f012929f-b696-4257-b6bf-6991e480b8b2",
+          "osmIds": [
+            1029623368,
+            180418547,
+            672346305
+          ]
+        }
+      ],
+      "facilityCandidates": [
+        [],
+        [
+          {
+            "id": "osm-way-66098469",
+            "name": "西群馬開閉所",
+            "assetId": "asset-6bdaefe9-4681-4881-afba-87ec68a7a7b6"
+          }
+        ]
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "公表両端（分岐点は共有ノード）への同名線の連続経路を照合。経路中の16.1km（way 1029623367）はOSM名「中東京幹線」だが500kV/275kV・4回線の共架線分で、中東京幹線は東京PG設備表で275kV（基幹275kV 55/66）。500kV回線は東京PGインピーダンス資料の西上武幹線（西群馬―新所沢、1区間・両回線）と判断。無名線分（計52km）は途中分岐・他設備なし。OCCTO区間・方向を照合。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json",
+          "data/raw/tokyo-500-support/lines.json",
+          "data/raw/tokyo-500-support/facilities.json"
+        ],
+        "candidateWayIds": [
+          180418547,
+          672346305,
+          884848230,
+          884848231,
+          1029623368,
+          1029623369
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-adopted.json",
+        "continuous": true,
+        "verdict": "needs-other-named",
+        "lengthM": {
+          "same": 40169,
+          "variant": 1353,
+          "unnamed": 52470,
+          "other": 16138
+        }
+      }
+    },
+    {
+      "section": 74,
+      "name": "新榛名線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 74                新榛名線                                                                              500         2       13,164      6,582                        熱容量            新秩父（開）                →      新榛名                   -1,230           -               -                 不可 ♯１                   -               -        -             -",
+      "publicEndpoints": [
+        "新秩父（開）",
+        "新榛名"
+      ],
+      "geoName": "新榛名線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "公表端点・500kV同名参照経路・設備区画到達・OCCTO区間と方向照合済み。母線実結線未確認。",
+      "resumeCondition": "新たな公表変更時に再照合"
+    },
+    {
+      "section": 75,
+      "name": "安曇幹線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 75                安曇幹線                                                                              500         2        5,206       2,939                       熱容量            新秩父（開）                →      新信濃                   -3,030           -               -                       可             1,400              有り     対象               -",
+      "publicEndpoints": [
+        "新秩父（開）",
+        "新信濃"
+      ],
+      "geoName": "安曇幹線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "公表両端（分岐点は共有ノード）への同名線の連続経路を照合。新信濃側93.5kmは無名500kV線分（way 159167387、東京電力パワーグリッド、3条）。同名「安曇幹線１号線」から途中分岐・他設備なしで新信濃変電所区画まで連続。並行する無名線分（way 618344843）は別回線ルートの可能性があり採用しない。OCCTO区間・方向を照合。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json",
+          "data/raw/tokyo-500-support/lines.json",
+          "data/raw/tokyo-500-support/facilities.json"
+        ],
+        "candidateWayIds": [
+          195615144,
+          236234073,
+          738024269,
+          882666782,
+          882666788
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-adopted.json",
+        "continuous": true,
+        "verdict": "long-unnamed",
+        "lengthM": {
+          "same": 346,
+          "variant": 10527,
+          "unnamed": 93755,
+          "other": 0
+        }
+      }
+    },
+    {
+      "section": 79,
+      "name": "葛野川線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 79                葛野川線                                                                              500         1            -               -               -                 -           -           -                 -               -               -               -               -               -        -                                  -",
+      "publicEndpoints": [],
+      "geoName": "葛野川線",
+      "existingRecords": [],
+      "facilityCandidates": [],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": false,
+      "reason": "公表両端（分岐点は共有ノード）への同名線の連続経路を照合。東京電力プレスリリース「50万ボルト送電線『葛野川線』の完成について」（1998-11-25）別紙で区間は「自）葛野川発電所 至）西群馬幹線No.220鉄塔」、19.0km・2回線。OSMの葛野川線（way 341208722）は西群馬幹線との共有ノードから地下発電所の地上側約1.9km地点まで。発電所への地中区間はOSM未収録のため部分表示。共有ノードをNo.220鉄塔と断定しない。OCCTO行なしのため潮流を割り当てない。個別回線・母線未確認。 【仕上げ】末端の直線：葛野川地下発電所側の末端はルート不明のため直線で表示（地中と推定・点線）。根拠：東京電力プレスリリース（1998-11-25）の区間「自）葛野川発電所」。地下発電所のため地中と推定。OSMの線路末端から発電所区画の代表点まで。",
+      "resumeCondition": "公式図の発電所番号・分岐と名称・施設区画を結ぶ一次資料",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500-support/lines.json",
+          "data/raw/tokyo-500-support/facilities.json"
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-adopted.json",
+        "continuous": true,
+        "verdict": "no-path",
+        "lengthM": null
+      }
+    },
+    {
+      "section": 80,
+      "name": "西群馬幹線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 80                               西群馬幹線                                                              500         2       13,164      6,582                        熱容量        新富士      →      東山梨                                    -1,830           -               -                 不可 ♯１                   -               -        -             -",
+      "publicEndpoints": [
+        "新富士",
+        "東山梨"
+      ],
+      "geoName": "西群馬幹線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "公表両端（分岐点は共有ノード）への同名線の連続経路を照合。東京PGインピーダンス資料で西群馬幹線2号線は東山梨―新富士の区間（No.80）。経路は無名500kV線分（計30km、一部500/154kV共架）のみで途中分岐・他設備なし。東山梨側690m地点で葛野川線（葛野川発電所から東山梨変電所）と共有ノードを持つが、発電所側への分岐として扱わない。1号線は東山梨を経由しない。個別回線・母線未確認。 OCCTO「西群馬幹線 西群馬→新富士」1行（1号線直通＋2号線No.70/80の合算範囲）をNo.70＋No.80の連続参照経路に参考表示。区間別の値ではない。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json",
+          "data/raw/tokyo-500-support/lines.json",
+          "data/raw/tokyo-500-support/facilities.json"
+        ],
+        "candidateWayIds": [
+          66332620,
+          150033221,
+          167569136,
+          287954340,
+          1029623377,
+          1427098769
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-adopted.json",
+        "continuous": true,
+        "verdict": "long-unnamed",
+        "lengthM": {
+          "same": 0,
+          "variant": 0,
+          "unnamed": 30411,
+          "other": 0
+        }
+      }
+    },
+    {
+      "section": 81,
+      "name": "新秦野線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 81                新秦野線                                                                              500         2       11,874      6,582                        熱容量        新富士      →      新秦野                                      -240            -               -                不可 ♯１                   -               -        -             -",
+      "publicEndpoints": [
+        "新富士",
+        "新秦野"
+      ],
+      "geoName": "新秦野線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "同名500kV線分の共有ノード連続性、公表両端の設備区画到達、OCCTO区間・方向を照合。新坂戸の容量行なしは補完しない。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json"
+        ],
+        "candidateWayIds": [
+          149843490,
+          287954359,
+          341190310,
+          341191296,
+          341191301,
+          1036812328,
+          1036812329
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-paths.json",
+        "continuous": true,
+        "facilityIds": [
+          150065045,
+          149843487
+        ],
+        "starts": 7,
+        "ends": 8
+      }
+    },
+    {
+      "section": 84,
+      "name": "新多摩線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 84                新多摩線                                                                              500         2       11,874      6,582                        熱容量        新秦野      →      新多摩                                    -1,500           -               -                 不可 ♯１                   -               -        -             -",
+      "publicEndpoints": [
+        "新秦野",
+        "新多摩"
+      ],
+      "geoName": "新多摩線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "同名500kV線分の共有ノード連続性、公表両端の設備区画到達、OCCTO区間・方向を照合。新坂戸の容量行なしは補完しない。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json"
+        ],
+        "candidateWayIds": [
+          144969113,
+          341190318,
+          341190325,
+          341190327,
+          341190331
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-paths.json",
+        "continuous": true,
+        "facilityIds": [
+          149843487,
+          145079972
+        ],
+        "starts": 3,
+        "ends": 2
+      }
+    },
+    {
+      "section": 85,
+      "name": "新秩父線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 85                新秩父線                                                                              500         2        9,872       4,936                       熱容量        新多摩      →                      新秩父（開）                 -5,620           -               -                 不可 ♯１                   -              有り     対象               -",
+      "publicEndpoints": [
+        "新多摩",
+        "新秩父（開）"
+      ],
+      "geoName": "新秩父線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "同名500kV線分の共有ノード連続性、公表両端の設備区画到達、OCCTO区間・方向を照合。新坂戸の容量行なしは補完しない。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json"
+        ],
+        "candidateWayIds": [
+          195615143,
+          341190307,
+          738024268,
+          144969116,
+          341190315
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-paths.json",
+        "continuous": true,
+        "facilityIds": [
+          145079972,
+          195615141
+        ],
+        "starts": 2,
+        "ends": 2
+      }
+    },
+    {
+      "section": 86,
+      "name": "新所沢線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 86                新所沢線                                                                              500         2       11,874      6,582                        熱容量        新所沢      →      新多摩                                    -1,530           -               -                 不可 ♯１                   -               -        -             -",
+      "publicEndpoints": [
+        "新所沢",
+        "新多摩"
+      ],
+      "geoName": "新所沢線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "同名500kV線分の共有ノード連続性、公表両端の設備区画到達、OCCTO区間・方向を照合。新坂戸の容量行なしは補完しない。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json"
+        ],
+        "candidateWayIds": [
+          133641855,
+          133641858,
+          341190309,
+          144965035,
+          341190329
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-paths.json",
+        "continuous": true,
+        "facilityIds": [
+          133641619,
+          145079972
+        ],
+        "starts": 3,
+        "ends": 2
+      }
+    },
+    {
+      "section": 87,
+      "name": "新飯能線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 87                新飯能線                                                                              500         2       13,164      6,582                        熱容量            新所沢線分岐                →      新飯能                    1,750           -               -                       可             1,400           -        -                 -",
+      "publicEndpoints": [
+        "新所沢線分岐",
+        "新飯能"
+      ],
+      "geoName": "新飯能線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": false,
+      "reason": "公表両端（分岐点は共有ノード）への同名線の連続経路を照合。公表端点「新所沢線分岐」は設備ではなく、新所沢線（way 341190309）と新飯能線（way 881872216）の共有OSMノード。分岐ノードを変電所・開閉所として扱わない。OCCTO行なしのため潮流を割り当てない。個別回線・母線未確認。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json",
+          "data/raw/tokyo-500-support/lines.json",
+          "data/raw/tokyo-500-support/facilities.json"
+        ],
+        "candidateWayIds": [
+          315385203,
+          315385207,
+          881872216
+        ]
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-adopted.json",
+        "continuous": true,
+        "verdict": "facility-missing",
+        "lengthM": null
+      }
+    },
+    {
+      "section": 133,
+      "name": "新豊洲線",
+      "voltageKV": 500,
+      "sourceRow": "基幹 500kV 133               新豊洲線                                                                           500         2        1,920       1,920                      熱容量        新豊洲      →      新京葉                                     380             -               -                    可                0              有り           -          基幹 500kV 47",
+      "publicEndpoints": [
+        "新豊洲",
+        "新京葉"
+      ],
+      "geoName": "新豊洲線",
+      "existingRecords": [],
+      "facilityCandidates": [
+        [],
+        []
+      ],
+      "pathPoints": 0,
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "C区分（一次資料で区間・端点を確定できずOSMの地理だけで描く参考表示）。OSMの無名500kV地中ケーブル（計約37.8km）で両端区画が連結するが、各線分に「fixme=推測経路」が付いており、実際の埋設ルートの根拠にならない。両端と公表区間は一致。",
+      "resumeCondition": "保存原本から対象区間を照合。必要な端点設備・無名引込だけ追加取得。",
+      "acquisition": {
+        "status": "split-raw-acquired",
+        "sourceFiles": [
+          "data/raw/tokyo-500/north.json",
+          "data/raw/tokyo-500/south.json",
+          "data/raw/tokyo-500-support/lines.json",
+          "data/raw/tokyo-500-support/facilities.json"
+        ],
+        "candidateWayIds": []
+      },
+      "pathReview": {
+        "source": "docs/research/tokyo-500-remaining-paths.json",
+        "continuous": false,
+        "facilityIds": [
+          null,
+          168727982
+        ],
+        "starts": 0,
+        "ends": 0,
+        "supportReview": {
+          "source": "reports/tokyo-remaining-candidates.json",
+          "verdict": "long-unnamed",
+          "checkedAt": "2026-09-29"
+        }
+      },
+      "tier": "C"
+    }
+  ],
+  "counts": {
+    "total": 47,
+    "full": 46,
+    "partial": 1,
+    "unresearched": 0,
+    "inProgress": 0,
+    "held": 0,
+    "flowMatched": 34,
+    "schematic": 0
+  },
+  "scope": "2026-06-22東京PG設備表に500kVと掲載された全47公表行。都県境では切らない。匿名端点・他社線を含み、47全ての運用状態・正式施設同定まで完了した意味ではない。",
+  "acquisitionAttempts": [
+    {
+      "host": "overpass.private.coffee",
+      "result": "HTTP429",
+      "method": "GET、通常/承認環境とも失敗"
+    },
+    {
+      "host": "overpass-api.de",
+      "result": "HTTP406",
+      "method": "GET/POST、対象名指定/電圧指定とも失敗"
+    }
+  ],
+  "relatedSections": [
+    {
+      "section": 99,
+      "name": "佐久間東幹線",
+      "voltageKV": 275,
+      "publicEndpoints": [
+        "西東京",
+        "北相模"
+      ],
+      "geography": "full",
+      "flowReviewed": true,
+      "reason": "同名275kV線だけで両端設備区画に到達。OCCTO（里）区間・方向を照合、容量は西東京→北相模（他社）のみで正方向は補完しない。"
+    },
+    {
+      "section": 83,
+      "name": "佐久間東幹線",
+      "voltageKV": 275,
+      "publicEndpoints": [
+        "新富士",
+        "北相模"
+      ],
+      "geography": "full",
+      "flowReviewed": true,
+      "reason": "「佐久間東幹線 東富士分岐線」と同名本線で両端区画に到達（2026-09-30補助取得で新富士側の275kV引込を確認）。OCCTO(中)区間・方向を照合。"
+    },
+    {
+      "section": 82,
+      "name": "佐久間東幹線",
+      "voltageKV": 275,
+      "publicEndpoints": [
+        "新富士",
+        "発電所"
+      ],
+      "geography": "full",
+      "tier": "C",
+      "flowReviewed": false,
+      "reason": "C区分。発電所側は佐久間と推定。経路の大半はOSM「佐久間東幹線（山線）1L【増強後廃線】」（現用・増強後廃止予定）。【建設中】の新ルートは描かない。"
+    }
+  ]
+}

@@ -1,0 +1,9 @@
+import {readFileSync,writeFileSync} from 'node:fs';
+import {referenceFlowPath} from '../src/flow-path.ts';
+const read=p=>JSON.parse(readFileSync(p,'utf8'));
+const g=read('public/data/tohoku-trunk-osm.json'),network=read('data/private/network-capacity.json'),days=read('public/data/occto-tohoku.json').days;
+const norm=s=>s.normalize('NFKC').replace(/\s/g,'');
+const rows=days[0].actual.lines.map(r=>{const path=referenceFlowPath(r,g.lines,false),geo=g.lines.filter(l=>norm(l.name)===norm(r.name)&&l.voltageKV===r.voltageKV),nw=network.lines.filter(l=>norm(l.name)===norm(r.name)&&l.voltageKV===r.voltageKV);const variants=[...new Set(days.flatMap(d=>d.actual.lines.filter(l=>l.id===r.id).map(l=>[l.name,l.voltageKV,l.from,l.to].join('|'))))];const sameEnds=nw.length===1&&[r.from,r.to].map(norm).sort().join('|')===nw[0].direction.split('→').map(norm).sort().join('|');return {id:r.id,name:r.name,voltageKV:r.voltageKV,from:r.from,to:r.to,pathPoints:path?.length??0,geographyCandidates:geo.length,networkCandidates:nw.length,sameEnds,definitionVariants:variants.length,note:r.note,status:!path?'no-geographic-route':variants.length>1?'definition-changed':sameEnds?'reference-route-crosschecked':'reference-route-needs-review',source: nw[0]?.sourceUrl??null};});
+writeFileSync('data/catalog/tohoku-flow-audit.json',JSON.stringify({checkedAt:new Date().toISOString(),date:days[0].date,rows},null,2));
+writeFileSync('docs/TOHOKU_FLOW_AUDIT.md','# 東北潮流重点照合\n\nOCCTO公表両端と地理接続、東北電力NW容量表の両端（向きは別判定）、30日間の設備定義を比較。地理経路の確認であり回線ごとの電気的接続や公表集約範囲の確定ではない。\n\n|路線|kV|経路点数|NW両端一致|30日定義数|判定|\n|---|---:|---:|---|---:|---|\n'+rows.map(r=>`|${r.name}|${r.voltageKV}|${r.pathPoints}|${r.sameEnds?'一致':'不一致/未収録'}|${r.definitionVariants}|${r.status}|`).join('\n'));
+console.log(JSON.stringify(rows.filter(r=>r.pathPoints),null,2));

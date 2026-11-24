@@ -1,0 +1,1410 @@
+{
+  "checkedAt": "2026-09-27T12:11:20.902Z",
+  "status": "limited-implementation",
+  "candidates": [
+    {
+      "name": "川内線",
+      "section": 1,
+      "voltageKV": 500,
+      "geoName": "川内線",
+      "from": "新いわき開閉所",
+      "to": "南いわき開閉所",
+      "existingLines": [
+        {
+          "id": "osm-104392607-500",
+          "assetId": "asset-1a26a3bc-dcce-4301-b2aa-0bb5fe451329",
+          "osmIds": [
+            104392607,
+            897526306,
+            897526308,
+            897932358,
+            897932359
+          ],
+          "facilities": [
+            "南いわき開閉所",
+            "新いわき開閉所"
+          ]
+        }
+      ],
+      "referencePathPointCount": 60,
+      "facilities": [
+        {
+          "id": "osm-way-104391636",
+          "assetId": "asset-4cf46b21-0213-4505-99ea-8013fe606f0f",
+          "name": "新いわき開閉所"
+        },
+        {
+          "id": "osm-way-253566674",
+          "assetId": "asset-e0df1ffe-01cd-4abb-93a8-32320555d01c",
+          "name": "南いわき開閉所"
+        }
+      ],
+      "pathOsmIds": [
+        104392607,
+        897526306,
+        897932358
+      ],
+      "occtoActual": {
+        "sdlNm": "川内線",
+        "flowHukuSeiHuku": "南いわき → 新いわき",
+        "daKv": "500"
+      },
+      "geographyStatus": "既存共有座標グラフとfacility-area接続による両端間参照経路あり。個別回線・母線結線未確認"
+    },
+    {
+      "name": "南いわき幹線",
+      "section": 2,
+      "voltageKV": 500,
+      "geoName": "南いわき幹線",
+      "from": "東群馬変電所",
+      "to": "南いわき開閉所",
+      "existingLines": [
+        {
+          "id": "osm-104391627-500",
+          "assetId": "asset-1a142cce-e810-47ac-9786-254e52c52bcc",
+          "osmIds": [
+            104391627,
+            897526305,
+            897526307,
+            1427100855,
+            1427100854
+          ],
+          "facilities": [
+            "南いわき開閉所",
+            "東群馬変電所"
+          ]
+        }
+      ],
+      "referencePathPointCount": 337,
+      "facilities": [
+        {
+          "id": "osm-way-250540807",
+          "assetId": "asset-43d72666-7952-4c73-be4b-efc087f5199e",
+          "name": "東群馬変電所"
+        },
+        {
+          "id": "osm-way-253566674",
+          "assetId": "asset-e0df1ffe-01cd-4abb-93a8-32320555d01c",
+          "name": "南いわき開閉所"
+        }
+      ],
+      "pathOsmIds": [
+        104391627,
+        897526305,
+        1427100855,
+        1427100854
+      ],
+      "occtoActual": {
+        "sdlNm": "南いわき幹線",
+        "flowHukuSeiHuku": "南いわき → 東群馬",
+        "daKv": "500"
+      },
+      "geographyStatus": "既存共有座標グラフとfacility-area接続による両端間参照経路あり。個別回線・母線結線未確認"
+    },
+    {
+      "name": "新いわき線",
+      "section": 6,
+      "voltageKV": 500,
+      "geoName": "新いわき線",
+      "from": "新今市開閉所",
+      "to": "新いわき開閉所",
+      "existingLines": [
+        {
+          "id": "osm-170408769-500",
+          "assetId": "asset-5ca52e1b-b95c-41c8-90bd-584a1519a83a",
+          "osmIds": [
+            170408769
+          ],
+          "facilities": []
+        }
+      ],
+      "referencePathPointCount": 254,
+      "facilities": [
+        {
+          "id": "osm-way-168857610",
+          "assetId": "asset-53078578-8c8c-494f-bb21-22fd92ba3d7b",
+          "name": "新今市開閉所"
+        },
+        {
+          "id": "osm-way-104391636",
+          "assetId": "asset-4cf46b21-0213-4505-99ea-8013fe606f0f",
+          "name": "新いわき開閉所"
+        }
+      ],
+      "pathOsmIds": [
+        104391632,
+        897932361,
+        170408769,
+        832860628
+      ],
+      "occtoActual": {
+        "sdlNm": "新いわき線",
+        "flowHukuSeiHuku": "新いわき → 新今市",
+        "daKv": "500"
+      },
+      "geographyStatus": "既存共有座標グラフとfacility-area接続による両端間参照経路あり。個別回線・母線結線未確認"
+    },
+    {
+      "name": "福島中幹線",
+      "section": 7,
+      "voltageKV": 500,
+      "geoName": "福島幹線",
+      "from": "新茂木",
+      "to": "新いわき開閉所",
+      "existingLines": [
+        {
+          "id": "osm-104392606-500",
+          "assetId": "asset-f73b043c-3be9-4c1f-ae51-49dba222b54d",
+          "osmIds": [
+            104392606,
+            104392608,
+            897932356,
+            897932357,
+            897932362,
+            897932364,
+            897932367,
+            897932368
+          ],
+          "facilities": [
+            "新いわき開閉所"
+          ]
+        }
+      ],
+      "referencePathPointCount": 221,
+      "facilities": [
+        {
+          "id": "osm-way-168839127",
+          "assetId": "asset-e11e7bb4-d4d3-4ebd-9c75-eafc9bfd6119",
+          "name": "新茂木"
+        },
+        {
+          "id": "osm-way-104391636",
+          "assetId": "asset-4cf46b21-0213-4505-99ea-8013fe606f0f",
+          "name": "新いわき開閉所"
+        }
+      ],
+      "pathOsmIds": [
+        104392608,
+        897932362,
+        287373651
+      ],
+      "occtoActual": {
+        "sdlNm": "福島幹線(中)",
+        "flowHukuSeiHuku": "新いわき → 新茂木",
+        "daKv": "500"
+      },
+      "geographyStatus": "既存共有座標グラフとfacility-area接続による両端間参照経路あり。個別回線・母線結線未確認"
+    },
+    {
+      "name": "福島東幹線里線",
+      "section": 8,
+      "voltageKV": 500,
+      "geoName": "福島東幹線",
+      "from": "新筑波変電所",
+      "to": "新いわき開閉所",
+      "existingLines": [
+        {
+          "id": "osm-104392602-500",
+          "assetId": "asset-78697f8f-1095-474b-a992-3e3b9deb4023",
+          "osmIds": [
+            104392602,
+            104392604,
+            897932365,
+            897932366
+          ],
+          "facilities": [
+            "新いわき開閉所"
+          ]
+        }
+      ],
+      "referencePathPointCount": 324,
+      "facilities": [
+        {
+          "id": "osm-way-132913106",
+          "assetId": "asset-40d061c0-fd5d-4e9c-8002-4156649c6253",
+          "name": "新筑波変電所"
+        },
+        {
+          "id": "osm-way-104391636",
+          "assetId": "asset-4cf46b21-0213-4505-99ea-8013fe606f0f",
+          "name": "新いわき開閉所"
+        }
+      ],
+      "pathOsmIds": [
+        897932368,
+        104392602,
+        132913267
+      ],
+      "occtoActual": {
+        "sdlNm": "福島東幹線(里)",
+        "flowHukuSeiHuku": "新いわき → 新筑波",
+        "daKv": "500"
+      },
+      "geographyStatus": "既存共有座標グラフとfacility-area接続による両端間参照経路あり。個別回線・母線結線未確認"
+    },
+    {
+      "name": "那珂線",
+      "section": 11,
+      "voltageKV": 275,
+      "geoName": "那珂線",
+      "from": "新茂木",
+      "to": "那珂変電所",
+      "existingLines": [
+        {
+          "id": "osm-104522365-275",
+          "assetId": "asset-7a3f56e4-c3cf-4463-b20b-8feb10575d76",
+          "osmIds": [
+            104522365
+          ],
+          "facilities": []
+        },
+        {
+          "id": "osm-587609410-275",
+          "assetId": "asset-37f1249a-a917-4d39-997a-ca77ada757a9",
+          "osmIds": [
+            587609410,
+            589243615
+          ],
+          "facilities": [
+            "那珂変電所"
+          ]
+        }
+      ],
+      "referencePathPointCount": 74,
+      "facilities": [
+        {
+          "id": "osm-way-168839127",
+          "assetId": "asset-e11e7bb4-d4d3-4ebd-9c75-eafc9bfd6119",
+          "name": "新茂木"
+        },
+        {
+          "id": "osm-way-105291887",
+          "assetId": "asset-02ac3953-4a2a-40df-bf36-633328ee02a2",
+          "name": "那珂変電所"
+        }
+      ],
+      "pathOsmIds": [
+        104522365,
+        587609410,
+        1078400922,
+        897932337
+      ],
+      "occtoActual": {
+        "sdlNm": "那珂線",
+        "flowHukuSeiHuku": "那珂 → 新茂木",
+        "daKv": "275"
+      },
+      "geographyStatus": "既存共有座標グラフとfacility-area接続による両端間参照経路あり。個別回線・母線結線未確認"
+    },
+    {
+      "section": 4,
+      "name": "福島山幹線",
+      "geoName": "福島幹線",
+      "voltageKV": 500,
+      "from": "新いわき開閉所",
+      "to": "新福島変電所",
+      "referencePathPointCount": 82,
+      "pathOsmIds": [
+        104392606,
+        897932357,
+        1027236984
+      ],
+      "existingLines": [
+        {
+          "id": "osm-104392606-500",
+          "assetId": "asset-f73b043c-3be9-4c1f-ae51-49dba222b54d",
+          "osmIds": [
+            104392606,
+            104392608,
+            897932356,
+            897932357,
+            897932362,
+            897932364,
+            897932367,
+            897932368
+          ]
+        },
+        {
+          "id": "osm-1027236984-500",
+          "assetId": "asset-4a56dd32-cc80-4531-b494-b8d6fe581ba2",
+          "osmIds": [
+            1027236984
+          ]
+        }
+      ],
+      "facilities": [
+        {
+          "id": "osm-way-104391636",
+          "assetId": "asset-4cf46b21-0213-4505-99ea-8013fe606f0f",
+          "name": "新いわき開閉所"
+        },
+        {
+          "id": "osm-way-106309481",
+          "assetId": "asset-74fead66-7c7b-4412-9472-fc0058f65634",
+          "name": "新福島変電所"
+        }
+      ]
+    },
+    {
+      "section": 5,
+      "name": "福島東幹線山線",
+      "geoName": "福島東幹線",
+      "voltageKV": 500,
+      "from": "新いわき開閉所",
+      "to": "新福島変電所",
+      "referencePathPointCount": 79,
+      "pathOsmIds": [
+        104392604,
+        897932365,
+        1027236982
+      ],
+      "existingLines": [
+        {
+          "id": "osm-104392602-500",
+          "assetId": "asset-78697f8f-1095-474b-a992-3e3b9deb4023",
+          "osmIds": [
+            104392602,
+            104392604,
+            897932365,
+            897932366
+          ]
+        },
+        {
+          "id": "osm-1027236982-500",
+          "assetId": "asset-2878d776-d71c-471b-86de-364c8042c7a5",
+          "osmIds": [
+            1027236982
+          ]
+        }
+      ],
+      "facilities": [
+        {
+          "id": "osm-way-104391636",
+          "assetId": "asset-4cf46b21-0213-4505-99ea-8013fe606f0f",
+          "name": "新いわき開閉所"
+        },
+        {
+          "id": "osm-way-106309481",
+          "assetId": "asset-74fead66-7c7b-4412-9472-fc0058f65634",
+          "name": "新福島変電所"
+        }
+      ]
+    }
+  ],
+  "occto": {
+    "actualRows": 88,
+    "capacityRows": 90,
+    "actual": [
+      {
+        "sdlNm": "安曇幹線",
+        "flowHukuSeiHuku": "新信濃 → 新秩父",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "印旛線",
+        "flowHukuSeiHuku": "新佐原 → 新京葉",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "新いわき線",
+        "flowHukuSeiHuku": "新いわき → 新今市",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "新岡部線",
+        "flowHukuSeiHuku": "新岡部 → 新秩父",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "新京葉線",
+        "flowHukuSeiHuku": "新京葉 → 新古河",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "新古河線",
+        "flowHukuSeiHuku": "新古河 → 新所沢",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "新吾妻線",
+        "flowHukuSeiHuku": "新榛名 → 西群馬",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "新佐原線",
+        "flowHukuSeiHuku": "新佐原 → 新筑波",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "新坂戸線",
+        "flowHukuSeiHuku": "新新田 → 新坂戸",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "新所沢線",
+        "flowHukuSeiHuku": "新所沢 → 新多摩",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "新新田線",
+        "flowHukuSeiHuku": "新新田 → 新岡部",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "新榛名線",
+        "flowHukuSeiHuku": "新榛名 → 新秩父",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "新秦野線",
+        "flowHukuSeiHuku": "新秦野 → 新富士",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "新赤城線",
+        "flowHukuSeiHuku": "東群馬 → 新新田",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "新袖ヶ浦線",
+        "flowHukuSeiHuku": "新木更津 → 新佐原",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "新多摩線",
+        "flowHukuSeiHuku": "新多摩 → 新秦野",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "新筑波線",
+        "flowHukuSeiHuku": "新筑波 → 新古河",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "新秩父線",
+        "flowHukuSeiHuku": "新秩父 → 新多摩",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "新栃木線",
+        "flowHukuSeiHuku": "新栃木 → 新新田",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "新豊洲線",
+        "flowHukuSeiHuku": "新京葉 → 新豊洲",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "新茂木線",
+        "flowHukuSeiHuku": "新茂木 → 新栃木",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "西群馬幹線",
+        "flowHukuSeiHuku": "西群馬 → 新富士",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "西上武幹線",
+        "flowHukuSeiHuku": "西群馬 → 新所沢",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "川内線",
+        "flowHukuSeiHuku": "南いわき → 新いわき",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "中栃木線",
+        "flowHukuSeiHuku": "新今市 → 新栃木",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "東群馬幹線",
+        "flowHukuSeiHuku": "東群馬 → 西群馬",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "南いわき幹線",
+        "flowHukuSeiHuku": "南いわき → 東群馬",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "福島幹線(山)",
+        "flowHukuSeiHuku": "新いわき → 新福島",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "福島幹線(中)",
+        "flowHukuSeiHuku": "新いわき → 新茂木",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "福島幹線(里)",
+        "flowHukuSeiHuku": "新茂木 → 新古河",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "福島東幹線(山)",
+        "flowHukuSeiHuku": "新いわき → 新福島",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "福島東幹線(里)",
+        "flowHukuSeiHuku": "新いわき → 新筑波",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "房総線",
+        "flowHukuSeiHuku": "房総 → 新京葉",
+        "daKv": "500"
+      },
+      {
+        "sdlNm": "河北線",
+        "flowHukuSeiHuku": "新古河 → 北東京",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "葛南世田谷線",
+        "flowHukuSeiHuku": "葛南 → 世田谷",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "京浜線1/2L",
+        "flowHukuSeiHuku": "571T(西南多摩線) → 京浜",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "京浜線3/4L",
+        "flowHukuSeiHuku": "西東京 → 京浜",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "君津線",
+        "flowHukuSeiHuku": "新木更津 → 房総",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "江東線",
+        "flowHukuSeiHuku": "新京葉 → 葛南",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "港北線",
+        "flowHukuSeiHuku": "港北 → 西東京",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "香取線",
+        "flowHukuSeiHuku": "鹿島 → 新佐原",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "高輪線",
+        "flowHukuSeiHuku": "高輪 → 東内幸町",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "佐久間東幹線(中)",
+        "flowHukuSeiHuku": "新富士 → 北相模",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "佐久間東幹線(里)",
+        "flowHukuSeiHuku": "北相模 → 西東京",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "坂戸川越線",
+        "flowHukuSeiHuku": "新坂戸 → 南川越",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "児玉線",
+        "flowHukuSeiHuku": "新岡部 → 西毛",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "鹿島線",
+        "flowHukuSeiHuku": "鹿島 → 筑波南",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "春日部線",
+        "flowHukuSeiHuku": "北東京 → 京北",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "上野水道橋線",
+        "flowHukuSeiHuku": "上野 → 水道橋",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "上野線",
+        "flowHukuSeiHuku": "北葛飾 → 上野",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "城南線",
+        "flowHukuSeiHuku": "江東 → 城南",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "新座線",
+        "flowHukuSeiHuku": "南狭山 → 新座",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "新宿城南線",
+        "flowHukuSeiHuku": "新宿 → 城南",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "新宿線",
+        "flowHukuSeiHuku": "北多摩 → 新宿",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "秦浜線",
+        "flowHukuSeiHuku": "京浜 → 新秦野",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "水道橋線",
+        "flowHukuSeiHuku": "練馬 → 水道橋",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "世田谷線",
+        "flowHukuSeiHuku": "世田谷 → 荏田",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "西越谷線",
+        "flowHukuSeiHuku": "北東京 → 西越谷",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "西南川越線",
+        "flowHukuSeiHuku": "南川越 → 多摩",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "西南多摩線",
+        "flowHukuSeiHuku": "西東京 → 多摩",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "西北線",
+        "flowHukuSeiHuku": "西東京 → 北多摩",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "青梅線",
+        "flowHukuSeiHuku": "新飯能 → 青梅",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "千葉印西線",
+        "flowHukuSeiHuku": "新京葉 → 千葉印西",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "千葉葛南線",
+        "flowHukuSeiHuku": "千葉中央 → 葛南",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "中沢線",
+        "flowHukuSeiHuku": "新所沢 → 中東京",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "東京西線",
+        "flowHukuSeiHuku": "新多摩 → 西東京",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "東京中線",
+        "flowHukuSeiHuku": "新坂戸 → 北東京",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "東京東線",
+        "flowHukuSeiHuku": "新京葉 → 新野田",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "東京南線1/2L",
+        "flowHukuSeiHuku": "京浜 → 南横須賀",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "東京南線3/4L",
+        "flowHukuSeiHuku": "京浜 → 南横須賀",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "東京北線",
+        "flowHukuSeiHuku": "新野田 → 北東京",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "東新宿水道橋線",
+        "flowHukuSeiHuku": "水道橋 → 東新宿",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "東新宿線",
+        "flowHukuSeiHuku": "北多摩 → 東新宿",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "東内幸町線",
+        "flowHukuSeiHuku": "東内幸町 → 豊島",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "東毛線",
+        "flowHukuSeiHuku": "新新田 → 東毛",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "那珂線",
+        "flowHukuSeiHuku": "那珂 → 新茂木",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "南狭山線",
+        "flowHukuSeiHuku": "新所沢 → 南狭山",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "南川崎線",
+        "flowHukuSeiHuku": "南川崎 → 京浜",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "南池上線",
+        "flowHukuSeiHuku": "南川崎 → 池上",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "豊洲永代橋線",
+        "flowHukuSeiHuku": "新豊洲 → 永代橋",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "豊洲内幸町線",
+        "flowHukuSeiHuku": "新豊洲 → 東内幸町",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "豊島線",
+        "flowHukuSeiHuku": "豊島 → 京北",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "北葛飾線",
+        "flowHukuSeiHuku": "新野田 → 北葛飾",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "北熊谷線",
+        "flowHukuSeiHuku": "新岡部 → 北熊谷",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "北千葉線",
+        "flowHukuSeiHuku": "房総 → 新京葉",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "北武蔵野線",
+        "flowHukuSeiHuku": "新座 → 練馬",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "北与野線",
+        "flowHukuSeiHuku": "上尾 → 北与野",
+        "daKv": "275"
+      },
+      {
+        "sdlNm": "墨東線",
+        "flowHukuSeiHuku": "北葛飾 → 永代橋",
+        "daKv": "275"
+      }
+    ],
+    "capacity": [
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新いわき　→　南いわき",
+        "unyr": "6,582",
+        "sdlNm": "川内線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "南いわき　→　東群馬",
+        "unyr": "4,442",
+        "sdlNm": "南いわき幹線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新いわき　→　新今市",
+        "unyr": "6,582",
+        "sdlNm": "新いわき線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新いわき　→　新茂木",
+        "unyr": "3,291",
+        "sdlNm": "福島幹線（中）"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新いわき　→　新筑波",
+        "unyr": "3,291",
+        "sdlNm": "福島東幹線（里）"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新茂木　→　新栃木",
+        "unyr": "6,582",
+        "sdlNm": "新茂木線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "那珂　→　新茂木",
+        "unyr": "3,620",
+        "sdlNm": "那珂線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新茂木　→　新古河",
+        "unyr": "3,291",
+        "sdlNm": "福島幹線（里）"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新今市　→　新栃木",
+        "unyr": "6,582",
+        "sdlNm": "中栃木線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新栃木　→　新新田",
+        "unyr": "6,582",
+        "sdlNm": "新栃木線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新木更津　→　房総",
+        "unyr": "1,729",
+        "sdlNm": "君津線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "姉崎中央　→　房総",
+        "unyr": "1,729",
+        "sdlNm": "姉崎線1・2L"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "房総　→　姉崎中央",
+        "unyr": "864",
+        "sdlNm": "姉崎線3・4L"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "房総　→　新京葉",
+        "unyr": "3,254",
+        "sdlNm": "北千葉線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新佐原　→　新京葉",
+        "unyr": "5,578",
+        "sdlNm": "印旛線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "鹿島　→　新佐原",
+        "unyr": "3,068",
+        "sdlNm": "香取線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "鹿島　→　新野田",
+        "unyr": "1,729",
+        "sdlNm": "鹿島線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新筑波　→　新古河",
+        "unyr": "6,582",
+        "sdlNm": "新筑波線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新京葉　→　新野田",
+        "unyr": "743",
+        "sdlNm": "東京東線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新野田　→　北東京",
+        "unyr": "743",
+        "sdlNm": "東京北線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新野田　→　北葛飾",
+        "unyr": "3,620",
+        "sdlNm": "北葛飾線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新古河　→　新所沢",
+        "unyr": "4,936",
+        "sdlNm": "新古河線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新古河　→　北東京",
+        "unyr": "1,729",
+        "sdlNm": "河北線1,2L"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新古河　→　北東京",
+        "unyr": "1,729",
+        "sdlNm": "河北線3,4L"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "東群馬　→　西群馬",
+        "unyr": "6,430",
+        "sdlNm": "東群馬幹線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "東群馬　→　新新田",
+        "unyr": "6,582",
+        "sdlNm": "新赤城線（他社）"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新新田　→　新岡部",
+        "unyr": "6,582",
+        "sdlNm": "新新田線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新新田　→　東毛",
+        "unyr": "905",
+        "sdlNm": "東毛線　（他社）"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新新田　→　新坂戸",
+        "unyr": "6,582",
+        "sdlNm": "新坂戸線（他社）"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新岡部　→　新秩父",
+        "unyr": "6,582",
+        "sdlNm": "新岡部線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新岡部　→　北熊谷",
+        "unyr": "3,620",
+        "sdlNm": "北熊谷線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新岡部　→　西毛",
+        "unyr": "905",
+        "sdlNm": "児玉線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "西群馬　→　新富士",
+        "unyr": "6,582",
+        "sdlNm": "西群馬幹線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "西群馬　→　新榛名",
+        "unyr": "6,582",
+        "sdlNm": "新吾妻線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "西群馬　→　新所沢",
+        "unyr": "6,582",
+        "sdlNm": "西上武幹線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新榛名　→　新秩父",
+        "unyr": "6,582",
+        "sdlNm": "新榛名線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新秦野　→　新富士",
+        "unyr": "6,582",
+        "sdlNm": "新秦野線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新富士　→　北相模",
+        "unyr": "0",
+        "sdlNm": "佐久間東幹中線（中）（他社）"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新多摩　→　新秦野",
+        "unyr": "6,582",
+        "sdlNm": "新多摩線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新秩父　→　新多摩",
+        "unyr": "4,936",
+        "sdlNm": "新秩父線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新所沢　→　新多摩",
+        "unyr": "6,582",
+        "sdlNm": "新所沢線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新飯能　→　青梅",
+        "unyr": "2,715",
+        "sdlNm": "青梅線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新多摩　→　西東京",
+        "unyr": "3,537",
+        "sdlNm": "東京西線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "港北　→　西東京",
+        "unyr": "1,729",
+        "sdlNm": "港北線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "横浜大黒　→　港北",
+        "unyr": "3,005",
+        "sdlNm": "横浜港北線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "西東京　→　北多摩",
+        "unyr": "1,729",
+        "sdlNm": "西北線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "北多摩　→　東新宿",
+        "unyr": "632",
+        "sdlNm": "東新宿線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "北多摩　→　新宿",
+        "unyr": "876",
+        "sdlNm": "新宿線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新宿　→　城南",
+        "unyr": "909",
+        "sdlNm": "新宿城南線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "西東京　→　多摩",
+        "unyr": "751",
+        "sdlNm": "西南多摩線（他社）"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "西東京　→　北相模",
+        "unyr": "669",
+        "sdlNm": "佐久間東幹線（里）（他社）"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "京浜　→　新秦野",
+        "unyr": "1,810",
+        "sdlNm": "秦浜線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "南横須賀　→　京浜",
+        "unyr": "743",
+        "sdlNm": "東京南線1・2L"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "南横須賀　→　京浜",
+        "unyr": "1,729",
+        "sdlNm": "東京南線3・4L"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "京浜　→　西東京",
+        "unyr": "743",
+        "sdlNm": "京浜線1,2L"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "京浜　→　西東京",
+        "unyr": "743",
+        "sdlNm": "京浜線3,4L"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "南川崎　→　京浜",
+        "unyr": "1,570",
+        "sdlNm": "南川崎線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "南川崎　→　池上",
+        "unyr": "1,216",
+        "sdlNm": "南池上線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新所沢　→　中東京",
+        "unyr": "743",
+        "sdlNm": "中沢線1,2L"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新所沢　→　中東京",
+        "unyr": "743",
+        "sdlNm": "中沢線3,4L"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新所沢　→　南狭山",
+        "unyr": "3,511",
+        "sdlNm": "南狭山線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "南狭山　→　新座",
+        "unyr": "3,068",
+        "sdlNm": "新座線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新座　→　練馬",
+        "unyr": "684",
+        "sdlNm": "北武蔵野線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "練馬　→　水道橋",
+        "unyr": "873",
+        "sdlNm": "水道橋線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "水道橋　→　東新宿",
+        "unyr": "342",
+        "sdlNm": "東新宿水道橋線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新坂戸　→　南川越",
+        "unyr": "3,620",
+        "sdlNm": "坂戸川越線（他社）"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "南川越　→　多摩",
+        "unyr": "751",
+        "sdlNm": "西南川越線（他社）"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新坂戸　→　北東京",
+        "unyr": "1,810",
+        "sdlNm": "東京中線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "上尾　→　北与野",
+        "unyr": "363",
+        "sdlNm": "北与野線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "北東京　→　西越谷",
+        "unyr": "905",
+        "sdlNm": "西越谷線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "北東京　→　京北",
+        "unyr": "1,729",
+        "sdlNm": "春日部線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "豊島　→　京北",
+        "unyr": "924",
+        "sdlNm": "豊島線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "東内幸町　→　豊島",
+        "unyr": "948",
+        "sdlNm": "東内幸町線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "高輪　→　東内幸町",
+        "unyr": "990",
+        "sdlNm": "高輪線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "東川崎　→　高輪",
+        "unyr": "1,422",
+        "sdlNm": "川崎高輪線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "北葛飾　→　上野",
+        "unyr": "1,113",
+        "sdlNm": "上野線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "上野　→　水道橋",
+        "unyr": "867",
+        "sdlNm": "上野水道橋線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "北葛飾　→　墨東",
+        "unyr": "1,227",
+        "sdlNm": "墨東線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新豊洲　→　新京葉",
+        "unyr": "1,920",
+        "sdlNm": "新豊洲線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新京葉　→　江東",
+        "unyr": "3,254",
+        "sdlNm": "江東線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "江東　→　城南",
+        "unyr": "832",
+        "sdlNm": "城南線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "葛南　→　世田谷",
+        "unyr": "1,018",
+        "sdlNm": "葛南世田谷線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "荏田　→　世田谷",
+        "unyr": "1,179",
+        "sdlNm": "世田谷線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新豊洲　→　東内幸町",
+        "unyr": "651",
+        "sdlNm": "豊洲内幸町線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新豊洲　→　永代橋",
+        "unyr": "651",
+        "sdlNm": "豊洲永代橋線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新京葉　→　新古河",
+        "unyr": "4,936",
+        "sdlNm": "新京葉線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新佐原　→　新筑波",
+        "unyr": "6,582",
+        "sdlNm": "新佐原線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "房総　→　新京葉",
+        "unyr": "3,143",
+        "sdlNm": "房総線"
+      },
+      {
+        "daKv1": "500",
+        "flowHukuSeiHuku1": "新木更津　→　新佐原",
+        "unyr": "6,582",
+        "sdlNm": "新袖ケ浦線"
+      },
+      {
+        "daKv1": "275",
+        "flowHukuSeiHuku1": "新京葉　→　千葉印西",
+        "unyr": "729",
+        "sdlNm": "千葉印西線"
+      }
+    ]
+  },
+  "sources": [
+    {
+      "name": "index.html",
+      "url": "https://www.tepco.co.jp/pg/consignment/system/",
+      "retrievedAt": "2026-09-27T12:03:32.585Z",
+      "sha256": "7f9d4a6639de9a9fa3fd056bea2c154984c44f7376f76579c55992608bf6635b"
+    },
+    {
+      "name": "forecast.pdf",
+      "url": "https://www.tepco.co.jp/pg/consignment/system/pdf/kikan_yosochoryu.pdf",
+      "retrievedAt": "2026-09-27T12:03:33.031Z",
+      "sha256": "248efc59ba8474d50422ebf07c172bd99e58ac4dee533b72f289dccb5cc1bec6"
+    },
+    {
+      "name": "actual-map.pdf",
+      "url": "https://www.tepco.co.jp/pg/consignment/system/pdf/jisseki_kikan.pdf?251028=",
+      "retrievedAt": "2026-09-27T12:03:33.475Z",
+      "sha256": "02108788567e43daf4f55696aa2d9e80f293f7e9402c34c1ca1560d4266ec6fe"
+    },
+    {
+      "name": "plans.pdf",
+      "url": "https://www.tepco.co.jp/pg/consignment/system/pdf/20250526_setubikeikaku-j500-275.pdf",
+      "retrievedAt": "2026-09-27T12:03:33.763Z",
+      "sha256": "0e8f061ae38488b24296dac5d5409cf9ce6f3aa56318c71a4c2a30806da77b65"
+    }
+  ],
+  "scope": "Tokyo grid, not prefectural clipping",
+  "candidateApproval": "提案のみ・配信未承認"
+}

@@ -1,0 +1,476 @@
+{
+  "schemaVersion": 1,
+  "source": "東北電力ネットワーク 系統空容量（基幹系統・送電線）の回線数",
+  "retrievedAt": "2026-09-21T21:00:39.302Z",
+  "lines": [
+    {
+      "name": "0001線",
+      "voltageKV": 500,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "十和田幹線",
+      "voltageKV": 500,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "北上幹線",
+      "voltageKV": 500,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "青葉幹線",
+      "voltageKV": 500,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "宮城中央支線",
+      "voltageKV": 500,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "常磐北幹線",
+      "voltageKV": 500,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0007線",
+      "voltageKV": 500,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "相馬双葉幹線",
+      "voltageKV": 500,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0009線",
+      "voltageKV": 500,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "常磐南幹線",
+      "voltageKV": 500,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "今別幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0101線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "北青幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "北奥幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "北部幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0105線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "五戸幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "岩手幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "秋盛幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0109線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "早池峰幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "東花巻支線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0111線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "水沢幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0113線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "大潟幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0115線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "秋田幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "奥羽幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0119線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0157線",
+      "voltageKV": 275,
+      "circuitCount": 1,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "陸羽幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "牡鹿幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "鳴瀬幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "宮城幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "松島幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "仙台幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0129線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "蔵王幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0158線",
+      "voltageKV": 275,
+      "circuitCount": 1,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "名取幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0127線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "朝日幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "山形幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "南山形幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "東北幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0132線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "飯豊幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "吾妻幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0134線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "相福幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "東福島支線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0138線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "いわき幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "阿武隈幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0142線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "勿来幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "勿来支線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "新潟幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0145線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0146線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "北新幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "五頭幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "中越幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0151線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "0152線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    },
+    {
+      "name": "東上越幹線",
+      "voltageKV": 275,
+      "circuitCount": 2,
+      "published": "2026年7月31日作成",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv"
+    }
+  ]
+}

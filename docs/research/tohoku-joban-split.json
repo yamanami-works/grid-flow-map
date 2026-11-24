@@ -1,0 +1,49 @@
+{
+  "schemaVersion": 1,
+  "purpose": "常磐幹線を宮城丸森開閉所で常磐北幹線・常磐南幹線に分ける（2026-05-08 一部使用開始を反映）",
+  "decidedAt": "2026-09-30",
+  "sourceLineId": "osm-182993767-500",
+  "osmWay": 182993767,
+  "junction": {
+    "node": 2099538507,
+    "position": [
+      37.8426624,
+      140.7502563
+    ],
+    "evidence": "2026-09-30取得のOSM（data/raw/tohoku-joban/lines-joban.json、osm_base 2026-09-30T14:24:46Z）で、常磐幹線 way 182993767 の第119節点が、新地火力発電所から来る500kV線 way 180769724 の終点と共有されている。東北電力NWの系統図では常磐北幹線・常磐南幹線・新地アクセス線が宮城丸森開閉所（丸森町筆甫）で接続する。"
+  },
+  "facility": {
+    "id": "tohoku-miyagi-marumori-switchyard",
+    "name": "宮城丸森開閉所",
+    "kind": "switchyard",
+    "voltages": [
+      500
+    ],
+    "url": "https://nw.tohoku-epco.co.jp/news/pdf/__icsFiles/afieldfile/2026/05/08/260508001.pdf",
+    "osm": "開閉所区画・名称ともOSM未登録（2026-09-30 data/raw/tohoku-joban/facilities.json で0件）。位置は上記共有ノードの点（C区分：点設備）。引込線（約1km）はOSM未反映。",
+    "verified": "所在地は丸森町筆甫（国土地理院の逆ジオコーダー）で、東北電力NWの発表の所在地「宮城県伊具郡丸森町筆甫」と一致。"
+  },
+  "north": {
+    "id": "tohoku-joban-north-500",
+    "name": "常磐北幹線",
+    "occto": "0004 西仙台変電所 → 宮城丸森",
+    "neighborWays": [
+      785319854,
+      785319855
+    ]
+  },
+  "south": {
+    "id": "tohoku-joban-south-500",
+    "name": "常磐南幹線",
+    "occto": "0005 宮城丸森 → 南相馬変電所",
+    "neighborWays": [
+      897526293,
+      897526295
+    ]
+  },
+  "shinchiWay": 180769724,
+  "sources": [
+    "https://nw.tohoku-epco.co.jp/news/pdf/__icsFiles/afieldfile/2026/05/08/260508001.pdf",
+    "https://nw.tohoku-epco.co.jp/news/pdf/__icsFiles/afieldfile/2022/10/03/221003000.pdf"
+  ]
+}

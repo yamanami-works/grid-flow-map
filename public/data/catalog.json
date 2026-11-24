@@ -1,0 +1,494 @@
+{
+  "schemaVersion": 1,
+  "datasets": [
+    {
+      "id": "tohoku-trunk",
+      "region": "tohoku",
+      "purpose": "geometry",
+      "feature": "trunk-map",
+      "access": "public",
+      "url": "./data/tohoku-trunk.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "osm"
+      ],
+      "version": "4eb8a84e7abf"
+    },
+    {
+      "id": "tohoku-dc",
+      "region": "tohoku",
+      "purpose": "geometry",
+      "feature": "trunk-map",
+      "access": "public",
+      "url": "./data/tohoku-dc-osm.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "osm"
+      ],
+      "version": "63b0ee5041e5"
+    },
+    {
+      "id": "tohoku-flow",
+      "region": "tohoku",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/occto-tohoku.json",
+      "schemaVersion": 2,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "tohoku-capacity",
+      "region": "tohoku",
+      "purpose": "capacity",
+      "feature": "capacity-detail",
+      "access": "public",
+      "url": "./data/network-capacity.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "tohoku-network"
+      ],
+      "version": "5bb1ddc2d529",
+      "distribution": "private-preview"
+    },
+    {
+      "id": "tohoku-circuits",
+      "region": "tohoku",
+      "purpose": "capacity",
+      "feature": "capacity-detail",
+      "access": "public",
+      "url": "./data/tohoku-circuits.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "tohoku-network"
+      ],
+      "version": "f91ef7ff4ca8"
+    },
+    {
+      "id": "tohoku-plants",
+      "region": "tohoku",
+      "purpose": "equipment",
+      "feature": "capacity-detail",
+      "access": "public",
+      "url": "./data/plant-profiles.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "plant-operators"
+      ],
+      "version": "2a10a522aff6"
+    },
+    {
+      "id": "asset-registry",
+      "region": "tohoku",
+      "purpose": "identity",
+      "feature": "trunk-map",
+      "access": "public",
+      "url": "./data/asset-registry.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "osm"
+      ],
+      "version": "eefa412561fc"
+    },
+    {
+      "id": "substation-voltages",
+      "region": "national",
+      "purpose": "equipment",
+      "feature": "capacity-detail",
+      "access": "public",
+      "url": "./data/substation-voltages.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "tso-capacity"
+      ],
+      "version": "19af233a0ef6",
+      "distribution": "private-preview"
+    },
+    {
+      "id": "hokkaido-trunk",
+      "region": "hokkaido",
+      "purpose": "geometry",
+      "feature": "trunk-map",
+      "access": "public",
+      "url": "./data/hokkaido-hokuto.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "osm"
+      ],
+      "version": "fc73a0f706bb"
+    },
+    {
+      "id": "tokyo-trunk",
+      "region": "tokyo",
+      "purpose": "geometry",
+      "feature": "trunk-map",
+      "access": "public",
+      "url": "./data/tokyo-trunk.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "osm"
+      ],
+      "version": "3059e7d16674"
+    },
+    {
+      "id": "chubu-trunk",
+      "region": "chubu",
+      "purpose": "geometry",
+      "feature": "trunk-map",
+      "access": "public",
+      "url": "./data/chubu-trunk.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "osm"
+      ],
+      "version": "e6fd4cd9f1a3"
+    },
+    {
+      "id": "hokuriku-trunk",
+      "region": "hokuriku",
+      "purpose": "geometry",
+      "feature": "trunk-map",
+      "access": "public",
+      "url": "./data/hokuriku-trunk.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "osm"
+      ],
+      "version": "fe8f47b4fb21"
+    },
+    {
+      "id": "kansai-trunk",
+      "region": "kansai",
+      "purpose": "geometry",
+      "feature": "trunk-map",
+      "access": "public",
+      "url": "./data/kansai-trunk.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "osm"
+      ],
+      "version": "74d3ea361f58"
+    },
+    {
+      "id": "chugoku-trunk",
+      "region": "chugoku",
+      "purpose": "geometry",
+      "feature": "trunk-map",
+      "access": "public",
+      "url": "./data/chugoku-trunk.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "osm"
+      ],
+      "version": "3b6284afd377"
+    },
+    {
+      "id": "shikoku-trunk",
+      "region": "shikoku",
+      "purpose": "geometry",
+      "feature": "trunk-map",
+      "access": "public",
+      "url": "./data/shikoku-trunk.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "osm"
+      ],
+      "version": "a59f73a16f71"
+    },
+    {
+      "id": "kyushu-trunk",
+      "region": "kyushu",
+      "purpose": "geometry",
+      "feature": "trunk-map",
+      "access": "public",
+      "url": "./data/kyushu-trunk.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "osm"
+      ],
+      "version": "cb462e1723f3"
+    },
+    {
+      "id": "hokkaido-flow",
+      "region": "hokkaido",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/hokkaido-flow.json",
+      "schemaVersion": 2,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "tokyo-flow",
+      "region": "tokyo",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/tokyo-flow.json",
+      "schemaVersion": 2,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "chubu-flow",
+      "region": "chubu",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/chubu-flow.json",
+      "schemaVersion": 2,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "hokuriku-flow",
+      "region": "hokuriku",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/hokuriku-flow.json",
+      "schemaVersion": 2,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "kansai-flow",
+      "region": "kansai",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/kansai-flow.json",
+      "schemaVersion": 2,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "chugoku-flow",
+      "region": "chugoku",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/chugoku-flow.json",
+      "schemaVersion": 2,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "shikoku-flow",
+      "region": "shikoku",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/shikoku-flow.json",
+      "schemaVersion": 2,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "kyushu-flow",
+      "region": "kyushu",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/kyushu-flow.json",
+      "schemaVersion": 2,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "tie-flow",
+      "region": "national",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/tie-flow.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "tohoku-flow-latest",
+      "region": "tohoku",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/occto-tohoku-latest.json",
+      "schemaVersion": 2,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "hokkaido-flow-latest",
+      "region": "hokkaido",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/hokkaido-flow-latest.json",
+      "schemaVersion": 2,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "tokyo-flow-latest",
+      "region": "tokyo",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/tokyo-flow-latest.json",
+      "schemaVersion": 2,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "chubu-flow-latest",
+      "region": "chubu",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/chubu-flow-latest.json",
+      "schemaVersion": 2,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "hokuriku-flow-latest",
+      "region": "hokuriku",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/hokuriku-flow-latest.json",
+      "schemaVersion": 2,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "kansai-flow-latest",
+      "region": "kansai",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/kansai-flow-latest.json",
+      "schemaVersion": 2,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "chugoku-flow-latest",
+      "region": "chugoku",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/chugoku-flow-latest.json",
+      "schemaVersion": 2,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "shikoku-flow-latest",
+      "region": "shikoku",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/shikoku-flow-latest.json",
+      "schemaVersion": 2,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "kyushu-flow-latest",
+      "region": "kyushu",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/kyushu-flow-latest.json",
+      "schemaVersion": 2,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "tie-flow-latest",
+      "region": "national",
+      "purpose": "flow",
+      "feature": "flow",
+      "access": "public",
+      "url": "./data/tie-flow-latest.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "occto"
+      ]
+    },
+    {
+      "id": "undrawn-sections",
+      "region": "national",
+      "purpose": "reference",
+      "feature": "trunk-map",
+      "access": "public",
+      "url": "./data/undrawn-sections.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "tso-capacity"
+      ],
+      "version": "60b394893075"
+    },
+    {
+      "id": "line-capacity",
+      "region": "national",
+      "purpose": "capacity",
+      "feature": "capacity-detail",
+      "access": "public",
+      "url": "./data/line-capacity.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "tso-capacity"
+      ],
+      "version": "2c2251d0fd2d",
+      "distribution": "private-preview"
+    },
+    {
+      "id": "plant-units",
+      "region": "national",
+      "purpose": "equipment",
+      "feature": "capacity-detail",
+      "access": "public",
+      "url": "./data/plant-units.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "hjks"
+      ],
+      "version": "0e89d97e324d"
+    },
+    {
+      "id": "nuclear-status",
+      "region": "national",
+      "purpose": "status",
+      "feature": "capacity-detail",
+      "access": "public",
+      "url": "./data/nuclear-status.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "nra"
+      ]
+    }
+  ]
+}

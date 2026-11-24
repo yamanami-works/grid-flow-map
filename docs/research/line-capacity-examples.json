@@ -1,0 +1,87 @@
+{
+  "checkedAt": "2026-09-26T11:28:42.409Z",
+  "status": "no-numeric-line-example-in-retained-tohoku-editions",
+  "sources": [
+    {
+      "file": "sys_capa_kikan01_line_202607_02.csv",
+      "sha256": "c40ddc371fd43d8ce55e61807a64182340c69e951ffd24368d16f2b19161dfc7",
+      "published": "2026年7月31日作成",
+      "records": 311,
+      "localHeader": "空容量(当該設備)（MW）",
+      "upstreamHeader": "空容量(上位系等考慮)（MW）",
+      "numericLocal": 0,
+      "numericUpstream": 0
+    },
+    {
+      "file": "sys_capa_local01_line_202607_02.csv",
+      "sha256": "68c8ff64f41cb5725016adf76aabafbd2fcf8b5de339c207ff41036f774bfc0b",
+      "published": "2026年7月3日作成",
+      "records": 170,
+      "localHeader": "空容量(当該設備)（MW）",
+      "upstreamHeader": "空容量(上位系等考慮)（MW）",
+      "numericLocal": 0,
+      "numericUpstream": 0
+    },
+    {
+      "file": "sys_capa_local02_line_202607_02.csv",
+      "sha256": "33b018065d71a12d5cc5731bb2998b52f67c8c29cb3e6eb85fc5b1746c709239",
+      "published": "2026年7月3日作成",
+      "records": 181,
+      "localHeader": "空容量(当該設備)（MW）",
+      "upstreamHeader": "空容量(上位系等考慮)（MW）",
+      "numericLocal": 0,
+      "numericUpstream": 0
+    },
+    {
+      "file": "sys_capa_local03_line_202607_02.csv",
+      "sha256": "0af31a7673de7175cd68b340d424eb2ad554ad49f557fdd6b9c55dd41e8d97f9",
+      "published": "2026年7月3日作成",
+      "records": 147,
+      "localHeader": "空容量(当該設備)（MW）",
+      "upstreamHeader": "空容量(上位系等考慮)（MW）",
+      "numericLocal": 0,
+      "numericUpstream": 0
+    },
+    {
+      "file": "sys_capa_local04_line_202607_02.csv",
+      "sha256": "ccbca298c05e8ff137987055185898865ab6ace50ceaf48a0bb5410914f0108d",
+      "published": "2026年7月3日作成",
+      "records": 309,
+      "localHeader": "空容量(当該設備)（MW）",
+      "upstreamHeader": "空容量(上位系等考慮)（MW）",
+      "numericLocal": 0,
+      "numericUpstream": 0
+    },
+    {
+      "file": "sys_capa_local05_line_202607_02.csv",
+      "sha256": "3d9c6ea219736c09091dfc49b431462967d6d4027e0d505fb77e36cc349bde79",
+      "published": "2026年7月3日作成",
+      "records": 153,
+      "localHeader": "空容量(当該設備)（MW）",
+      "upstreamHeader": "空容量(上位系等考慮)（MW）",
+      "numericLocal": 0,
+      "numericUpstream": 0
+    },
+    {
+      "file": "sys_capa_local06_line_202607_02.csv",
+      "sha256": "71427be4d38160d1dbe49772d3c86b7951f0a729e382125465dea5c379088fc8",
+      "published": "2026年7月3日作成",
+      "records": 354,
+      "localHeader": "空容量(当該設備)（MW）",
+      "upstreamHeader": "空容量(上位系等考慮)（MW）",
+      "numericLocal": 0,
+      "numericUpstream": 0
+    },
+    {
+      "file": "sys_capa_local07_line_202608_02.csv",
+      "sha256": "7c57b1b35547580107d72255a7d280e0f06ea293c58f1f11df7f3b127bbde66e",
+      "published": "2026年8月28日作成",
+      "records": 355,
+      "localHeader": "空容量(当該設備)（MW）",
+      "upstreamHeader": "空容量(上位系等考慮)（MW）",
+      "numericLocal": 0,
+      "numericUpstream": 0
+    }
+  ],
+  "note": "Read-only research; not UI validation or approval for additional datasets."
+}

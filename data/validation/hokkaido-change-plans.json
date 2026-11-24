@@ -1,0 +1,962 @@
+{
+  "schemaVersion": 1,
+  "rights": "pending",
+  "plans": [
+    {
+      "id": "plan-hokkaido-naie-takikawa-connection",
+      "regions": [
+        "hokkaido"
+      ],
+      "targets": [
+        {
+          "name": "滝川幹線",
+          "assetIds": [
+            "asset-8f1eaec6-8e1f-40b0-b04f-99f24e23794a"
+          ],
+          "mapping": "既存資産に対応"
+        },
+        {
+          "name": "奈井江幹線",
+          "assetIds": [
+            "asset-b605269d-0c7f-47c8-a707-ba35738de13d"
+          ],
+          "mapping": "既存資産に対応"
+        },
+        {
+          "name": "西滝川変電所",
+          "assetIds": [
+            "asset-f7543e31-f98a-4846-92eb-96efc71fd92b"
+          ],
+          "mapping": "既存資産に対応"
+        },
+        {
+          "name": "西奈井江開閉所",
+          "assetIds": [
+            "asset-24e17e11-c897-4f6e-96fe-18c63c0e05e1"
+          ],
+          "mapping": "既存資産に対応"
+        },
+        {
+          "name": "北江別変電所",
+          "assetIds": [
+            "asset-019a070f-f6f7-4af3-8dfe-82fda269a93b"
+          ],
+          "mapping": "既存資産に対応"
+        }
+      ],
+      "changeType": "接続先変更",
+      "revisions": [
+        {
+          "recordedAt": "2026-09-27",
+          "before": "西滝川―西奈井江―北江別",
+          "after": "西滝川―北江別",
+          "timing": [
+            {
+              "raw": "2028.11",
+              "precision": "month",
+              "year": 2028,
+              "month": 11,
+              "label": "使用開始"
+            }
+          ],
+          "status": "計画中",
+          "statusOriginal": "着工準備中",
+          "source": {
+            "name": "北海道電力ネットワーク：2026年度供給計画の概要",
+            "url": "https://www.hepco.co.jp/network/info/2025/__icsFiles/afieldfile/2026/03/30/260330_3.pdf",
+            "publishedAt": "2026-03-30",
+            "checkedAt": "2026-09-27"
+          },
+          "reason": "初回登録。公表版に記載された計画を保存。現在の工事進捗・運用開始は未確認。"
+        }
+      ],
+      "unknowns": [
+        "変更後の地理経路・個別母線結線は未照合",
+        "資料公表後の予定変更・現場進捗は未確認"
+      ],
+      "updateRequired": [
+        "地理経路",
+        "接続関係",
+        "設備情報・資産対応",
+        "OCCTO公表区間・正方向・方向別容量"
+      ],
+      "application": {
+        "status": "未反映",
+        "note": "将来接続を現行地図に追加しない。運用開始の一次資料と接続・潮流対応を確認後、別途更新する。"
+      },
+      "latestProgressReview": {
+        "checkedAt": null,
+        "note": "公表後の予定変更・工事進捗の最新性は未確認。資料確認日は最新性を確認した日ではありません。"
+      }
+    },
+    {
+      "id": "plan-hokkaido-hokuto-imabetsu-expansion",
+      "regions": [
+        "hokkaido",
+        "tohoku"
+      ],
+      "targets": [
+        {
+          "name": "北斗今別直流幹線",
+          "assetIds": [
+            "asset-ef0be538-cc65-4b71-822b-5cb29f9e352d"
+          ],
+          "mapping": "既存資産に対応"
+        },
+        {
+          "name": "北斗変換所",
+          "assetIds": [
+            "asset-b1927582-d144-4e18-bb32-d18565bd14b1"
+          ],
+          "mapping": "既存資産に対応"
+        },
+        {
+          "name": "今別変換所",
+          "assetIds": [
+            "asset-46ea0d9b-702e-4e88-97d9-4e83973445ca"
+          ],
+          "mapping": "既存資産に対応"
+        }
+      ],
+      "changeType": "増設",
+      "revisions": [
+        {
+          "recordedAt": "2026-09-27",
+          "before": "直流1回線・各変換所300MW",
+          "after": "直流2回線・各変換所600MW",
+          "timing": [
+            {
+              "raw": "2028.3",
+              "precision": "month",
+              "year": 2028,
+              "month": 3,
+              "label": "使用開始"
+            }
+          ],
+          "status": "工事中",
+          "statusOriginal": "工事中",
+          "source": {
+            "name": "北海道電力ネットワーク：2026年度供給計画の概要",
+            "url": "https://www.hepco.co.jp/network/info/2025/__icsFiles/afieldfile/2026/03/30/260330_3.pdf",
+            "publishedAt": "2026-03-30",
+            "checkedAt": "2026-09-27"
+          },
+          "reason": "初回登録。公表版に記載された計画を保存。現在の工事進捗・運用開始は未確認。"
+        }
+      ],
+      "unknowns": [
+        "変更後の地理経路・個別母線結線は未照合",
+        "資料公表後の予定変更・現場進捗は未確認"
+      ],
+      "updateRequired": [
+        "地理経路",
+        "接続関係",
+        "設備情報・資産対応",
+        "OCCTO公表区間・正方向・方向別容量"
+      ],
+      "application": {
+        "status": "未反映",
+        "note": "将来接続を現行地図に追加しない。運用開始の一次資料と接続・潮流対応を確認後、別途更新する。"
+      },
+      "latestProgressReview": {
+        "checkedAt": null,
+        "note": "公表後の予定変更・工事進捗の最新性は未確認。資料確認日は最新性を確認した日ではありません。"
+      }
+    },
+    {
+      "id": "plan-hokkaido-minamichitose",
+      "regions": [
+        "hokkaido"
+      ],
+      "targets": [
+        {
+          "name": "南早来変電所",
+          "assetIds": [
+            "asset-1559e0b3-1d07-4f40-8155-9f0b70bec326"
+          ],
+          "mapping": "既存資産に対応"
+        },
+        {
+          "name": "南千歳地中線",
+          "assetIds": [],
+          "mapping": "現行資産との対応未確定・未登録"
+        },
+        {
+          "name": "南千歳変電所",
+          "assetIds": [],
+          "mapping": "現行資産との対応未確定・未登録"
+        }
+      ],
+      "changeType": "新設",
+      "revisions": [
+        {
+          "recordedAt": "2026-09-27",
+          "before": "対象新設備は現行地図に未収録",
+          "after": "南早来―南千歳187kV地中線・187/66kV変電所",
+          "timing": [
+            {
+              "raw": "2027.9(1･2号線)",
+              "precision": "month",
+              "year": 2027,
+              "month": 9,
+              "label": "変電所・1/2号線"
+            },
+            {
+              "raw": "2030.4(3号線)",
+              "precision": "month",
+              "year": 2030,
+              "month": 4,
+              "label": "3号線"
+            }
+          ],
+          "status": "工事中",
+          "statusOriginal": "工事中",
+          "source": {
+            "name": "北海道電力ネットワーク：2026年度供給計画の概要",
+            "url": "https://www.hepco.co.jp/network/info/2025/__icsFiles/afieldfile/2026/03/30/260330_3.pdf",
+            "publishedAt": "2026-03-30",
+            "checkedAt": "2026-09-27"
+          },
+          "reason": "初回登録。公表版に記載された計画を保存。現在の工事進捗・運用開始は未確認。"
+        }
+      ],
+      "unknowns": [
+        "変更後の地理経路・個別母線結線は未照合",
+        "資料公表後の予定変更・現場進捗は未確認"
+      ],
+      "updateRequired": [
+        "地理経路",
+        "接続関係",
+        "設備情報・資産対応",
+        "OCCTO公表区間・正方向・方向別容量"
+      ],
+      "application": {
+        "status": "未反映",
+        "note": "将来接続を現行地図に追加しない。運用開始の一次資料と接続・潮流対応を確認後、別途更新する。"
+      },
+      "latestProgressReview": {
+        "checkedAt": null,
+        "note": "公表後の予定変更・工事進捗の最新性は未確認。資料確認日は最新性を確認した日ではありません。"
+      }
+    },
+    {
+      "id": "plan-hokkaido-kitaoshamanbe",
+      "regions": [
+        "hokkaido"
+      ],
+      "targets": [
+        {
+          "name": "函館幹線",
+          "assetIds": [],
+          "mapping": "現行資産との対応未確定・未登録"
+        },
+        {
+          "name": "北長万部開閉所",
+          "assetIds": [],
+          "mapping": "現行資産との対応未確定・未登録"
+        }
+      ],
+      "changeType": "新設・接続先変更",
+      "revisions": [
+        {
+          "recordedAt": "2026-09-27",
+          "before": "函館幹線の既設区間",
+          "after": "北長万部開閉所新設・No.196,198からπ引込",
+          "timing": [
+            {
+              "raw": "2028.7",
+              "precision": "month",
+              "year": 2028,
+              "month": 7,
+              "label": "使用開始"
+            }
+          ],
+          "status": "工事中",
+          "statusOriginal": "開閉所：工事中／引込：着工準備中",
+          "source": {
+            "name": "北海道電力ネットワーク：2026年度供給計画の概要",
+            "url": "https://www.hepco.co.jp/network/info/2025/__icsFiles/afieldfile/2026/03/30/260330_3.pdf",
+            "publishedAt": "2026-03-30",
+            "checkedAt": "2026-09-27"
+          },
+          "reason": "初回登録。公表版に記載された計画を保存。現在の工事進捗・運用開始は未確認。"
+        }
+      ],
+      "unknowns": [
+        "変更後の地理経路・個別母線結線は未照合",
+        "資料公表後の予定変更・現場進捗は未確認"
+      ],
+      "updateRequired": [
+        "地理経路",
+        "接続関係",
+        "設備情報・資産対応",
+        "OCCTO公表区間・正方向・方向別容量"
+      ],
+      "application": {
+        "status": "未反映",
+        "note": "将来接続を現行地図に追加しない。運用開始の一次資料と接続・潮流対応を確認後、別途更新する。"
+      },
+      "latestProgressReview": {
+        "checkedAt": null,
+        "note": "公表後の予定変更・工事進捗の最新性は未確認。資料確認日は最新性を確認した日ではありません。"
+      }
+    },
+    {
+      "id": "plan-hokkaido-nishiyakumo",
+      "regions": [
+        "hokkaido"
+      ],
+      "targets": [
+        {
+          "name": "函館幹線",
+          "assetIds": [],
+          "mapping": "現行資産との対応未確定・未登録"
+        },
+        {
+          "name": "西八雲開閉所",
+          "assetIds": [],
+          "mapping": "現行資産との対応未確定・未登録"
+        }
+      ],
+      "changeType": "新設・接続先変更",
+      "revisions": [
+        {
+          "recordedAt": "2026-09-27",
+          "before": "函館幹線の既設区間",
+          "after": "西八雲開閉所新設・No.337,341からπ引込",
+          "timing": [
+            {
+              "raw": "2029.5",
+              "precision": "month",
+              "year": 2029,
+              "month": 5,
+              "label": "使用開始"
+            }
+          ],
+          "status": "工事中",
+          "statusOriginal": "開閉所：工事中／引込：着工準備中",
+          "source": {
+            "name": "北海道電力ネットワーク：2026年度供給計画の概要",
+            "url": "https://www.hepco.co.jp/network/info/2025/__icsFiles/afieldfile/2026/03/30/260330_3.pdf",
+            "publishedAt": "2026-03-30",
+            "checkedAt": "2026-09-27"
+          },
+          "reason": "初回登録。公表版に記載された計画を保存。現在の工事進捗・運用開始は未確認。"
+        }
+      ],
+      "unknowns": [
+        "変更後の地理経路・個別母線結線は未照合",
+        "資料公表後の予定変更・現場進捗は未確認"
+      ],
+      "updateRequired": [
+        "地理経路",
+        "接続関係",
+        "設備情報・資産対応",
+        "OCCTO公表区間・正方向・方向別容量"
+      ],
+      "application": {
+        "status": "未反映",
+        "note": "将来接続を現行地図に追加しない。運用開始の一次資料と接続・潮流対応を確認後、別途更新する。"
+      },
+      "latestProgressReview": {
+        "checkedAt": null,
+        "note": "公表後の予定変更・工事進捗の最新性は未確認。資料確認日は最新性を確認した日ではありません。"
+      }
+    },
+    {
+      "id": "plan-hokkaido-higashiishikari",
+      "regions": [
+        "hokkaido"
+      ],
+      "targets": [
+        {
+          "name": "道央北幹線",
+          "assetIds": [
+            "asset-f4d5fd6c-3c2f-4623-9589-d5dbce85e850"
+          ],
+          "mapping": "既存資産に対応"
+        },
+        {
+          "name": "東石狩変電所",
+          "assetIds": [],
+          "mapping": "現行資産との対応未確定・未登録"
+        }
+      ],
+      "changeType": "新設・接続先変更",
+      "revisions": [
+        {
+          "recordedAt": "2026-09-27",
+          "before": "道央北幹線の既設区間",
+          "after": "東石狩275/66kV新設・No.34,37からπ引込",
+          "timing": [
+            {
+              "raw": "2031.8",
+              "precision": "month",
+              "year": 2031,
+              "month": 8,
+              "label": "引込"
+            },
+            {
+              "raw": "2031.9",
+              "precision": "month",
+              "year": 2031,
+              "month": 9,
+              "label": "変電所"
+            }
+          ],
+          "status": "計画中",
+          "statusOriginal": "着工準備中",
+          "source": {
+            "name": "北海道電力ネットワーク：2026年度供給計画の概要",
+            "url": "https://www.hepco.co.jp/network/info/2025/__icsFiles/afieldfile/2026/03/30/260330_3.pdf",
+            "publishedAt": "2026-03-30",
+            "checkedAt": "2026-09-27"
+          },
+          "reason": "初回登録。公表版に記載された計画を保存。現在の工事進捗・運用開始は未確認。"
+        }
+      ],
+      "unknowns": [
+        "変更後の地理経路・個別母線結線は未照合",
+        "資料公表後の予定変更・現場進捗は未確認"
+      ],
+      "updateRequired": [
+        "地理経路",
+        "接続関係",
+        "設備情報・資産対応",
+        "OCCTO公表区間・正方向・方向別容量"
+      ],
+      "application": {
+        "status": "未反映",
+        "note": "将来接続を現行地図に追加しない。運用開始の一次資料と接続・潮流対応を確認後、別途更新する。"
+      },
+      "latestProgressReview": {
+        "checkedAt": null,
+        "note": "公表後の予定変更・工事進捗の最新性は未確認。資料確認日は最新性を確認した日ではありません。"
+      }
+    },
+    {
+      "id": "plan-hokkaido-rinkuutomato",
+      "regions": [
+        "hokkaido"
+      ],
+      "targets": [
+        {
+          "name": "道央南幹線",
+          "assetIds": [
+            "asset-92ad1f6a-9323-4ed6-b7bb-a697c84b7af7"
+          ],
+          "mapping": "既存資産に対応"
+        },
+        {
+          "name": "臨空苫東変電所",
+          "assetIds": [],
+          "mapping": "現行資産との対応未確定・未登録"
+        }
+      ],
+      "changeType": "新設・接続先変更",
+      "revisions": [
+        {
+          "recordedAt": "2026-09-27",
+          "before": "道央南幹線の既設区間",
+          "after": "臨空苫東275/66kV新設・No.167,170からπ引込",
+          "timing": [
+            {
+              "raw": "2030.2",
+              "precision": "month",
+              "year": 2030,
+              "month": 2,
+              "label": "引込"
+            },
+            {
+              "raw": "2030.3",
+              "precision": "month",
+              "year": 2030,
+              "month": 3,
+              "label": "変電所"
+            }
+          ],
+          "status": "計画中",
+          "statusOriginal": "着工準備中",
+          "source": {
+            "name": "北海道電力ネットワーク：2026年度供給計画の概要",
+            "url": "https://www.hepco.co.jp/network/info/2025/__icsFiles/afieldfile/2026/03/30/260330_3.pdf",
+            "publishedAt": "2026-03-30",
+            "checkedAt": "2026-09-27"
+          },
+          "reason": "初回登録。公表版に記載された計画を保存。現在の工事進捗・運用開始は未確認。"
+        }
+      ],
+      "unknowns": [
+        "変更後の地理経路・個別母線結線は未照合",
+        "資料公表後の予定変更・現場進捗は未確認"
+      ],
+      "updateRequired": [
+        "地理経路",
+        "接続関係",
+        "設備情報・資産対応",
+        "OCCTO公表区間・正方向・方向別容量"
+      ],
+      "application": {
+        "status": "未反映",
+        "note": "将来接続を現行地図に追加しない。運用開始の一次資料と接続・潮流対応を確認後、別途更新する。"
+      },
+      "latestProgressReview": {
+        "checkedAt": null,
+        "note": "公表後の予定変更・工事進捗の最新性は未確認。資料確認日は最新性を確認した日ではありません。"
+      }
+    },
+    {
+      "id": "plan-hokkaido-i-interconnection",
+      "regions": [
+        "hokkaido"
+      ],
+      "targets": [
+        {
+          "name": "南早来線",
+          "assetIds": [],
+          "mapping": "現行資産との対応未確定・未登録"
+        },
+        {
+          "name": "Ｉ連系線",
+          "assetIds": [],
+          "mapping": "現行資産との対応未確定・未登録"
+        },
+        {
+          "name": "Ｉ変電所",
+          "assetIds": [],
+          "mapping": "現行資産との対応未確定・未登録"
+        }
+      ],
+      "changeType": "新設",
+      "revisions": [
+        {
+          "recordedAt": "2026-09-27",
+          "before": "南早来線の既設区間",
+          "after": "南早来線No.2―Ｉ変電所275kV新設",
+          "timing": [
+            {
+              "raw": "2030.10",
+              "precision": "month",
+              "year": 2030,
+              "month": 10,
+              "label": "使用開始"
+            }
+          ],
+          "status": "計画中",
+          "statusOriginal": "着工準備中",
+          "source": {
+            "name": "北海道電力ネットワーク：2026年度供給計画の概要",
+            "url": "https://www.hepco.co.jp/network/info/2025/__icsFiles/afieldfile/2026/03/30/260330_3.pdf",
+            "publishedAt": "2026-03-30",
+            "checkedAt": "2026-09-27"
+          },
+          "reason": "初回登録。公表版に記載された計画を保存。現在の工事進捗・運用開始は未確認。"
+        }
+      ],
+      "unknowns": [
+        "変更後の地理経路・個別母線結線は未照合",
+        "資料公表後の予定変更・現場進捗は未確認"
+      ],
+      "updateRequired": [
+        "地理経路",
+        "接続関係",
+        "設備情報・資産対応",
+        "OCCTO公表区間・正方向・方向別容量"
+      ],
+      "application": {
+        "status": "未反映",
+        "note": "将来接続を現行地図に追加しない。運用開始の一次資料と接続・潮流対応を確認後、別途更新する。"
+      },
+      "latestProgressReview": {
+        "checkedAt": null,
+        "note": "公表後の予定変更・工事進捗の最新性は未確認。資料確認日は最新性を確認した日ではありません。"
+      }
+    },
+    {
+      "id": "plan-hokkaido-kitaebetsu-bank",
+      "regions": [
+        "hokkaido"
+      ],
+      "targets": [
+        {
+          "name": "北江別変電所",
+          "assetIds": [
+            "asset-019a070f-f6f7-4af3-8dfe-82fda269a93b"
+          ],
+          "mapping": "既存資産に対応"
+        }
+      ],
+      "changeType": "設備容量変更",
+      "revisions": [
+        {
+          "recordedAt": "2026-09-27",
+          "before": "対象変圧器100MVA",
+          "after": "対象変圧器150MVA（施設全体の総容量ではない）",
+          "timing": [
+            {
+              "raw": "2027.7",
+              "precision": "month",
+              "year": 2027,
+              "month": 7,
+              "label": "使用開始"
+            }
+          ],
+          "status": "計画中",
+          "statusOriginal": "着工準備中",
+          "source": {
+            "name": "北海道電力ネットワーク：2026年度供給計画の概要",
+            "url": "https://www.hepco.co.jp/network/info/2025/__icsFiles/afieldfile/2026/03/30/260330_3.pdf",
+            "publishedAt": "2026-03-30",
+            "checkedAt": "2026-09-27"
+          },
+          "reason": "初回登録。公表版に記載された計画を保存。現在の工事進捗・運用開始は未確認。"
+        }
+      ],
+      "unknowns": [
+        "変更後の地理経路・個別母線結線は未照合",
+        "資料公表後の予定変更・現場進捗は未確認"
+      ],
+      "updateRequired": [
+        "地理経路",
+        "接続関係",
+        "設備情報・資産対応",
+        "OCCTO公表区間・正方向・方向別容量"
+      ],
+      "application": {
+        "status": "未反映",
+        "note": "将来接続を現行地図に追加しない。運用開始の一次資料と接続・潮流対応を確認後、別途更新する。"
+      },
+      "latestProgressReview": {
+        "checkedAt": null,
+        "note": "公表後の予定変更・工事進捗の最新性は未確認。資料確認日は最新性を確認した日ではありません。"
+      }
+    },
+    {
+      "id": "plan-hokkaido-otaru-g-branch",
+      "regions": [
+        "hokkaido"
+      ],
+      "targets": [
+        {
+          "name": "西小樽線",
+          "assetIds": [
+            "asset-14c027da-ca58-4e70-a611-6af01b71ff54"
+          ],
+          "mapping": "既存公表送29への関連。No.62の地理位置・物理種別は未同定。"
+        },
+        {
+          "name": "Ｇ支線・Ｇ変電所（公表符号）",
+          "assetIds": [],
+          "mapping": "未登録・名称符号化"
+        }
+      ],
+      "changeType": "支線新設",
+      "revisions": [
+        {
+          "recordedAt": "2026-09-27",
+          "before": "西小樽線の既設系統",
+          "after": "西小樽線No.62～Ｇ変電所、187kV・2回線・7.8kmの旧計画。",
+          "timing": [
+            {
+              "label": "運用開始",
+              "raw": "2029年2月",
+              "precision": "month",
+              "year": 2029,
+              "month": 2
+            }
+          ],
+          "status": "計画中",
+          "statusOriginal": "主要な設備工事計画（着工2026年5月）",
+          "source": {
+            "name": "北海道電力 第100期有価証券報告書（2023年度）p30",
+            "url": "https://www.hepco.co.jp/corporate/ir/ir_lib/pdf/100securities.pdf",
+            "publishedAt": "2024-06-27",
+            "checkedAt": "2026-09-27"
+          },
+          "reason": "旧公表版の予定を履歴として保存。現在の予定としては採用しない。"
+        },
+        {
+          "recordedAt": "2026-09-27",
+          "before": "西小樽線の既設系統",
+          "after": "西小樽線No.62～Ｇ変電所、187kV・2回線・8.0kmの計画。現行線へは未追加。",
+          "timing": [
+            {
+              "label": "使用開始",
+              "raw": "2033年度以降",
+              "precision": "fiscal-year",
+              "year": 2033,
+              "qualifier": "on-or-after"
+            }
+          ],
+          "status": "計画中",
+          "statusOriginal": "着工準備中（着工2028.5）",
+          "source": {
+            "name": "北海道電力ネットワーク：2026年度供給計画の概要",
+            "url": "https://www.hepco.co.jp/network/info/2025/__icsFiles/afieldfile/2026/03/30/260330_3.pdf",
+            "publishedAt": "2026-03-30",
+            "checkedAt": "2026-09-27"
+          },
+          "reason": "2024公表版の2029年2月・7.8kmから、2026供給計画版の2033年度以降・8.0kmへの変更を確認。変更理由・その後の工程は未確認。"
+        }
+      ],
+      "unknowns": [
+        "No.62の地理対応・Ｇ変電所の実名と位置は未確認",
+        "最新の工程・着工状況は未確認"
+      ],
+      "updateRequired": [
+        "公表端点・バンク対象の確認",
+        "地理・接続関係",
+        "設備情報",
+        "必要なOCCTO対応"
+      ],
+      "application": {
+        "status": "未反映",
+        "note": "予定時期だけでは現行地図・設備情報を更新しません。運用開始と対象設備の一次資料確認が必要。"
+      },
+      "latestProgressReview": {
+        "checkedAt": null,
+        "note": "公表後の予定変更・工事進捗の最新性は未確認。"
+      }
+    },
+    {
+      "id": "plan-hokkaido-otaru-bank-2026",
+      "regions": [
+        "hokkaido"
+      ],
+      "targets": [
+        {
+          "name": "西小樽変電所・容量変更公表行（2026年使用開始予定）",
+          "assetIds": [
+            "asset-754d5bef-1ec9-4c65-b67c-c48465b21e1e"
+          ],
+          "mapping": "施設への関連。個別バンクIDは資料に記載なく未対応。他の公表行と合算しない。"
+        }
+      ],
+      "changeType": "バンク容量変更",
+      "revisions": [
+        {
+          "recordedAt": "2026-09-27",
+          "before": "対象変圧器187/66kV・100MVA",
+          "after": "対象変圧器100→150MVA（増加50MVA）。施設全体の容量ではありません。",
+          "timing": [
+            {
+              "label": "使用開始",
+              "raw": "2026.7",
+              "precision": "month",
+              "year": 2026,
+              "month": 7
+            }
+          ],
+          "status": "工事中",
+          "statusOriginal": "工事中（着工2025.9）",
+          "source": {
+            "name": "北海道電力ネットワーク：2026年度供給計画の概要",
+            "url": "https://www.hepco.co.jp/network/info/2025/__icsFiles/afieldfile/2026/03/30/260330_3.pdf",
+            "publishedAt": "2026-03-30",
+            "checkedAt": "2026-09-27"
+          },
+          "reason": "今回対象に関連する公表計画を保存済み資料の図表で確認し登録。公表後の進捗を確認した意味ではない。"
+        }
+      ],
+      "unknowns": [
+        "対象バンク番号と2つの容量変更行の個別対応は未確認",
+        "設備一覧2026-08-28版の変212群と当該計画の反映関係は未確認",
+        "予定時期の経過だけで運用開始確認済みとしない"
+      ],
+      "updateRequired": [
+        "公表端点・バンク対象の確認",
+        "地理・接続関係",
+        "設備情報",
+        "必要なOCCTO対応"
+      ],
+      "application": {
+        "status": "未反映",
+        "note": "予定時期だけでは現行地図・設備情報を更新しません。運用開始と対象設備の一次資料確認が必要。"
+      },
+      "latestProgressReview": {
+        "checkedAt": null,
+        "note": "公表後の予定変更・工事進捗の最新性は未確認。"
+      }
+    },
+    {
+      "id": "plan-hokkaido-otaru-bank-2027",
+      "regions": [
+        "hokkaido"
+      ],
+      "targets": [
+        {
+          "name": "西小樽変電所・容量変更公表行（2027年使用開始予定）",
+          "assetIds": [
+            "asset-754d5bef-1ec9-4c65-b67c-c48465b21e1e"
+          ],
+          "mapping": "施設への関連。個別バンクIDは資料に記載なく未対応。他の公表行と合算しない。"
+        }
+      ],
+      "changeType": "バンク容量変更",
+      "revisions": [
+        {
+          "recordedAt": "2026-09-27",
+          "before": "対象変圧器187/66kV・100MVA",
+          "after": "対象変圧器100→150MVA（増加50MVA）。施設全体の容量ではありません。",
+          "timing": [
+            {
+              "label": "使用開始",
+              "raw": "2027.10",
+              "precision": "month",
+              "year": 2027,
+              "month": 10
+            }
+          ],
+          "status": "計画中",
+          "statusOriginal": "着工準備中（着工2026.10）",
+          "source": {
+            "name": "北海道電力ネットワーク：2026年度供給計画の概要",
+            "url": "https://www.hepco.co.jp/network/info/2025/__icsFiles/afieldfile/2026/03/30/260330_3.pdf",
+            "publishedAt": "2026-03-30",
+            "checkedAt": "2026-09-27"
+          },
+          "reason": "今回対象に関連する公表計画を保存済み資料の図表で確認し登録。公表後の進捗を確認した意味ではない。"
+        }
+      ],
+      "unknowns": [
+        "対象バンク番号と2つの容量変更行の個別対応は未確認",
+        "設備一覧2026-08-28版の変212群と当該計画の反映関係は未確認",
+        "予定時期の経過だけで運用開始確認済みとしない"
+      ],
+      "updateRequired": [
+        "公表端点・バンク対象の確認",
+        "地理・接続関係",
+        "設備情報",
+        "必要なOCCTO対応"
+      ],
+      "application": {
+        "status": "未反映",
+        "note": "予定時期だけでは現行地図・設備情報を更新しません。運用開始と対象設備の一次資料確認が必要。"
+      },
+      "latestProgressReview": {
+        "checkedAt": null,
+        "note": "公表後の予定変更・工事進捗の最新性は未確認。"
+      }
+    },
+    {
+      "id": "plan-hokkaido-tomakomai-bank-2028",
+      "regions": [
+        "hokkaido"
+      ],
+      "targets": [
+        {
+          "name": "苫小牧変電所・容量変更公表行",
+          "assetIds": [
+            "asset-533e3e85-3059-4547-88ca-6b2ccd89f26b"
+          ],
+          "mapping": "施設への関連。対象バンク番号は未確認。施設総容量ではない。"
+        }
+      ],
+      "changeType": "バンク容量変更",
+      "revisions": [
+        {
+          "recordedAt": "2026-09-27",
+          "before": "対象変圧器187/66kV・100MVA",
+          "after": "対象変圧器100→150MVA（増加50MVA）。施設全体の容量ではありません。",
+          "timing": [
+            {
+              "label": "使用開始",
+              "raw": "2028.6",
+              "precision": "month",
+              "year": 2028,
+              "month": 6
+            }
+          ],
+          "status": "計画中",
+          "statusOriginal": "着工準備中（着工2026.7）",
+          "source": {
+            "name": "北海道電力ネットワーク：2026年度供給計画の概要",
+            "url": "https://www.hepco.co.jp/network/info/2025/__icsFiles/afieldfile/2026/03/30/260330_3.pdf",
+            "publishedAt": "2026-03-30",
+            "checkedAt": "2026-09-27"
+          },
+          "reason": "今回対象に関連する公表計画を保存済み資料の図表で確認し登録。公表後の進捗を確認した意味ではない。"
+        }
+      ],
+      "unknowns": [
+        "対象バンク番号は未確認",
+        "設備一覧2026-08-28版の変222群と計画対象の個別対応は未確認",
+        "資料公表後の着工・予定変更は未確認"
+      ],
+      "updateRequired": [
+        "公表端点・バンク対象の確認",
+        "地理・接続関係",
+        "設備情報",
+        "必要なOCCTO対応"
+      ],
+      "application": {
+        "status": "未反映",
+        "note": "予定時期だけでは現行地図・設備情報を更新しません。運用開始と対象設備の一次資料確認が必要。"
+      },
+      "latestProgressReview": {
+        "checkedAt": null,
+        "note": "公表後の予定変更・工事進捗の最新性は未確認。"
+      }
+    },
+    {
+      "id": "plan-hokkaido-urien-bank-2027",
+      "regions": [
+        "hokkaido"
+      ],
+      "targets": [
+        {
+          "name": "宇円別変電所・容量変更公表行",
+          "assetIds": [
+            "asset-ae118364-44d6-4896-9102-e5b51dc25a4b"
+          ],
+          "mapping": "施設への関連。対象バンク番号は未確認。施設総容量ではない。"
+        }
+      ],
+      "changeType": "バンク容量変更",
+      "revisions": [
+        {
+          "recordedAt": "2026-09-27",
+          "before": "対象変圧器187/66kV・75MVA",
+          "after": "対象変圧器75→100MVA（増加25MVA）。施設全体の容量ではありません。",
+          "timing": [
+            {
+              "label": "使用開始",
+              "raw": "2027.6",
+              "precision": "month",
+              "year": 2027,
+              "month": 6
+            }
+          ],
+          "status": "工事中",
+          "statusOriginal": "工事中（着工2025.9）",
+          "source": {
+            "name": "北海道電力ネットワーク：2026年度供給計画の概要",
+            "url": "https://www.hepco.co.jp/network/info/2025/__icsFiles/afieldfile/2026/03/30/260330_3.pdf",
+            "publishedAt": "2026-03-30",
+            "checkedAt": "2026-09-27"
+          },
+          "reason": "今回対象に関連する公表計画を保存済み資料の図表で確認し登録。公表後の進捗を確認した意味ではない。"
+        }
+      ],
+      "unknowns": [
+        "対象バンク番号は未確認",
+        "設備一覧2026-08-28版の変215群と計画対象の個別対応は未確認",
+        "公表後の予定変更・工事進捗の最新性は未確認"
+      ],
+      "updateRequired": [
+        "公表端点・バンク対象の確認",
+        "地理・接続関係",
+        "設備情報",
+        "必要なOCCTO対応"
+      ],
+      "application": {
+        "status": "未反映",
+        "note": "予定時期だけでは現行地図・設備情報を更新しません。運用開始と対象設備の一次資料確認が必要。"
+      },
+      "latestProgressReview": {
+        "checkedAt": null,
+        "note": "公表後の予定変更・工事進捗の最新性は未確認。"
+      }
+    }
+  ]
+}

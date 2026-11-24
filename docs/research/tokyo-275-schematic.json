@@ -1,0 +1,1105 @@
+{
+  "tier": "D",
+  "decision": "オーナー判断（2026-09-30）：両端は分かるがルート不明の線は直線で描く。地中送電線は点線、架空送電線は実線。",
+  "lines": [
+    {
+      "id": "tokyo-section-95",
+      "assetId": "tokyo-section-95",
+      "name": "東新宿線（ルート不明・直線）",
+      "voltageKV": 275,
+      "currentType": "ac",
+      "named": true,
+      "schematic": true,
+      "construction": "underground",
+      "paths": [
+        [
+          [
+            35.654713512499995,
+            139.50275851249998
+          ],
+          [
+            35.69206445714286,
+            139.7103690857143
+          ]
+        ]
+      ],
+      "osmIds": [
+        -95
+      ],
+      "sourceOsmIds": [],
+      "connections": [
+        {
+          "node": 0,
+          "position": [
+            35.654713512499995,
+            139.50275851249998
+          ],
+          "status": "facility-area",
+          "facilities": [
+            {
+              "id": "osm-way-111380415",
+              "name": "北多摩変電所"
+            }
+          ],
+          "neighborWays": []
+        },
+        {
+          "node": 0,
+          "position": [
+            35.69206445714286,
+            139.7103690857143
+          ],
+          "status": "facility-area",
+          "facilities": [
+            {
+              "id": "osm-way-1078889985",
+              "name": "東新宿変電所"
+            }
+          ],
+          "neighborWays": []
+        }
+      ],
+      "referenceReview": {
+        "status": "section",
+        "endpoints": "北多摩変電所―東新宿変電所（直線・ルート不明）"
+      },
+      "attributes": [
+        {
+          "label": "要注意（D区分・ルート不明）",
+          "value": "両端は分かるが地理経路がOSMに登録されていないため、両端を直線で結んだ表示。実際のルートではない。オーナー判断（2026-09-30）による既存規則「不明区間を直線で補間しない」の例外。"
+        },
+        {
+          "label": "公表区間",
+          "value": "東京PG 基幹275kV No.95：北多摩―東新宿（2回線）"
+        },
+        {
+          "label": "地中・架空",
+          "value": "地中送電線と推定（両端付近の275kV線分が地中ケーブル）→点線（北多摩変電所付近：地中1・架空0線分、東新宿変電所付近：地中1・架空0線分）。"
+        },
+        {
+          "label": "出典",
+          "value": "東京PG系統構成・設備一覧2026-06-22版。端点の位置はOSMの設備登録（点の場合はその位置）。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo-section-105",
+      "assetId": "tokyo-section-105",
+      "name": "南川崎線（ルート不明・直線）",
+      "voltageKV": 275,
+      "currentType": "ac",
+      "named": true,
+      "schematic": true,
+      "construction": "unknown",
+      "paths": [
+        [
+          [
+            35.43112725526315,
+            139.50046115000004
+          ],
+          [
+            35.50004784285714,
+            139.71146104285714
+          ]
+        ]
+      ],
+      "osmIds": [
+        -105
+      ],
+      "sourceOsmIds": [],
+      "connections": [
+        {
+          "node": 0,
+          "position": [
+            35.43112725526315,
+            139.50046115000004
+          ],
+          "status": "facility-area",
+          "facilities": [
+            {
+              "id": "osm-way-128364781",
+              "name": "京浜変電所"
+            }
+          ],
+          "neighborWays": []
+        },
+        {
+          "node": 0,
+          "position": [
+            35.50004784285714,
+            139.71146104285714
+          ],
+          "status": "facility-area",
+          "facilities": [
+            {
+              "id": "osm-way-82104580",
+              "name": "南川崎変電所"
+            }
+          ],
+          "neighborWays": []
+        }
+      ],
+      "referenceReview": {
+        "status": "section",
+        "endpoints": "京浜変電所―南川崎変電所（直線・ルート不明）"
+      },
+      "attributes": [
+        {
+          "label": "要注意（D区分・ルート不明）",
+          "value": "両端は分かるが地理経路がOSMに登録されていないため、両端を直線で結んだ表示。実際のルートではない。オーナー判断（2026-09-30）による既存規則「不明区間を直線で補間しない」の例外。"
+        },
+        {
+          "label": "公表区間",
+          "value": "東京PG 基幹275kV No.105：京浜―南川崎（3回線）"
+        },
+        {
+          "label": "地中・架空",
+          "value": "地中・架空の別は不明（両端付近の275kV線分が一方になし、または地中・架空が混在）→破線（京浜変電所付近：地中0・架空22線分、南川崎変電所付近：地中1・架空0線分）。"
+        },
+        {
+          "label": "出典",
+          "value": "東京PG系統構成・設備一覧2026-06-22版。端点の位置はOSMの設備登録（点の場合はその位置）。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo-section-122",
+      "assetId": "tokyo-section-122",
+      "name": "北与野線（ルート不明・直線）",
+      "voltageKV": 275,
+      "currentType": "ac",
+      "named": true,
+      "schematic": true,
+      "construction": "unknown",
+      "paths": [
+        [
+          [
+            35.969024260000005,
+            139.61198695
+          ],
+          [
+            35.888617239999995,
+            139.61592919999998
+          ]
+        ]
+      ],
+      "osmIds": [
+        -122
+      ],
+      "sourceOsmIds": [],
+      "connections": [
+        {
+          "node": 0,
+          "position": [
+            35.969024260000005,
+            139.61198695
+          ],
+          "status": "facility-area",
+          "facilities": [
+            {
+              "id": "osm-way-195406884",
+              "name": "上尾変電所"
+            }
+          ],
+          "neighborWays": []
+        },
+        {
+          "node": 0,
+          "position": [
+            35.888617239999995,
+            139.61592919999998
+          ],
+          "status": "facility-area",
+          "facilities": [
+            {
+              "id": "osm-way-516833747",
+              "name": "北与野変電所"
+            }
+          ],
+          "neighborWays": []
+        }
+      ],
+      "referenceReview": {
+        "status": "section",
+        "endpoints": "上尾変電所―北与野変電所（直線・ルート不明）"
+      },
+      "attributes": [
+        {
+          "label": "要注意（D区分・ルート不明）",
+          "value": "両端は分かるが地理経路がOSMに登録されていないため、両端を直線で結んだ表示。実際のルートではない。オーナー判断（2026-09-30）による既存規則「不明区間を直線で補間しない」の例外。"
+        },
+        {
+          "label": "公表区間",
+          "value": "東京PG 基幹275kV No.122：上尾―北与野（2回線）"
+        },
+        {
+          "label": "地中・架空",
+          "value": "地中・架空の別は不明（両端付近の275kV線分が一方になし、または地中・架空が混在）→破線（上尾変電所付近：地中1・架空3線分、北与野変電所付近：地中0・架空0線分）。"
+        },
+        {
+          "label": "出典",
+          "value": "東京PG系統構成・設備一覧2026-06-22版。端点の位置はOSMの設備登録（点の場合はその位置）。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo-section-127",
+      "assetId": "tokyo-section-127",
+      "name": "高輪線（ルート不明・直線）",
+      "voltageKV": 275,
+      "currentType": "ac",
+      "named": true,
+      "schematic": true,
+      "construction": "underground",
+      "paths": [
+        [
+          [
+            35.6692958,
+            139.7574331
+          ],
+          [
+            35.6352916,
+            139.7340851
+          ]
+        ]
+      ],
+      "osmIds": [
+        -127
+      ],
+      "sourceOsmIds": [],
+      "connections": [
+        {
+          "node": 0,
+          "position": [
+            35.6692958,
+            139.7574331
+          ],
+          "status": "facility-area",
+          "facilities": [
+            {
+              "id": "osm-node-14154350044",
+              "name": "東内幸町変電所"
+            }
+          ],
+          "neighborWays": []
+        },
+        {
+          "node": 0,
+          "position": [
+            35.6352916,
+            139.7340851
+          ],
+          "status": "facility-area",
+          "facilities": [
+            {
+              "id": "osm-node-14111800029",
+              "name": "高輪変電所"
+            }
+          ],
+          "neighborWays": []
+        }
+      ],
+      "referenceReview": {
+        "status": "section",
+        "endpoints": "東内幸町変電所―高輪変電所（直線・ルート不明）"
+      },
+      "attributes": [
+        {
+          "label": "要注意（D区分・ルート不明）",
+          "value": "両端は分かるが地理経路がOSMに登録されていないため、両端を直線で結んだ表示。実際のルートではない。オーナー判断（2026-09-30）による既存規則「不明区間を直線で補間しない」の例外。"
+        },
+        {
+          "label": "公表区間",
+          "value": "東京PG 基幹275kV No.127：東内幸町―高輪（3回線）"
+        },
+        {
+          "label": "地中・架空",
+          "value": "地中送電線と推定（両端付近の275kV線分が地中ケーブル）→点線（東内幸町変電所付近：地中1・架空0線分、高輪変電所付近：地中1・架空0線分）。"
+        },
+        {
+          "label": "出典",
+          "value": "東京PG系統構成・設備一覧2026-06-22版。端点の位置はOSMの設備登録（点の場合はその位置）。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo-section-137",
+      "assetId": "tokyo-section-137",
+      "name": "葛南世田谷線（ルート不明・直線）",
+      "voltageKV": 275,
+      "currentType": "ac",
+      "named": true,
+      "schematic": true,
+      "construction": "unknown",
+      "paths": [
+        [
+          [
+            35.665877171428576,
+            139.90767052857143
+          ],
+          [
+            35.63180833333333,
+            139.65019951666667
+          ]
+        ]
+      ],
+      "osmIds": [
+        -137
+      ],
+      "sourceOsmIds": [],
+      "connections": [
+        {
+          "node": 0,
+          "position": [
+            35.665877171428576,
+            139.90767052857143
+          ],
+          "status": "facility-area",
+          "facilities": [
+            {
+              "id": "osm-way-1137461235",
+              "name": "葛南変電所"
+            }
+          ],
+          "neighborWays": []
+        },
+        {
+          "node": 0,
+          "position": [
+            35.63180833333333,
+            139.65019951666667
+          ],
+          "status": "facility-area",
+          "facilities": [
+            {
+              "id": "osm-way-1078944857",
+              "name": "世田谷変電所"
+            }
+          ],
+          "neighborWays": []
+        }
+      ],
+      "referenceReview": {
+        "status": "section",
+        "endpoints": "葛南変電所―世田谷変電所（直線・ルート不明）"
+      },
+      "attributes": [
+        {
+          "label": "要注意（D区分・ルート不明）",
+          "value": "両端は分かるが地理経路がOSMに登録されていないため、両端を直線で結んだ表示。実際のルートではない。オーナー判断（2026-09-30）による既存規則「不明区間を直線で補間しない」の例外。"
+        },
+        {
+          "label": "公表区間",
+          "value": "東京PG 基幹275kV No.137：葛南―世田谷（3回線）"
+        },
+        {
+          "label": "地中・架空",
+          "value": "地中・架空の別は不明（両端付近の275kV線分が一方になし、または地中・架空が混在）→破線（葛南変電所付近：地中1・架空1線分、世田谷変電所付近：地中1・架空0線分）。"
+        },
+        {
+          "label": "出典",
+          "value": "東京PG系統構成・設備一覧2026-06-22版。端点の位置はOSMの設備登録（点の場合はその位置）。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo-section-140",
+      "assetId": "tokyo-section-140",
+      "name": "豊洲内幸町線（ルート不明・直線）",
+      "voltageKV": 275,
+      "currentType": "ac",
+      "named": true,
+      "schematic": true,
+      "construction": "underground",
+      "paths": [
+        [
+          [
+            35.64785425238095,
+            139.79082304761906
+          ],
+          [
+            35.6692958,
+            139.7574331
+          ]
+        ]
+      ],
+      "osmIds": [
+        -140
+      ],
+      "sourceOsmIds": [],
+      "connections": [
+        {
+          "node": 0,
+          "position": [
+            35.64785425238095,
+            139.79082304761906
+          ],
+          "status": "facility-area",
+          "facilities": [
+            {
+              "id": "osm-relation-2269992",
+              "name": "新豊洲変電所"
+            }
+          ],
+          "neighborWays": []
+        },
+        {
+          "node": 0,
+          "position": [
+            35.6692958,
+            139.7574331
+          ],
+          "status": "facility-area",
+          "facilities": [
+            {
+              "id": "osm-node-14154350044",
+              "name": "東内幸町変電所"
+            }
+          ],
+          "neighborWays": []
+        }
+      ],
+      "referenceReview": {
+        "status": "section",
+        "endpoints": "新豊洲変電所―東内幸町変電所（直線・ルート不明）"
+      },
+      "attributes": [
+        {
+          "label": "要注意（D区分・ルート不明）",
+          "value": "両端は分かるが地理経路がOSMに登録されていないため、両端を直線で結んだ表示。実際のルートではない。オーナー判断（2026-09-30）による既存規則「不明区間を直線で補間しない」の例外。"
+        },
+        {
+          "label": "公表区間",
+          "value": "東京PG 基幹275kV No.140：新豊洲―東内幸町（3回線）"
+        },
+        {
+          "label": "地中・架空",
+          "value": "地中送電線と推定（両端付近の275kV線分が地中ケーブル）→点線（新豊洲変電所付近：地中1・架空0線分、東内幸町変電所付近：地中1・架空0線分）。"
+        },
+        {
+          "label": "出典",
+          "value": "東京PG系統構成・設備一覧2026-06-22版。端点の位置はOSMの設備登録（点の場合はその位置）。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo-section-93",
+      "assetId": "tokyo-section-93",
+      "name": "横浜港北線（ルート不明・直線）",
+      "voltageKV": 275,
+      "currentType": "ac",
+      "named": true,
+      "schematic": true,
+      "construction": "unknown",
+      "paths": [
+        [
+          [
+            35.53624979393939,
+            139.6027699333333
+          ],
+          [
+            35.474170900000004,
+            139.67885078846155
+          ]
+        ]
+      ],
+      "osmIds": [
+        -93
+      ],
+      "sourceOsmIds": [],
+      "connections": [
+        {
+          "node": 0,
+          "position": [
+            35.53624979393939,
+            139.6027699333333
+          ],
+          "status": "facility-area",
+          "facilities": [
+            {
+              "id": "osm-way-119180604",
+              "name": "港北変電所"
+            }
+          ],
+          "neighborWays": []
+        },
+        {
+          "node": 0,
+          "position": [
+            35.474170900000004,
+            139.67885078846155
+          ],
+          "status": "facility-area",
+          "facilities": [
+            {
+              "id": "osm-way-605327349",
+              "name": "横浜火力発電所"
+            }
+          ],
+          "neighborWays": []
+        }
+      ],
+      "referenceReview": {
+        "status": "section",
+        "endpoints": "港北変電所―横浜火力発電所（直線・ルート不明）"
+      },
+      "attributes": [
+        {
+          "label": "要注意（D区分・ルート不明）",
+          "value": "両端は分かるが地理経路がOSMに登録されていないため、両端を直線で結んだ表示。実際のルートではない。オーナー判断（2026-09-30）による既存規則「不明区間を直線で補間しない」の例外。"
+        },
+        {
+          "label": "公表区間",
+          "value": "東京PG 基幹275kV No.93：港北―発電所（4回線）"
+        },
+        {
+          "label": "端点の特定",
+          "value": "東京PG資料は発電所端点を匿名化。線名「横浜港北線」と系統構成図の発電所記号の位置（横浜大黒付近）から横浜火力発電所と推定。"
+        },
+        {
+          "label": "地中・架空",
+          "value": "地中・架空の別は不明（両端付近の275kV線分が一方になし、または地中・架空が混在）→破線（港北変電所付近：地中0・架空3線分、横浜火力発電所付近：地中0・架空0線分）。"
+        },
+        {
+          "label": "出典",
+          "value": "東京PG系統構成・設備一覧2026-06-22版。端点の位置はOSMの設備登録（点の場合はその位置）。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo-section-129",
+      "assetId": "tokyo-section-129",
+      "name": "川崎高輪線（ルート不明・直線）",
+      "voltageKV": 275,
+      "currentType": "ac",
+      "named": true,
+      "schematic": true,
+      "construction": "unknown",
+      "paths": [
+        [
+          [
+            35.6352916,
+            139.7340851
+          ],
+          [
+            35.513742778571434,
+            139.7644591357143
+          ]
+        ]
+      ],
+      "osmIds": [
+        -129
+      ],
+      "sourceOsmIds": [],
+      "connections": [
+        {
+          "node": 0,
+          "position": [
+            35.6352916,
+            139.7340851
+          ],
+          "status": "facility-area",
+          "facilities": [
+            {
+              "id": "osm-node-14111800029",
+              "name": "高輪変電所"
+            }
+          ],
+          "neighborWays": []
+        },
+        {
+          "node": 0,
+          "position": [
+            35.513742778571434,
+            139.7644591357143
+          ],
+          "status": "facility-area",
+          "facilities": [
+            {
+              "id": "osm-way-605327354",
+              "name": "川崎火力発電所"
+            }
+          ],
+          "neighborWays": []
+        }
+      ],
+      "referenceReview": {
+        "status": "section",
+        "endpoints": "高輪変電所―川崎火力発電所（直線・ルート不明）"
+      },
+      "attributes": [
+        {
+          "label": "要注意（D区分・ルート不明）",
+          "value": "両端は分かるが地理経路がOSMに登録されていないため、両端を直線で結んだ表示。実際のルートではない。オーナー判断（2026-09-30）による既存規則「不明区間を直線で補間しない」の例外。"
+        },
+        {
+          "label": "公表区間",
+          "value": "東京PG 基幹275kV No.129：高輪―発電所（3回線）"
+        },
+        {
+          "label": "端点の特定",
+          "value": "東京PG資料は発電所端点を匿名化。線名「川崎高輪線」から川崎火力発電所と推定（系統構成図の発電所記号は東川崎付近）。"
+        },
+        {
+          "label": "地中・架空",
+          "value": "地中・架空の別は不明（両端付近の275kV線分が一方になし、または地中・架空が混在）→破線（高輪変電所付近：地中1・架空0線分、川崎火力発電所付近：地中0・架空0線分）。"
+        },
+        {
+          "label": "出典",
+          "value": "東京PG系統構成・設備一覧2026-06-22版。端点の位置はOSMの設備登録（点の場合はその位置）。"
+        }
+      ]
+    },
+    {
+      "id": "tokyo-section-139",
+      "assetId": "tokyo-section-139",
+      "name": "川崎豊洲線（ルート不明・直線）",
+      "voltageKV": 275,
+      "currentType": "ac",
+      "named": true,
+      "schematic": true,
+      "construction": "unknown",
+      "paths": [
+        [
+          [
+            35.64785425238095,
+            139.79082304761906
+          ],
+          [
+            35.513742778571434,
+            139.7644591357143
+          ]
+        ]
+      ],
+      "osmIds": [
+        -139
+      ],
+      "sourceOsmIds": [],
+      "connections": [
+        {
+          "node": 0,
+          "position": [
+            35.64785425238095,
+            139.79082304761906
+          ],
+          "status": "facility-area",
+          "facilities": [
+            {
+              "id": "osm-relation-2269992",
+              "name": "新豊洲変電所"
+            }
+          ],
+          "neighborWays": []
+        },
+        {
+          "node": 0,
+          "position": [
+            35.513742778571434,
+            139.7644591357143
+          ],
+          "status": "facility-area",
+          "facilities": [
+            {
+              "id": "osm-way-605327354",
+              "name": "川崎火力発電所"
+            }
+          ],
+          "neighborWays": []
+        }
+      ],
+      "referenceReview": {
+        "status": "section",
+        "endpoints": "新豊洲変電所―川崎火力発電所（直線・ルート不明）"
+      },
+      "attributes": [
+        {
+          "label": "要注意（D区分・ルート不明）",
+          "value": "両端は分かるが地理経路がOSMに登録されていないため、両端を直線で結んだ表示。実際のルートではない。オーナー判断（2026-09-30）による既存規則「不明区間を直線で補間しない」の例外。"
+        },
+        {
+          "label": "公表区間",
+          "value": "東京PG 基幹275kV No.139：新豊洲―発電所（3回線）"
+        },
+        {
+          "label": "端点の特定",
+          "value": "東京PG資料は発電所端点を匿名化。線名「川崎豊洲線」から川崎火力発電所と推定。"
+        },
+        {
+          "label": "地中・架空",
+          "value": "地中・架空の別は不明（両端付近の275kV線分が一方になし、または地中・架空が混在）→破線（新豊洲変電所付近：地中1・架空0線分、川崎火力発電所付近：地中0・架空0線分）。"
+        },
+        {
+          "label": "出典",
+          "value": "東京PG系統構成・設備一覧2026-06-22版。端点の位置はOSMの設備登録（点の場合はその位置）。"
+        }
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "id": "osm-way-111380415",
+      "assetId": "asset-05c46b52-c696-4fe1-8f3c-6a4fcbd287da",
+      "name": "北多摩変電所",
+      "kind": "substation",
+      "position": [
+        35.654713512499995,
+        139.50275851249998
+      ],
+      "voltages": [
+        275
+      ],
+      "scopeConnected": true,
+      "url": "https://www.openstreetmap.org/way/111380415",
+      "attributes": [
+        {
+          "label": "OSM登録事業者",
+          "value": "東京電力株式会社"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-1078889985",
+      "assetId": "asset-305e248d-d520-4969-9174-2c6e28c4c1bc",
+      "name": "東新宿変電所",
+      "kind": "substation",
+      "position": [
+        35.69206445714286,
+        139.7103690857143
+      ],
+      "voltages": [
+        275
+      ],
+      "scopeConnected": true,
+      "url": "https://www.openstreetmap.org/way/1078889985",
+      "attributes": [
+        {
+          "label": "OSM登録事業者",
+          "value": "東京電力パワーグリッド"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-128364781",
+      "assetId": "asset-859ed632-c56b-4c92-bab5-46c6654e9c79",
+      "name": "京浜変電所",
+      "kind": "substation",
+      "position": [
+        35.43112725526315,
+        139.50046115000004
+      ],
+      "voltages": [
+        275,
+        154
+      ],
+      "scopeConnected": true,
+      "url": "https://www.openstreetmap.org/way/128364781",
+      "attributes": [
+        {
+          "label": "OSM登録事業者",
+          "value": "東京電力パワーグリッド"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-82104580",
+      "assetId": "asset-3635c305-7b51-4e59-a805-5e45cfd34aec",
+      "name": "南川崎変電所",
+      "kind": "substation",
+      "position": [
+        35.50004784285714,
+        139.71146104285714
+      ],
+      "voltages": [
+        275,
+        154
+      ],
+      "scopeConnected": true,
+      "url": "https://www.openstreetmap.org/way/82104580",
+      "attributes": [
+        {
+          "label": "OSM登録事業者",
+          "value": "東京電力パワーグリッド"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-195406884",
+      "assetId": "asset-bfd6a029-8ebc-42f4-a16c-3f12ce16f47b",
+      "name": "上尾変電所",
+      "kind": "substation",
+      "position": [
+        35.969024260000005,
+        139.61198695
+      ],
+      "voltages": [
+        275
+      ],
+      "scopeConnected": true,
+      "url": "https://www.openstreetmap.org/way/195406884",
+      "attributes": [
+        {
+          "label": "OSM登録事業者",
+          "value": "東京電力パワーグリッド"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-516833747",
+      "assetId": "asset-52ef44d2-a992-41bc-9705-2b1a4b1b3fdf",
+      "name": "北与野変電所",
+      "kind": "substation",
+      "position": [
+        35.888617239999995,
+        139.61592919999998
+      ],
+      "voltages": [
+        275
+      ],
+      "scopeConnected": true,
+      "url": "https://www.openstreetmap.org/way/516833747",
+      "attributes": []
+    },
+    {
+      "id": "osm-node-14154350044",
+      "assetId": "asset-ce44e666-05af-46f3-b896-e0203bc40258",
+      "name": "東内幸町変電所",
+      "kind": "substation",
+      "position": [
+        35.6692958,
+        139.7574331
+      ],
+      "voltages": [
+        275
+      ],
+      "scopeConnected": true,
+      "url": "https://www.openstreetmap.org/node/14154350044",
+      "attributes": [
+        {
+          "label": "OSM登録事業者",
+          "value": "東京電力パワーグリッド"
+        },
+        {
+          "label": "位置",
+          "value": "OSMでは点として登録（屋内・地下変電所の可能性）。区画は半径120mの範囲として照合。"
+        }
+      ]
+    },
+    {
+      "id": "osm-node-14111800029",
+      "assetId": "asset-f3dab34e-3988-4bf6-ba96-5db2ef3d3467",
+      "name": "高輪変電所",
+      "kind": "substation",
+      "position": [
+        35.6352916,
+        139.7340851
+      ],
+      "voltages": [
+        275
+      ],
+      "scopeConnected": true,
+      "url": "https://www.openstreetmap.org/node/14111800029",
+      "attributes": [
+        {
+          "label": "位置",
+          "value": "OSMでは点として登録（屋内・地下変電所の可能性）。"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-1137461235",
+      "assetId": "asset-2244959d-59ae-4b93-b298-46dd775f05f1",
+      "name": "葛南変電所",
+      "kind": "substation",
+      "position": [
+        35.665877171428576,
+        139.90767052857143
+      ],
+      "voltages": [
+        275
+      ],
+      "scopeConnected": true,
+      "url": "https://www.openstreetmap.org/way/1137461235",
+      "attributes": [
+        {
+          "label": "OSM登録事業者",
+          "value": "東京電力パワーグリッド"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-1078944857",
+      "assetId": "asset-7c7b0736-2792-4e1a-811a-4abd9b92d604",
+      "name": "世田谷変電所",
+      "kind": "substation",
+      "position": [
+        35.63180833333333,
+        139.65019951666667
+      ],
+      "voltages": [
+        275
+      ],
+      "scopeConnected": true,
+      "url": "https://www.openstreetmap.org/way/1078944857",
+      "attributes": [
+        {
+          "label": "OSM登録事業者",
+          "value": "東京電力パワーグリッド"
+        }
+      ]
+    },
+    {
+      "id": "osm-relation-2269992",
+      "assetId": "asset-cbadec49-0cd5-4fcb-add4-6fa7490b096c",
+      "name": "新豊洲変電所",
+      "kind": "substation",
+      "position": [
+        35.64785425238095,
+        139.79082304761906
+      ],
+      "voltages": [
+        500
+      ],
+      "scopeConnected": true,
+      "url": "https://www.openstreetmap.org/relation/2269992",
+      "attributes": [
+        {
+          "label": "公表端点の照合",
+          "value": "東京PG No.133 新豊洲線の公表端点。OSMのrelation区画（地中変電所の地上区画）。"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-119180604",
+      "assetId": "asset-1a0fbb1d-1afa-47b3-88e1-96d9c239f771",
+      "name": "港北変電所",
+      "kind": "substation",
+      "position": [
+        35.53624979393939,
+        139.6027699333333
+      ],
+      "voltages": [
+        275,
+        154
+      ],
+      "scopeConnected": true,
+      "url": "https://www.openstreetmap.org/way/119180604",
+      "attributes": [
+        {
+          "label": "OSM登録事業者",
+          "value": "東京電力パワーグリッド"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-605327349",
+      "assetId": "asset-a39c6c49-ed82-401e-9683-f5571b136fbc",
+      "name": "横浜火力発電所",
+      "kind": "plant",
+      "position": [
+        35.474170900000004,
+        139.67885078846155
+      ],
+      "voltages": [],
+      "scopeConnected": false,
+      "url": "https://www.openstreetmap.org/way/605327349",
+      "attributes": [
+        {
+          "label": "要注意（C区分）",
+          "value": "一次資料で公表区間・端点を確定できず、OSMの地理登録だけで描いた参考表示。"
+        },
+        {
+          "label": "OSM登録",
+          "value": "種別：ガス、事業者：東京電力株式会社。出力・運転状態・号機構成は未照合（発電所出力を送電容量として扱わない）。"
+        },
+        {
+          "label": "系統との接続",
+          "value": "接続する送電線は未収録（発電所の位置だけを表示）。"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-605327354",
+      "assetId": "asset-9594bf29-22a9-4b54-9eb0-d4a71b5a0e5e",
+      "name": "川崎火力発電所",
+      "kind": "plant",
+      "position": [
+        35.513742778571434,
+        139.7644591357143
+      ],
+      "voltages": [],
+      "scopeConnected": false,
+      "url": "https://www.openstreetmap.org/way/605327354",
+      "attributes": [
+        {
+          "label": "要注意（C区分）",
+          "value": "一次資料で公表区間・端点を確定できず、OSMの地理登録だけで描いた参考表示。"
+        },
+        {
+          "label": "OSM登録",
+          "value": "種別：ガス、事業者：株式会社JERA。出力・運転状態・号機構成は未照合（発電所出力を送電容量として扱わない）。"
+        },
+        {
+          "label": "系統との接続",
+          "value": "接続する送電線は未収録（発電所の位置だけを表示）。"
+        }
+      ]
+    }
+  ],
+  "occtoPairs": [
+    [
+      "東新宿線",
+      "東新宿線（ルート不明・直線）",
+      275,
+      "北多摩",
+      "東新宿",
+      "北多摩変電所",
+      "東新宿変電所"
+    ],
+    [
+      "南川崎線",
+      "南川崎線（ルート不明・直線）",
+      275,
+      "南川崎",
+      "京浜",
+      "南川崎変電所",
+      "京浜変電所"
+    ],
+    [
+      "北与野線",
+      "北与野線（ルート不明・直線）",
+      275,
+      "上尾",
+      "北与野",
+      "上尾変電所",
+      "北与野変電所"
+    ],
+    [
+      "高輪線",
+      "高輪線（ルート不明・直線）",
+      275,
+      "高輪",
+      "東内幸町",
+      "高輪変電所",
+      "東内幸町変電所"
+    ],
+    [
+      "葛南世田谷線",
+      "葛南世田谷線（ルート不明・直線）",
+      275,
+      "葛南",
+      "世田谷",
+      "葛南変電所",
+      "世田谷変電所"
+    ],
+    [
+      "豊洲内幸町線",
+      "豊洲内幸町線（ルート不明・直線）",
+      275,
+      "新豊洲",
+      "東内幸町",
+      "新豊洲変電所",
+      "東内幸町変電所"
+    ]
+  ],
+  "skipped": []
+}

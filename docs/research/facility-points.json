@@ -1,0 +1,81 @@
+{
+  "note": "設備の代表点の手作業の補正（2026-10-16 オーナー承認）。OSMの区画の頂点の平均が区画の外に落ちる設備だけ、区画の内側の点に移す。決め方は項目ごとの method（記録用）：farthest-from-edge＝区画の内側で縁から最も遠い点（格子201×201で探索）、owner-specified＝オーナーが航空写真の上で指定した位置。scripts/jpower.mjs の mergeJpower で当てる。今の座標が oldPosition から1mより離れていたら（元のデータが変わったら）ビルドを止める。applyEndFixes など後の処理が設備の代表点を使う場合は、新しい点が使われる。広野火力発電所は docs/research/tokyo-gap-completions.json で直した（ここには入れない）。 edgeMeters は記録用の値（テストでは確かめない）。",
+  "entries": [
+    {
+      "facilityId": "osm-way-133644487",
+      "name": "新飯能変電所",
+      "region": "tokyo",
+      "raw": "data/raw/tokyo-500/north.json",
+      "way": 133644487,
+      "oldPosition": [
+        35.85199331111111,
+        139.2397019361111
+      ],
+      "newPosition": [
+        35.851146,
+        139.2397298
+      ],
+      "edgeMeters": 67,
+      "checkedAt": "2026-10-16",
+      "note": "OSMの区画（way 133644487）の頂点の平均が区画の外になるため、区画の内側で縁から最も遠い点（縁まで約67m）を代表点にした（2026-10-16）。",
+      "method": "farthest-from-edge"
+    },
+    {
+      "facilityId": "osm-way-103827577",
+      "name": "常陸那珂火力発電所",
+      "region": "tokyo",
+      "raw": "data/raw/tokyo-500-support/plants-all.json",
+      "way": 103827577,
+      "oldPosition": [
+        36.43777501818181,
+        140.61606046363636
+      ],
+      "newPosition": [
+        36.43707,
+        140.61378
+      ],
+      "edgeMeters": 190,
+      "checkedAt": "2026-10-16",
+      "note": "OSMの区画（way 103827577）の頂点の平均が区画の外になるため、オーナーが航空写真の上で指定した位置（区画の縁まで約190m）を代表点にした（2026-10-16。画面の縮尺を、常陸那珂火力線の端と2つの発電所の印の座標から求めて座標にした。誤差はおよそ±20m）。",
+      "method": "owner-specified"
+    },
+    {
+      "facilityId": "osm-way-170793703",
+      "name": "西尾張変電所",
+      "region": "chubu",
+      "raw": "data/raw/chubu-osm/facilities-1.json",
+      "way": 170793703,
+      "oldPosition": [
+        35.13854823125,
+        136.69728079375
+      ],
+      "newPosition": [
+        35.1389689,
+        136.6981016
+      ],
+      "edgeMeters": 71,
+      "checkedAt": "2026-10-16",
+      "note": "OSMの区画（way 170793703）の頂点の平均が区画の外になるため、区画の内側で縁から最も遠い点（縁まで約71m）を代表点にした（2026-10-16）。",
+      "method": "farthest-from-edge"
+    },
+    {
+      "facilityId": "osm-way-605382257",
+      "name": "橘湾火力発電所",
+      "region": "shikoku",
+      "raw": "data/raw/kansai-osm/facilities.json",
+      "way": 605382257,
+      "oldPosition": [
+        33.8571191047619,
+        134.65376796666663
+      ],
+      "newPosition": [
+        33.8590814,
+        134.6522316
+      ],
+      "edgeMeters": 228,
+      "checkedAt": "2026-10-16",
+      "note": "OSMの区画（way 605382257）の頂点の平均が区画の外になるため、区画の内側で縁から最も遠い点（縁まで約228m）を代表点にした（2026-10-16）。",
+      "method": "farthest-from-edge"
+    }
+  ]
+}

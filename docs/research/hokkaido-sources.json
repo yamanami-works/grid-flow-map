@@ -1,0 +1,27 @@
+[
+  {
+    "url": "https://www.hepco.co.jp/network/con_service/public_document/pdf/sys_config_results.pdf",
+    "retrievedAt": "2026-09-26T14:31:16.152Z",
+    "sha256": "93d7080ba36ad504814dcea94ce22eae9f8e51fb21e9c41541553cf44cae2415"
+  },
+  {
+    "url": "https://www.hepco.co.jp/network/con_service/public_document/pdf/sys_config_forecast_tide.pdf",
+    "retrievedAt": "2026-09-26T14:31:16.392Z",
+    "sha256": "43fd484764498776a485e326c49075b96ad1ec379fc38a4a7eb0db150260859f"
+  },
+  {
+    "url": "https://www.hepco.co.jp/network/con_service/public_document/pdf/map_forecast_tide_list.pdf",
+    "retrievedAt": "2026-09-26T14:31:16.738Z",
+    "sha256": "e395ec2d7de841b764362d7a2122cd57d18f24ab2d1dac60fce1a3057503d218"
+  },
+  {
+    "url": "https://www.hepco.co.jp/network/con_service/public_document/zip/sys_capa_kikan.zip",
+    "retrievedAt": "2026-09-26T14:31:16.797Z",
+    "sha256": "b3e1fdd64ec642e23fcf5fb48992a14b8fc4014f7a21a4858b2f7fb38ce99620"
+  },
+  {
+    "url": "https://www.hepco.co.jp/network/con_service/public_document/pdf/investment_removal_plan.pdf",
+    "retrievedAt": "2026-09-26T14:31:17.049Z",
+    "sha256": "7b115267721af2a2a0d5554af8bcab0bcfc2aae3c294fa8932b19a6a82521534"
+  }
+]

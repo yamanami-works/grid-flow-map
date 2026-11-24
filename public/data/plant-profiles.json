@@ -1,0 +1,706 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-09-22",
+  "records": [
+    {
+      "id": "osm-way-103783431",
+      "name": "福島第一原子力発電所",
+      "operator": "東京電力ホールディングス",
+      "method": "原子力",
+      "capacityMW": null,
+      "capacityBasis": "全号機廃止",
+      "note": "2014年1月31日までに全号機廃止。発電可能容量として表示しません。",
+      "sources": [
+        {
+          "url": "https://www.tepco.co.jp/news/2014/1233951_5918.html",
+          "checkedAt": "2026-09-22"
+        },
+        {
+          "url": "https://www.tepco.co.jp/decommission/progress/about/",
+          "checkedAt": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-103812542",
+      "name": "広野火力発電所",
+      "operator": "JERA",
+      "method": "火力",
+      "capacityMW": 1200,
+      "capacityBasis": "公式ページの最大出力",
+      "note": "OSM登録4,400 MWと公式ページ1,200 MWに差があります。公式掲載値を優先表示。",
+      "sources": [
+        {
+          "url": "https://www.jera.co.jp/corporate/business/thermal-power/list/hirono",
+          "checkedAt": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-104299829",
+      "name": "原町火力発電所",
+      "operator": "東北電力",
+      "method": "石炭火力",
+      "capacityMW": 2000,
+      "capacityBasis": "1・2号各1,000 MWの合計",
+      "note": "公式号機出力を本アプリで合計。現在の発電量ではありません。",
+      "sources": [
+        {
+          "url": "https://www.tohoku-epco.co.jp/comp/gaiyo/jigyosho.html",
+          "checkedAt": "2026-09-22"
+        }
+      ],
+      "units": [
+        {
+          "name": "1号",
+          "mw": 1000,
+          "start": "1997-07",
+          "status": "運転中"
+        },
+        {
+          "name": "2号",
+          "mw": 1000,
+          "start": "1998-07",
+          "status": "運転中"
+        }
+      ],
+      "unitsSource": {
+        "url": "https://www.tohoku-epco.co.jp/comp/gaiyo/jigyosho.html",
+        "checkedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "osm-way-104409614",
+      "name": "福島第二原子力発電所",
+      "operator": "東京電力ホールディングス",
+      "method": "原子力",
+      "capacityMW": null,
+      "capacityBasis": "全号機廃止決定",
+      "note": "2019年7月31日に1〜4号機の廃止を決定。稼働容量として扱いません。",
+      "sources": [
+        {
+          "url": "https://www.tepco.co.jp/press/release/2019/1516098_8709.html",
+          "checkedAt": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-216480979",
+      "name": "柏崎刈羽原子力発電所",
+      "operator": "東京電力ホールディングス",
+      "method": "原子力（BWR・ABWR）",
+      "capacityMW": 8212,
+      "capacityBasis": "7基の総設備出力",
+      "note": "設備出力であり、全号機の運転や同時発電を意味しません。",
+      "sources": [
+        {
+          "url": "https://www4.tepco.co.jp/niigata_hq/kk-np/profile/index-j.html",
+          "checkedAt": "2026-09-22"
+        }
+      ],
+      "units": [
+        {
+          "name": "1号",
+          "mw": 1100,
+          "start": null,
+          "status": "運転中"
+        },
+        {
+          "name": "2号",
+          "mw": 1100,
+          "start": null,
+          "status": "運転中"
+        },
+        {
+          "name": "3号",
+          "mw": 1100,
+          "start": null,
+          "status": "運転中"
+        },
+        {
+          "name": "4号",
+          "mw": 1100,
+          "start": null,
+          "status": "運転中"
+        },
+        {
+          "name": "5号",
+          "mw": 1100,
+          "start": null,
+          "status": "運転中"
+        },
+        {
+          "name": "6号",
+          "mw": 1356,
+          "start": null,
+          "status": "運転中"
+        },
+        {
+          "name": "7号",
+          "mw": 1356,
+          "start": null,
+          "status": "運転中"
+        }
+      ],
+      "unitsSource": {
+        "url": "https://www4.tepco.co.jp/niigata_hq/kk-np/profile/index-j.html",
+        "checkedAt": "2026-10-09"
+      },
+      "unitsNote": "1〜5号は沸騰水型（BWR）、6・7号は改良型沸騰水型（ABWR）。運転開始年月は公式ページの表に記載がない。"
+    },
+    {
+      "id": "osm-way-233220600",
+      "name": "下郷発電所",
+      "operator": "電源開発（J-POWER）",
+      "method": "揚水式水力",
+      "capacityMW": 1000,
+      "capacityBasis": "最大出力",
+      "note": "1988年4月1日運転開始。",
+      "sources": [
+        {
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html",
+          "checkedAt": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-319098734",
+      "name": "信濃川発電所",
+      "operator": "東京電力リニューアブルパワー",
+      "method": "水力",
+      "capacityMW": 181,
+      "capacityBasis": "最大出力（2025年3月31日時点）",
+      "note": "新潟県津南町の設備。JR東日本の同名発電所群とは別。",
+      "sources": [
+        {
+          "url": "https://www4.tepco.co.jp/rp/about/bond/securities_report/pdf/250625_01-j.pdf",
+          "checkedAt": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-341478004",
+      "name": "秋田火力発電所",
+      "operator": "東北電力",
+      "method": "火力",
+      "capacityMW": null,
+      "capacityBasis": "全設備廃止",
+      "note": "2024年7月1日をもって全設備廃止。旧出力を現有容量として表示しません。",
+      "sources": [
+        {
+          "url": "https://www.tohoku-epco.co.jp/information/1243641_2521.html",
+          "checkedAt": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-354115662",
+      "name": "沼沢発電所（地図登録名）",
+      "operator": "未確定",
+      "method": "水力",
+      "capacityMW": null,
+      "capacityBasis": "設備同定未完了",
+      "note": "公式一覧には第二沼沢発電所460 MWの記載がありますが、地図地点との同定が未完了のため容量を転記しません。",
+      "sources": [
+        {
+          "url": "https://www.tohoku-epco.co.jp/comp/gaiyo/jigyosho.html",
+          "checkedAt": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-371468679",
+      "name": "大間原子力発電所",
+      "operator": "電源開発（J-POWER）",
+      "method": "原子力（ABWR）",
+      "capacityMW": 1383,
+      "capacityBasis": "建設計画出力",
+      "note": "建設中。計画値を稼働容量・実際の供給力として扱いません。",
+      "sources": [
+        {
+          "url": "https://www.jpower.co.jp/bs/nuclear/",
+          "checkedAt": "2026-09-22"
+        },
+        {
+          "url": "https://www.jpower.co.jp/bs/nuclear/construction/pdf/schedule2510.pdf",
+          "checkedAt": "2026-09-22"
+        }
+      ],
+      "units": [
+        {
+          "name": "1号（建設中）",
+          "mw": 1383,
+          "start": null,
+          "status": "建設中"
+        }
+      ],
+      "unitsSource": {
+        "url": "https://www.jpower.co.jp/bs/nuclear/",
+        "checkedAt": "2026-10-09"
+      },
+      "unitsNote": "建設中。計画出力は稼働容量に含めない。"
+    },
+    {
+      "id": "osm-way-605420899",
+      "name": "能代火力発電所",
+      "operator": "東北電力",
+      "method": "石炭火力",
+      "capacityMW": 1800,
+      "capacityBasis": "1〜3号各600 MWの合計",
+      "note": "公式号機出力を本アプリで合計。",
+      "sources": [
+        {
+          "url": "https://www.tohoku-epco.co.jp/comp/gaiyo/jigyosho.html",
+          "checkedAt": "2026-09-22"
+        }
+      ],
+      "units": [
+        {
+          "name": "1号",
+          "mw": 600,
+          "start": "1993-05",
+          "status": "運転中"
+        },
+        {
+          "name": "2号",
+          "mw": 600,
+          "start": "1994-12",
+          "status": "運転中"
+        },
+        {
+          "name": "3号",
+          "mw": 600,
+          "start": "2020-03",
+          "status": "運転中"
+        }
+      ],
+      "unitsSource": {
+        "url": "https://www.tohoku-epco.co.jp/comp/gaiyo/jigyosho.html",
+        "checkedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "osm-way-605420907",
+      "name": "東通原子力発電所",
+      "operator": "東北電力",
+      "method": "原子力",
+      "capacityMW": 1100,
+      "capacityBasis": "1号機定格電気出力",
+      "note": "東京電力の東通計画とは別。運転状況は出力値から判定していません。",
+      "sources": [
+        {
+          "url": "https://www.tohoku-epco.co.jp/comp/gaiyo/jigyosho.html",
+          "checkedAt": "2026-09-22"
+        }
+      ],
+      "units": [
+        {
+          "name": "1号",
+          "mw": 1100,
+          "start": "2005-12",
+          "status": "運転中"
+        }
+      ],
+      "unitsSource": {
+        "url": "https://www.tohoku-epco.co.jp/comp/gaiyo/jigyosho.html",
+        "checkedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "osm-way-618344823",
+      "name": "上越火力発電所",
+      "operator": "JERA",
+      "method": "LNGコンバインドサイクル",
+      "capacityMW": 2380,
+      "capacityBasis": "公式ページの最大出力",
+      "note": "地図の旧中部電力登録をJERA公式資料と対応付け。東北電力の上越火力599 MWとは別設備。",
+      "sources": [
+        {
+          "url": "https://www.jera.co.jp/corporate/business/thermal-power/list/joetsu",
+          "checkedAt": "2026-09-22"
+        },
+        {
+          "url": "https://www.jera.co.jp/static/files/business/thermal-power/list/pdf/joetsu_2205.pdf",
+          "checkedAt": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-929828153",
+      "name": "新仙台火力発電所",
+      "operator": "東北電力",
+      "method": "LNG火力",
+      "capacityMW": 1046,
+      "capacityBasis": "3号系列最大出力",
+      "note": "公式一覧に記載の3号系列の値。",
+      "sources": [
+        {
+          "url": "https://www.tohoku-epco.co.jp/comp/gaiyo/jigyosho.html",
+          "checkedAt": "2026-09-22"
+        }
+      ],
+      "units": [
+        {
+          "name": "3号系列",
+          "mw": 1046,
+          "start": "2015-12・2016-07",
+          "status": "運転中"
+        }
+      ],
+      "unitsSource": {
+        "url": "https://www.tohoku-epco.co.jp/comp/gaiyo/jigyosho.html",
+        "checkedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "osm-way-1341021071",
+      "name": "女川原子力発電所",
+      "operator": "東北電力",
+      "method": "原子力",
+      "capacityMW": 1650,
+      "capacityBasis": "2・3号各825 MWの合計",
+      "note": "1号機524 MWは2018年12月21日運転終了のため合計対象外。2・3号の同時運転を意味しません。",
+      "sources": [
+        {
+          "url": "https://www.tohoku-epco.co.jp/comp/gaiyo/jigyosho.html",
+          "checkedAt": "2026-09-22"
+        },
+        {
+          "url": "https://www.tohoku-epco.co.jp/electr/genshi/safety/haishi/about.html",
+          "checkedAt": "2026-09-22"
+        }
+      ],
+      "units": [
+        {
+          "name": "2号",
+          "mw": 825,
+          "start": "1995-07",
+          "status": "運転中"
+        },
+        {
+          "name": "3号",
+          "mw": 825,
+          "start": "2002-01",
+          "status": "運転中"
+        },
+        {
+          "name": "1号",
+          "mw": 524,
+          "start": "1984-06",
+          "status": "運転終了"
+        }
+      ],
+      "unitsSource": {
+        "url": "https://www.tohoku-epco.co.jp/comp/gaiyo/jigyosho.html",
+        "checkedAt": "2026-10-09"
+      },
+      "unitsNote": "1号機は2018年12月21日に運転終了（東北電力の公式一覧の注記）。"
+    },
+    {
+      "id": "osm-way-1428285055",
+      "name": "東新潟火力発電所",
+      "operator": "東北電力",
+      "method": "LNG火力",
+      "capacityMW": 4160,
+      "capacityBasis": "公式一覧の1〜4号系列の出力合計",
+      "note": "600＋600＋1,210＋1,750 MW。設備一覧に基づく合計であり実発電量ではありません。",
+      "sources": [
+        {
+          "url": "https://www.tohoku-epco.co.jp/comp/gaiyo/jigyosho.html",
+          "checkedAt": "2026-09-22"
+        }
+      ],
+      "units": [
+        {
+          "name": "1号",
+          "mw": 600,
+          "start": "1977-04",
+          "status": "運転中"
+        },
+        {
+          "name": "2号",
+          "mw": 600,
+          "start": "1983-06",
+          "status": "運転中"
+        },
+        {
+          "name": "3号系列",
+          "mw": 1210,
+          "start": "1984-12・1985-10",
+          "status": "運転中"
+        },
+        {
+          "name": "4号系列",
+          "mw": 1750,
+          "start": "1999-07・2006-12",
+          "status": "運転中"
+        }
+      ],
+      "unitsSource": {
+        "url": "https://www.tohoku-epco.co.jp/comp/gaiyo/jigyosho.html",
+        "checkedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "osm-relation-9626992",
+      "name": "新地発電所",
+      "operator": "相馬共同火力発電",
+      "method": "石炭火力",
+      "capacityMW": 2000,
+      "capacityBasis": "1・2号各1,000 MWの合計",
+      "note": "1号1994年7月、2号1995年7月営業運転開始。",
+      "sources": [
+        {
+          "url": "https://www.somakyoka.co.jp/assets/doc/20250729.pdf",
+          "checkedAt": "2026-09-22"
+        }
+      ],
+      "units": [
+        {
+          "name": "1号",
+          "mw": 1000,
+          "start": "1994-07",
+          "status": "運転中"
+        },
+        {
+          "name": "2号",
+          "mw": 1000,
+          "start": "1995-07",
+          "status": "運転中"
+        }
+      ],
+      "unitsSource": {
+        "url": "https://www.somakyoka.co.jp/assets/doc/20250729.pdf",
+        "checkedAt": "2026-10-09"
+      }
+    },
+    {
+      "id": "osm-relation-12893891",
+      "name": "勿来発電所",
+      "operator": "常磐共同火力",
+      "method": "石炭火力",
+      "capacityMW": null,
+      "capacityBasis": "現有設備の総出力は確認中",
+      "note": "公式サイト内に旧号機・IGCCの記述が混在するため現在の設備総出力は未確定。近隣の別事業者のIGCCを合算しません。",
+      "sources": [
+        {
+          "url": "https://www.joban-power.co.jp/nakoso_power_plant/",
+          "checkedAt": "2026-09-22"
+        },
+        {
+          "url": "https://www.joban-power.co.jp/profile/history/294/",
+          "checkedAt": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "osm-relation-13413356",
+      "name": "奥清津発電所",
+      "operator": "電源開発（J-POWER）",
+      "method": "揚水式水力",
+      "capacityMW": 1000,
+      "capacityBasis": "最大出力",
+      "note": "奥清津第二600 MWは別発電所のため合算しません。",
+      "sources": [
+        {
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html",
+          "checkedAt": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-233174201",
+      "name": "名称未確認の発電設備",
+      "operator": "未確定",
+      "method": "未確認",
+      "capacityMW": null,
+      "capacityBasis": "一次資料との同定未完了",
+      "note": "地図登録名・運営者がないため、近隣設備の容量を推測して割り当てていません。",
+      "sources": []
+    },
+    {
+      "id": "osm-way-1030329140",
+      "name": "塩原発電所",
+      "operator": "東京電力リニューアブルパワー",
+      "method": "揚水式水力",
+      "capacityMW": 900,
+      "capacityBasis": "最大出力（2025年3月31日時点）",
+      "note": "設備出力であり、揚水動力・送電線の運用容量とは異なります。",
+      "sources": [
+        {
+          "url": "https://www4.tepco.co.jp/rp/about/bond/securities_report/pdf/250625_01-j.pdf",
+          "checkedAt": "2026-09-22"
+        },
+        {
+          "url": "https://www4.tepco.co.jp/toudenhou/rp/1665255_19888.html",
+          "checkedAt": "2026-09-22"
+        }
+      ]
+    },
+    {
+      "id": "kansai-place-御母衣第二発電所",
+      "name": "御母衣第二発電所",
+      "operator": "電源開発（J-POWER）",
+      "method": "水力",
+      "capacityMW": 59.2,
+      "capacityBasis": "最大出力（2026年7月1日現在）",
+      "note": "ダム水路式。1963年12月19日運転開始。設備出力であり、実際の発電量・送電線の容量ではありません。",
+      "sources": [
+        {
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html",
+          "checkedAt": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-1028287115",
+      "name": "新祖山発電所",
+      "operator": "関西電力",
+      "method": "水力",
+      "capacityMW": 68,
+      "capacityBasis": "最大出力",
+      "note": "ダム水路式。昭和42年2月運転開始。設備出力であり、実際の発電量・送電線の容量ではありません。",
+      "sources": [
+        {
+          "url": "https://www.kepco.co.jp/energy_supply/energy/newenergy/water/plant/list.html",
+          "checkedAt": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-1028287111",
+      "name": "祖山発電所",
+      "operator": "関西電力",
+      "method": "水力",
+      "capacityMW": 54.3,
+      "capacityBasis": "最大出力",
+      "note": "ダム水路式。昭和5年12月運転開始。設備出力であり、実際の発電量・送電線の容量ではありません。",
+      "sources": [
+        {
+          "url": "https://www.kepco.co.jp/energy_supply/energy/newenergy/water/plant/list.html",
+          "checkedAt": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "kansai-place-新丸山発電所",
+      "name": "新丸山発電所",
+      "operator": "関西電力",
+      "method": "水力",
+      "capacityMW": 63.7,
+      "capacityBasis": "最大出力",
+      "note": "ダム水路式。昭和46年5月運転開始。設備出力であり、実際の発電量・送電線の容量ではありません。",
+      "sources": [
+        {
+          "url": "https://www.kepco.co.jp/energy_supply/energy/newenergy/water/plant/list.html",
+          "checkedAt": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "kansai-place-丸山発電所",
+      "name": "丸山発電所",
+      "operator": "関西電力",
+      "method": "水力",
+      "capacityMW": 141,
+      "capacityBasis": "最大出力",
+      "note": "ダム水路式。昭和29年4月運転開始。設備出力であり、実際の発電量・送電線の容量ではありません。",
+      "sources": [
+        {
+          "url": "https://www.kepco.co.jp/energy_supply/energy/newenergy/water/plant/list.html",
+          "checkedAt": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-1136534571",
+      "name": "長野発電所",
+      "operator": "電源開発（J-POWER）",
+      "method": "揚水式水力",
+      "capacityMW": 220,
+      "capacityBasis": "最大出力（2026年7月1日現在）",
+      "note": "ダム式（揚水式）。1968年5月25日運転開始。設備出力であり、実際の発電量・送電線の容量ではありません。",
+      "sources": [
+        {
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html",
+          "checkedAt": "2026-11-18"
+        }
+      ]
+    },
+    {
+      "id": "chubu-place-小坂川発電所",
+      "name": "小坂川発電所",
+      "operator": "中部電力",
+      "method": "水力",
+      "capacityMW": 21.3,
+      "capacityBasis": "出力（2026年3月末現在）",
+      "note": "水路式。1983年11月営業運転開始。設備出力であり、実際の発電量・送電線の容量ではありません。",
+      "sources": [
+        {
+          "url": "https://www.chuden.co.jp/energy/renew/ren_setsubi/water/wat_chuden/wat_list/",
+          "checkedAt": "2026-11-19"
+        }
+      ]
+    },
+    {
+      "id": "osm-way-1093999564",
+      "name": "実証設備複合サイクル発電所（三菱重工）",
+      "operator": "三菱重工業",
+      "method": "火力（GTCC）",
+      "capacityMW": 566,
+      "capacityBasis": "出力",
+      "note": "三菱重工業の実証設備（第二T地点）。2020年7月1日に長期実証運転を開始（資料の作成日 2022-02-14）。設備出力であり、実際の発電量・送電線の容量ではありません。",
+      "sources": [
+        {
+          "url": "https://www.mhi.com/jp/news/220214.html",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "hokkaido-place-せたな大里ウインドファーム",
+      "name": "せたな大里ウインドファーム",
+      "operator": "電源開発（J-POWER）",
+      "method": "風力",
+      "capacityMW": 50,
+      "capacityBasis": "発電所出力",
+      "note": "風車 3,200kW×16基。2020年1月営業運転開始。設備出力であり、実際の発電量・送電線の容量ではありません。",
+      "sources": [
+        {
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/wind/setanaosato.html",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    },
+    {
+      "id": "relation/11816417",
+      "name": "ユーラス八雲ソーラーパーク",
+      "operator": "ユーラスエナジー",
+      "method": "太陽光",
+      "capacityMW": 75,
+      "capacityBasis": "連系容量",
+      "note": "蓄電設備 約27.8MWh。2020年10月16日運転開始。連系容量であり、実際の発電量・送電線の容量ではありません。",
+      "sources": [
+        {
+          "url": "https://www.eurus-energy.com/project/assets/pdf/yakumo_pamphlet.pdf",
+          "checkedAt": "2026-11-21"
+        }
+      ]
+    },
+    {
+      "id": "hokkaido-place-上ノ国第二風力発電所",
+      "name": "上ノ国第二風力発電所",
+      "operator": "電源開発（J-POWER）",
+      "method": "風力",
+      "capacityMW": 41.532,
+      "capacityBasis": "発電所出力",
+      "note": "風車 4,300kW×10基（全体を41,532kW以内に制御）。2024年5月営業運転開始。設備出力であり、実際の発電量・送電線の容量ではありません。",
+      "sources": [
+        {
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/wind/kaminokuni2.html",
+          "checkedAt": "2026-11-20"
+        }
+      ]
+    }
+  ]
+}

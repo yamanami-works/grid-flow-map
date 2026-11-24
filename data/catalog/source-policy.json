@@ -1,0 +1,9 @@
+{
+ "schemaVersion":1,
+ "sources":[
+  {"id":"osm","url":"https://www.openstreetmap.org/copyright","license":"ODbL-1.0","commercialUse":"subject-to-license","redistribution":"subject-to-license","requirements":["帰属表示","派生データベースのODbL条件を確認"],"releaseReview":"pending"},
+  {"id":"occto","url":"https://www.occto.or.jp/institution/keitoujouhou/index.html","license":"公表元の利用条件","commercialUse":"review-required","redistribution":"source-and-modification-attribution","requirements":["出典表示","加工した旨の表示","有料機能での利用条件を公開前に再確認"],"releaseReview":"pending"},
+  {"id":"tohoku-network","url":"https://nw.tohoku-epco.co.jp/consignment/system/announcement/","license":"公表元の利用条件","commercialUse":"review-required","redistribution":"review-required","requirements":["元資料・公表日表示","一般公開・有料提供に関する条件確認","系統図の無断複製を行わない"],"releaseReview":"pending"},
+  {"id":"plant-operators","url":"public/data/plant-profiles.json","license":"各運営会社の利用条件","commercialUse":"review-required","redistribution":"review-required","requirements":["事実の整理と出典表示","各資料の公開条件確認"],"releaseReview":"pending"}
+ ]
+}

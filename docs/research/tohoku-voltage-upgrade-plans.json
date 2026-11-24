@@ -1,0 +1,179 @@
+[
+  {
+    "id": "tohoku-upgrade-asahi-2026",
+    "regions": [
+      "tohoku"
+    ],
+    "targets": [
+      {
+        "name": "朝日幹線",
+        "assetIds": [
+          "asset-d177b59a-8cbe-41c2-8d61-5a33a3f45fd7",
+          "asset-551b041c-1fce-4fbc-9a10-92cffa345933"
+        ],
+        "mapping": "公式公表区間。既存地理レコードがある場合のみID対応"
+      }
+    ],
+    "changeType": "昇圧",
+    "latestProgressReview": {
+      "checkedAt": null,
+      "note": "2026-06-01公表後の予定変更・進捗の最新性は未確認。"
+    },
+    "revisions": [
+      {
+        "recordedAt": "2026-09-27",
+        "before": "西仙台変電所―越後開閉所275kV",
+        "after": "500kVへ昇圧（138km）",
+        "status": "計画中",
+        "statusOriginal": "計画中",
+        "timing": [
+          {
+            "raw": "2030年度以降",
+            "label": "使用開始予定",
+            "year": 2030,
+            "precision": "fiscal-year",
+            "qualifier": "on-or-after"
+          }
+        ],
+        "source": {
+          "name": "東北電力NW 山形幹線昇圧延長工事の本格工事開始について（別紙）",
+          "url": "https://nw.tohoku-epco.co.jp/news/pdf/__icsFiles/afieldfile/2026/06/01/260601001.pdf",
+          "publishedAt": "2026-06-01",
+          "checkedAt": "2026-09-27"
+        },
+        "reason": "現行275kVと将来500kV計画を区別。予定のみで運用電圧を変更しない。"
+      }
+    ],
+    "unknowns": [
+      "公表後の工程変更・運用開始",
+      "個別回線・母線結線"
+    ],
+    "updateRequired": [
+      "電圧",
+      "地理",
+      "接続",
+      "設備情報",
+      "潮流対応"
+    ],
+    "application": {
+      "status": "未反映",
+      "note": "将来昇圧は未反映。現在の設備情報は275kV。"
+    }
+  },
+  {
+    "id": "tohoku-upgrade-minamiyamagata-2026",
+    "regions": [
+      "tohoku"
+    ],
+    "targets": [
+      {
+        "name": "南山形幹線",
+        "assetIds": [],
+        "mapping": "公式公表区間。既存地理レコードがある場合のみID対応"
+      }
+    ],
+    "changeType": "昇圧",
+    "latestProgressReview": {
+      "checkedAt": null,
+      "note": "2026-06-01公表後の予定変更・進捗の最新性は未確認。"
+    },
+    "revisions": [
+      {
+        "recordedAt": "2026-09-27",
+        "before": "西山形変電所―朝日幹線分岐275kV",
+        "after": "500kVへ昇圧（23km）",
+        "status": "計画中",
+        "statusOriginal": "計画中",
+        "timing": [
+          {
+            "raw": "2030年度以降",
+            "label": "使用開始予定",
+            "year": 2030,
+            "precision": "fiscal-year",
+            "qualifier": "on-or-after"
+          }
+        ],
+        "source": {
+          "name": "東北電力NW 山形幹線昇圧延長工事の本格工事開始について（別紙）",
+          "url": "https://nw.tohoku-epco.co.jp/news/pdf/__icsFiles/afieldfile/2026/06/01/260601001.pdf",
+          "publishedAt": "2026-06-01",
+          "checkedAt": "2026-09-27"
+        },
+        "reason": "現行275kVと将来500kV計画を区別。予定のみで運用電圧を変更しない。"
+      }
+    ],
+    "unknowns": [
+      "公表後の工程変更・運用開始",
+      "個別回線・母線結線"
+    ],
+    "updateRequired": [
+      "電圧",
+      "地理",
+      "接続",
+      "設備情報",
+      "潮流対応"
+    ],
+    "application": {
+      "status": "未反映",
+      "note": "将来昇圧は未反映。現在の設備情報は275kV。"
+    }
+  },
+  {
+    "id": "tohoku-upgrade-yamagata-2026",
+    "regions": [
+      "tohoku"
+    ],
+    "targets": [
+      {
+        "name": "山形幹線",
+        "assetIds": [],
+        "mapping": "公式公表区間。既存地理レコードがある場合のみID対応"
+      }
+    ],
+    "changeType": "昇圧・経路変更",
+    "latestProgressReview": {
+      "checkedAt": null,
+      "note": "2026-06-01公表後の予定変更・進捗の最新性は未確認。"
+    },
+    "revisions": [
+      {
+        "recordedAt": "2026-09-27",
+        "before": "新庄変電所―西山形変電所275kV",
+        "after": "八幡変電所―西山形変電所500kVへ昇圧延長",
+        "status": "工事中",
+        "statusOriginal": "工事中",
+        "timing": [
+          {
+            "raw": "2033年10月",
+            "label": "使用開始予定",
+            "year": 2033,
+            "month": 10,
+            "precision": "month"
+          }
+        ],
+        "source": {
+          "name": "東北電力NW 山形幹線昇圧延長工事の本格工事開始について（別紙）",
+          "url": "https://nw.tohoku-epco.co.jp/news/pdf/__icsFiles/afieldfile/2026/06/01/260601001.pdf",
+          "publishedAt": "2026-06-01",
+          "checkedAt": "2026-09-27"
+        },
+        "reason": "現行275kVと将来500kV計画を区別。予定のみで運用電圧を変更しない。"
+      }
+    ],
+    "unknowns": [
+      "公表後の工程変更・運用開始",
+      "個別回線・母線結線"
+    ],
+    "updateRequired": [
+      "電圧",
+      "地理",
+      "接続",
+      "設備情報",
+      "潮流対応"
+    ],
+    "application": {
+      "status": "未反映",
+      "note": "将来昇圧は未反映。現在の設備情報は275kV。"
+    }
+  }
+]

@@ -1,0 +1,2999 @@
+{
+ "source": "国土地理院 地図注記（https://cyberjapandata.gsi.go.jp/xyz/experimental_anno/15/{x}/{y}.geojson）",
+ "rule": "設備の中心から1500m以内（周囲3×3タイル）の注記で、会社名と設備種別の語尾を除いた名前が設備名の語幹と一致するもの",
+ "retrievedAt": "2026-10-03T00:27:35.968Z",
+ "facilities": [
+  {
+   "region": "chubu",
+   "id": "osm-way-170366035",
+   "name": "岐阜開閉所",
+   "assigned": true,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-170850727",
+   "name": "愛知変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-169249243",
+   "name": "南福光連系所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-161946849",
+   "name": "北部変電所",
+   "assigned": false,
+   "match": null,
+   "near": [
+    {
+     "knj": "中電北部変電所",
+     "ctg": "建物（発電所）",
+     "m": 151
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-170568495",
+   "name": "三重開閉所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-170537514",
+   "name": "西部変電所",
+   "assigned": false,
+   "match": null,
+   "near": [
+    {
+     "knj": "中電西部変電所",
+     "ctg": "建物（発電所）",
+     "m": 200
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-116559939",
+   "name": "東栄変電所",
+   "assigned": true,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-210090094",
+   "name": "駿遠変電所",
+   "assigned": false,
+   "match": {
+    "knj": "駿遠変電所",
+    "ctg": "建物（発電所）",
+    "m": 217
+   },
+   "near": [
+    {
+     "knj": "駿遠変電所",
+     "ctg": "建物（発電所）",
+     "m": 217
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-209429410",
+   "name": "南信変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-209726348",
+   "name": "信濃変電所",
+   "assigned": false,
+   "match": {
+    "knj": "中部電力信濃変電所",
+    "ctg": "建物（発電所）",
+    "m": 243
+   },
+   "near": [
+    {
+     "knj": "中部電力信濃変電所",
+     "ctg": "建物（発電所）",
+     "m": 243
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-169122898",
+   "name": "東部変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-170247312",
+   "name": "新三河変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-142662111",
+   "name": "豊根開閉所",
+   "assigned": false,
+   "match": {
+    "knj": "豊根開閉所",
+    "ctg": "建物（発電所）",
+    "m": 64
+   },
+   "near": [
+    {
+     "knj": "豊根開閉所",
+     "ctg": "建物（発電所）",
+     "m": 64
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-459476442",
+   "name": "静岡変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-975217734",
+   "name": "飛騨変換所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-169121284",
+   "name": "瀬戸変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-169121278",
+   "name": "電源名古屋",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-618344836",
+   "name": "鈴鹿開閉所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-241956440",
+   "name": "伊勢開閉所",
+   "assigned": false,
+   "match": null,
+   "near": [
+    {
+     "knj": "中電伊勢開閉所",
+     "ctg": "建物（発電所）",
+     "m": 314
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-242532736",
+   "name": "中勢変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-241923317",
+   "name": "南勢変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-170366039",
+   "name": "遠江変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-170247359",
+   "name": "額田開閉所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-relation-7444441",
+   "name": "幸田変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-170247308",
+   "name": "三河変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-170793702",
+   "name": "西名古屋変電所",
+   "assigned": false,
+   "match": {
+    "knj": "西名古屋変電所",
+    "ctg": "建物（発電所）",
+    "m": 256
+   },
+   "near": [
+    {
+     "knj": "西名古屋変電所",
+     "ctg": "建物（発電所）",
+     "m": 256
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-618344838",
+   "name": "亀山変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-209429355",
+   "name": "犬山変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-170260165",
+   "name": "湖西変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-101926129",
+   "name": "碧南火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "中部電力碧南火力発電所",
+    "ctg": "建物（発電所）",
+    "m": 249
+   },
+   "near": [
+    {
+     "knj": "中部電力碧南火力発電所",
+     "ctg": "建物（発電所）",
+     "m": 249
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-210658603",
+   "name": "高根変電所",
+   "assigned": true,
+   "match": null,
+   "near": [
+    {
+     "knj": "高根第一地下発電所",
+     "ctg": "建物（発電所）",
+     "m": 532
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-315662816",
+   "name": "中信変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-254306216",
+   "name": "佐久変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-134376414",
+   "name": "佐久間発電所",
+   "assigned": false,
+   "match": {
+    "knj": "佐久間発電所",
+    "ctg": "建物（発電所）",
+    "m": 365
+   },
+   "near": [
+    {
+     "knj": "佐久間発電所",
+     "ctg": "建物（発電所）",
+     "m": 365
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-210217246",
+   "name": "川根変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-170436908",
+   "name": "駿河変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-168247133",
+   "name": "東清水変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-211258348",
+   "name": "東信変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-169121281",
+   "name": "北豊田変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-161948515",
+   "name": "西濃変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-170793703",
+   "name": "西尾張変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-262597734",
+   "name": "海部開閉所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-180359727",
+   "name": "川越火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "中部電力川越火力発電所",
+    "ctg": "建物（発電所）",
+    "m": 116
+   },
+   "near": [
+    {
+     "knj": "中部電力川越火力発電所",
+     "ctg": "建物（発電所）",
+     "m": 116
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-179417733",
+   "name": "東名古屋変電所",
+   "assigned": false,
+   "match": null,
+   "near": [
+    {
+     "knj": "東名名古屋変電所",
+     "ctg": "建物（発電所）",
+     "m": 197
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-180359744",
+   "name": "知多火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "知多火力発電所",
+    "ctg": "建物（発電所）",
+    "m": 84
+   },
+   "near": [
+    {
+     "knj": "知多火力発電所",
+     "ctg": "建物（発電所）",
+     "m": 84
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-170260169",
+   "name": "田原",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-678803013",
+   "name": "東浦開閉所",
+   "assigned": true,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-199544541",
+   "name": "新北信変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-806310370",
+   "name": "浜岡原子力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "浜岡原子力発電所",
+    "ctg": "建物（発電所）",
+    "m": 891
+   },
+   "near": [
+    {
+     "knj": "浜岡原子力発電所",
+     "ctg": "建物（発電所）",
+     "m": 891
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-node-12293613523",
+   "name": "南武平町変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "chubu-place-下広井変電所",
+   "name": "下広井変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "chubu-place-牛島町変電所",
+   "name": "牛島町変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "chubu-place-名城変電所",
+   "name": "名城変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "chubu-place-金山変電所",
+   "name": "金山変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "chubu-place-松ヶ枝変電所",
+   "name": "松ヶ枝変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "chubu-place-馬瀬川第一発電所",
+   "name": "馬瀬川第一発電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-869785334",
+   "name": "東海変電所",
+   "assigned": true,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-180359747",
+   "name": "知多第二火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "知多第二火力発電所",
+    "ctg": "建物（発電所）",
+    "m": 283
+   },
+   "near": [
+    {
+     "knj": "知多第二火力発電所",
+     "ctg": "建物（発電所）",
+     "m": 283
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-170366038",
+   "name": "中濃変電所",
+   "assigned": true,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "chubu-place-梅森開閉所",
+   "name": "梅森開閉所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chubu",
+   "id": "chubu-place-尾鷲変電所",
+   "name": "尾鷲変電所",
+   "assigned": false,
+   "match": null,
+   "near": [
+    {
+     "knj": "三田火力発電所",
+     "ctg": "建物（発電所）",
+     "m": 30
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-677532710",
+   "name": "新佐倉変電所",
+   "assigned": true,
+   "match": null,
+   "near": [
+    {
+     "knj": "浜岡原子力発電所",
+     "ctg": "建物（発電所）",
+     "m": 773
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-180359734",
+   "name": "新名古屋火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "新名古屋火力発電所",
+    "ctg": "建物（発電所）",
+    "m": 208
+   },
+   "near": [
+    {
+     "knj": "新名古屋火力発電所",
+     "ctg": "建物（発電所）",
+     "m": 208
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-605433848",
+   "name": "渥美火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "渥美火力発電所",
+    "ctg": "建物（発電所）",
+    "m": 264
+   },
+   "near": [
+    {
+     "knj": "渥美火力発電所",
+     "ctg": "建物（発電所）",
+     "m": 264
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-832823488",
+   "name": "奥美濃発電所",
+   "assigned": true,
+   "match": {
+    "knj": "奥美濃水力発電所",
+    "ctg": "建物（発電所）",
+    "m": 1357
+   },
+   "near": [
+    {
+     "knj": "奥美濃水力発電所",
+     "ctg": "建物（発電所）",
+     "m": 1357
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-1002444623",
+   "name": "高根第一水力発電所",
+   "assigned": false,
+   "match": null,
+   "near": [
+    {
+     "knj": "高根第一地下発電所",
+     "ctg": "建物（発電所）",
+     "m": 546
+    }
+   ]
+  },
+  {
+   "region": "chubu",
+   "id": "osm-way-170589736",
+   "name": "東近江開閉所",
+   "assigned": false,
+   "match": {
+    "knj": "東近江開閉所",
+    "ctg": "建物（発電所）",
+    "m": 96
+   },
+   "near": [
+    {
+     "knj": "東近江開閉所",
+     "ctg": "建物（発電所）",
+     "m": 96
+    }
+   ]
+  },
+  {
+   "region": "hokuriku",
+   "id": "osm-way-315618377",
+   "name": "越前変電所",
+   "assigned": false,
+   "match": {
+    "knj": "越前変電所",
+    "ctg": "建物（発電所）",
+    "m": 80
+   },
+   "near": [
+    {
+     "knj": "越前変電所",
+     "ctg": "建物（発電所）",
+     "m": 80
+    }
+   ]
+  },
+  {
+   "region": "hokuriku",
+   "id": "osm-way-169249247",
+   "name": "加賀変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "hokuriku",
+   "id": "osm-relation-17013811",
+   "name": "中能登変電所",
+   "assigned": false,
+   "match": {
+    "knj": "中能登変電所",
+    "ctg": "建物（発電所）",
+    "m": 180
+   },
+   "near": [
+    {
+     "knj": "中能登変電所",
+     "ctg": "建物（発電所）",
+     "m": 180
+    }
+   ]
+  },
+  {
+   "region": "hokuriku",
+   "id": "osm-way-315614776",
+   "name": "新福井変電所",
+   "assigned": true,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "hokuriku",
+   "id": "osm-way-315614783",
+   "name": "東金津変電所",
+   "assigned": true,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "hokuriku",
+   "id": "osm-way-315757225",
+   "name": "城端開閉所",
+   "assigned": false,
+   "match": {
+    "knj": "城端開閉所",
+    "ctg": "建物（発電所）",
+    "m": 182
+   },
+   "near": [
+    {
+     "knj": "城端開閉所",
+     "ctg": "建物（発電所）",
+     "m": 182
+    }
+   ]
+  },
+  {
+   "region": "hokuriku",
+   "id": "osm-way-524393243",
+   "name": "新富山変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "hokuriku",
+   "id": "osm-way-618344841",
+   "name": "南条変電所",
+   "assigned": true,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "hokuriku",
+   "id": "osm-way-605433847",
+   "name": "敦賀火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "敦賀火力発電所",
+    "ctg": "建物（発電所）",
+    "m": 143
+   },
+   "near": [
+    {
+     "knj": "敦賀火力発電所",
+     "ctg": "建物（発電所）",
+     "m": 143
+    }
+   ]
+  },
+  {
+   "region": "hokuriku",
+   "id": "osm-way-255763556",
+   "name": "志賀原子力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "志賀原子力発電所",
+    "ctg": "建物（発電所）",
+    "m": 423
+   },
+   "near": [
+    {
+     "knj": "志賀原子力発電所",
+     "ctg": "建物（発電所）",
+     "m": 423
+    }
+   ]
+  },
+  {
+   "region": "hokuriku",
+   "id": "osm-way-289146236",
+   "name": "七尾大田火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "七尾大田火力発電所",
+    "ctg": "建物（発電所）",
+    "m": 247
+   },
+   "near": [
+    {
+     "knj": "七尾大田火力発電所",
+     "ctg": "建物（発電所）",
+     "m": 247
+    }
+   ]
+  },
+  {
+   "region": "hokuriku",
+   "id": "osm-way-605420895",
+   "name": "富山新港火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "富山新港火力発電所",
+    "ctg": "建物（発電所）",
+    "m": 569
+   },
+   "near": [
+    {
+     "knj": "富山新港火力発電所",
+     "ctg": "建物（発電所）",
+     "m": 569
+    }
+   ]
+  },
+  {
+   "region": "hokuriku",
+   "id": "osm-relation-11529219",
+   "name": "嶺南変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-291678103",
+   "name": "紀の川変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-109850439",
+   "name": "紀北変換所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-109834508",
+   "name": "金剛変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-161870227",
+   "name": "南京都変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-161727149",
+   "name": "新生駒変電所",
+   "assigned": false,
+   "match": {
+    "knj": "新生駒変電所",
+    "ctg": "建物（発電所）",
+    "m": 245
+   },
+   "near": [
+    {
+     "knj": "新生駒変電所",
+     "ctg": "建物（発電所）",
+     "m": 245
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-421647841",
+   "name": "京北開閉所",
+   "assigned": false,
+   "match": {
+    "knj": "京北開閉所",
+    "ctg": "建物（発電所）",
+    "m": 148
+   },
+   "near": [
+    {
+     "knj": "京北開閉所",
+     "ctg": "建物（発電所）",
+     "m": 148
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-169031921",
+   "name": "西京都変電所",
+   "assigned": false,
+   "match": {
+    "knj": "西京都変電所",
+    "ctg": "土地利用（演習場、ゴルフ場等）",
+    "m": 254
+   },
+   "near": [
+    {
+     "knj": "西京都変電所",
+     "ctg": "土地利用（演習場、ゴルフ場等）",
+     "m": 254
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-169359724",
+   "name": "信貴変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-relation-11529637",
+   "name": "新綾部変電所",
+   "assigned": false,
+   "match": {
+    "knj": "新綾部変電所",
+    "ctg": "建物（発電所）",
+    "m": 15
+   },
+   "near": [
+    {
+     "knj": "新綾部変電所",
+     "ctg": "建物（発電所）",
+     "m": 15
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-962796302",
+   "name": "大河内発電所",
+   "assigned": true,
+   "match": {
+    "knj": "大河内発電所",
+    "ctg": "建物（発電所）",
+    "m": 1003
+   },
+   "near": [
+    {
+     "knj": "大河内発電所",
+     "ctg": "建物（発電所）",
+     "m": 1003
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-110682956",
+   "name": "猪名川変電所",
+   "assigned": false,
+   "match": {
+    "knj": "猪名川変電所",
+    "ctg": "建物（発電所）",
+    "m": 164
+   },
+   "near": [
+    {
+     "knj": "猪名川変電所",
+     "ctg": "建物（発電所）",
+     "m": 164
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-170605907",
+   "name": "北摂変電所",
+   "assigned": false,
+   "match": {
+    "knj": "北摂変電所",
+    "ctg": "建物（発電所）",
+    "m": 147
+   },
+   "near": [
+    {
+     "knj": "北摂変電所",
+     "ctg": "建物（発電所）",
+     "m": 147
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-169031998",
+   "name": "東大和開閉所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-320438391",
+   "name": "能勢変電所",
+   "assigned": false,
+   "match": {
+    "knj": "能勢変電所",
+    "ctg": "建物（発電所）",
+    "m": 64
+   },
+   "near": [
+    {
+     "knj": "能勢変電所",
+     "ctg": "建物（発電所）",
+     "m": 64
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-241822621",
+   "name": "山崎開閉所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-241822631",
+   "name": "西播変電所",
+   "assigned": false,
+   "match": {
+    "knj": "西播変電所",
+    "ctg": "建物（発電所）",
+    "m": 144
+   },
+   "near": [
+    {
+     "knj": "西播変電所",
+     "ctg": "建物（発電所）",
+     "m": 144
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-110682951",
+   "name": "宝塚開閉所",
+   "assigned": false,
+   "match": {
+    "knj": "関西電力宝塚開閉所",
+    "ctg": "建物（発電所）",
+    "m": 492
+   },
+   "near": [
+    {
+     "knj": "関西電力宝塚開閉所",
+     "ctg": "建物（発電所）",
+     "m": 492
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-110682955",
+   "name": "伊丹変電所",
+   "assigned": false,
+   "match": {
+    "knj": "伊丹変電所",
+    "ctg": "建物（発電所）",
+    "m": 110
+   },
+   "near": [
+    {
+     "knj": "伊丹変電所",
+     "ctg": "建物（発電所）",
+     "m": 110
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-949748582",
+   "name": "喜撰山開閉所",
+   "assigned": false,
+   "match": null,
+   "near": [
+    {
+     "knj": "喜撰山揚水発電所",
+     "ctg": "建物（発電所）",
+     "m": 194
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-190984572",
+   "name": "湖南変電所",
+   "assigned": false,
+   "match": {
+    "knj": "湖南変電所",
+    "ctg": "建物（発電所）",
+    "m": 50
+   },
+   "near": [
+    {
+     "knj": "湖南変電所",
+     "ctg": "建物（発電所）",
+     "m": 50
+    },
+    {
+     "knj": "宇治発電所導水路",
+     "ctg": "河川、湖沼（河川、用水等）",
+     "m": 1358
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-191382967",
+   "name": "栗東変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-190631098",
+   "name": "湖東変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-190734269",
+   "name": "甲賀変電所",
+   "assigned": false,
+   "match": {
+    "knj": "甲賀変電所",
+    "ctg": "建物（発電所）",
+    "m": 124
+   },
+   "near": [
+    {
+     "knj": "甲賀変電所",
+     "ctg": "建物（発電所）",
+     "m": 124
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-325868333",
+   "name": "新加古川変電所",
+   "assigned": false,
+   "match": {
+    "knj": "新加古川変電所",
+    "ctg": "建物（発電所）",
+    "m": 257
+   },
+   "near": [
+    {
+     "knj": "新加古川変電所",
+     "ctg": "建物（発電所）",
+     "m": 257
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-110340505",
+   "name": "新神戸変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-170693194",
+   "name": "淀川変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-185032690",
+   "name": "西神戸変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-110847000",
+   "name": "西大阪変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-242253497",
+   "name": "姫路変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-158522649",
+   "name": "東大阪変電所",
+   "assigned": false,
+   "match": {
+    "knj": "東大阪変電所",
+    "ctg": "建物（発電所）",
+    "m": 190
+   },
+   "near": [
+    {
+     "knj": "東大阪変電所",
+     "ctg": "建物（発電所）",
+     "m": 190
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-191382982",
+   "name": "枚方変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-108199478",
+   "name": "南大阪変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-node-11250631836",
+   "name": "北葛城変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-839369877",
+   "name": "神戸変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-110847002",
+   "name": "北大阪変電所",
+   "assigned": false,
+   "match": {
+    "knj": "北大阪変電所",
+    "ctg": "建物（発電所）",
+    "m": 250
+   },
+   "near": [
+    {
+     "knj": "北大阪変電所",
+     "ctg": "建物（発電所）",
+     "m": 250
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-191880853",
+   "name": "泉南変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-169031922",
+   "name": "奥吉野発電所",
+   "assigned": false,
+   "match": {
+    "knj": "奥吉野発電所",
+    "ctg": "建物（発電所）",
+    "m": 67
+   },
+   "near": [
+    {
+     "knj": "奥吉野発電所",
+     "ctg": "建物（発電所）",
+     "m": 67
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-242706111",
+   "name": "相生バイオマス発電所",
+   "assigned": false,
+   "match": null,
+   "near": [
+    {
+     "knj": "相生発電所",
+     "ctg": "建物（発電所）",
+     "m": 216
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-364849743",
+   "name": "姫路第一発電所",
+   "assigned": false,
+   "match": {
+    "knj": "姫路第一発電所",
+    "ctg": "建物（発電所）",
+    "m": 163
+   },
+   "near": [
+    {
+     "knj": "姫路第一発電所",
+     "ctg": "建物（発電所）",
+     "m": 163
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-367261461",
+   "name": "姫路第二発電所",
+   "assigned": false,
+   "match": {
+    "knj": "姫路第二発電所",
+    "ctg": "建物（発電所）",
+    "m": 197
+   },
+   "near": [
+    {
+     "knj": "姫路第二発電所",
+     "ctg": "建物（発電所）",
+     "m": 197
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-449155824",
+   "name": "敦賀原子力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "敦賀原子力発電所",
+    "ctg": "建物（発電所）",
+    "m": 404
+   },
+   "near": [
+    {
+     "knj": "敦賀原子力発電所",
+     "ctg": "建物（発電所）",
+     "m": 404
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-456491990",
+   "name": "高浜原子力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "高浜原子力発電所",
+    "ctg": "建物（発電所）",
+    "m": 320
+   },
+   "near": [
+    {
+     "knj": "高浜原子力発電所",
+     "ctg": "建物（発電所）",
+     "m": 320
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-500196924",
+   "name": "赤穂発電所",
+   "assigned": false,
+   "match": {
+    "knj": "赤穂発電所",
+    "ctg": "建物（発電所）",
+    "m": 374
+   },
+   "near": [
+    {
+     "knj": "赤穂発電所",
+     "ctg": "建物（発電所）",
+     "m": 374
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-605382252",
+   "name": "大飯原子力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "大飯原子力発電所",
+    "ctg": "建物（発電所）",
+    "m": 410
+   },
+   "near": [
+    {
+     "knj": "大飯原子力発電所",
+     "ctg": "建物（発電所）",
+     "m": 410
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-605382256",
+   "name": "高砂火力発電所",
+   "assigned": false,
+   "match": null,
+   "near": [
+    {
+     "knj": "電源開発発電所",
+     "ctg": "建物（発電所）",
+     "m": 130
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-605420894",
+   "name": "舞鶴火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "舞鶴発電所",
+    "ctg": "建物（発電所）",
+    "m": 501
+   },
+   "near": [
+    {
+     "knj": "舞鶴発電所",
+     "ctg": "建物（発電所）",
+     "m": 501
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-605420905",
+   "name": "美浜原子力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "美浜原子力発電所",
+    "ctg": "建物（発電所）",
+    "m": 172
+   },
+   "near": [
+    {
+     "knj": "美浜原子力発電所",
+     "ctg": "建物（発電所）",
+     "m": 172
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-842717570",
+   "name": "奥多々良木発電所",
+   "assigned": false,
+   "match": null,
+   "near": [
+    {
+     "knj": "奥多々良木地下発電所",
+     "ctg": "建物（発電所）",
+     "m": 1119
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-1029051469",
+   "name": "宮津エネルギー研究所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-relation-12905117",
+   "name": "喜撰山発電所",
+   "assigned": false,
+   "match": null,
+   "near": [
+    {
+     "knj": "喜撰山揚水発電所",
+     "ctg": "建物（発電所）",
+     "m": 276
+    }
+   ]
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-241822623",
+   "name": "東岡山変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-242253537",
+   "name": "智頭変電所",
+   "assigned": true,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kansai",
+   "id": "osm-way-722673849",
+   "name": "阿南変換所",
+   "assigned": true,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-241828221",
+   "name": "新岡山変電所",
+   "assigned": false,
+   "match": {
+    "knj": "新岡山変電所",
+    "ctg": "建物（発電所）",
+    "m": 135
+   },
+   "near": [
+    {
+     "knj": "新岡山変電所",
+     "ctg": "建物（発電所）",
+     "m": 135
+    }
+   ]
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-170974371",
+   "name": "新広島変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-242253500",
+   "name": "東山口変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-204258596",
+   "name": "新山口変電所",
+   "assigned": false,
+   "match": {
+    "knj": "新山口変電所",
+    "ctg": "建物（発電所）",
+    "m": 166
+   },
+   "near": [
+    {
+     "knj": "新山口変電所",
+     "ctg": "建物（発電所）",
+     "m": 166
+    }
+   ]
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-193544791",
+   "name": "新西広島変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-317416612",
+   "name": "西島根変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-242103481",
+   "name": "日野変電所",
+   "assigned": false,
+   "match": {
+    "knj": "日野変電所",
+    "ctg": "建物（発電所）",
+    "m": 159
+   },
+   "near": [
+    {
+     "knj": "日野変電所",
+     "ctg": "建物（発電所）",
+     "m": 159
+    }
+   ]
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-317511904",
+   "name": "北松江変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-242159178",
+   "name": "井原開閉所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-242389846",
+   "name": "新倉敷変電所",
+   "assigned": true,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-242159098",
+   "name": "岡山変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-170974372",
+   "name": "広島変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-317416619",
+   "name": "黒瀬変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-317980483",
+   "name": "作木変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-318438125",
+   "name": "山口変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-243471278",
+   "name": "新徳山変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-641527416",
+   "name": "新鳥取変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-317734481",
+   "name": "笠岡変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-641638470",
+   "name": "新岩国変電所",
+   "assigned": true,
+   "match": null,
+   "near": [
+    {
+     "knj": "岩国火力発電所",
+     "ctg": "建物（発電所）",
+     "m": 104
+    }
+   ]
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-319371122",
+   "name": "南山口変電所",
+   "assigned": true,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-317614555",
+   "name": "下松火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "中国電力下松発電所",
+    "ctg": "建物（発電所）",
+    "m": 344
+   },
+   "near": [
+    {
+     "knj": "中国電力下松発電所",
+     "ctg": "建物（発電所）",
+     "m": 344
+    }
+   ]
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-605382253",
+   "name": "島根原子力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "島根原子力発電所",
+    "ctg": "建物（発電所）",
+    "m": 462
+   },
+   "near": [
+    {
+     "knj": "島根原子力発電所",
+     "ctg": "建物（発電所）",
+     "m": 462
+    }
+   ]
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-605382259",
+   "name": "竹原火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "竹原火力発電所",
+    "ctg": "建物（発電所）",
+    "m": 432
+   },
+   "near": [
+    {
+     "knj": "竹原火力発電所",
+     "ctg": "建物（発電所）",
+     "m": 432
+    }
+   ]
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-605420890",
+   "name": "大崎火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "大崎発電所",
+    "ctg": "建物（発電所）",
+    "m": 214
+   },
+   "near": [
+    {
+     "knj": "大崎発電所",
+     "ctg": "建物（発電所）",
+     "m": 214
+    }
+   ]
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-605420903",
+   "name": "岩国火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "岩国火力発電所",
+    "ctg": "建物（発電所）",
+    "m": 272
+   },
+   "near": [
+    {
+     "knj": "岩国火力発電所",
+     "ctg": "建物（発電所）",
+     "m": 272
+    }
+   ]
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-605420904",
+   "name": "柳井火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "柳井発電所",
+    "ctg": "建物（発電所）",
+    "m": 233
+   },
+   "near": [
+    {
+     "knj": "柳井発電所",
+     "ctg": "建物（発電所）",
+     "m": 233
+    }
+   ]
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-87538349",
+   "name": "讃岐変電所",
+   "assigned": false,
+   "match": {
+    "knj": "讃岐変電所",
+    "ctg": "居住地名（町字名）",
+    "m": 185
+   },
+   "near": [
+    {
+     "knj": "讃岐変電所",
+     "ctg": "居住地名（町字名）",
+     "m": 185
+    }
+   ]
+  },
+  {
+   "region": "chugoku",
+   "id": "osm-way-187988970",
+   "name": "北九州変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-307942220",
+   "name": "阿波変電所",
+   "assigned": false,
+   "match": {
+    "knj": "四国電力阿波変電所",
+    "ctg": "建物（発電所）",
+    "m": 27
+   },
+   "near": [
+    {
+     "knj": "四国電力阿波変電所",
+     "ctg": "建物（発電所）",
+     "m": 27
+    }
+   ]
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-171066843",
+   "name": "東予変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-172907196",
+   "name": "川内変電所",
+   "assigned": true,
+   "match": {
+    "knj": "川内変電所",
+    "ctg": "建物（発電所）",
+    "m": 192
+   },
+   "near": [
+    {
+     "knj": "川内変電所",
+     "ctg": "建物（発電所）",
+     "m": 192
+    }
+   ]
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-309044203",
+   "name": "国府変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-722498909",
+   "name": "鳴門変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-492707500",
+   "name": "井川変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-87491654",
+   "name": "香川変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-87491658",
+   "name": "高松変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-1037463614",
+   "name": "本川変電所",
+   "assigned": false,
+   "match": null,
+   "near": [
+    {
+     "knj": "本川地下発電所",
+     "ctg": "建物（発電所）",
+     "m": 696
+    }
+   ]
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-573818554",
+   "name": "高知変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-620976970",
+   "name": "三島変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-171063439",
+   "name": "松山変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-620989307",
+   "name": "北松山変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-173327088",
+   "name": "西条変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-relation-11583778",
+   "name": "新改発電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-620007466",
+   "name": "大洲変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-1037299171",
+   "name": "広見変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-170877533",
+   "name": "麻変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-456491989",
+   "name": "伊方原子力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "伊方原子力発電所",
+    "ctg": "建物（発電所）",
+    "m": 114
+   },
+   "near": [
+    {
+     "knj": "伊方原子力発電所",
+     "ctg": "建物（発電所）",
+     "m": 114
+    }
+   ]
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-605382257",
+   "name": "橘湾火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "橘湾発電所",
+    "ctg": "建物（発電所）",
+    "m": 742
+   },
+   "near": [
+    {
+     "knj": "橘湾発電所",
+     "ctg": "建物（発電所）",
+     "m": 742
+    }
+   ]
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-605382258",
+   "name": "橘湾発電所",
+   "assigned": false,
+   "match": {
+    "knj": "橘湾発電所",
+    "ctg": "建物（発電所）",
+    "m": 366
+   },
+   "near": [
+    {
+     "knj": "橘湾発電所",
+     "ctg": "建物（発電所）",
+     "m": 366
+    },
+    {
+     "knj": "阿南発電所",
+     "ctg": "建物（発電所）",
+     "m": 1439
+    }
+   ]
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-605687599",
+   "name": "坂出火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "四国電力坂出発電所",
+    "ctg": "建物（発電所）",
+    "m": 510
+   },
+   "near": [
+    {
+     "knj": "四国電力坂出発電所",
+     "ctg": "建物（発電所）",
+     "m": 510
+    }
+   ]
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-605689959",
+   "name": "阿南火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "阿南発電所",
+    "ctg": "建物（発電所）",
+    "m": 193
+   },
+   "near": [
+    {
+     "knj": "阿南発電所",
+     "ctg": "建物（発電所）",
+     "m": 193
+    }
+   ]
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-620975079",
+   "name": "新居浜西火力発電所",
+   "assigned": true,
+   "match": null,
+   "near": [
+    {
+     "knj": "西火力発電所",
+     "ctg": "建物（発電所）",
+     "m": 78
+    }
+   ]
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-704208234",
+   "name": "西条発電所",
+   "assigned": false,
+   "match": {
+    "knj": "四国電力西条発電所",
+    "ctg": "建物（発電所）",
+    "m": 451
+   },
+   "near": [
+    {
+     "knj": "四国電力西条発電所",
+     "ctg": "建物（発電所）",
+     "m": 451
+    }
+   ]
+  },
+  {
+   "region": "shikoku",
+   "id": "osm-way-844182805",
+   "name": "二又水力発電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-216956620",
+   "name": "宮崎変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-215451416",
+   "name": "南九州変電所",
+   "assigned": false,
+   "match": {
+    "knj": "南九州変電所",
+    "ctg": "建物（発電所）",
+    "m": 164
+   },
+   "near": [
+    {
+     "knj": "南九州変電所",
+     "ctg": "建物（発電所）",
+     "m": 164
+    }
+   ]
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-405626236",
+   "name": "熊本変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-172144358",
+   "name": "中央変電所",
+   "assigned": false,
+   "match": {
+    "knj": "中央変電所",
+    "ctg": "建物（発電所）",
+    "m": 114
+   },
+   "near": [
+    {
+     "knj": "中央変電所",
+     "ctg": "建物（発電所）",
+     "m": 114
+    }
+   ]
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-185029969",
+   "name": "西九州変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-172601929",
+   "name": "脊振変電所",
+   "assigned": false,
+   "match": {
+    "knj": "脊振変電所",
+    "ctg": "建物（発電所）",
+    "m": 122
+   },
+   "near": [
+    {
+     "knj": "脊振変電所",
+     "ctg": "建物（発電所）",
+     "m": 122
+    }
+   ]
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-216502300",
+   "name": "中九州変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-216778426",
+   "name": "東九州変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-201293312",
+   "name": "豊前変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-231759891",
+   "name": "一ツ瀬変電所",
+   "assigned": true,
+   "match": null,
+   "near": [
+    {
+     "knj": "一ッ瀬発電所",
+     "ctg": "建物（発電所）",
+     "m": 31
+    }
+   ]
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-216953915",
+   "name": "ひむか変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-373870139",
+   "name": "新日向変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-231762847",
+   "name": "柏田変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-742292275",
+   "name": "海崎変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-1511234043",
+   "name": "苅田変電所",
+   "assigned": false,
+   "match": {
+    "knj": "九州電力苅田発電所",
+    "ctg": "建物（発電所）",
+    "m": 167
+   },
+   "near": [
+    {
+     "knj": "九州電力苅田発電所",
+     "ctg": "建物（発電所）",
+     "m": 167
+    }
+   ]
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-239024744",
+   "name": "西谷変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-174714259",
+   "name": "久留米変電所",
+   "assigned": true,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-173793392",
+   "name": "鳥栖変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-405705606",
+   "name": "南宮崎変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-216605551",
+   "name": "弓削変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-203776442",
+   "name": "三池変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-231877019",
+   "name": "上椎葉発電所",
+   "assigned": true,
+   "match": null,
+   "near": [
+    {
+     "knj": "発電所",
+     "ctg": "建物（発電所）",
+     "m": 133
+    }
+   ]
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-216498433",
+   "name": "南熊本変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-182188317",
+   "name": "日田変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-179122765",
+   "name": "古賀変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-218035208",
+   "name": "高野系統開閉所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-172143432",
+   "name": "山家変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-184180157",
+   "name": "東福岡変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-406052986",
+   "name": "鹿児島変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-216496817",
+   "name": "人吉変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-220707456",
+   "name": "松島変電所",
+   "assigned": false,
+   "match": {
+    "knj": "松島火力発電所",
+    "ctg": "建物（発電所）",
+    "m": 807
+   },
+   "near": [
+    {
+     "knj": "松島火力発電所",
+     "ctg": "建物（発電所）",
+     "m": 807
+    }
+   ]
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-241875111",
+   "name": "東佐世保変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-296788490",
+   "name": "上津役変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-185504478",
+   "name": "北佐賀変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-220698807",
+   "name": "武雄変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-219579624",
+   "name": "西佐世保変電所",
+   "assigned": true,
+   "match": null,
+   "near": [
+    {
+     "knj": "相浦発電所",
+     "ctg": "建物（発電所）",
+     "m": 32
+    }
+   ]
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-744453597",
+   "name": "伊都変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-173152424",
+   "name": "西福岡変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-259056356",
+   "name": "速見変電所",
+   "assigned": true,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-373882198",
+   "name": "大隅変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-216949339",
+   "name": "大分変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-90806466",
+   "name": "西大分変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-216499699",
+   "name": "大平変電所",
+   "assigned": true,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-219569064",
+   "name": "筑豊変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-185936794",
+   "name": "南福岡変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-405827725",
+   "name": "長崎変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-174915836",
+   "name": "木佐木変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-297939963",
+   "name": "槻田系統開閉所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-373876262",
+   "name": "都城変電所",
+   "assigned": false,
+   "match": {
+    "knj": "都城変電所",
+    "ctg": "建物（発電所）",
+    "m": 434
+   },
+   "near": [
+    {
+     "knj": "都城変電所",
+     "ctg": "建物（発電所）",
+     "m": 434
+    }
+   ]
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-201289289",
+   "name": "唐津変電所",
+   "assigned": false,
+   "match": null,
+   "near": [
+    {
+     "knj": "火力発電所",
+     "ctg": "建物（発電所）",
+     "m": 657
+    }
+   ]
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-1199776830",
+   "name": "東大分変電所",
+   "assigned": false,
+   "match": null,
+   "near": [
+    {
+     "knj": "九電大分発電所",
+     "ctg": "建物（発電所）",
+     "m": 349
+    }
+   ]
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-195047433",
+   "name": "住吉変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-304390660",
+   "name": "到津変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-238096118",
+   "name": "北熊本変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-405827724",
+   "name": "北長崎変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-373883352",
+   "name": "霧島変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-190517710",
+   "name": "新鹿児島変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-237476160",
+   "name": "川薩変電所",
+   "assigned": true,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-189776902",
+   "name": "門司変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-744450488",
+   "name": "八代変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-405827687",
+   "name": "諫早変電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-172644773",
+   "name": "玄海原子力発電所",
+   "assigned": false,
+   "match": null,
+   "near": [
+    {
+     "knj": "原子力発電所",
+     "ctg": "建物（発電所）",
+     "m": 187
+    }
+   ]
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-215429864",
+   "name": "川内原子力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "川内原子力発電所",
+    "ctg": "建物（発電所）",
+    "m": 453
+   },
+   "near": [
+    {
+     "knj": "川内原子力発電所",
+     "ctg": "建物（発電所）",
+     "m": 453
+    }
+   ]
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-216781917",
+   "name": "新大分発電所",
+   "assigned": false,
+   "match": null,
+   "near": [
+    {
+     "knj": "九電新大分発電所",
+     "ctg": "建物（発電所）",
+     "m": 23
+    }
+   ]
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-216798219",
+   "name": "松浦火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "松浦発電所",
+    "ctg": "建物（発電所）",
+    "m": 160
+   },
+   "near": [
+    {
+     "knj": "松浦発電所",
+     "ctg": "建物（発電所）",
+     "m": 160
+    },
+    {
+     "knj": "松浦発電所前駅",
+     "ctg": "陸上交通施設（鉄道駅名）",
+     "m": 507
+    },
+    {
+     "knj": "松浦火力発電所",
+     "ctg": "建物（発電所）",
+     "m": 1082
+    }
+   ]
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-216809817",
+   "name": "豊前火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "豊前発電所",
+    "ctg": "建物（発電所）",
+    "m": 126
+   },
+   "near": [
+    {
+     "knj": "豊前発電所",
+     "ctg": "建物（発電所）",
+     "m": 126
+    }
+   ]
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-219579622",
+   "name": "相浦火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "相浦発電所",
+    "ctg": "建物（発電所）",
+    "m": 258
+   },
+   "near": [
+    {
+     "knj": "相浦発電所",
+     "ctg": "建物（発電所）",
+     "m": 258
+    }
+   ]
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-220707452",
+   "name": "松島火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "松島火力発電所",
+    "ctg": "建物（発電所）",
+    "m": 386
+   },
+   "near": [
+    {
+     "knj": "松島火力発電所",
+     "ctg": "建物（発電所）",
+     "m": 386
+    }
+   ]
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-233522781",
+   "name": "天山水力発電所",
+   "assigned": false,
+   "match": null,
+   "near": []
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-365487155",
+   "name": "川内発電所",
+   "assigned": false,
+   "match": {
+    "knj": "川内火力発電所",
+    "ctg": "建物（発電所）",
+    "m": 314
+   },
+   "near": [
+    {
+     "knj": "川内火力発電所",
+     "ctg": "建物（発電所）",
+     "m": 314
+    }
+   ]
+  },
+  {
+   "region": "kyushu",
+   "id": "osm-way-605420902",
+   "name": "新小倉火力発電所",
+   "assigned": false,
+   "match": {
+    "knj": "九州電力新小倉発電所",
+    "ctg": "建物（発電所）",
+    "m": 173
+   },
+   "near": [
+    {
+     "knj": "九州電力新小倉発電所",
+     "ctg": "建物（発電所）",
+     "m": 173
+    }
+   ]
+  }
+ ]
+}

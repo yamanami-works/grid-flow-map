@@ -1,0 +1,595 @@
+{
+  "status": "limited-validation geographic reference adopted; official parcel boundaries and individual bus/circuit wiring unverified",
+  "checkedAt": "2026-09-26T15:28:40.873116+00:00",
+  "recommendation": "大野変電所―大野線187kV―北七飯変電所",
+  "officialLineNo": "52",
+  "existingOhnoAssetId": "asset-5d83b8bb-2c10-41b3-a429-3f61e2471ae8",
+  "newAssetRegistration": [
+    "大野線",
+    "北七飯変電所（候補。既存台帳に該当IDなし。2区画の自動統合はしない）"
+  ],
+  "lines": [
+    {
+      "id": "254271521",
+      "nodes": [
+        "2600589373",
+        "2600638899"
+      ],
+      "tags": {
+        "cables": "3",
+        "circuits": "1",
+        "frequency": "50",
+        "name": "大野線",
+        "name:en": "Ōno Line",
+        "operator": "北海道電力ネットワーク",
+        "operator:en": "Hokkaido Electric Power Network",
+        "operator:ja": "北海道電力ネットワーク",
+        "operator:short": "ほくでんネットワーク",
+        "operator:wikidata": "Q64504223",
+        "power": "line",
+        "voltage": "187000"
+      },
+      "coordinatesLatLon": [
+        [
+          41.8891133,
+          140.6058809
+        ],
+        [
+          41.8892038,
+          140.6069638
+        ]
+      ],
+      "endpoints": [
+        {
+          "node": "2600589373",
+          "insideFootprints": []
+        },
+        {
+          "node": "2600638899",
+          "insideFootprints": [
+            "254271516"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "254271526",
+      "nodes": [
+        "2600589373",
+        "2600638893"
+      ],
+      "tags": {
+        "cables": "3",
+        "circuits": "1",
+        "frequency": "50",
+        "name": "大野線",
+        "name:en": "Ōno Line",
+        "operator": "北海道電力ネットワーク",
+        "operator:en": "Hokkaido Electric Power Network",
+        "operator:ja": "北海道電力ネットワーク",
+        "operator:short": "ほくでんネットワーク",
+        "operator:wikidata": "Q64504223",
+        "power": "line",
+        "voltage": "187000"
+      },
+      "coordinatesLatLon": [
+        [
+          41.8891133,
+          140.6058809
+        ],
+        [
+          41.8890803,
+          140.6069611
+        ]
+      ],
+      "endpoints": [
+        {
+          "node": "2600589373",
+          "insideFootprints": []
+        },
+        {
+          "node": "2600638893",
+          "insideFootprints": [
+            "254271516"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "254267686",
+      "nodes": [
+        "2600589373",
+        "2600589387",
+        "2600589399",
+        "2600589402",
+        "2600589406",
+        "2600589408",
+        "5794210451",
+        "2600589412",
+        "2600589415",
+        "2600589418",
+        "2600589422",
+        "2600589427",
+        "2600589430",
+        "2600589434",
+        "2600589440",
+        "2600589442",
+        "2600589446",
+        "2600589449",
+        "2600589452",
+        "2600589455",
+        "2600589458",
+        "2600589461",
+        "2600589463",
+        "2600589464",
+        "2600589471",
+        "2600589478",
+        "2600589486",
+        "2600589492",
+        "2600589497",
+        "2600589504",
+        "2600589512",
+        "2600589511",
+        "2600589506",
+        "2600589501",
+        "2600589499",
+        "2600589494",
+        "2600589488",
+        "2600589481",
+        "2600589480",
+        "5913225612",
+        "2600589475",
+        "2600589469"
+      ],
+      "tags": {
+        "cables": "6",
+        "circuits": "2",
+        "frequency": "50",
+        "name": "大野線",
+        "name:en": "Ōno Line",
+        "operator": "北海道電力ネットワーク",
+        "operator:en": "Hokkaido Electric Power Network",
+        "operator:ja": "北海道電力ネットワーク",
+        "operator:short": "ほくでんネットワーク",
+        "operator:wikidata": "Q64504223",
+        "power": "line",
+        "voltage": "187000"
+      },
+      "coordinatesLatLon": [
+        [
+          41.8891133,
+          140.6058809
+        ],
+        [
+          41.8897036,
+          140.6060891
+        ],
+        [
+          41.8911799,
+          140.6065765
+        ],
+        [
+          41.8934084,
+          140.6085194
+        ],
+        [
+          41.8947933,
+          140.6106704
+        ],
+        [
+          41.8961192,
+          140.6129306
+        ],
+        [
+          41.897115,
+          140.614599
+        ],
+        [
+          41.8980474,
+          140.6161706
+        ],
+        [
+          41.8993957,
+          140.6184557
+        ],
+        [
+          41.9008043,
+          140.6205174
+        ],
+        [
+          41.9037085,
+          140.620367
+        ],
+        [
+          41.9055041,
+          140.6202751
+        ],
+        [
+          41.9070478,
+          140.6202104
+        ],
+        [
+          41.9094527,
+          140.6201184
+        ],
+        [
+          41.9114875,
+          140.6200307
+        ],
+        [
+          41.9139684,
+          140.619897
+        ],
+        [
+          41.9162269,
+          140.6198009
+        ],
+        [
+          41.9185242,
+          140.6196881
+        ],
+        [
+          41.9208012,
+          140.6196088
+        ],
+        [
+          41.9226896,
+          140.6180025
+        ],
+        [
+          41.9243454,
+          140.616628
+        ],
+        [
+          41.9264725,
+          140.6148016
+        ],
+        [
+          41.92803,
+          140.6155373
+        ],
+        [
+          41.9295421,
+          140.6161958
+        ],
+        [
+          41.9321065,
+          140.6173706
+        ],
+        [
+          41.9339935,
+          140.6182364
+        ],
+        [
+          41.935533,
+          140.6193297
+        ],
+        [
+          41.9370714,
+          140.6203501
+        ],
+        [
+          41.939062,
+          140.6217408
+        ],
+        [
+          41.9404688,
+          140.6226225
+        ],
+        [
+          41.9414747,
+          140.6268911
+        ],
+        [
+          41.9411731,
+          140.6291313
+        ],
+        [
+          41.9406218,
+          140.6331111
+        ],
+        [
+          41.9402749,
+          140.635454
+        ],
+        [
+          41.9398903,
+          140.6381709
+        ],
+        [
+          41.9376379,
+          140.6395033
+        ],
+        [
+          41.9358412,
+          140.6422088
+        ],
+        [
+          41.934828,
+          140.644435
+        ],
+        [
+          41.9341906,
+          140.6486608
+        ],
+        [
+          41.9338252,
+          140.6510469
+        ],
+        [
+          41.9332443,
+          140.6525825
+        ],
+        [
+          41.9315445,
+          140.6525469
+        ]
+      ],
+      "endpoints": [
+        {
+          "node": "2600589373",
+          "insideFootprints": []
+        },
+        {
+          "node": "2600589469",
+          "insideFootprints": []
+        }
+      ]
+    },
+    {
+      "id": "287362938",
+      "nodes": [
+        "2600589469",
+        "2909817601"
+      ],
+      "tags": {
+        "cables": "3",
+        "circuits": "1",
+        "frequency": "50",
+        "name": "大野線",
+        "name:en": "Ōno Line",
+        "operator": "北海道電力ネットワーク",
+        "operator:en": "Hokkaido Electric Power Network",
+        "operator:ja": "北海道電力ネットワーク",
+        "operator:short": "ほくでんネットワーク",
+        "operator:wikidata": "Q64504223",
+        "power": "line",
+        "voltage": "187000"
+      },
+      "coordinatesLatLon": [
+        [
+          41.9315445,
+          140.6525469
+        ],
+        [
+          41.9315445,
+          140.6533646
+        ]
+      ],
+      "endpoints": [
+        {
+          "node": "2600589469",
+          "insideFootprints": []
+        },
+        {
+          "node": "2909817601",
+          "insideFootprints": [
+            "222851764"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "287362951",
+      "nodes": [
+        "2600589469",
+        "2608584301"
+      ],
+      "tags": {
+        "cables": "3",
+        "circuits": "1",
+        "frequency": "50",
+        "name": "大野線",
+        "name:en": "Ōno Line",
+        "operator": "北海道電力ネットワーク",
+        "operator:en": "Hokkaido Electric Power Network",
+        "operator:ja": "北海道電力ネットワーク",
+        "operator:short": "ほくでんネットワーク",
+        "operator:wikidata": "Q64504223",
+        "power": "line",
+        "voltage": "187000"
+      },
+      "coordinatesLatLon": [
+        [
+          41.9315445,
+          140.6525469
+        ],
+        [
+          41.9314259,
+          140.6533621
+        ]
+      ],
+      "endpoints": [
+        {
+          "node": "2600589469",
+          "insideFootprints": []
+        },
+        {
+          "node": "2608584301",
+          "insideFootprints": [
+            "222851764"
+          ]
+        }
+      ]
+    }
+  ],
+  "facilityCandidates": [
+    {
+      "id": "254271516",
+      "nodes": [
+        "2600638909",
+        "2600638905",
+        "2600638889",
+        "2600638881",
+        "2600638876",
+        "5838611132",
+        "2600638784",
+        "2600638792",
+        "2600638796",
+        "2600638800",
+        "2600638807",
+        "2600638812",
+        "2600638909"
+      ],
+      "tags": {
+        "frequency": "50",
+        "location": "outdoor",
+        "name": "Ōno Substation",
+        "name:ja": "北海道電力(株) 大野変電所",
+        "operator": "北海道電力ネットワーク",
+        "operator:en": "Hokkaido Electric Power Network",
+        "operator:ja": "北海道電力ネットワーク",
+        "operator:short": "ほくでんネットワーク",
+        "operator:wikidata": "Q64504223",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "275000;187000;66000"
+      }
+    },
+    {
+      "id": "222851764",
+      "nodes": [
+        "2317969808",
+        "2317969768",
+        "2317969778",
+        "2317969784",
+        "2317969800",
+        "2317969794",
+        "2317969807",
+        "2317969810",
+        "2317969813",
+        "2317969819",
+        "2317969832",
+        "2317969842",
+        "2317969846",
+        "2317969850",
+        "2317969848",
+        "2317969809",
+        "2317969808"
+      ],
+      "tags": {
+        "frequency": "50",
+        "landuse": "industrial",
+        "location": "outdoor",
+        "name": "七飯発電所",
+        "name:en": "Naenae power station",
+        "operator": "北海道電力ネットワーク",
+        "operator:en": "Hokkaido Electric Power Network",
+        "operator:ja": "北海道電力ネットワーク",
+        "operator:short": "ほくでんネットワーク",
+        "operator:wikidata": "Q64504223",
+        "power": "substation",
+        "source": "image,2013-05;Bing",
+        "substation": "transmission",
+        "voltage": "187000;66000"
+      }
+    },
+    {
+      "id": "262597731",
+      "nodes": [
+        "2682502949",
+        "2682502959",
+        "2682502961",
+        "2682502960",
+        "2682502963",
+        "2682502964",
+        "2682502965",
+        "2682502967",
+        "2682502966",
+        "2682502955",
+        "2682502954",
+        "2682502943",
+        "2682502937",
+        "2682502949"
+      ],
+      "tags": {
+        "frequency": "50",
+        "name": "北七飯変電所",
+        "name:en": "Kitananae substation",
+        "operator": "北海道電力ネットワーク",
+        "operator:en": "Hokkaido Electric Power Network",
+        "operator:ja": "北海道電力ネットワーク",
+        "operator:short": "ほくでんネットワーク",
+        "operator:wikidata": "Q64504223",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "66000"
+      }
+    }
+  ],
+  "evidenceNotes": [
+    "共有ノード2600589373と2600589469で5線分は連続。近接結合なし。",
+    "大野側2終端は254271516内。北七飯側2終端は222851764（OSM名:七飯発電所）内で、262597731（OSM名:北七飯変電所）内ではない。",
+    "2013年度資料には旧七飯発電所の流通設備を北七飯変電所として分離する計画。現行187/66設備の公表存在は2026年資料で確認。ただし両OSM区画の現況同定・現地境界まで証明しない。"
+  ],
+  "sources": [
+    {
+      "path": "data/raw/hokkaido-187-survey/ohno-line.xml",
+      "url": "https://api.openstreetmap.org/api/0.6/way/254267686/full",
+      "sha256": "6b12c5f9696fbef62f25a4e4f50d90f04e2aecde144129af17a1985bdacfc0e0",
+      "fileRetrievedAt": "2026-09-26T15:22:01.334275+00:00"
+    },
+    {
+      "path": "data/raw/hokkaido-187-survey/kitananae.xml",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=140.649,41.928,140.658,41.936",
+      "sha256": "60f22cae5bc2cac24a5b7d8ac6deddd2481be48be6c394cb04211fec2d1d8e63",
+      "fileRetrievedAt": "2026-09-26T15:23:01.833947+00:00"
+    },
+    {
+      "path": "data/raw/hokkaido-187-survey/ohno.xml",
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=140.600,41.884,140.610,41.894",
+      "sha256": "bbf54ca1685e143a21cecfb249bfc7db9807c76eb7f2fbaea0a6d3d553b726c0",
+      "fileRetrievedAt": "2026-09-26T14:37:23.305843+00:00"
+    },
+    {
+      "path": "data/raw/hokkaido-187-survey/sys_config_results.pdf",
+      "url": "https://www.hepco.co.jp/network/con_service/public_document/pdf/sys_config_results.pdf",
+      "sha256": "93d7080ba36ad504814dcea94ce22eae9f8e51fb21e9c41541553cf44cae2415",
+      "fileRetrievedAt": "2026-09-26T14:31:16.148849+00:00"
+    },
+    {
+      "path": "data/raw/hokkaido-187-survey/map_forecast_tide_list.pdf",
+      "url": "https://www.hepco.co.jp/network/con_service/public_document/pdf/map_forecast_tide_list.pdf",
+      "sha256": "e395ec2d7de841b764362d7a2122cd57d18f24ab2d1dac60fce1a3057503d218",
+      "fileRetrievedAt": "2026-09-26T14:31:16.740098+00:00"
+    },
+    {
+      "path": "data/raw/hokkaido-187-survey/sys_capa_kikan.zip",
+      "url": "https://www.hepco.co.jp/network/con_service/public_document/zip/sys_capa_kikan.zip",
+      "sha256": "b3e1fdd64ec642e23fcf5fb48992a14b8fc4014f7a21a4858b2f7fb38ce99620",
+      "fileRetrievedAt": "2026-09-26T14:31:16.798851+00:00"
+    },
+    {
+      "path": "data/raw/hokkaido-187-survey/89securities.pdf",
+      "url": "https://www.hepco.co.jp/corporate/ir/ir_lib/pdf/89securities.pdf",
+      "sha256": "ca4f54ff5904003618fbe8881db316592374cd0689b64ffd71d2ea5f9da9439f",
+      "fileRetrievedAt": "2026-09-26T15:26:51.818518+00:00"
+    },
+    {
+      "path": "data/raw/hokkaido-187-survey/91quarterlyreport_1q.pdf",
+      "url": "https://www.hepco.co.jp/corporate/ir/ir_lib/pdf/91quarterlyreport_1q.pdf",
+      "published": "2014-08-05",
+      "page": 6,
+      "pdfPage": 9,
+      "retrievedAt": "2026-09-27T03:43:54.469Z",
+      "sha256": "28914ce1e3225e3def2f18acfba9c6f36fb4fd347b514446ccd28bc3eed4f5f0"
+    }
+  ],
+  "reviewedAt": "2026-09-27T03:43:54.468Z",
+  "identityDecision": {
+    "basis": "2014 quarterly report confirms operation began, not merely planned; current NW line 52 and bank 226; named continuous 187kV OSM route reaches old-named 187/66kV substation",
+    "referenceFootprint": "222851764",
+    "excludedAdjacentFootprint": "262597731",
+    "scope": "geographic reference only; no parcel merger, no circuit/busbar claim"
+  }
+}

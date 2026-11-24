@@ -1,0 +1,6 @@
+Geographical data: © OpenStreetMap contributors
+Open Database License (ODbL) 1.0
+https://opendatacommons.org/licenses/odbl/1-0/
+https://www.openstreetmap.org/copyright
+
+This dataset groups OSM ways by name and voltage without filling gaps. Facility markers use OSM points or geometry bounding-box centres. Topology and official power-flow correspondence are not verified.

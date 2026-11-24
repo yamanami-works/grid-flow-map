@@ -1,0 +1,36 @@
+/* Transparent hit boxes and Leaflet anchors stay independent of the visible symbol. */
+.facility-symbol{display:flex;align-items:center;justify-content:center;background:transparent;border:0;border-radius:0;box-shadow:none;color:#244c7c;line-height:1}
+.facility-plant{color:#a04f14}.facility-switchyard{color:#266951}.facility-converter{color:#972d9d}.facility-customer{color:#7a6248}.pilot-facility{color:#39584c}
+.facility-multi{gap:0}.facility-multi>span{display:flex}.facility-multi .facility-substation{color:#244c7c}
+.equipment-glyph{display:inline-block;width:22px;height:22px;flex:none;vertical-align:middle;pointer-events:none;overflow:visible}
+.equipment-halo{fill:#fff;stroke:#fff;stroke-width:5;stroke-linejoin:round}
+.equipment-outline{fill:#fff;stroke:currentColor;stroke-width:2.4;stroke-linejoin:miter}
+.facility-plant .equipment-outline{fill:currentColor}
+/* 需要家（2026-10-11）：六角形の内側を淡い茶灰色で塗る */
+.facility-customer .equipment-outline{fill:#efe6da}
+.equipment-arrows{fill:none;stroke:currentColor;stroke-width:1.7;stroke-linecap:round;stroke-linejoin:round}
+.facility-selected .equipment-outline{stroke-width:3.8}
+.facility-selected .equipment-halo{stroke-width:6}
+.overview-map .facility-symbol:not(.facility-multi){width:11px!important;height:11px!important;margin-left:-5.5px!important;margin-top:-5.5px!important}
+.overview-map .facility-symbol .equipment-glyph{width:11px;height:11px}
+.overview-map .equipment-outline{stroke-width:3}
+.far-map .facility-symbol:not(.facility-converter):not(.facility-selected){display:none!important}
+.layer-options .equipment-glyph{width:18px;height:18px;color:#972d9d}
+
+/* 廃止発電所（2026-10-09）：塗りは灰色、枠は破線。潮流「不明」の灰色の線（濃い縁の灰色の粒子）と形で見分ける */
+.facility-retired .plant-disc,.facility-retired .equipment-outline{fill:#c3c9cd!important;stroke:#4a555c;stroke-width:1.7;stroke-dasharray:2.4 1.6}
+.facility-retired .equipment-halo{stroke-width:2.5}
+.facility-retired .plant-source path,.facility-retired .plant-source circle:not(.plant-disc){opacity:.85}
+.legend-retired-plant{display:inline-flex;vertical-align:middle;margin-right:2px}.legend-retired-plant .equipment-glyph{width:14px;height:14px}
+.legend-planned{display:inline-block;width:22px;height:0;border-top:3px dashed #5b6b73;vertical-align:middle;background:none!important}
+/* 電源ごとの発電所マーク（2026-10-07、案B）。選ばれたときは白い縁を太く */
+.plant-source .equipment-halo{stroke-width:3}
+.facility-selected .plant-source .equipment-halo{stroke-width:5}
+.facility-selected .plant-source .plant-disc{stroke:#1d2b26;stroke-width:1.6}
+.overview-map .plant-source .equipment-halo{stroke-width:4}
+.legend-plant-sources{display:flex;flex-wrap:wrap;gap:4px 10px;margin:2px 0 4px 22px;font-size:11px;color:#4d6757}
+.legend-plant-sources span{display:inline-flex;align-items:center;gap:3px}
+.legend-plant-sources .equipment-glyph{width:16px;height:16px}
+
+/* 設備名のラベル（2026-11-22、src/facility-labels.ts）：12px 太字・濃い緑灰色・白い縁取り、背景の箱なし。タップは受けない */
+.facility-label{position:absolute;left:0;top:0;padding:0 2px;font:600 12px/16px system-ui,sans-serif;color:#23352a;white-space:nowrap;pointer-events:none;user-select:none;text-shadow:0 0 2px #fff,0 0 2px #fff,1px 1px 0 #fff,-1px -1px 0 #fff,1px -1px 0 #fff,-1px 1px 0 #fff}

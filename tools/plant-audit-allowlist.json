@@ -1,0 +1,12 @@
+{
+  "note": "tools/audit-plants.mjs の確認済みリスト。一次資料で確認できた指摘を、ID（発電所の id）と項目（check）で登録すると info に下がる。追加はオーナーの承認後。entries の形：{\"id\": \"...\", \"check\": \"...\", \"reason\": \"...\", \"source\": \"出典（URL・資料名）\", \"confirmedAt\": \"YYYY-MM-DD\"}",
+  "entries": [
+    {
+      "id": "osm-way-169031922",
+      "check": "一般/揚水 食い違い",
+      "reason": "奥吉野発電所は関西電力の水力発電所一覧で純揚水式。OSM の登録（water-storage、一般水力）の誤りとみなす（2026-10-18 オーナー承認）",
+      "source": "関西電力 水力発電所一覧（2026年7月末時点） https://www.kepco.co.jp/energy_supply/energy/newenergy/water/plant/list.html",
+      "confirmedAt": "2026-10-18"
+    }
+  ]
+}

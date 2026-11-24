@@ -1,0 +1,162 @@
+{
+  "note": "廃止発電所（tools/build-retired-plants.mjs が生成。手で編集しない）。retiredAt は HJKS の最後の稼働終了日。",
+  "retrievedAt": "2026-10-09",
+  "plants": {
+    "osm-relation-12343855": {
+      "retiredAt": "2026-06-30",
+      "retiredAtNote": "最後のユニットの稼働終了日（HJKS）",
+      "confirmed": true,
+      "basis": "HJKS（10万kW以上）で全ユニット稼働終了",
+      "sources": [
+        "日本卸電力取引所 発電情報公開システム（HJKS）ユニット一覧（2026-10-09取得、https://hjks.jepx.or.jp/hjks/）：新１号機 2026-06-30、新２号機 2017-05-31",
+        "九州電力「豊前発電所２号機及び苅田発電所新１号機の廃止を決定しました」（2024-09-27）：苅田発電所新1号機を2026年6月に廃止する予定。https://www.kyuden.co.jp/var/rev0/0563/8190/Dk6cqpLn.pdf"
+      ]
+    },
+    "osm-way-605689959": {
+      "retiredAt": "2026-06-30",
+      "retiredAtNote": "最後のユニットの稼働終了日（HJKS）",
+      "confirmed": true,
+      "basis": "HJKS（10万kW以上）で全ユニット稼働終了",
+      "sources": [
+        "日本卸電力取引所 発電情報公開システム（HJKS）ユニット一覧（2026-10-09取得、https://hjks.jepx.or.jp/hjks/）：１号機 2019-03-01、２号機 2019-03-01、３号機 2026-06-30、４号機 2023-09-01",
+        "四国電力「阿南発電所３号機及び坂出発電所３号機の廃止について」（2026-04-14）：2026年1月から休止、2026年6月を目途に廃止。https://www.yonden.co.jp/press/2026/__icsFiles/afieldfile/2026/04/14/pr005.pdf 。四国電力プレスリリース（2026-06-15）：3号機を2026年6月30日に廃止し全ての発電設備が廃止（1・2号機2019年3月、4号機2023年9月）。https://www.yonden.co.jp/press/2026/__icsFiles/afieldfile/2026/06/15/pr005.pdf"
+      ]
+    },
+    "osm-way-605433848": {
+      "retiredAt": "2026-03-31",
+      "retiredAtNote": "最後のユニットの稼働終了日（HJKS）",
+      "confirmed": true,
+      "basis": "HJKS（10万kW以上）で全ユニット稼働終了",
+      "sources": [
+        "日本卸電力取引所 発電情報公開システム（HJKS）ユニット一覧（2026-10-09取得、https://hjks.jepx.or.jp/hjks/）：１号機 2017-12-26、渥美３号 2026-03-31、渥美４号 2026-03-31",
+        "JERA「渥美火力発電所3･4号機の廃止について」（2026-03-31）：3・4号機を2026年3月に廃止（1・2号機は廃止済み）。https://www.jera.co.jp/news/information/20260331_2389"
+      ]
+    },
+    "osm-way-216809817": {
+      "retiredAt": "2026-03-31",
+      "retiredAtNote": "最後のユニットの稼働終了日（HJKS）",
+      "confirmed": true,
+      "basis": "HJKS（10万kW以上）で全ユニット稼働終了",
+      "sources": [
+        "日本卸電力取引所 発電情報公開システム（HJKS）ユニット一覧（2026-10-09取得、https://hjks.jepx.or.jp/hjks/）：１号機 2019-06-30、２号機 2026-03-31",
+        "九州電力「豊前発電所２号機及び苅田発電所新１号機の廃止を決定しました」（2024-09-27）：豊前発電所2号機を2026年3月に廃止する予定。https://www.kyuden.co.jp/var/rev0/0563/8190/Dk6cqpLn.pdf 。九州電力「火力発電所紹介」（2026-10-03確認）：豊前発電所は2026年3月31日に廃止。https://www.kyuden.co.jp/business_outline/power/thermal-power/plant.html"
+      ]
+    },
+    "osm-way-500196924": {
+      "retiredAt": "2025-07-31",
+      "retiredAtNote": "最後のユニットの稼働終了日（HJKS）",
+      "confirmed": true,
+      "basis": "HJKS（10万kW以上）で全ユニット稼働終了",
+      "sources": [
+        "日本卸電力取引所 発電情報公開システム（HJKS）ユニット一覧（2026-10-09取得、https://hjks.jepx.or.jp/hjks/）：１号機 2025-07-31、２号機 2025-07-31",
+        "関西電力プレスリリース（2024-10-16）：2025年7月31日をもって赤穂発電所1、2号機（全号機）を廃止。https://www.kepco.co.jp/corporate/pr/2024/pdf/20241016_1j.pdf 。2025-08-01 お知らせ：7月31日をもって廃止。https://www.kepco.co.jp/corporate/notice/notice_pdf/20250801_2.pdf"
+      ]
+    },
+    "osm-way-341478004": {
+      "retiredAt": "2024-07-01",
+      "retiredAtNote": "最後のユニットの稼働終了日（HJKS）",
+      "confirmed": true,
+      "basis": "HJKS（10万kW以上）で全ユニット稼働終了",
+      "sources": [
+        "日本卸電力取引所 発電情報公開システム（HJKS）ユニット一覧（2026-10-09取得、https://hjks.jepx.or.jp/hjks/）：２号機 2020-03-31、３号機 2019-09-01、４号機 2024-07-01、５号機 2019-03-15",
+        "東北電力：秋田火力発電所は2024年7月1日をもって全設備廃止（public/data/plant-profiles.json の出典）。"
+      ]
+    },
+    "osm-way-1029051469": {
+      "retiredAt": "2023-05-31",
+      "retiredAtNote": "最後のユニットの稼働終了日（HJKS）",
+      "confirmed": true,
+      "basis": "HJKS（10万kW以上）で全ユニット稼働終了",
+      "sources": [
+        "日本卸電力取引所 発電情報公開システム（HJKS）ユニット一覧（2026-10-09取得、https://hjks.jepx.or.jp/hjks/）：１号機 2023-05-31、２号機 2023-05-31",
+        "関西電力プレスリリース「宮津エネルギー研究所の廃止」（2023-04-11）：長期計画停止（1号機2002年、2号機2004年〜）を経て、2023年5月31日をもって1・2号機（全号機）を廃止。https://www.kepco.co.jp/corporate/pr/2023/pdf/20230411_1j.pdf"
+      ]
+    },
+    "osm-way-317614555": {
+      "retiredAt": "2023-01-31",
+      "retiredAtNote": "最後のユニットの稼働終了日（HJKS）",
+      "confirmed": true,
+      "basis": "HJKS（10万kW以上）で全ユニット稼働終了",
+      "sources": [
+        "日本卸電力取引所 発電情報公開システム（HJKS）ユニット一覧（2026-10-09取得、https://hjks.jepx.or.jp/hjks/）：単独 2023-01-31",
+        "中国電力プレスリリース（2022-05-23）：下松発電所3号機を2023年1月目途に廃止、1・2号機は廃止済み。https://www.energia.co.jp/assets/p20220523-1a_1.pdf"
+      ]
+    },
+    "osm-way-365487155": {
+      "retiredAt": "2022-04-01",
+      "retiredAtNote": "最後のユニットの稼働終了日（HJKS）",
+      "confirmed": true,
+      "basis": "HJKS（10万kW以上）で全ユニット稼働終了",
+      "sources": [
+        "日本卸電力取引所 発電情報公開システム（HJKS）ユニット一覧（2026-10-09取得、https://hjks.jepx.or.jp/hjks/）：１号機 2022-04-01、２号機 2022-04-01",
+        "九州電力「火力発電所紹介」（2026-10-03確認）：川内発電所は2022年4月1日に廃止。https://www.kyuden.co.jp/business_outline/power/thermal-power/plant.html"
+      ]
+    },
+    "osm-way-1092461703": {
+      "retiredAt": "2021-06-15",
+      "retiredAtNote": "最後のユニットの稼働終了日（HJKS）",
+      "confirmed": true,
+      "basis": "HJKS（10万kW以上）で全ユニット稼働終了",
+      "sources": [
+        "日本卸電力取引所 発電情報公開システム（HJKS）ユニット一覧（2026-10-09取得、https://hjks.jepx.or.jp/hjks/）：単独 2021-06-15"
+      ]
+    },
+    "osm-way-1133676170": {
+      "retiredAt": "2021-05-11",
+      "retiredAtNote": "最後のユニットの稼働終了日（HJKS）",
+      "confirmed": true,
+      "basis": "HJKS（10万kW以上）で全ユニット稼働終了",
+      "sources": [
+        "日本卸電力取引所 発電情報公開システム（HJKS）ユニット一覧（2026-10-09取得、https://hjks.jepx.or.jp/hjks/）：単独 2021-05-11"
+      ]
+    },
+    "osm-way-605420903": {
+      "retiredAt": "2020-06-30",
+      "retiredAtNote": "最後のユニットの稼働終了日（HJKS）",
+      "confirmed": true,
+      "basis": "HJKS（10万kW以上）で全ユニット稼働終了",
+      "sources": [
+        "日本卸電力取引所 発電情報公開システム（HJKS）ユニット一覧（2026-10-09取得、https://hjks.jepx.or.jp/hjks/）：２号機 2020-06-30、３号機 2020-06-30",
+        "中国電力プレスリリース「岩国発電所の廃止について」（2020-02-25）：2020年6月目途に発電所を廃止（1号機は1989年廃止済み）。https://www.energia.co.jp/press/2020/12318.html"
+      ]
+    },
+    "osm-way-104409614": {
+      "retiredAt": "2019-09-30",
+      "retiredAtNote": "最後のユニットの稼働終了日（HJKS）",
+      "confirmed": true,
+      "basis": "HJKS（10万kW以上）で全ユニット稼働終了",
+      "sources": [
+        "日本卸電力取引所 発電情報公開システム（HJKS）ユニット一覧（2026-10-09取得、https://hjks.jepx.or.jp/hjks/）：福島第二1号機 2019-09-30、福島第二2号機 2019-09-30、福島第二3号機 2019-09-30、福島第二4号機 2019-09-30",
+        "東京電力ホールディングス：福島第二原子力発電所は2019年7月31日に1〜4号機の廃止を決定（public/data/plant-profiles.json の出典）。"
+      ]
+    },
+    "osm-way-219579622": {
+      "retiredAt": "2019-04-30",
+      "retiredAtNote": "最後のユニットの稼働終了日（HJKS）",
+      "confirmed": true,
+      "basis": "HJKS（10万kW以上）で全ユニット稼働終了",
+      "sources": [
+        "日本卸電力取引所 発電情報公開システム（HJKS）ユニット一覧（2026-10-09取得、https://hjks.jepx.or.jp/hjks/）：１号機 2019-04-30、２号機 2019-04-30",
+        "九州電力「火力発電所紹介」（2026-10-03確認）：相浦発電所は2019年4月30日に廃止。https://www.kyuden.co.jp/business_outline/power/thermal-power/plant.html"
+      ]
+    },
+    "osm-way-771787166": {
+      "retiredAt": "2018-03-28",
+      "retiredAtNote": "廃止措置計画の認可日",
+      "basis": "事業者の公表（廃止措置中。HJKSに登録なし）",
+      "sources": [
+        "日本原子力研究開発機構「高速増殖原型炉もんじゅの廃止措置計画等の認可について（お知らせ）」（平成30年3月28日、https://www.jaea.go.jp/04/turuga/jturuga/press/2018/03/p180328.pdf ）：同日、原子力規制委員会より廃止措置計画の認可。"
+      ],
+      "confirmed": true
+    },
+    "japc-tokai-1": {
+      "retiredAt": "1998-03-31",
+      "retiredAtNote": "営業運転の停止日（廃止措置の着手 2001-12-04、廃止措置計画の認可 2006-06-30）",
+      "basis": "事業者の公表（廃止措置中。HJKSに登録なし）",
+      "sources": [
+        "日本原子力発電「東海発電所の廃止措置」（https://www.japc.co.jp/tokai/haishi/tokai_haishi.html 、2026-10-10確認）：1998年3月31日に営業運転を停止、2001年12月4日に廃止措置に着手、2006年6月30日に廃止措置計画の認可。"
+      ],
+      "confirmed": true
+    }
+  }
+}

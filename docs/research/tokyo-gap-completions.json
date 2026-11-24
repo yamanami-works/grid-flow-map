@@ -1,0 +1,197 @@
+{
+  "rule": "オーナー判断（2026-09-30）：両端は分かるがルート不明の部分は直線。部分表示の線の未確定の末端から、資料で裏付けられた端点設備の代表点まで直線で補う。",
+  "completions": [
+    {
+      "lineId": "tokyo-section-79",
+      "end": "end",
+      "facilityId": "osm-way-1087202479",
+      "facilityName": "葛野川地下発電所",
+      "construction": "underground",
+      "reason": "東京電力プレスリリース（1998-11-25）の区間「自）葛野川発電所」。地下発電所のため地中と推定。OSMの線路末端から発電所区画の代表点まで。"
+    },
+    {
+      "lineId": "tokyo-section-19",
+      "end": "start",
+      "facilityId": "osm-way-233220600",
+      "facilityName": "下郷水力発電所",
+      "construction": "unknown",
+      "reason": "東京PG系統構成図(19)の発電所端点、OSMの下郷線（ref=19）。OSMの線路末端から発電所区画の代表点まで。地中・架空の別は不明。"
+    },
+    {
+      "lineId": "tokyo-section-71",
+      "end": "start",
+      "facilityId": "osm-way-1007511426",
+      "facilityName": "神流川水力発電所",
+      "construction": "unknown",
+      "reason": "線名「神流川線」と東京PG系統構成図(71)の発電所端点。OSMの線路末端から発電所区画の代表点まで。地中・架空の別は不明。"
+    },
+    {
+      "lineId": "tokyo-section-22",
+      "end": "end",
+      "facilityId": "osm-way-1016436036",
+      "facilityName": "沼原電力所",
+      "construction": "unknown",
+      "reason": "線名「沼原線」と東京PG設備表の発電所端点。オーナーが提示した「発電設備の概要図」（現地の案内図とみられる。作成者・作成日は不明、2026-10-17 提示。画像はリポジトリに保存しない）で、沼原発電所（地下）は母線トンネルで地上の沼原電力所につながるため、線の端を沼原電力所とみなした（推定。概要図に沼原線そのものの記載はない。2026-10-17 オーナー判断）。OSMの線の末端から沼原電力所の区画の代表点まで約54m。地中・架空の別は不明。",
+      "facility": {
+        "id": "osm-way-1016436036",
+        "assetId": "tokyo-fac-switchyard-1016436036",
+        "name": "沼原電力所",
+        "kind": "switchyard",
+        "position": [
+          37.09991256666666,
+          139.90475914444445
+        ],
+        "voltages": [
+          275
+        ],
+        "scopeConnected": true,
+        "url": "https://www.openstreetmap.org/way/1016436036",
+        "attributes": [
+          {
+            "label": "要注意（C区分）",
+            "value": "設備の存在・役割の根拠は、OSMの登録と下記の概要図（作成者・作成日不明）。概要図を事業者側の資料（現地の案内図）として扱うのでE区分（補助資料のみ）には当たらない。線の端と設備の役割に推定を含むのでC区分とした（2026-10-17 オーナー判断）。電圧・母線の構成は未確認。"
+          },
+          {
+            "label": "設備の役割",
+            "value": "沼原発電所（地下）と母線トンネルでつながる地上の設備（開閉所として表示）。沼原線（東京PG No.22 新栃木―発電所）の端はこことみなした（推定。概要図に沼原線の記載はない）。根拠：オーナーが提示した「発電設備の概要図」（現地の案内図とみられる。作成者・作成日は不明、2026-10-17 提示。画像はリポジトリに保存しない）。概要図に電圧・母線の構成の記載はない。"
+          },
+          {
+            "label": "OSM登録",
+            "value": "power=substation、275kV、事業者 電源開発株式会社（OSM way 1016436036、2026-10-04取得）。"
+          },
+          {
+            "label": "代表点の取り方",
+            "value": "OSMの区画の頂点の平均（区画の内側にあることを確認）。"
+          }
+        ]
+      }
+    },
+    {
+      "lineId": "tokyo-section-27",
+      "end": "end",
+      "facilityId": "osm-way-605327360",
+      "facilityName": "姉崎火力発電所",
+      "construction": "unknown",
+      "reason": "線名「姉崎線」と東京PG設備表の発電所端点。地中・架空の別は不明。"
+    },
+    {
+      "lineId": "tokyo-section-28",
+      "end": "end",
+      "facilityId": "osm-way-605327360",
+      "facilityName": "姉崎火力発電所",
+      "construction": "unknown",
+      "reason": "線名「姉崎線」と東京PG設備表の発電所端点。地中・架空の別は不明。"
+    },
+    {
+      "lineId": "tokyo-section-30",
+      "end": "end",
+      "facilityId": "osm-way-605327355",
+      "facilityName": "千葉火力発電所",
+      "construction": "unknown",
+      "reason": "東京PG系統構成図(30)の発電所記号とOSMの千葉火力線。地中・架空の別は不明。"
+    },
+    {
+      "lineId": "tokyo-section-31",
+      "end": "end",
+      "facilityId": "osm-way-605327355",
+      "facilityName": "千葉火力発電所",
+      "construction": "unknown",
+      "reason": "東京PG系統構成図(31)の発電所記号とOSMの千葉火力線。2026-10-17 から経路は千葉火力線3・4L（way 704195151）で、末端の直線は3・4Lの西の端（無名の開閉所の区画の内側）から千葉火力発電所の代表点まで（scripts/build-tokyo-pilot.mjs で引き直す）。地中・架空の別は不明。"
+    },
+    {
+      "lineId": "tokyo-section-145",
+      "end": "end",
+      "facilityId": "osm-way-1193242939",
+      "facilityName": "新豊根発電所",
+      "construction": "unknown",
+      "reason": "線名「新豊根佐久間線」。",
+      "mode": "osmEnd",
+      "node": 1477544914,
+      "area": {
+        "raw": "data/raw/chubu-osm/facilities-2.json",
+        "way": 618344828
+      }
+    },
+    {
+      "lineId": "tokyo-section-101",
+      "end": "end",
+      "facilityId": "osm-way-1347097154",
+      "facilityName": "JERA 横須賀火力発電所",
+      "construction": "unknown",
+      "reason": "東京PG設備表の発電所端点、OCCTOの端点名「南横須賀」、OSMの線路末端が発電所区画の約375m手前。地中・架空の別は不明。"
+    },
+    {
+      "lineId": "tokyo-section-102",
+      "end": "end",
+      "facilityId": "osm-way-1347097154",
+      "facilityName": "JERA 横須賀火力発電所",
+      "construction": "unknown",
+      "reason": "東京PG設備表の発電所端点、OCCTOの端点名「南横須賀」、OSMの線路末端が発電所区画の約375m手前。地中・架空の別は不明。"
+    },
+    {
+      "lineId": "tokyo-section-94",
+      "end": "end",
+      "facilityId": "osm-way-111380415",
+      "facilityName": "北多摩変電所",
+      "construction": "unknown",
+      "reason": "東京PG設備表の端点（西東京―北多摩）。地中・架空の別は不明。"
+    },
+    {
+      "lineId": "tokyo-section-112",
+      "end": "end",
+      "facilityId": "osm-way-653499539",
+      "facilityName": "練馬変電所",
+      "construction": "underground",
+      "reason": "東京PG設備表の端点（新座―練馬）。隣接するOSM線分が地中ケーブルのため地中と推定。"
+    },
+    {
+      "lineId": "tokyo-section-9",
+      "end": "end",
+      "facilityId": "osm-way-103812542",
+      "facilityName": "広野火力発電所",
+      "construction": "unknown",
+      "reason": "線名「広野火力線」と東京PG系統構成図(9)の発電所端点（新いわき→匿名発電所）。OSMの線の末端（node 1461010236）が広野火力発電所の区画（OSM way 103812542）の内側に届く（2026-10-16 確認、直線は足さない）。系統図の発電所記号は2つあり、もう一方（広野IGCC等）との接続は未確定。",
+      "facility": {
+        "id": "osm-way-103812542",
+        "assetId": "asset-77b1fc46-5167-42ee-8a24-e0e30f6ac4bc",
+        "name": "広野火力発電所",
+        "kind": "plant",
+        "position": [
+          37.2365084,
+          141.0122789
+        ],
+        "voltages": [],
+        "scopeConnected": true,
+        "url": "https://www.openstreetmap.org/way/103812542",
+        "attributes": [
+          {
+            "label": "OSM登録",
+            "value": "種別：oil;coal。出力・運転状態・号機構成は未照合（発電所出力を送電容量として扱わない）。"
+          },
+          {
+            "label": "出典",
+            "value": "OSM（2026-09-30取得 tokyo-275/held-endpoints.json）"
+          },
+          {
+            "label": "代表点の取り方",
+            "value": "OSMの区画（way 103812542、港を囲む形）の頂点の平均が区画の外（港の海の上）になるため、区画の内側で縁から最も遠い点（縁まで約410m）を代表点にした（2026-10-16）。"
+          }
+        ]
+      },
+      "mode": "inside",
+      "node": 1461010236,
+      "area": {
+        "raw": "data/raw/osm-trunk-expanded.json",
+        "way": 103812542
+      }
+    },
+    {
+      "lineId": "tokyo-section-66",
+      "end": "end",
+      "facilityId": "osm-way-1087213711",
+      "facilityName": "玉原発電所",
+      "construction": "unknown",
+      "reason": "OSMの玉原線（275kV）の末端は玉原発電所構内の無名区画（way 518992995、末端から74m）に達し、発電所区画から395m。公表資料で端点は匿名。2026-10-01 残作業で末端から発電所区画の代表点まで直線で補完。地中・架空の別は不明。"
+    }
+  ]
+}

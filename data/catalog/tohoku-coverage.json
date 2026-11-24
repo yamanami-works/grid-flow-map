@@ -1,0 +1,988 @@
+{
+  "checkedAt": "2026-09-30T22:07:52.439Z",
+  "scope": "東北NW空容量一覧500/275kV。公式系統図の全記号と一対一の手動照合は未完了。名称一致は同一設備の確定ではない。",
+  "officialRows": 67,
+  "withGeometryCandidates": 49,
+  "withoutGeometryCandidates": 18,
+  "rows": [
+    {
+      "sourceId": "0001",
+      "name": "0001線",
+      "voltageKV": 500,
+      "direction": "上北変電所→発電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0002",
+      "name": "十和田幹線",
+      "voltageKV": 500,
+      "direction": "上北変電所→岩手変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-ad5955f6-1dee-4cc8-be8e-0d9fe99e148c",
+        "asset-84d82cd1-ffc3-45f3-98b6-318dbd67db98"
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-needs-review"
+    },
+    {
+      "sourceId": "0003",
+      "name": "北上幹線",
+      "voltageKV": 500,
+      "direction": "岩手変電所→宮城変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-3328070d-e8f9-44b4-9b7b-af0a920abfb8"
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0004",
+      "name": "青葉幹線",
+      "voltageKV": 500,
+      "direction": "宮城変電所→西仙台変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-e0d02436-adfe-4033-9345-116bf2010072"
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0005",
+      "name": "宮城中央支線",
+      "voltageKV": 500,
+      "direction": "青葉幹線分岐→宮城中央変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0006",
+      "name": "常磐北幹線",
+      "voltageKV": 500,
+      "direction": "西仙台変電所→宮城丸森開閉所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-c2fb28df-5144-45bd-ae9e-cb2c8be6c15f"
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "definition-changed"
+    },
+    {
+      "sourceId": "0007",
+      "name": "0007線",
+      "voltageKV": 500,
+      "direction": "宮城丸森開閉所→発電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "地理ルート未照合",
+      "assetIds": [],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0008",
+      "name": "相馬双葉幹線",
+      "voltageKV": 500,
+      "direction": "南相馬変電所→送電線分岐",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "地理ルート未照合",
+      "assetIds": [],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0009",
+      "name": "0009線",
+      "voltageKV": 500,
+      "direction": "0007線分岐→発電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "地理ルート未照合",
+      "assetIds": [],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0010",
+      "name": "常磐南幹線",
+      "voltageKV": 500,
+      "direction": "宮城丸森開閉所→南相馬変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-1b2ec8e2-fe1d-48bb-84d0-7878bf50579e"
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "definition-changed"
+    },
+    {
+      "sourceId": "0155",
+      "name": "今別幹線",
+      "voltageKV": 275,
+      "direction": "青森変電所→今別変換所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-5f42dd93-6646-44a5-b307-a63b2ecc1a28",
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0101",
+      "name": "0101線",
+      "voltageKV": 275,
+      "direction": "今別変換所→需要家",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "地理ルート未照合",
+      "assetIds": [],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0102",
+      "name": "北青幹線",
+      "voltageKV": 275,
+      "direction": "上北変電所→青森変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-needs-review"
+    },
+    {
+      "sourceId": "0103",
+      "name": "北奥幹線",
+      "voltageKV": 275,
+      "direction": "青森変電所→能代変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-57bcc098-c1bf-4d98-af9d-02c07b62d13b"
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0104",
+      "name": "北部幹線",
+      "voltageKV": 275,
+      "direction": "上北変電所→岩手変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-needs-review"
+    },
+    {
+      "sourceId": "0105",
+      "name": "0105線",
+      "voltageKV": 275,
+      "direction": "北部幹線分岐→需要家",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "地理ルート未照合",
+      "assetIds": [],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0106",
+      "name": "五戸幹線",
+      "voltageKV": 275,
+      "direction": "北部幹線分岐→五戸変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0107",
+      "name": "岩手幹線",
+      "voltageKV": 275,
+      "direction": "岩手変電所→雫石開閉所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0108",
+      "name": "秋盛幹線",
+      "voltageKV": 275,
+      "direction": "秋田変電所→雫石開閉所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-d4fe1bf2-f906-450c-9438-9a5018b36a29"
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0109",
+      "name": "0109線",
+      "voltageKV": 275,
+      "direction": "雫石開閉所→需要家",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "地理ルート未照合",
+      "assetIds": [],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0110",
+      "name": "早池峰幹線",
+      "voltageKV": 275,
+      "direction": "水沢変電所→岩手変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-f247b22e-ffd3-429e-aa3f-5189341d7fd2"
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0153",
+      "name": "東花巻支線",
+      "voltageKV": 275,
+      "direction": "早池峰幹線分岐→東花巻変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0111",
+      "name": "0111線",
+      "voltageKV": 275,
+      "direction": "水沢変電所→需要家",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "地理ルート未照合",
+      "assetIds": [],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0112",
+      "name": "水沢幹線",
+      "voltageKV": 275,
+      "direction": "水沢変電所→宮城変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-33a0c382-071d-45be-8a7f-88819021071d"
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0113",
+      "name": "0113線",
+      "voltageKV": 275,
+      "direction": "水沢幹線分岐→需要家",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "地理ルート未照合",
+      "assetIds": [],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0114",
+      "name": "大潟幹線",
+      "voltageKV": 275,
+      "direction": "秋田変電所→能代変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-e559a693-bd69-4e80-9fd6-1ce16de73969"
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0115",
+      "name": "0115線",
+      "voltageKV": 275,
+      "direction": "能代変電所→発電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0117",
+      "name": "秋田幹線",
+      "voltageKV": 275,
+      "direction": "秋田変電所→羽後変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-097656cf-737d-4305-9259-63d785695cf6"
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0118",
+      "name": "奥羽幹線",
+      "voltageKV": 275,
+      "direction": "宮城変電所→羽後変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-fe06583b-627f-42c6-bc17-3c067bf2a4fd"
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0119",
+      "name": "0119線",
+      "voltageKV": 275,
+      "direction": "奥羽幹線分岐→需要家",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "地理ルート未照合",
+      "assetIds": [],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0157",
+      "name": "0157線",
+      "voltageKV": 275,
+      "direction": "奥羽幹線分岐→発電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "地理ルート未照合",
+      "assetIds": [],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0120",
+      "name": "陸羽幹線",
+      "voltageKV": 275,
+      "direction": "宮城変電所→新庄変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0121",
+      "name": "牡鹿幹線",
+      "voltageKV": 275,
+      "direction": "石巻変電所→発電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-21f71b1a-d25d-4a23-9cc7-2e2c77cacd00",
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0122",
+      "name": "鳴瀬幹線",
+      "voltageKV": 275,
+      "direction": "宮城変電所→石巻変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-93faf6f5-b91e-40dd-956a-d6211f8cb994"
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0123",
+      "name": "宮城幹線",
+      "voltageKV": 275,
+      "direction": "宮城変電所→仙台変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0125",
+      "name": "松島幹線",
+      "voltageKV": 275,
+      "direction": "宮城中央変電所→発電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-80ddace1-c1df-4664-95d4-1ff46a8789ea",
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0124",
+      "name": "仙台幹線",
+      "voltageKV": 275,
+      "direction": "仙台変電所→西仙台変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-09ffbb09-dec6-4eca-b405-7984eac3749d"
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0129",
+      "name": "0129線",
+      "voltageKV": 275,
+      "direction": "東仙台変電所→仙台変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0126",
+      "name": "蔵王幹線",
+      "voltageKV": 275,
+      "direction": "米沢変電所→西仙台変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-2b48bb7e-dfb0-48f6-9152-16e6db0511ba",
+        "asset-b08d1fd4-91ca-483c-b457-86968caae401"
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0158",
+      "name": "0158線",
+      "voltageKV": 275,
+      "direction": "蔵王幹線分岐→発電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "地理ルート未照合",
+      "assetIds": [],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0156",
+      "name": "名取幹線",
+      "voltageKV": 275,
+      "direction": "西仙台変電所→名取変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "definition-changed"
+    },
+    {
+      "sourceId": "0127",
+      "name": "0127線",
+      "voltageKV": 275,
+      "direction": "名取変電所→需要家",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "地理ルート未照合",
+      "assetIds": [],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0128",
+      "name": "朝日幹線",
+      "voltageKV": 275,
+      "direction": "西仙台変電所→越後開閉所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-551b041c-1fce-4fbc-9a10-92cffa345933",
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [
+        2568870838
+      ],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0130",
+      "name": "山形幹線",
+      "voltageKV": 275,
+      "direction": "新庄変電所→西山形変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0154",
+      "name": "南山形幹線",
+      "voltageKV": 275,
+      "direction": "西山形変電所→朝日幹線分岐",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0131",
+      "name": "東北幹線",
+      "voltageKV": 275,
+      "direction": "本名変電所→米沢変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0132",
+      "name": "0132線",
+      "voltageKV": 275,
+      "direction": "東北幹線分岐→発電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "地理ルート未照合",
+      "assetIds": [],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0135",
+      "name": "飯豊幹線",
+      "voltageKV": 275,
+      "direction": "米沢変電所→新潟変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0133",
+      "name": "吾妻幹線",
+      "voltageKV": 275,
+      "direction": "米沢変電所→福島変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0134",
+      "name": "0134線",
+      "voltageKV": 275,
+      "direction": "福島変電所→需要家",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "地理ルート未照合",
+      "assetIds": [],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0136",
+      "name": "相福幹線",
+      "voltageKV": 275,
+      "direction": "南相馬変電所→福島変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0137",
+      "name": "東福島支線",
+      "voltageKV": 275,
+      "direction": "相福幹線分岐→東福島変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "地理ルート未照合",
+      "assetIds": [],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0138",
+      "name": "0138線",
+      "voltageKV": 275,
+      "direction": "南相馬変電所→発電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0143",
+      "name": "いわき幹線",
+      "voltageKV": 275,
+      "direction": "南相馬変電所→新福島変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0139",
+      "name": "阿武隈幹線",
+      "voltageKV": 275,
+      "direction": "須賀川変電所→福島変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0142",
+      "name": "0142線",
+      "voltageKV": 275,
+      "direction": "須賀川変電所→需要家",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "地理ルート未照合",
+      "assetIds": [],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0140",
+      "name": "勿来幹線",
+      "voltageKV": 275,
+      "direction": "須賀川変電所→発電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-8f0fd5df-5d65-479b-ba4e-6e50aa491a37",
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-needs-review"
+    },
+    {
+      "sourceId": "0141",
+      "name": "勿来支線",
+      "voltageKV": 275,
+      "direction": "勿来幹線分岐→いわき変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        "asset-cae618dd-581d-4812-9447-c5114f63053c",
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0144",
+      "name": "新潟幹線",
+      "voltageKV": 275,
+      "direction": "新潟変電所→本名変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0145",
+      "name": "0145線",
+      "voltageKV": 275,
+      "direction": "北新潟変電所→発電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0146",
+      "name": "0146線",
+      "voltageKV": 275,
+      "direction": "越後開閉所→発電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0147",
+      "name": "北新幹線",
+      "voltageKV": 275,
+      "direction": "北新潟変電所→越後開閉所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0148",
+      "name": "五頭幹線",
+      "voltageKV": 275,
+      "direction": "越後開閉所→新潟変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0149",
+      "name": "中越幹線",
+      "voltageKV": 275,
+      "direction": "越後開閉所→中越変電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-crosschecked"
+    },
+    {
+      "sourceId": "0151",
+      "name": "0151線",
+      "voltageKV": 275,
+      "direction": "送電線分岐→需要家",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "地理ルート未照合",
+      "assetIds": [],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0152",
+      "name": "0152線",
+      "voltageKV": 275,
+      "direction": "送電線分岐→需要家",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "地理ルート未照合",
+      "assetIds": [],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "OCCTO対応未収録"
+    },
+    {
+      "sourceId": "0150",
+      "name": "東上越幹線",
+      "voltageKV": 275,
+      "direction": "東上越変電所→発電所",
+      "sourceUrl": "https://nw.tohoku-epco.co.jp/consignment/system/announcement/data/sys_capa_kikan01_line_202607_02.csv",
+      "published": "2026年7月31日作成",
+      "geometryStatus": "名称電圧一致の表示候補あり",
+      "assetIds": [
+        null
+      ],
+      "electricalConnection": "未確認",
+      "unresolvedEndpoints": [],
+      "flowStatus": "reference-route-needs-review"
+    }
+  ]
+}

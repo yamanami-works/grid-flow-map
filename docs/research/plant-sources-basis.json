@@ -1,0 +1,935 @@
+{
+ "note": "地図の発電所マーク（src/plant-sources.ts）の根拠。app/tools/build-plant-sources.mjs が生成。basis：primary＝一次資料（設備の発電方式（一次資料）、またはHJKSの発電形式。2026-10-17 から最優先）、osm＝OSMの登録（補助資料）、name＝名前の方式語、manual＝一般に知られた電源の種類の一覧、detail＝詳細欄の文",
+ "plants": {
+  "chubu-place-奥矢作第二発電所": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "chubu-place-小坂川発電所": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "chubu-place-馬瀬川第一発電所": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "chugoku-place-新小野田発電所": {
+   "source": "thermal",
+   "basis": "detail",
+   "why": "詳細欄"
+  },
+  "chugoku-place-新成羽川発電所": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "chugoku-place-南原発電所": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "chugoku-place-俣野川発電所": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "hokkaido-place-せたな大里ウインドファーム": {
+   "source": "wind",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "hokkaido-place-上ノ国第二風力発電所": {
+   "source": "wind",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "hokkaido-place-足寄発電所": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "hokkaido-plant-高見発電所": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "japc-tokai-1": {
+   "source": "nuclear",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "kansai-place-下小鳥発電所": {
+   "source": "hydro",
+   "basis": "detail",
+   "why": "詳細欄"
+  },
+  "kansai-place-丸山発電所": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "kansai-place-御母衣第二発電所": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "kansai-place-新丸山発電所": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "kansai-place-大河内発電所": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "kyushu-place-一ツ瀬発電所": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "kyushu-place-大平発電所": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-node-1210028290": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-node-1210028499": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-relation-11579756": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-relation-11583778": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-relation-12343855": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-relation-12893891": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-relation-12905117": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-relation-13413356": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-relation-1527911": {
+   "source": "nuclear",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-relation-9626992": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-1002444623": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-1007511426": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-101926129": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-1028287061": {
+   "source": "hydro",
+   "basis": "detail",
+   "why": "詳細欄"
+  },
+  "osm-way-1028287111": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-1028287115": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-1029051469": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-1030329140": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-1030329142": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-103783431": {
+   "source": "nuclear",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-103812542": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-103827577": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-104299829": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-104409614": {
+   "source": "nuclear",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-1074674001": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-1074675399": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-1087202479": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-1087213711": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-1093999564": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-1136534571": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-1148367832": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-1148368554": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-1165957087": {
+   "source": "thermal",
+   "basis": "manual",
+   "why": "JFEスチール 東日本製鉄所（千葉地区）の発電所（火力、補助資料による。一次資料未確認）"
+  },
+  "osm-way-1193242939": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-1341021071": {
+   "source": "nuclear",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-134376414": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-1347097154": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-1428285055": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-158064651": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-169031922": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-172210559": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-172644773": {
+   "source": "nuclear",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-180359727": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-180359734": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-180359744": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-180359747": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-197821471": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-210661976": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-215429864": {
+   "source": "nuclear",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-216480979": {
+   "source": "nuclear",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-216616659": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-216781917": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-216798219": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-216809817": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-217390429": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-219579622": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-220707452": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-231877019": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-232998815": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-233220600": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-233522781": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-242706111": {
+   "source": "biomass",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-255763556": {
+   "source": "nuclear",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-289146236": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-300345952": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-317614555": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-319098734": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-341478004": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-354115662": {
+   "source": "hydro",
+   "basis": "osm",
+   "why": "OSMの plant:source・名前"
+  },
+  "osm-way-364849743": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-365487155": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-367261461": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-371468679": {
+   "source": "nuclear",
+   "basis": "name",
+   "why": "名前・詳細欄の種別"
+  },
+  "osm-way-440218167": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-440225776": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-449155824": {
+   "source": "nuclear",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-456491989": {
+   "source": "nuclear",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-456491990": {
+   "source": "nuclear",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-456491991": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-472081615": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-480494782": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-500196924": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-588341171": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-605327349": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-605327351": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-605327352": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-605327354": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-605327355": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-605327357": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-605327358": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-605327360": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-605382252": {
+   "source": "nuclear",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-605382253": {
+   "source": "nuclear",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-605382256": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-605382257": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-605382258": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-605382259": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-605420890": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-605420894": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-605420895": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-605420899": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-605420901": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-605420902": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-605420903": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-605420904": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-605420905": {
+   "source": "nuclear",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-605420907": {
+   "source": "nuclear",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-605433847": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-605433848": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-605433849": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-605687568": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-605687599": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-605689959": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-608909526": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-618344823": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-619284824": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-620975079": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-658690610": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-658953552": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-704208234": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-727005862": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-744431833": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-754094565": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "osm-way-754317488": {
+   "source": "thermal",
+   "basis": "name",
+   "why": "名前・詳細欄の種別"
+  },
+  "osm-way-756358390": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-761185975": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-771787166": {
+   "source": "nuclear",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-787208208": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-806310370": {
+   "source": "nuclear",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-832823488": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-842717570": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-844165231": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-844182805": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-929016336": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-929828153": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "osm-way-969601128": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "relation/11816417": {
+   "source": "solar",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "shikoku-place-本川発電所": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "tohoku-place-アマテラス白石ソーラーパーク": {
+   "source": "solar",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "tokyo-place-奥清津第二発電所": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "tokyo-place-鹿島共同火力発電所": {
+   "source": "thermal",
+   "basis": "name",
+   "why": "名前・詳細欄の種別"
+  },
+  "tokyo-place-大鳥発電所": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "tokyo-place-日本製鉄鹿島火力発電所": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "tokyo-plant-shintakasegawa": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "way/1477837533": {
+   "source": "biomass",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "way/427824309": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "way/428716213": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "way/605420896": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "way/620215004": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "way/623585725": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "way/624373742": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "way/624376775": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "way/624381023": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "way/624384677": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "way/624384684": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "way/624384688": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "way/624384691": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "way/624385337": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "way/624386611": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "way/630878676": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "way/640607782": {
+   "source": "nuclear",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "way/640622567": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "way/676665815": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "way/931796255": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "way/948853450": {
+   "source": "thermal",
+   "basis": "primary",
+   "why": "HJKSの発電形式"
+  },
+  "way/992336757": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  },
+  "way/992507841": {
+   "source": "hydro",
+   "basis": "primary",
+   "why": "発電方式（一次資料）"
+  }
+ }
+}

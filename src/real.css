@@ -1,0 +1,169 @@
+.brand-mark{font-size:29px}.mode-label{font-size:10px;color:#7a8d80;margin-bottom:8px}#data-mode{width:100%;border:1px solid #d3e1d8;background:#f0f6f1;border-radius:7px;padding:10px 8px;font:inherit;color:#2e5b44;font-size:11px;margin-bottom:14px}.real-workspace .section-title{margin-top:16px}.real-workspace .voltage-filters{grid-template-columns:repeat(auto-fit,minmax(37px,1fr));gap:5px}.real-facility-toggle{font-size:10px;display:flex;align-items:center;gap:7px;margin:16px 0 9px}.real-facility-toggle input{accent-color:#267357}.dataset-summary{font-size:10px;line-height:1.8;color:#7f907f;background:#f5f8f3;padding:10px;border-radius:6px;margin-bottom:17px}.real-workspace .list-tabs{padding-bottom:11px;font-size:10px;justify-content:space-between;gap:5px}.real-workspace .result-item{padding:13px 8px}.real-workspace .result-value{font-size:13px;white-space:nowrap}.real-workspace .result-value small{font-size:8px}.real-swatch{width:5px;min-width:5px;height:25px;border-radius:3px}.real-workspace .result-main b{font-size:11px}.real-workspace .result-main small{font-size:9px}.real-banner{background:#f2f7f1f0;border:1px solid #d4e6d4}.real-banner b{font-size:10px}.real-legend{bottom:129px}.real-time{padding:17px 20px;min-height:72px;font-size:11px;color:#789076}#actual-time-controls{display:flex;align-items:center;gap:17px;width:100%}#actual-time-controls label{font-size:9px;white-space:nowrap}#actual-date{padding:8px;border:1px solid #d4e0d3;border-radius:5px;color:#315b40;margin-left:4px;background:white;width:150px}#actual-time-label{font-size:17px;white-space:nowrap;color:#355d45}#actual-hour{flex:1;min-width:60px;accent-color:#34725a}.real-detail{width:335px;max-height:calc(100% - 197px);font-size:11px}.real-detail h2{font-size:19px}.real-detail p{line-height:1.8}.research-note{background:#f2f6ee;border:1px solid #e2eadb;padding:12px;border-radius:7px;color:#6e866d;font-size:10px;line-height:1.9}.definition-change{background:#fcf3df;color:#997331;padding:10px;border-radius:7px;font-size:10px;line-height:1.8}.data-facts{display:grid;grid-template-columns:1fr 1fr;gap:12px 8px;font-size:10px;margin:18px 0}.data-facts dt{color:#8a9889}.data-facts dd{margin:0;text-align:right;color:#38573c;overflow-wrap:anywhere}.small-copy{font-size:10px;color:#8a9686;line-height:1.8}.actual-value{background:#eff6f0;padding:15px;border-radius:8px}.actual-value>span{display:block;font-size:9px;color:#879581}.actual-value strong{font-size:35px;display:block;line-height:1.6;font-weight:500;color:#315e48}.actual-value strong small{font-size:14px}.actual-value>small{font-size:9px;color:#718b72}.direction-text{display:flex;flex-direction:column;gap:8px;margin:18px 0;font-size:10px;line-height:1.7}.direction-text b{font-weight:500;color:#879584}.direction-text small{color:#69836e}.day-chart{border:1px solid #e3e9e0;border-radius:6px;padding:12px}.day-chart>span{font-size:9px;color:#7e947d}.day-chart svg{display:block;width:100%;height:90px}.day-chart small{font-size:8px;color:#8f9b89}.bank-card{display:flex;flex-direction:column;gap:7px;border:1px solid #e0e8dc;border-radius:7px;padding:12px;margin:9px 0;font-size:11px}.bank-card small{font-size:9px;color:#8b9b85}.real-detail .detail-note a{display:inline-block;color:#658a6b}.real-workspace .leaflet-control-attribution{max-width:80%;font-size:8px!important}.real-workspace .sidebar-footer{font-size:11px;line-height:1.6;white-space:normal}.real-workspace .leaflet-control-scale{margin-bottom:20px!important}
+@media(max-width:1100px){.real-detail{width:300px}#actual-time-controls{gap:8px}#actual-date{width:150px;padding:7px 3px}#actual-time-label{font-size:14px}.real-legend{min-width:250px}}
+@media(max-width:760px){.real-detail{width:auto;max-height:48dvh;bottom:calc(128px + env(safe-area-inset-bottom))}.real-time{font-size:10px;padding:13px;min-height:83px}.real-time #time-explanation{line-height:1.9}.real-legend{bottom:calc(132px + env(safe-area-inset-bottom));min-width:255px}.real-workspace .sidebar.mobile-open{overflow:auto}.real-workspace .sidebar .result-list{min-height:100px}.real-workspace .dataset-summary{padding:7px;font-size:9px;margin-bottom:12px}.real-workspace .sidebar{padding-left:18px;padding-right:18px}#actual-time-controls{flex-wrap:wrap;gap:7px;justify-content:space-between}#actual-hour{flex-basis:100%;width:100%;height:13px}#actual-time-label{font-size:17px}#actual-date{width:150px}.real-workspace .leaflet-control-attribution{max-width:86%;font-size:7px!important}.real-workspace .real-banner span{font-size:8px}.real-workspace .real-banner{max-width:calc(100% - 25px)}.real-detail .detail-note{overflow-wrap:anywhere}.real-workspace .sidebar-footer{white-space:normal}}
+.layer-options{border:1px solid #d4e0df;border-radius:8px;padding:9px;display:flex;flex-wrap:wrap;gap:10px;margin:10px 0;font-size:11px}.layer-options legend{color:#426359;font-size:10px}.layer-options label{display:flex;align-items:center;gap:4px}.layer-options input{accent-color:#276e67}.layer-options p{font-size:10px;line-height:1.6;margin:0;color:#687977}.line-emphasis .leaflet-tile-pane{opacity:.57;filter:saturate(.5)}#map{background:#f5f7f6}.real-workspace .sidebar{overflow-y:auto}.real-workspace .result-list{min-height:130px}.real-legend .legend-bands{flex-wrap:wrap}
+.real-workspace .sidebar>*:not(.result-list){flex-shrink:0}.real-workspace .sidebar .search-box{min-height:42px}
+#show-dc-area{border:1px solid #c7b1cf;background:#fcf6fe;color:#782e83;padding:8px 10px;border-radius:6px;font:inherit;cursor:pointer}
+#inspect-physical,#inspect-connected{background:#f8f4fc;border:1px solid #cbbada;color:#683f89;border-radius:6px;padding:8px;font:inherit;cursor:pointer}
+.primary-links{display:grid;gap:9px;padding:12px;background:#eef5f3;border:1px solid #dbe7e1;border-radius:8px;font-size:11px;margin:12px 0}.primary-links b{color:#274f46}.primary-links a{color:#266b79;text-decoration:none;line-height:1.7}.primary-links a:hover{text-decoration:underline}.display-settings{border:1px solid #dce5de;border-radius:8px;padding:10px;margin:0 0 12px;font-size:11px}.display-settings>summary,.inspection>summary{cursor:pointer;color:#416553;padding:5px 0}.display-settings .layer-options{font-size:11px}.inline-flow{margin:16px 0}.inline-flow h3{font-size:15px;margin:0 0 8px}.forecast-inline{display:grid;gap:9px;padding:14px;margin-top:12px;border:1px solid #e3e8dd;border-radius:8px;background:#f7f9f4}.forecast-inline>span{font-size:10px;color:#647b66}.forecast-inline>strong{font-size:20px}.forecast-inline small{font-size:10px;color:#4d6757;font-weight:normal}.forecast-inline>b{font-size:12px}.inspection{margin:14px 0;border-top:1px solid #dce5de;padding-top:8px}.real-detail .inline-flow .research-note{font-size:10px}.real-workspace .sidebar .result-list{min-height:200px}.real-detail .primary-links{font-size:10px}@media(max-width:760px){.primary-links{font-size:11px}.real-detail{max-height:53dvh}.real-detail .actual-value strong{font-size:29px}.real-time{min-height:94px}}
+.map-source{color:#285d58;text-decoration:none;font-size:11px;font-weight:600}.primary-links a:focus-visible,.map-source:focus-visible,summary:focus-visible{outline:2px solid #287a6b;outline-offset:3px}
+
+.mobile-map-filters{display:none}
+@media(max-width:760px){
+.mobile-map-filters{display:grid;position:absolute;z-index:460;left:12px;right:60px;top:110px;gap:5px;pointer-events:none}
+.mobile-map-filters>div{display:flex;gap:5px;pointer-events:auto}
+.mobile-map-filters button{min-height:44px;flex:1;border:1px solid #bacdc5;border-radius:8px;background:#fff;color:#426052;font-size:12px;padding:6px 4px;box-shadow:0 1px 4px #1232}
+.mobile-map-filters button[aria-pressed=true]{background:#215f4f;color:white;border-color:#215f4f}
+#mobile-voltage [data-real-kv="500"][aria-pressed=true]{background:#1558ac}
+#mobile-voltage [data-real-kv="275"][aria-pressed=true]{background:#00816f}
+#mobile-voltage [data-real-kv="250"][aria-pressed=true]{background:#962b91}
+.real-workspace #real-browse{top:213px;bottom:auto;min-height:44px}
+.real-workspace .map-controls{top:50%;right:10px}
+.real-workspace .sidebar.mobile-open{z-index:800;padding-bottom:80px}
+.real-workspace:has(.sidebar.mobile-open) #real-browse{z-index:850;position:fixed;top:auto;bottom:20px;left:20px}
+}
+
+#mobile-layers-toggle{display:none}.mobile-map-filters[hidden]{display:none!important}
+.flow-visual{padding:14px 10px;margin:12px 0;border:1px solid #bcd4d1;border-radius:10px;background:#f0f8f8;text-align:center}.flow-endpoints{display:flex;justify-content:space-between;gap:16px;font-size:11px}.flow-endpoints b{max-width:46%;overflow-wrap:anywhere}.flow-rail{height:30px;margin:10px 0;background:#d5e7e7;border-radius:16px;overflow:hidden;color:#156b88;font-size:26px;line-height:27px}.flow-rail span{display:block;letter-spacing:12px}.flow-rail.moving span{animation:flow-travel 1.4s linear infinite}.flow-rail.reverse span{animation-direction:reverse}.flow-visual strong{display:block;color:#156b88;font-size:18px}.flow-visual small{display:block;margin-top:8px;font-size:9px;color:#677d77}@keyframes flow-travel{from{transform:translateX(-20px)}to{transform:translateX(20px)}}@media(prefers-reduced-motion:reduce){.flow-rail.moving span{animation:none}}
+@media(max-width:760px){#mobile-layers-toggle{display:block;position:absolute;z-index:470;top:14px;left:12px;min-width:44px;height:44px;padding:0 12px;border-radius:9px;border:1px solid #bed1c7;background:white;color:#245c4c;font:600 14px system-ui;box-shadow:0 2px 8px #1232}#mobile-layers-toggle[aria-expanded=true]{background:#245c4c;color:white}.mobile-map-filters{top:118px;background:#fffffff5;padding:10px;border-radius:12px;box-shadow:0 5px 18px #1233;animation:layers-down .18s ease-out}.real-workspace #real-browse{top:14px;left:74px}.real-workspace:has(.sidebar.mobile-open) #real-browse{top:auto;left:20px}.real-detail .flow-visual{margin:10px 0}@keyframes layers-down{from{opacity:0;transform:translateY(-15px)}to{opacity:1;transform:translateY(0)}}}
+
+#show-flow-visual{position:absolute;z-index:460;top:120px;left:25px;min-height:44px;padding:10px 14px;background:#156b88;color:#fff;border-radius:9px;font-size:13px;box-shadow:0 2px 8px #1233}.flow-rail{height:40px;line-height:38px;background:#c5e1e9;border:1px solid #8cb9c7}.flow-rail span{font-size:34px;letter-spacing:16px;white-space:nowrap}.flow-rail.moving span{animation-duration:.8s}.flow-visual{border:2px solid #75a9b8}.flow-visual strong{font-size:22px}@media(max-width:760px){#show-flow-visual{top:110px;left:163px;font-size:12px;padding:8px 10px}.real-detail>.flow-visual{margin-top:8px}.real-detail .flow-visual small{font-size:10px}}
+
+#show-flow-visual{display:none}#persistent-flow{position:absolute;z-index:450;top:120px;left:25px;width:310px;padding:10px;background:#fffffff2;border:1px solid #bed4d2;border-radius:12px;box-shadow:0 3px 12px #1232;font-size:11px;pointer-events:none}.persistent-flow-title{display:flex;justify-content:space-between;align-items:center;gap:8px}.persistent-flow-title small{font-size:9px;color:#657b73}#persistent-flow .flow-visual{padding:6px 0;margin:5px 0 0;border:0;background:transparent}#persistent-flow .flow-rail{height:28px;line-height:26px;margin:5px 0}#persistent-flow .flow-rail span{font-size:26px}#persistent-flow .flow-visual strong{font-size:16px}#persistent-flow .flow-visual small{margin-top:3px;font-size:8px}.real-legend{display:none}@media(max-width:760px){#persistent-flow{top:160px;left:12px;right:60px;width:auto;padding:8px}.mobile-map-filters{z-index:480}.real-detail{max-height:36dvh}.persistent-flow-title{flex-wrap:wrap;gap:2px}.persistent-flow-title small{font-size:8px}#persistent-flow .flow-endpoints{font-size:10px}}
+
+.map-flow-particles,.map-flow-particles-edge{stroke-linecap:round;animation:map-flow 1.2s linear infinite}@keyframes map-flow{to{stroke-dashoffset:-42}}#map-flow-key{position:absolute;z-index:450;top:106px;right:25px;max-width:240px;max-height:calc(50% - 180px);overflow:auto;font-size:11px;line-height:1.75;background:#fffffff0;padding:8px 11px;border-radius:8px;box-shadow:0 2px 8px #1232;color:#245b56}#flow-key-head{display:block;margin-bottom:2px}#flow-key-list{list-style:none;margin:0;padding:0}#flow-key-list li{white-space:nowrap}#flow-key-status{margin:4px 0 0;font-weight:700}#flow-key-status:empty{display:none}#persistent-flow{display:none}@media(prefers-reduced-motion:reduce){.map-flow-particles,.map-flow-particles-edge{animation-duration:4s}}
+
+.flow-basis-label{display:flex;align-items:center;gap:8px;font-size:11px;color:#315b48;width:100%;margin-bottom:8px}#flow-basis{font:inherit;min-height:36px;border:1px solid #c6d7cf;border-radius:6px;background:white;padding:5px;flex:1}.real-time{flex-wrap:wrap}@media(max-width:760px){.real-time{min-height:128px}.real-detail{bottom:170px}}
+.flow-basis-label{width:calc(100% - 102px);margin-bottom:8px}#latest-flow{border:1px solid #c6d7cf;border-radius:6px;background:#eef5f1;color:#315b48;font:inherit;min-height:36px;padding:6px 9px;margin-left:auto;margin-bottom:8px;cursor:pointer}
+#mobile-flow-toggle{display:none}
+@media(max-width:760px){
+ #mobile-flow-toggle{display:block;position:absolute;z-index:490;left:12px;top:66px;min-height:44px;padding:10px 16px;border:1px solid #c6d7cf;border-radius:12px;background:#fffffff5;color:#245b48;font:600 13px system-ui;box-shadow:0 2px 10px #1232}
+ #app:not(.mobile-flow-open) #real-time,#app:not(.mobile-flow-open) #map-flow-key{display:none}
+ #app.mobile-flow-open #real-time{bottom:calc(44px + env(safe-area-inset-bottom,0px))}
+ #app:not(.mobile-flow-open) .real-detail{bottom:76px;max-height:55dvh}
+ #app.mobile-flow-open .real-detail{bottom:290px;max-height:32dvh}
+}
+.real-workspace #real-footer{white-space:normal;overflow-wrap:anywhere;flex-shrink:0}
+
+.map-target-popup .leaflet-popup-content{margin:0;width:max-content!important;max-width:240px}
+.map-target-popup .leaflet-popup-content-wrapper{padding:0;border-radius:5px;overflow:hidden}
+.map-target-card{display:block;width:max-content;max-width:240px;padding:8px 12px;border:0;border-left:5px solid #39584c;background:#fff;color:#29483d;text-align:left;cursor:pointer;font:12px/1.5 system-ui;overflow-wrap:anywhere}
+.map-target-card>*{display:block}.map-target-card small{margin-top:3px;color:#356f60;text-decoration:underline}.map-target-card:focus-visible{outline:3px solid #d99a29;outline-offset:-3px}
+
+#reading-guide{margin:12px 0;font-size:11px;line-height:1.65}#reading-guide summary{cursor:pointer;min-height:32px;display:list-item}#reading-guide ul{margin:2px 0 8px;padding-left:16px}#reading-guide li{margin:2px 0}#reading-guide .guide-head{margin:8px 0 0;font-weight:600}#region-controls{margin:10px 0}#region-controls label{display:flex;align-items:center;gap:10px}#region-select{min-height:36px;font:inherit;border:1px solid #bed1c7;border-radius:7px;background:white;color:#245c4c;padding:5px 10px}@media(max-width:760px){#mobile-layers{max-height:calc(100dvh - 280px);overflow-y:auto}#reading-guide{font-size:12px;max-width:100%}#region-controls{width:100%}}
+
+#real-voltage .voltage-chip{height:auto;min-height:32px;white-space:normal;line-height:1.4;padding:6px 8px}
+
+#settings-voltage-legend{display:flex;flex-wrap:wrap;gap:6px 12px;margin-top:8px}#settings-voltage-legend span{display:inline-flex;align-items:center;gap:5px}#settings-voltage-legend i{display:inline-block;width:20px}
+
+.change-plans-open{justify-self:start;padding:3px 0;border:0;background:none;color:#266b79;text-align:left;font:inherit;cursor:pointer;text-decoration:underline;text-underline-offset:3px}.change-plans-open:hover{color:#0f4f5c}.change-plans-open:focus-visible{outline:2px solid #287a6b;outline-offset:2px}#change-plans-panel{position:absolute;z-index:640;left:16px;top:16px;width:min(620px,calc(100% - 32px));max-height:72%;display:flex;flex-direction:column;background:#fff;border-radius:10px;box-shadow:0 4px 18px #1234;font-size:12px;color:#1f2a26;overflow:hidden}#change-plans-panel[hidden]{display:none}#change-plans-panel .plans-top{display:flex;align-items:center;gap:8px;padding:8px 10px 8px 14px;border-bottom:1px solid #dce5df}#change-plans-panel h2{margin:0;font-size:14px;color:#174f40}#change-plans-panel h2:focus{outline:none}#change-plans-panel h2:focus-visible{outline:2px solid #287a6b;outline-offset:2px}#change-plans-close{margin-left:auto}#change-plans-hint{margin:6px 12px 0;padding:6px 8px;border-radius:6px;background:#fdf0d8;color:#6b4206}#change-plans-hint[hidden]{display:none}#change-plans-content{overflow:auto;overflow-wrap:anywhere;padding:0 0 6px}#change-plans-content>p{margin:6px 14px;font-size:11px;color:#55665f}.plans-table{border-collapse:collapse;width:100%;margin-top:6px}.plans-table th,.plans-table td{padding:6px 8px;border-bottom:1px solid #e3ebe6;vertical-align:top;text-align:left}.plans-table thead th{position:sticky;top:0;z-index:1;background:#f3f7f5;font-weight:700;color:#274f46}.plans-sp{display:none}.plans-sr{position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0 0 0 0)}.plan-target-row{display:block}.plan-target{padding:2px 0;border:0;background:none;font:inherit;color:#1d6b78;text-decoration:underline;text-underline-offset:2px;cursor:pointer;text-align:left}.plan-target:hover{color:#0f4f5c}.plan-target:focus-visible{outline:2px solid #287a6b;outline-offset:1px}.plan-target-off{color:#62726b}.plan-target-row small{color:#7b8983}.plan-map-note{display:block;font-size:10px}.plan-caution{margin-right:4px;padding:0 4px;border-radius:4px;background:#fdf0d8;color:#7a4a06;font-weight:600}.plan-status{display:inline-block;padding:1px 6px;border-radius:9px;font-size:11px;background:#e6f0fa;color:#20507a;white-space:nowrap}.plan-status[data-status="工事中"]{background:#fdf0d8;color:#7a4a06}.plans-table .plan-review{font-size:10px;font-weight:600}.plan-more{border:1px solid #c9d6cf;background:#fff;border-radius:6px;padding:2px 8px;font:inherit;font-size:11px;cursor:pointer;white-space:nowrap}.plan-more[aria-expanded="true"]{background:#e8f2ee}.plan-more:focus-visible{outline:2px solid #287a6b}.plan-more-row td{background:#f7faf8}.plan-more-row p{margin:4px 0}.plan-more-row[hidden]{display:none}@media(max-width:760px){#change-plans-panel{z-index:1001;left:8px;right:8px;width:auto;top:66px;bottom:calc(8px + env(safe-area-inset-bottom,0px));max-height:none}.plans-table,.plans-table thead,.plans-table tbody{display:block}.plans-table tr{display:grid;grid-template-columns:minmax(0,1fr) 6.5em 7.5em;border-bottom:1px solid #e3ebe6}.plans-table th,.plans-table td{border-bottom:0;padding:5px 6px}.plans-table tr>:nth-child(1),.plans-table tr>:nth-child(2){grid-row:1/4}.plans-table tr>:nth-child(3){grid-column:3;grid-row:1}.plans-table tr>:nth-child(4){grid-column:3;grid-row:2;padding-top:0}.plans-table tr>:nth-child(5){grid-column:3;grid-row:3;padding-top:0}.plans-table thead th:nth-child(n+4){display:none}.plans-sp{display:inline}.plans-table tr.plan-more-row{display:block}.plans-table tr.plan-more-row[hidden]{display:none}.plans-table thead tr{background:#f3f7f5}.plan-target{min-height:44px}.plan-more{min-height:44px;min-width:44px}#change-plans-close{min-width:44px;min-height:44px}}.change-plan{border-top:1px solid #dbe7e1;padding:6px 0 14px}.change-plan details{font-size:12px}.change-plan summary{cursor:pointer;padding:8px 0}.plan-review{display:block;color:#805019}
+.list-note{font-size:10px;color:#6f8078;line-height:1.7;padding:12px 10px 16px;border-top:1px dashed #dfe7e2;margin-top:6px}
+.caution-tag{display:inline-block;font-size:9px;font-weight:600;line-height:1.5;padding:0 5px;margin-left:6px;border-radius:4px;background:#fdf1dc;color:#7a4b00;vertical-align:1px}.detail-tags .caution-tag{margin-left:0;font-size:10px}
+.real-map-top{justify-content:flex-end}.time-step{font-size:10px;padding:7px 10px;border:1px solid #d4e0d3;border-radius:5px;background:#fff;color:#315b40;white-space:nowrap;cursor:pointer}.time-step:disabled{opacity:.4;cursor:default}
+@media(max-width:760px){.time-step{padding:6px 8px;font-size:9px}}
+/* 2026-10-05：流れる色はOCCTO実績だけなので選択欄を出さない。携帯の潮流パネルは「実績日＋最新時刻へ」「◀30分前 時刻 30分後▶」「スライダー」の3段 */
+.flow-basis-label{display:none!important}
+#actual-time-controls #latest-flow{margin:0}
+/* 2026-10-09：連系線の潮流は公表が遅れるので、時刻操作の下に注記を出す */
+#actual-time-controls{flex-wrap:wrap;row-gap:8px}
+#tie-delay-note{flex-basis:100%;margin:0;font-size:10px;line-height:1.6;color:#6f8078}
+@media(max-width:760px){
+ #tie-delay-note{grid-area:note;font-size:9px}
+ #app.mobile-flow-open #real-time{padding:10px 12px;min-height:0}
+ #actual-time-controls{display:grid!important;grid-template-columns:auto 1fr auto;grid-template-areas:"date date latest" "prev time next" "slider slider slider" "note note note";align-items:center;gap:8px 8px}
+ #actual-time-controls>label{grid-area:date;font-size:10px}
+ #actual-time-controls #latest-flow{grid-area:latest;min-height:34px;padding:5px 9px;font-size:11px}
+ #time-prev{grid-area:prev}#time-next{grid-area:next}
+ #time-prev,#time-next{min-height:38px;padding:6px 10px;font-size:12px}
+ #actual-time-label{grid-area:time;text-align:center;font-size:19px!important}
+ #actual-hour{grid-area:slider;width:100%}
+ #map-flow-key{top:66px;right:12px;max-height:calc(50% - 138px)}
+ /* 縦が低い画面では、潮流を開いている間は拡大縮小ボタンを隠し（2本指で操作できる）、凡例は潮流パネルの上まで使う（2026-11-03） */
+ @media(max-height:720px){#app.mobile-flow-open .real-workspace .map-controls{display:none}#app.mobile-flow-open #map-flow-key{max-height:calc(100% - 66px - 44px - 158px - 26px - 16px - env(safe-area-inset-bottom,0px))}}
+}
+/* 一次情報のリンク：マウスを合わせるとリンクだと分かるように、背景・下線・矢印を変える（2026-10-06） */
+.primary-links a{display:block;margin:0 -6px;padding:3px 6px;border-radius:5px;cursor:pointer;transition:background-color .15s,color .15s}
+.primary-links a:hover,.primary-links a:focus-visible{background:#d4ebe5;color:#0f4f5c;text-decoration:underline;text-underline-offset:3px}
+.primary-links a:active{background:#bfe0d7}
+.primary-links details>summary{cursor:pointer}
+.primary-links details>summary:hover{color:#0f4f5c;text-decoration:underline}
+/* 潮流の凡例：100%超（2026-10-10）。地図の粒子と同じく紫・濃い紫の縁・点滅 */
+.flow-key-over{color:#8e3fbf;font-weight:600}
+.flow-key-over i{display:inline-block;width:10px;height:10px;background:#8e3fbf;border:2px solid #3d1259;border-radius:50%;vertical-align:-1px;animation:flow-key-blink .8s ease-in-out infinite alternate}
+@keyframes flow-key-blink{from{opacity:1}to{opacity:.35}}
+@media (prefers-reduced-motion: reduce){.flow-key-over i{animation:none}}
+
+/* 2026-10-10：表示設定は常に開いた枠。一次情報は見出しだけで畳む。2026-11-03 に「表示設定」の見出しは削除 */
+.primary-links>summary{cursor:pointer;font-weight:700;color:#274f46}
+.primary-links:not([open]){gap:0}
+
+.real-workspace .real-banner{display:none!important}
+#region-controls{display:flex;flex-wrap:nowrap;align-items:center;gap:8px}
+#region-controls>label{flex:0 0 auto;gap:6px}
+#region-controls #pilot-mode{position:static;flex:1 1 0;min-width:0;padding:0;border:0;background:none;box-shadow:none}
+#region-controls #pilot-mode select{width:100%;max-width:100%;text-overflow:ellipsis}
+/* 通知は地図に重ねず、地図区画の真上に細い帯で出す（2026-10-26）。出ている間は地図がその分縮む */
+.real-workspace .map-column{flex:1;min-width:0;display:flex;flex-direction:column}
+.real-workspace .map-column>.map-area{flex:1;min-height:0}
+.real-workspace .map-notice{padding:6px 16px;background:#fff5df;border-bottom:1px solid #dacfae;font-size:11px;line-height:1.5}
+#real-info .info-list{margin:6px 0;padding-left:18px;line-height:1.7}
+/* ⓘの文字：本文 13px・注記 12px・小見出し 14px、色は本文と補足の2色、行の高さ 1.7（2026-11-03）。免責の枠（.callout）は変えない */
+#real-info p,#real-info .small-copy{font-size:13px;line-height:1.7;color:#56665a}
+#real-info a{font-size:13px;line-height:1.7;color:#15715a}
+#real-info li,#real-info summary{font-size:13px;line-height:1.7;color:#2e4d3e}
+#real-info small{font-size:12px;color:#56665a}
+#real-info h3{font-size:14px}
+#real-info .callout li{color:inherit}
+.real-workspace .sidebar-footer .footer-sub{color:#8b9690}.real-workspace .sidebar-footer .footer-time{margin-top:4px}.real-workspace .sidebar-footer .footer-status{margin-top:4px}.real-workspace .sidebar-footer .footer-status summary{cursor:pointer;font-weight:600;min-height:24px}
+
+/* 拡大縮小ボタンは右中央、潮流の凡例は右上（元のボタンの位置）。2026-11-03 に入れ替え */
+.real-workspace .map-controls{top:50%;transform:translateY(-50%)}
+@media(max-width:1100px) and (min-width:761px){#map-flow-key{top:126px;right:16px}}
+@media(max-width:340px){.real-workspace #real-browse,#mobile-layers-toggle{top:66px}#mobile-flow-toggle{top:118px}.mobile-map-filters{top:170px}#map-flow-key{top:118px;max-height:calc(50% - 190px)}}/* 幅が狭いと背景地図の切替と重なるので1段下げる */
+/* スマホで電圧・設備の切替（☷）を開いている間は凡例を隠す（重なるため） */
+@media(max-width:760px){#app:has(#mobile-layers:not([hidden])) #map-flow-key{display:none}}
+@media(max-width:340px) and (max-height:720px){#app.mobile-flow-open #map-flow-key{max-height:calc(100% - 118px - 44px - 158px - 26px - 16px - env(safe-area-inset-bottom,0px))}}
+/* 携帯の右（⌕ 設備を探す）は一次情報・検索・表示するデータ・一覧・更新状況だけ。対象電圧・設備の種類は左（☷）と重なるので出さない（携帯では地域と見方は左へ移るため、この枠ごと隠す）（2026-11-03） */
+@media(max-width:760px){.real-workspace .sidebar .display-settings{display:none}}
+/* 携帯の左パネルでは、発電所の記号見本の左端を設備の種類のボタンにそろえる（PC 用の字下げ22pxを外す。2026-11-03）。間隔（縦4px・横10px）も PC と同じにする（.mobile-map-filters>div の gap:5px を打ち消す。2026-11-03） */
+@media(max-width:760px){#mobile-layers .legend-plant-sources{margin-left:0;gap:4px 10px}}
+/* ⓘの「確度の説明」（比較表、2026-11-07） */
+#real-info .tier-compare{margin:8px 0}
+#real-info .tier-compare>summary{cursor:pointer;color:#266b79;text-decoration:underline;text-underline-offset:3px;font-weight:600}
+#real-info .tier-compare p{font-size:12px;line-height:1.6;margin:6px 0}
+#real-info .tier-compare .tier-key span{display:inline-block;padding:1px 6px;margin:2px 6px 2px 0;border-radius:4px;border:1px solid #d4dcd8;font-size:11px}
+#real-info .tier-table{overflow-x:auto;max-width:100%}
+#real-info .tier-table table{border-collapse:collapse;width:100%;font-size:11px;line-height:1.5}#real-info .tier-table.wide table{min-width:420px}
+#real-info .tier-table th,#real-info .tier-table td{border:1px solid #dfe5e2;padding:4px 5px;text-align:left;vertical-align:top;color:#2e4d3e}
+#real-info .tier-table th{background:#f1f4f2;font-weight:600}#real-info .tier-table tr>:first-child{white-space:nowrap}
+#real-info .tier-table th[scope=row]{text-align:center}
+#real-info .tier-compare .tc-p{background:#e6effa}#real-info .tier-compare .tc-o{background:#fdf1e3}#real-info .tier-compare .tc-x{background:#f1f2f3}
+#real-info .tier-schem{margin:4px 0 8px}
+#real-info .tier-schem figure{margin:0 0 6px;display:flex;flex-wrap:wrap;align-items:center;gap:2px 8px;padding:4px 0;border-bottom:1px solid #edf0ee}
+#real-info .tier-schem figure>b{flex:0 0 18px;font-size:14px;color:#2e4d3e;text-align:center}
+#real-info .tier-schem svg{flex:0 1 250px;width:100%;max-width:250px;height:auto;display:block}
+#real-info .tier-schem figcaption{flex:1 1 140px;font-size:12px;line-height:1.5;color:#2e4d3e}
+#real-info .tier-compare .tier-schem-key{font-size:11px;color:#56665a}
+/* 利用規約・プライバシーポリシー・免責・データソース（2026-11-16）。文字の大きさ・色は ⓘ と同じ */
+.legal-links{display:flex;flex-wrap:wrap;gap:4px 12px}
+.legal-link{font-size:11px;color:#3f6f5a;text-decoration:underline;text-underline-offset:2px;padding:4px 0;min-height:24px;background:none;border:0;cursor:pointer}
+.real-workspace .sidebar-legal{padding:0 0 12px}
+#real-info .legal-link{font-size:13px;color:#15715a}
+#real-info .callout-more{display:block;margin-top:6px;color:inherit;font-size:13px}
+#legal-dialog{max-width:620px}
+#legal-dialog .legal-body p,#legal-dialog .legal-body li,#legal-dialog .legal-body td,#legal-dialog .legal-body th{font-size:13px;line-height:1.7;color:#2e4d3e}
+#legal-dialog .legal-body h3{font-size:14px;margin:18px 0 4px}
+#legal-dialog .legal-body ol,#legal-dialog .legal-body ul{padding-left:20px;margin:4px 0}
+#legal-dialog .legal-body a{display:inline;font-size:13px;color:#15715a}
+#legal-dialog .legal-table{border-collapse:collapse;width:100%;margin:6px 0}
+#legal-dialog .legal-table th,#legal-dialog .legal-table td{border:1px solid #e0e8dc;padding:5px 7px;text-align:left;vertical-align:top;overflow-wrap:anywhere}
+#legal-dialog .legal-table th{background:#f2f6ee}
+#legal-dialog .legal-date{font-size:12px;color:#56665a;margin-top:14px}
+/* ⓘ の免責の枠を1行の段落にした（2026-11-16）。文字の大きさ・色は前の箇条書きと同じ */
+#real-info .callout .callout-text{color:inherit;margin:0}
+/* 時刻の操作を出さないときの時刻パネル（2026-11-22）：PC では出さない。携帯で「潮流」を開いたときは、携帯の #actual-time-controls の表示（!important）に合わせて出す */
+.real-time.no-timeline{display:none}
+@media(max-width:760px){#app.mobile-flow-open #real-time.no-timeline{display:flex}}
+/* 携帯の上段（2026-11-22）：☷ を「選択」の文字に、潮流のボタンは右下から「選択」の下へ（上段に入らないため。≋ のマークも消した）。「選択」のパネルはボタンの下（118px、幅340px以下は170px）から。時刻パネルは下のボタンがなくなったので下へ（地図の出典・縮尺に重ならない 44px） */
+/* ⓘ「セキュリティ上の考え方」の引用（2026-11-22） */
+#real-info .info-quote{margin:8px 0;padding:4px 0 4px 12px;border-left:3px solid #c9d8cc;color:#56665a}#real-info .info-quote ul{list-style:none;margin:6px 0;padding:0;font-size:13px;line-height:1.7}#real-info .info-quote sup{font-size:10px}

@@ -1,0 +1,62 @@
+{
+  "id": "tohoku-tokyo-marumori-2026",
+  "regions": [
+    "tohoku",
+    "tokyo"
+  ],
+  "targets": [
+    {
+      "name": "宮城丸森開閉所・東北東京間連系線2ルート化",
+      "assetIds": [
+        "asset-490b65b8-53a3-49c2-9921-bfbb376004c8",
+        "asset-1ccb37f7-76fb-42eb-9393-4b3dfb588402"
+      ],
+      "mapping": "既存両端設備のみ対応。宮城丸森の地理区画・引込経路未照合"
+    }
+  ],
+  "changeType": "開閉所新設・引込変更",
+  "latestProgressReview": {
+    "checkedAt": null,
+    "note": "2026-05-08の一部使用開始を確認。以後の追加運開・工程最新性は未確認。"
+  },
+  "revisions": [
+    {
+      "recordedAt": "2026-09-27",
+      "before": "既設常磐幹線：西仙台―南相馬",
+      "after": "宮城丸森開閉所に常磐北・南幹線、新地アクセス線が接続。2026-05-08各1回線使用開始。残回線・宮城丸森幹線・丸森いわき幹線は将来分として区別。",
+      "status": "工事中",
+      "statusOriginal": "一部使用開始／全設備使用開始に向け工事継続",
+      "timing": [
+        {
+          "raw": "2027年11月",
+          "label": "全設備使用開始予定",
+          "year": 2027,
+          "month": 11,
+          "precision": "month"
+        }
+      ],
+      "source": {
+        "name": "東北電力NW 宮城丸森開閉所の一部使用開始について",
+        "url": "https://nw.tohoku-epco.co.jp/news/pdf/__icsFiles/afieldfile/2026/05/08/260508001.pdf",
+        "publishedAt": "2026-05-08",
+        "checkedAt": "2026-09-27"
+      },
+      "reason": "予定のみで運開判定せず、一次資料で確認された部分運開を記録。"
+    }
+  ],
+  "unknowns": [
+    "2026-05-08以後の残回線運開",
+    "新引込の地理区間と施設区画",
+    "個別母線実結線"
+  ],
+  "updateRequired": [
+    "地理",
+    "接続",
+    "設備",
+    "潮流対応"
+  ],
+  "application": {
+    "status": "一部反映",
+    "note": "旧地理データの詳細へ時点差を注記。新経路は未反映・架空補完なし。"
+  }
+}

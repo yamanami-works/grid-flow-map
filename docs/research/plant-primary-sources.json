@@ -1,0 +1,2924 @@
+{
+  "note": "発電所の発電方式の一次資料（2026-10-10 オーナー承認）。scripts/plant-primary.mjs が builder（scripts/jpower.mjs の取り込みの最後）で設備の属性「発電方式（一次資料）」「出典（発電方式）」に反映する。rename は正式名の変更（元の名前は「別名」に残す）。addFacilities は一次資料から足す設備（region のデータにだけ足す）。type は詳細パネルの「種別」カードに出す値（一次資料の書き方のまま、形式・炉型が資料にないものは大分類だけ）。tools/audit-plants.mjs はこの属性を一次資料の値として照合する。",
+  "checkedAt": "2026-10-10",
+  "plants": {
+    "osm-way-134376414": {
+      "name": "佐久間発電所",
+      "method": "水力",
+      "detail": "ダム水路式・最大出力 350,000kW・1956年4月運転開始",
+      "sources": [
+        {
+          "name": "J-POWER 水力発電所一覧（2026年7月1日現在）",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html"
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "way/992507841": {
+      "name": "糠平発電所",
+      "method": "水力",
+      "detail": "ダム水路式・最大出力 44,200kW・1956年1月運転開始",
+      "sources": [
+        {
+          "name": "J-POWER 水力発電所一覧（2026年7月1日現在）",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html"
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "way/992336757": {
+      "name": "幌加発電所",
+      "method": "水力",
+      "detail": "ダム水路式・最大出力 10,000kW・1965年1月運転開始",
+      "sources": [
+        {
+          "name": "J-POWER 水力発電所一覧（2026年7月1日現在）",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html"
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "way/427824309": {
+      "name": "本別発電所",
+      "method": "水力",
+      "detail": "ダム水路式・最大出力 25,000kW・1962年9月運転開始",
+      "sources": [
+        {
+          "name": "J-POWER 水力発電所一覧（2026年7月1日現在）",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html"
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "way/428716213": {
+      "name": "芽登第一発電所",
+      "method": "水力",
+      "detail": "ダム水路式・最大出力 27,400kW・1958年1月運転開始",
+      "sources": [
+        {
+          "name": "J-POWER 水力発電所一覧（2026年7月1日現在）",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html"
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "osm-way-172210559": {
+      "name": "芽登第二発電所（推定）",
+      "method": "水力",
+      "detail": "ダム水路式・最大出力 28,100kW・1958年10月運転開始（一覧の所在地は北海道足寄郡足寄町。地図の区画を芽登第二とみなしたのは推定のまま）",
+      "sources": [
+        {
+          "name": "J-POWER 水力発電所一覧（2026年7月1日現在）",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html"
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "osm-way-844182805": {
+      "name": "二又水力発電所",
+      "method": "水力",
+      "detail": "ダム水路式・最大出力 72,100kW・1963年1月運転開始",
+      "sources": [
+        {
+          "name": "J-POWER 水力発電所一覧（2026年7月1日現在）",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html"
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "osm-way-231877019": {
+      "name": "上椎葉発電所",
+      "method": "水力",
+      "detail": "貯水池式・出力 93,200kW（46,600kW×2台）・1955年5月運転開始",
+      "sources": [
+        {
+          "name": "九州電力 上椎葉発電所 概要（2026年9月版）",
+          "url": "https://www.kyuden.co.jp/var/rev0/0909/7304/hydro_kamishiiba_2026_09.pdf"
+        }
+      ],
+      "type": "水力（貯水池式）"
+    },
+    "way/630878676": {
+      "name": "奥沙流発電所",
+      "method": "水力",
+      "detail": "ダム水路式・出力 15,800kW",
+      "sources": [
+        {
+          "name": "北海道電力 水力発電所一覧",
+          "url": "https://www.hepco.co.jp/energy/water_power/hydroelectric_ps_list.html"
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "way/624385337": {
+      "name": "奥新冠発電所",
+      "method": "水力",
+      "detail": "ダム水路式・出力 44,000kW",
+      "sources": [
+        {
+          "name": "北海道電力 水力発電所一覧",
+          "url": "https://www.hepco.co.jp/energy/water_power/hydroelectric_ps_list.html"
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "way/624384688": {
+      "name": "下新冠発電所",
+      "method": "水力",
+      "detail": "ダム式・出力 20,000kW",
+      "sources": [
+        {
+          "name": "北海道電力 水力発電所一覧",
+          "url": "https://www.hepco.co.jp/energy/water_power/hydroelectric_ps_list.html"
+        }
+      ],
+      "type": "水力（ダム式）"
+    },
+    "way/624384684": {
+      "name": "春別発電所",
+      "method": "水力",
+      "detail": "ダム水路式・出力 28,500kW",
+      "sources": [
+        {
+          "name": "北海道電力 水力発電所一覧",
+          "url": "https://www.hepco.co.jp/energy/water_power/hydroelectric_ps_list.html"
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "way/624384677": {
+      "name": "静内発電所",
+      "method": "水力",
+      "detail": "ダム式・出力 46,700kW",
+      "sources": [
+        {
+          "name": "北海道電力 水力発電所一覧",
+          "url": "https://www.hepco.co.jp/energy/water_power/hydroelectric_ps_list.html"
+        }
+      ],
+      "type": "水力（ダム式）"
+    },
+    "way/624386611": {
+      "name": "東の沢発電所",
+      "method": "水力",
+      "detail": "ダム式・出力 21,000kW",
+      "sources": [
+        {
+          "name": "北海道電力 水力発電所一覧",
+          "url": "https://www.hepco.co.jp/energy/water_power/hydroelectric_ps_list.html"
+        }
+      ],
+      "type": "水力（ダム式）"
+    },
+    "way/624373742": {
+      "name": "十勝発電所",
+      "method": "水力",
+      "detail": "ダム式・出力 40,000kW",
+      "sources": [
+        {
+          "name": "北海道電力 水力発電所一覧",
+          "url": "https://www.hepco.co.jp/energy/water_power/hydroelectric_ps_list.html"
+        }
+      ],
+      "type": "水力（ダム式）"
+    },
+    "way/624381023": {
+      "name": "富村発電所",
+      "method": "水力",
+      "detail": "ダム水路式・出力 41,300kW",
+      "sources": [
+        {
+          "name": "北海道電力 水力発電所一覧",
+          "url": "https://www.hepco.co.jp/energy/water_power/hydroelectric_ps_list.html"
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "osm-way-246750093": {
+      "name": "城山水力発電所",
+      "method": "水力",
+      "subtype": "純揚水",
+      "detail": "最大出力 25万kW。地方公営企業で唯一の揚水式発電所",
+      "sources": [
+        {
+          "name": "神奈川県 県営電気事業経営計画（平成21年3月）",
+          "url": "https://www.pref.kanagawa.jp/documents/47362/h21_denki-keieikeikaku.pdf"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "osm-way-1002444623": {
+      "name": "高根第一水力発電所",
+      "method": "水力",
+      "subtype": "混合揚水",
+      "detail": "揚水と自流を併せ持つ（岐阜県の資料で「揚水」「自流」を別掲）",
+      "note": "中部電力の一次資料は未確認（岐阜県の資料と、運転開始時の機器資料による）",
+      "sources": [
+        {
+          "name": "岐阜県の資料（高根第一（揚水）・高根第一（自流）を別掲）",
+          "url": "https://www.pref.gifu.lg.jp/uploaded/attachment/275070.pdf"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "osm-way-1078429703": {
+      "name": "那珂瓦斯発電所",
+      "rename": {
+        "name": "日本テクノ那珂グリーンパワー",
+        "alias": "那珂瓦斯発電所（OSMの登録名。2021年10月に日本テクノが株式を取得した旧会社の名前）",
+        "basis": "名称・出力110MW（7,800kW×14基）・2022年4月運用開始は日本テクノ「日本テクノグループの発電所」（2026-10-18確認）、所在地（茨城県那珂市）は同社 エネルギー環境計画書2025 による。OSMの区画（旧社名の登録、那珂市）との対応は、所在地と旧社名の一致からの推定（2026-10-18 オーナー承認）"
+      },
+      "method": "火力（ガス）",
+      "detail": "子会社が茨城県那珂市にガス火力発電所（10.9万kW）を所有",
+      "sources": [
+        {
+          "name": "日本テクノ エネルギー環境計画書2025",
+          "url": "https://www.n-techno.co.jp/shared/pdf/service/energy_keikakusho2025.pdf",
+          "forType": true
+        },
+        {
+          "name": "日本テクノ「日本テクノグループの発電所」",
+          "url": "https://www.n-techno.co.jp/company/power_plant.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "ガス"
+    },
+    "osm-way-619284824": {
+      "name": "鹿島南共同発電所",
+      "method": "火力（ガス）",
+      "detail": "鹿島南共同発電株式会社（茨城県神栖市東和田）：燃料は都市ガス。2020年にガスタービンコージェネレーションシステムが稼働開始。設備（2026-10-18 公式サイトの記載）：オープンサイクルガスタービン 32,300kW(15℃)×3基、抽気背圧衝動タービン 10,500kW×1基、自然循環式排熱回収ボイラー 発生蒸気量46t/h×3基。電気と蒸気をコンビナート南グループに供給",
+      "sources": [
+        {
+          "name": "鹿島南共同発電「電気の創り方」",
+          "url": "https://www.nankyo.co.jp/energy_01",
+          "checkedAt": "2026-10-18"
+        },
+        {
+          "name": "鹿島南共同発電「設備」",
+          "url": "https://www.nankyo.co.jp/facilities",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "ガス",
+      "note": "OSMの区画との対応は、OSMの名前・事業者タグ（鹿島南共同発電株式会社）と所在地（神栖市、同社サイトの所在地）の一致による推定（2026-10-18 オーナー承認）。HJKS との対応は付けていない。"
+    },
+    "osm-way-943646268": {
+      "name": "日本テクノ袖ケ浦グリーンパワー",
+      "method": "火力（ガス）",
+      "detail": "袖ケ浦市にガス火力発電所（10.9万kW）を所有",
+      "sources": [
+        {
+          "name": "日本テクノ エネルギー環境計画書2025",
+          "url": "https://www.n-techno.co.jp/shared/pdf/service/energy_keikakusho2025.pdf"
+        }
+      ],
+      "type": "ガス"
+    },
+    "osm-relation-1527911": {
+      "name": "東海発電所",
+      "rename": {
+        "name": "東海第二発電所",
+        "alias": "東海発電所（OSMの登録名。日本原子力発電 東海事業所の敷地全体）",
+        "basis": "OSMの登録は東海事業所の敷地全体（出力1,100MW＝東海第二の値）。HJKSの東海第二発電所（発電所コード30302）と対応づける。廃止措置中の東海発電所は別の設備（japc-tokai-1）"
+      },
+      "method": "原子力",
+      "detail": "1,100MW（HJKS、稼働終了日の登録なし）。原子力規制委員会の発電所別情報では沸騰水型軽水炉（BWR）・110.0万kW",
+      "sources": [
+        {
+          "name": "日本卸電力取引所 発電情報公開システム（HJKS）ユニット一覧 東海第二発電所（2026-10-09取得）",
+          "url": "https://hjks.jepx.or.jp/hjks/"
+        },
+        {
+          "name": "日本原子力発電 発電所",
+          "url": "https://www.japc.co.jp/plant/"
+        },
+        {
+          "name": "原子力規制委員会「日本原子力発電株式会社　東海第二発電所の規制」（発電所別情報。作成日の記載なし）",
+          "url": "https://www.nra.go.jp/hatsudensho/tokai2_index.html",
+          "checkedAt": "2026-10-18",
+          "forType": true
+        }
+      ],
+      "type": "原子力（BWR）"
+    },
+    "japc-tokai-1": {
+      "name": "東海発電所",
+      "method": "原子力",
+      "detail": "日本初の商業用原子炉。1998年3月31日に営業運転停止、廃止措置中。原子力規制委員会の発電所別情報では黒鉛減速炭酸ガス冷却炉（GCR）・16.6万kW",
+      "sources": [
+        {
+          "name": "日本原子力発電「東海発電所の廃止措置」",
+          "url": "https://www.japc.co.jp/tokai/haishi/tokai_haishi.html"
+        },
+        {
+          "name": "原子力規制委員会「日本原子力発電株式会社　東海発電所の規制」（発電所別情報。作成日の記載なし）",
+          "url": "https://www.nra.go.jp/hatsudensho/tokai_index.html",
+          "checkedAt": "2026-10-18",
+          "forType": true
+        }
+      ],
+      "type": "原子力（GCR）"
+    },
+    "osm-way-1154169960": {
+      "name": "鬼怒川発電所",
+      "method": "水力",
+      "detail": "水路式・最大出力 127,000kW・1963年11月運転開始",
+      "sources": [
+        {
+          "name": "東京電力リニューアブルパワー 水力発電所一覧（2025年3月末現在。手で保存した写し sources/primary/tepco-rp/）",
+          "url": "https://www.tepco.co.jp/rp/business/hydroelectric_power/domestic/list.html"
+        }
+      ],
+      "type": "水力（水路式）"
+    },
+    "osm-way-180786612": {
+      "name": "秋元発電所",
+      "method": "水力",
+      "detail": "水路式・最大出力 107,500kW・1940年2月運転開始",
+      "sources": [
+        {
+          "name": "東京電力リニューアブルパワー 水力発電所一覧（2025年3月末現在。手で保存した写し sources/primary/tepco-rp/）",
+          "url": "https://www.tepco.co.jp/rp/business/hydroelectric_power/domestic/list.html"
+        }
+      ],
+      "type": "水力（水路式）"
+    },
+    "osm-way-1135976065": {
+      "name": "中津川第一発電所",
+      "method": "水力",
+      "detail": "水路式・最大出力 127,000kW・1924年9月運転開始",
+      "sources": [
+        {
+          "name": "東京電力リニューアブルパワー 水力発電所一覧（2025年3月末現在。手で保存した写し sources/primary/tepco-rp/）",
+          "url": "https://www.tepco.co.jp/rp/business/hydroelectric_power/domestic/list.html"
+        }
+      ],
+      "type": "水力（水路式）"
+    },
+    "osm-way-787208208": {
+      "name": "水殿水力発電所",
+      "method": "水力",
+      "subtype": "揚水",
+      "detail": "ダム式・最大出力 245,000kW・1969年10月運転開始。一覧の注1「揚水式発電所」（純揚水か混合揚水かは一覧から読み取れない）",
+      "sources": [
+        {
+          "name": "東京電力リニューアブルパワー 水力発電所一覧（2025年3月末現在。手で保存した写し sources/primary/tepco-rp/）",
+          "url": "https://www.tepco.co.jp/rp/business/hydroelectric_power/domestic/list.html"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "osm-way-761185975": {
+      "name": "黒部川第四発電所",
+      "method": "水力",
+      "detail": "ダム水路式・認可最大出力 335千kW・1961年1月使用開始",
+      "sources": [
+        {
+          "name": "関西電力 ファクトブック2020「主要発電所」（手で保存した写し sources/primary/kansai/factbk20_04.pdf）",
+          "url": "https://www.kepco.co.jp/corporate/report/factbook/2020/pdf/factbk20_04.pdf"
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "osm-way-197821471": {
+      "name": "新黒部川第三発電所",
+      "method": "水力",
+      "detail": "系統図に「主要水力発電所」として記載（出力の記載なし）。関西電力の水力発電所一覧では黒部川水系黒部川、110,000kW、ダム水路式、昭和38年10月運転開始",
+      "sources": [
+        {
+          "name": "関西電力 ファクトブック2020「関西電力主要発電設備・関西電力送配電主要系統図」（手で保存した写し sources/primary/kansai/factbk20_02.pdf）",
+          "url": "https://www.kepco.co.jp/corporate/report/factbook/2020/pdf/factbk20_02.pdf"
+        },
+        {
+          "name": "関西電力 水力発電所一覧（2026年7月末時点）",
+          "url": "https://www.kepco.co.jp/energy_supply/energy/newenergy/water/plant/list.html",
+          "checkedAt": "2026-10-18",
+          "forType": true
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "osm-way-605382252": {
+      "name": "大飯原子力発電所",
+      "method": "原子力",
+      "type": "原子力（PWR）",
+      "detail": "加圧水型軽水炉・認可最大出力 2,360千kW（1・2号機は2017年12月に廃炉を決定）",
+      "sources": [
+        {
+          "name": "関西電力 ファクトブック2020「主要発電所」「当社の原子力発電所の状況（2020年7月31日現在）」（手で保存した写し sources/primary/kansai/factbk20_04.pdf）",
+          "url": "https://www.kepco.co.jp/corporate/report/factbook/2020/pdf/factbk20_04.pdf"
+        }
+      ]
+    },
+    "osm-way-456491990": {
+      "name": "高浜原子力発電所",
+      "method": "原子力",
+      "type": "原子力（PWR）",
+      "detail": "加圧水型軽水炉・認可最大出力 3,392千kW",
+      "sources": [
+        {
+          "name": "関西電力 ファクトブック2020「主要発電所」「当社の原子力発電所の状況（2020年7月31日現在）」（手で保存した写し sources/primary/kansai/factbk20_04.pdf）",
+          "url": "https://www.kepco.co.jp/corporate/report/factbook/2020/pdf/factbk20_04.pdf"
+        }
+      ]
+    },
+    "osm-way-605420905": {
+      "name": "美浜原子力発電所",
+      "method": "原子力",
+      "type": "原子力（PWR）",
+      "detail": "加圧水型軽水炉・認可最大出力 826千kW（1・2号機は2015年3月に廃炉を決定）",
+      "sources": [
+        {
+          "name": "関西電力 ファクトブック2020「主要発電所」「当社の原子力発電所の状況（2020年7月31日現在）」（手で保存した写し sources/primary/kansai/factbk20_04.pdf）",
+          "url": "https://www.kepco.co.jp/corporate/report/factbook/2020/pdf/factbk20_04.pdf"
+        }
+      ]
+    },
+    "osm-node-1210028290": {
+      "name": "矢木沢発電所",
+      "method": "水力",
+      "subtype": "揚水",
+      "detail": "最大出力 160,000kW、ダム式、1965年12月運転開始",
+      "sources": [
+        {
+          "name": "東京電力リニューアブルパワー 水力発電所一覧（2025年3月末現在）",
+          "url": "https://www.tepco.co.jp/rp/business/hydroelectric_power/domestic/list.html"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "osm-way-658690610": {
+      "name": "小千谷第二発電所",
+      "rename": {
+        "name": "小千谷第二発電所",
+        "alias": "JR東日本 小千谷第二発電所（OSMの区画名）",
+        "basis": "JR東日本「信濃川発電所について」：信濃川発電所は千手発電所・小千谷発電所・小千谷第二発電所の3発電所の総称（2026-10-11確認）"
+      },
+      "method": "水力",
+      "detail": "JR東日本の自営の水力発電所（信濃川発電所の一つ、新潟県小千谷市）。出力は未確認",
+      "sources": [
+        {
+          "name": "JR東日本「信濃川発電所について」",
+          "url": "https://www.jreast.co.jp/de/company/csr/environment/shinanogawa/"
+        }
+      ],
+      "type": "水力"
+    },
+    "way/624376775": {
+      "name": "岩松発電所",
+      "method": "水力",
+      "detail": "北海道電力の水力発電所一覧の「新岩松」（ダム名 岩松、十勝川、ダム水路式、16,000kW、2016年1月運転開始）。OSMの「岩松発電所」を、名称とダムの名前からこれに対応付けた（推定）。旧岩松発電所の設備を更新したものとみられる",
+      "sources": [
+        {
+          "name": "北海道電力 水力発電所一覧",
+          "url": "https://www.hepco.co.jp/energy/water_power/hydroelectric_ps_list.html",
+          "checkedAt": "2026-10-13"
+        }
+      ],
+      "type": "水力（ダム水路式）",
+      "note": "名称の対応は推定：一次資料の発電所名は「新岩松」。"
+    },
+    "way/1477837533": {
+      "name": "勇払バイオマス発電",
+      "method": "火力（バイオマス）",
+      "detail": "木質チップ・PKS・国内未利用材、74,950kW（発電端）、2023年2月2日営業運転開始、事業主体 勇払エネルギーセンター合同会社（日本製紙・双日）",
+      "sources": [
+        {
+          "name": "日本製紙 ニュースリリース「勇払バイオマス発電所の営業運転開始について」（2023-02-02）",
+          "url": "https://www.nipponpapergroup.com/news/year/2023/news230202005392.html",
+          "checkedAt": "2026-10-13"
+        }
+      ],
+      "type": "バイオマス"
+    },
+    "osm-way-771787166": {
+      "name": "もんじゅ",
+      "method": "原子力",
+      "detail": "高速増殖原型炉（ナトリウム冷却、プルトニウム・ウラン混合酸化物燃料）、熱出力71.4万kW・電気出力28万kW。廃止措置中",
+      "sources": [
+        {
+          "name": "日本原子力研究開発機構「もんじゅとは？」",
+          "url": "https://www.jaea.go.jp/04/monju/facilities/",
+          "checkedAt": "2026-10-13"
+        }
+      ],
+      "type": "原子力（高速増殖炉）"
+    },
+    "osm-way-440225776": {
+      "name": "新成出水力発電所",
+      "method": "水力",
+      "detail": "庄川水系庄川・境川、59,300kW、昭和50年3月運転開始（関西電力）",
+      "sources": [
+        {
+          "name": "関西電力 水力発電所一覧",
+          "url": "https://www.kepco.co.jp/energy_supply/energy/newenergy/water/plant/list.html",
+          "checkedAt": "2026-10-13"
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "osm-way-608909526": {
+      "name": "新黒部川第二発電所",
+      "method": "水力",
+      "detail": "黒部川水系黒部川、74,200kW、昭和41年9月運転開始（関西電力）",
+      "sources": [
+        {
+          "name": "関西電力 水力発電所一覧",
+          "url": "https://www.kepco.co.jp/energy_supply/energy/newenergy/water/plant/list.html",
+          "checkedAt": "2026-10-13"
+        }
+      ],
+      "type": "水力（水路式）"
+    },
+    "osm-relation-11583778": {
+      "name": "新改発電所",
+      "method": "水力",
+      "detail": "四国電力の水力発電所（高知県、認可出力9,300kW、2025年4月1日現在）。形式（自流式・貯水式・揚水式）は一覧に記載なし",
+      "sources": [
+        {
+          "name": "四国電力 四国電力の水力発電所",
+          "url": "https://www.yonden.co.jp/energy/p_station/hydro/yonden.html",
+          "checkedAt": "2026-10-13"
+        }
+      ],
+      "type": "水力"
+    },
+    "osm-way-1198135329": {
+      "name": "（OSM無名）",
+      "method": "火力（ガス）",
+      "detail": "中袖クリーンパワー（千葉県袖ケ浦市）：天然ガス焚き複合火力（コンバインドサイクル）、約100MW、2008年運転開始。OSMの英語名「Nakasode Clean power station」・位置から対応付けた",
+      "sources": [
+        {
+          "name": "丸紅 ニュースリリース「国内火力発電事業への参入及び火力発電所の買収について」（2014-01-10）",
+          "url": "https://www.marubeni.com/jp/news/2014/release/00004.html",
+          "checkedAt": "2026-10-13"
+        }
+      ],
+      "type": "ガス（コンバインドサイクル）",
+      "note": "発電所との対応はOSMの英語名と位置による（補助資料）。"
+    },
+    "osm-way-1444382011": {
+      "name": "（OSM無名）",
+      "method": "火力（ガス）",
+      "detail": "株式会社ベイサイドエナジー 市原発電所（千葉県市原市五井南海岸）：ガスタービン・コンバインドサイクル、天然ガス、107,650kW、2005年4月営業運転開始（電源開発100%出資、発表時点）。OSMの事業者「Bay Side Energy Co., Ltd.」・位置から対応付けた",
+      "sources": [
+        {
+          "name": "電源開発 発表「㈱ベイサイドエナジー 市原発電所の営業運転開始について」（2005-03-31）",
+          "url": "https://www.jpower.co.jp/news_release/pdf/news050331-2.pdf",
+          "checkedAt": "2026-10-14"
+        }
+      ],
+      "type": "ガス（コンバインドサイクル）",
+      "note": "発電所との対応はOSMの事業者名と位置による（補助資料）。資料は2005年時点。"
+    },
+    "osm-way-1074674001": {
+      "name": "鹿島北共同発電所",
+      "method": "火力",
+      "detail": "鹿島北共同発電株式会社：電気・蒸気の卸供給（鹿島コンビナート各社向け）、発電出力47.5万kW、ボイラ1,735t/h（2013年時点）。燃料は一次資料で未確認",
+      "sources": [
+        {
+          "name": "JX日鉱日石エネルギー（現 ENEOS）ニュースリリース 別紙（2013-08-28）",
+          "url": "https://www.hd.eneos.co.jp/newsrelease/jx/pdf/20130828_01_0920090.pdf",
+          "checkedAt": "2026-10-14"
+        }
+      ],
+      "type": "火力",
+      "note": "燃料（石油・ガスなど）は一次資料で未確認。"
+    },
+    "osm-way-605327351": {
+      "name": "五井火力発電所",
+      "method": "火力（ガス）",
+      "detail": "ガスタービン及び汽力（コンバインドサイクル発電方式）、液化天然ガス（LNG）、234万kW（78万kW×3基）、千葉県市原市五井海岸1番地。新1〜3号機は2024-08-01・2024-11-14・2025-03-01に営業運転開始",
+      "sources": [
+        {
+          "name": "五井ユナイテッドジェネレーション「五井火力発電所更新計画 環境影響評価結果 概要」（作成日不明）",
+          "url": "https://www.goi-united.com/pdf/pdf01.pdf",
+          "checkedAt": "2026-10-16",
+          "forType": true
+        },
+        {
+          "name": "五井ユナイテッドジェネレーション合同会社 ホームページ（運転開始の記載）",
+          "url": "https://www.goi-united.com/",
+          "checkedAt": "2026-10-16"
+        }
+      ],
+      "type": "LNG（コンバインドサイクル）",
+      "note": "出力・方式は評価結果の概要（計画時点）の記載。OSMの区画は建設中の登録のまま（出力0MW）で、その値は使わない。"
+    },
+    "osm-way-658953552": {
+      "name": "沼原発電所",
+      "method": "水力",
+      "subtype": "純揚水",
+      "detail": "ダム水路式（揚水式）・最大出力 675,000kW・1973-06-30 運転開始",
+      "note": "純揚水はオーナー指示（2026-10-17）。電源開発の一覧は「揚水式」とだけあり、純揚水か混合揚水かは一覧から読み取れない",
+      "sources": [
+        {
+          "name": "電源開発 水力発電所一覧",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html",
+          "checkedAt": "2026-10-17"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "way/624384691": {
+      "name": "新冠発電所",
+      "method": "水力",
+      "subtype": "混合揚水",
+      "detail": "ダム式・混合揚水式・出力 200,000kW・1974年8月運転開始",
+      "sources": [
+        {
+          "name": "北海道電力 主な水力発電所",
+          "url": "https://www.hepco.co.jp/energy/water_power/hydroelectric_ps.html",
+          "checkedAt": "2026-10-18",
+          "forType": true
+        },
+        {
+          "name": "北海道電力 水力発電所一覧",
+          "url": "https://www.hepco.co.jp/energy/water_power/hydroelectric_ps_list.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "hokkaido-plant-高見発電所": {
+      "name": "高見発電所",
+      "method": "水力",
+      "subtype": "混合揚水",
+      "detail": "ダム式・混合揚水式・出力 200,000kW・1983年7月運転開始",
+      "sources": [
+        {
+          "name": "北海道電力 主な水力発電所",
+          "url": "https://www.hepco.co.jp/energy/water_power/hydroelectric_ps.html",
+          "checkedAt": "2026-10-18",
+          "forType": true
+        },
+        {
+          "name": "北海道電力 水力発電所一覧",
+          "url": "https://www.hepco.co.jp/energy/water_power/hydroelectric_ps_list.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "way/640622567": {
+      "name": "京極発電所",
+      "method": "水力",
+      "subtype": "純揚水",
+      "detail": "ダム水路式・純揚水式・出力 400,000kW・2014年10月運転開始",
+      "sources": [
+        {
+          "name": "北海道電力 主な水力発電所",
+          "url": "https://www.hepco.co.jp/energy/water_power/hydroelectric_ps.html",
+          "checkedAt": "2026-10-18",
+          "forType": true
+        },
+        {
+          "name": "北海道電力 水力発電所一覧",
+          "url": "https://www.hepco.co.jp/energy/water_power/hydroelectric_ps_list.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "tokyo-plant-shintakasegawa": {
+      "name": "新高瀬川発電所",
+      "method": "水力",
+      "subtype": "揚水",
+      "detail": "ダム水路式・最大出力 1,280,000kW・1979年6月運転開始。一覧の注1「揚水式発電所」（純揚水か混合揚水かは一覧から読み取れない）",
+      "sources": [
+        {
+          "name": "東京電力リニューアブルパワー 水力発電所一覧（2025年3月末現在）",
+          "url": "https://www.tepco.co.jp/rp/business/hydroelectric_power/domestic/list.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "osm-way-1007511426": {
+      "name": "神流川水力発電所",
+      "method": "水力",
+      "subtype": "揚水",
+      "detail": "ダム水路式・最大出力 940,000kW・2005年12月運転開始。一覧の注1「揚水式発電所」（純揚水か混合揚水かは一覧から読み取れない）",
+      "sources": [
+        {
+          "name": "東京電力リニューアブルパワー 水力発電所一覧（2025年3月末現在）",
+          "url": "https://www.tepco.co.jp/rp/business/hydroelectric_power/domestic/list.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "osm-way-1030329142": {
+      "name": "今市発電所",
+      "method": "水力",
+      "subtype": "揚水",
+      "detail": "ダム水路式・最大出力 1,050,000kW・1988年7月運転開始。一覧の注1「揚水式発電所」（純揚水か混合揚水かは一覧から読み取れない）",
+      "sources": [
+        {
+          "name": "東京電力リニューアブルパワー 水力発電所一覧（2025年3月末現在）",
+          "url": "https://www.tepco.co.jp/rp/business/hydroelectric_power/domestic/list.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "osm-way-1087202479": {
+      "name": "葛野川地下発電所",
+      "method": "水力",
+      "subtype": "揚水",
+      "detail": "ダム水路式・最大出力 1,200,000kW・1999年12月運転開始。一覧の注1「揚水式発電所」（純揚水か混合揚水かは一覧から読み取れない）",
+      "sources": [
+        {
+          "name": "東京電力リニューアブルパワー 水力発電所一覧（2025年3月末現在）",
+          "url": "https://www.tepco.co.jp/rp/business/hydroelectric_power/domestic/list.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "osm-way-1087213711": {
+      "name": "玉原発電所",
+      "method": "水力",
+      "subtype": "揚水",
+      "detail": "ダム水路式・最大出力 1,200,000kW・1982年12月運転開始。一覧の注1「揚水式発電所」（純揚水か混合揚水かは一覧から読み取れない）",
+      "sources": [
+        {
+          "name": "東京電力リニューアブルパワー 水力発電所一覧（2025年3月末現在）",
+          "url": "https://www.tepco.co.jp/rp/business/hydroelectric_power/domestic/list.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "osm-way-727005862": {
+      "name": "安曇水力発電所",
+      "method": "水力",
+      "subtype": "揚水",
+      "detail": "ダム水路式・最大出力 623,000kW・1969年5月運転開始。一覧の注1「揚水式発電所」（純揚水か混合揚水かは一覧から読み取れない）",
+      "sources": [
+        {
+          "name": "東京電力リニューアブルパワー 水力発電所一覧（2025年3月末現在）",
+          "url": "https://www.tepco.co.jp/rp/business/hydroelectric_power/domestic/list.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "osm-way-1193242939": {
+      "name": "新豊根発電所",
+      "method": "水力",
+      "subtype": "揚水",
+      "detail": "ダム水路式（揚水式）・最大出力 1,125,000kW・1972-11-30 運転開始（純揚水か混合揚水かは一覧から読み取れない）",
+      "sources": [
+        {
+          "name": "J-POWER 水力発電所一覧（2026年7月1日現在）",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "osm-way-217390429": {
+      "name": "池原発電所",
+      "method": "水力",
+      "subtype": "揚水",
+      "detail": "ダム水路式（揚水式）・最大出力 350,000kW・1964-09-20 運転開始（純揚水か混合揚水かは一覧から読み取れない）",
+      "sources": [
+        {
+          "name": "J-POWER 水力発電所一覧（2026年7月1日現在）",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "chubu-place-馬瀬川第一発電所": {
+      "name": "馬瀬川第一発電所",
+      "method": "水力",
+      "subtype": "揚水",
+      "detail": "ダム（揚水）・出力 288,000kW・1976年6月営業運転開始（純揚水か混合揚水かは一覧から読み取れない）",
+      "sources": [
+        {
+          "name": "中部電力 中部電力の水力発電所一覧（2026年3月末現在）",
+          "url": "https://www.chuden.co.jp/energy/renew/ren_setsubi/water/wat_chuden/wat_list/",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "osm-way-832823488": {
+      "name": "奥美濃発電所",
+      "method": "水力",
+      "subtype": "純揚水",
+      "detail": "ダム（揚水）・出力 1,500,000kW・1994年7月営業運転開始（一覧。発電所の紹介ページでは1・2号機1994年7月〜5・6号機1995年11月）。純揚水式は発電所の紹介ページによる",
+      "sources": [
+        {
+          "name": "中部電力 中部電力の水力発電所一覧（2026年3月末現在）",
+          "url": "https://www.chuden.co.jp/energy/renew/ren_setsubi/water/wat_chuden/wat_list/",
+          "checkedAt": "2026-10-18"
+        },
+        {
+          "name": "中部電力 奥美濃水力発電所",
+          "url": "https://www.chuden.co.jp/energy/renew/ren_setsubi/water/wat_chuden/okumino/",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "osm-way-169031922": {
+      "name": "奥吉野発電所",
+      "method": "水力",
+      "subtype": "純揚水",
+      "detail": "純揚水式・最大出力 1,206,000kW・昭和53年6月運転開始",
+      "sources": [
+        {
+          "name": "関西電力 水力発電所一覧（2026年7月末時点）",
+          "url": "https://www.kepco.co.jp/energy_supply/energy/newenergy/water/plant/list.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "osm-way-842717570": {
+      "name": "奥多々良木発電所",
+      "method": "水力",
+      "subtype": "純揚水",
+      "detail": "純揚水式・最大出力 1,932,000kW・昭和49年6月運転開始",
+      "sources": [
+        {
+          "name": "関西電力 水力発電所一覧（2026年7月末時点）",
+          "url": "https://www.kepco.co.jp/energy_supply/energy/newenergy/water/plant/list.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "osm-relation-12905117": {
+      "name": "喜撰山発電所",
+      "method": "水力",
+      "subtype": "純揚水",
+      "detail": "純揚水式・最大出力 466,000kW・昭和45年1月運転開始",
+      "sources": [
+        {
+          "name": "関西電力 水力発電所一覧（2026年7月末時点）",
+          "url": "https://www.kepco.co.jp/energy_supply/energy/newenergy/water/plant/list.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "osm-way-233522781": {
+      "name": "天山水力発電所",
+      "method": "水力",
+      "subtype": "純揚水",
+      "detail": "純揚水式・出力 600,000kW・昭和61年12月運転開始",
+      "sources": [
+        {
+          "name": "九州電力 九州電力の水力発電所（2025年3月現在）",
+          "url": "https://www.kyuden.co.jp/business_outline/power/renewable-energy/hydroelectric-power/list.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "osm-way-232998815": {
+      "name": "奥只見発電所",
+      "method": "水力",
+      "detail": "ダム水路式・最大出力 566,000kW・1960.12.02 運転開始",
+      "sources": [
+        {
+          "name": "J-POWER 水力発電所一覧（2026年7月1日現在）",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "osm-way-158064651": {
+      "name": "田子倉発電所",
+      "method": "水力",
+      "detail": "ダム式・最大出力 400,000kW・1959.05.30 運転開始",
+      "sources": [
+        {
+          "name": "J-POWER 水力発電所一覧（2026年7月1日現在）",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（ダム式）"
+    },
+    "osm-way-440218167": {
+      "name": "御母衣発電所",
+      "method": "水力",
+      "detail": "ダム水路式・最大出力 215,000kW・1961.01.14 運転開始",
+      "sources": [
+        {
+          "name": "J-POWER 水力発電所一覧（2026年7月1日現在）",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "osm-way-319098734": {
+      "name": "信濃川水力発電所",
+      "method": "水力",
+      "detail": "水路式・最大出力 181,000kW・1939/11 運転開始。東京電力リニューアブルパワーの信濃川発電所（新潟県津南町付近）。JR東日本の信濃川発電所（千手・小千谷・小千谷第二の総称）とは別",
+      "sources": [
+        {
+          "name": "東京電力リニューアブルパワー 水力発電所一覧（2025年3月末現在）",
+          "url": "https://www.tepco.co.jp/rp/business/hydroelectric_power/domestic/list.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（水路式）"
+    },
+    "osm-node-1210028499": {
+      "name": "音沢発電所",
+      "method": "水力",
+      "detail": "黒部川水系黒部川、126,000kW、ダム水路式、昭和60年9月運転開始（関西電力）",
+      "sources": [
+        {
+          "name": "関西電力 水力発電所一覧（2026年7月末時点）",
+          "url": "https://www.kepco.co.jp/energy_supply/energy/newenergy/water/plant/list.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "way/640607782": {
+      "name": "泊発電所",
+      "method": "原子力",
+      "detail": "加圧水型軽水炉（PWR）：1号機 57.9万kW・2号機 57.9万kW・3号機 91.2万kW",
+      "sources": [
+        {
+          "name": "原子力規制委員会「北海道電力株式会社　泊発電所の規制」（発電所別情報。作成日の記載なし）",
+          "url": "https://www.nra.go.jp/hatsudensho/tomari_index.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "原子力（PWR）"
+    },
+    "osm-way-605420907": {
+      "name": "東通原子力発電所",
+      "method": "原子力",
+      "detail": "沸騰水型軽水炉（BWR）：1号機 110.0万kW（東北電力）",
+      "sources": [
+        {
+          "name": "原子力規制委員会「東北電力株式会社　東通原子力発電所の規制」（発電所別情報。作成日の記載なし）",
+          "url": "https://www.nra.go.jp/hatsudensho/thhigashidori_index.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "原子力（BWR）"
+    },
+    "osm-way-1341021071": {
+      "name": "女川原子力発電所",
+      "method": "原子力",
+      "detail": "沸騰水型軽水炉（BWR）：1号機 52.4万kW（廃止措置中）・2号機 82.5万kW・3号機 82.5万kW",
+      "sources": [
+        {
+          "name": "原子力規制委員会「東北電力株式会社　女川原子力発電所の規制」（発電所別情報。作成日の記載なし）",
+          "url": "https://www.nra.go.jp/hatsudensho/onagawa_index.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "原子力（BWR）"
+    },
+    "osm-way-103783431": {
+      "name": "旧福島第一原子力発電所",
+      "method": "原子力",
+      "detail": "沸騰水型軽水炉（BWR）：電気出力 1号機 46.0万kW・2〜5号機 各78.4万kW・6号機 110.0万kW。1〜4号機は2012年4月19日、5・6号機は2014年1月31日に廃止",
+      "sources": [
+        {
+          "name": "東京電力「福島第一原子力発電所　設備の概要」",
+          "url": "https://www.tepco.co.jp/nu/fukushima-np/outline_f1/",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "原子力（BWR）"
+    },
+    "osm-way-104409614": {
+      "name": "福島第二原子力発電所",
+      "method": "原子力",
+      "detail": "沸騰水型軽水炉（BWR）：1〜4号機 各110.0万kW（いずれも廃止措置中）",
+      "sources": [
+        {
+          "name": "原子力規制委員会「東京電力ホールディングス株式会社　福島第二原子力発電所の規制」（発電所別情報。作成日の記載なし）",
+          "url": "https://www.nra.go.jp/hatsudensho/fukushima2_index.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "原子力（BWR）"
+    },
+    "osm-way-806310370": {
+      "name": "浜岡原子力発電所",
+      "method": "原子力",
+      "detail": "1号機 BWR 54.0万kW（廃止措置中）・2号機 BWR 84.0万kW（廃止措置中）・3号機 BWR 110.0万kW・4号機 BWR 113.7万kW・5号機 ABWR 138.0万kW",
+      "sources": [
+        {
+          "name": "原子力規制委員会「中部電力株式会社　浜岡原子力発電所の規制」（発電所別情報。作成日の記載なし）",
+          "url": "https://www.nra.go.jp/hatsudensho/hamaoka_index.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "原子力（BWR・ABWR）"
+    },
+    "osm-way-255763556": {
+      "name": "志賀原子力発電所",
+      "method": "原子力",
+      "detail": "1号機 BWR 54.0万kW・2号機 ABWR 120.6万kW",
+      "sources": [
+        {
+          "name": "原子力規制委員会「北陸電力株式会社　志賀原子力発電所の規制」（発電所別情報。作成日の記載なし）",
+          "url": "https://www.nra.go.jp/hatsudensho/shiga_index.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "原子力（BWR・ABWR）"
+    },
+    "osm-way-449155824": {
+      "name": "敦賀原子力発電所",
+      "method": "原子力",
+      "detail": "1号機 BWR 35.7万kW（廃止措置中）・2号機 PWR 116.0万kW",
+      "sources": [
+        {
+          "name": "原子力規制委員会「日本原子力発電株式会社　敦賀発電所の規制」（発電所別情報。作成日の記載なし）",
+          "url": "https://www.nra.go.jp/hatsudensho/tsuruga_index.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "原子力（BWR・PWR）"
+    },
+    "osm-way-605382253": {
+      "name": "島根原子力発電所",
+      "method": "原子力",
+      "detail": "1号機 BWR 46.0万kW（廃止措置中）・2号機 BWR 82.0万kW。3号機は建設中で、中国電力の増設計画概要では改良型沸騰水型（ABWR）・137.3万kW（営業運転開始は未定）",
+      "sources": [
+        {
+          "name": "原子力規制委員会「中国電力株式会社　島根原子力発電所の規制」（発電所別情報。作成日の記載なし）",
+          "url": "https://www.nra.go.jp/hatsudensho/shimane_index.html",
+          "checkedAt": "2026-10-18",
+          "forType": true
+        },
+        {
+          "name": "中国電力「増設計画概要」（島根原子力発電所3号機）",
+          "url": "https://www.energia.co.jp/atom/atom13-1.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "原子力（BWR）"
+    },
+    "osm-way-456491989": {
+      "name": "伊方原子力発電所",
+      "method": "原子力",
+      "detail": "加圧水型軽水炉（PWR）：1号機 56.6万kW（廃止措置中）・2号機 56.6万kW（廃止措置中）・3号機 89.0万kW",
+      "sources": [
+        {
+          "name": "原子力規制委員会「四国電力株式会社　伊方発電所の規制」（発電所別情報。作成日の記載なし）",
+          "url": "https://www.nra.go.jp/hatsudensho/ikata_index.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "原子力（PWR）"
+    },
+    "osm-way-172644773": {
+      "name": "玄海原子力発電所",
+      "method": "原子力",
+      "detail": "加圧水型軽水炉（PWR）：1号機 55.9万kW（廃止措置中）・2号機 55.9万kW（廃止措置中）・3号機 118.0万kW・4号機 118.0万kW",
+      "sources": [
+        {
+          "name": "原子力規制委員会「九州電力株式会社　玄海原子力発電所の規制」（発電所別情報。作成日の記載なし）",
+          "url": "https://www.nra.go.jp/hatsudensho/genkai_index.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "原子力（PWR）"
+    },
+    "osm-way-215429864": {
+      "name": "川内原子力発電所",
+      "method": "原子力",
+      "detail": "加圧水型軽水炉（PWR）：1号機 89.0万kW・2号機 89.0万kW",
+      "sources": [
+        {
+          "name": "原子力規制委員会「九州電力株式会社　川内原子力発電所の規制」（発電所別情報。作成日の記載なし）",
+          "url": "https://www.nra.go.jp/hatsudensho/sendai_index.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "原子力（PWR）"
+    },
+    "way/931796255": {
+      "name": "石狩湾新港発電所",
+      "method": "火力（ガス）",
+      "detail": "原動力はガスタービンおよび汽力（コンバインドサイクル発電方式）、燃料 LNG。1号機 56.94万kW（2019年2月営業運転開始）。2・3号機は計画中（各58.00万kW、2030・2033年度予定）",
+      "sources": [
+        {
+          "name": "北海道電力「石狩湾新港発電所の概要」",
+          "url": "https://www.hepco.co.jp/energy/fire_power/ishikari_ps/outline.html",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "LNG（コンバインドサイクル）"
+    },
+    "osm-way-929828153": {
+      "name": "新仙台火力発電所",
+      "method": "火力（ガス）",
+      "detail": "3号系列：LNG を燃料とする高効率コンバインドサイクル発電設備、98万kW（49万kW×2軸）。3-1号 2015年12月・3-2号 2016年7月1日営業運転開始（1・2号機は廃止）",
+      "sources": [
+        {
+          "name": "東北電力 プレスリリース「新仙台火力発電所３号系列の全量による営業運転開始について」（2016-07-01）",
+          "url": "https://www.tohoku-epco.co.jp/pastnews/normal/1192188_1049.html",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "LNG（コンバインドサイクル）"
+    },
+    "osm-way-364849743": {
+      "name": "姫路第一発電所",
+      "method": "火力（ガス）",
+      "detail": "5号機 72.9万kW（平成7年4月）・6号機 71.3万kW（平成8年5月）、いずれもコンバインドサイクル発電、使用燃料は天然ガス（関西電力 姫路第二発電所のページによると、姫路LNG基地で LNG を気化したガスを姫路第一・第二発電所へ送出）",
+      "sources": [
+        {
+          "name": "関西電力「姫路第一発電所」",
+          "url": "https://www.kepco.co.jp/energy_supply/energy/thermal_power/plant/himeji1.html",
+          "checkedAt": "2026-10-19"
+        },
+        {
+          "name": "関西電力「姫路第二発電所」（姫路LNG基地の説明）",
+          "url": "https://www.kepco.co.jp/energy_supply/energy/thermal_power/plant/himeji2.html",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "LNG（コンバインドサイクル）"
+    },
+    "osm-way-367261461": {
+      "name": "姫路第二発電所",
+      "method": "火力（ガス）",
+      "detail": "1〜6号機 各48.65万kW（平成25年8月〜平成27年3月）、いずれもコンバインドサイクル発電、使用燃料は天然ガス（構内の姫路LNG基地で LNG を受け入れ）",
+      "sources": [
+        {
+          "name": "関西電力「姫路第二発電所」",
+          "url": "https://www.kepco.co.jp/energy_supply/energy/thermal_power/plant/himeji2.html",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "LNG（コンバインドサイクル）"
+    },
+    "osm-way-605420904": {
+      "name": "柳井火力発電所",
+      "method": "火力（ガス）",
+      "detail": "1号系列 78.6万kW（13.1万kW×6軸、1992年12月運転開始）・2号系列 79.2万kW（19.8万kW×4軸、1996年1月運転開始）、いずれもコンバインドサイクル方式、LNG",
+      "sources": [
+        {
+          "name": "中国電力 プレスリリース「柳井発電所における脱炭素化に向けた取り組みについて」（2023年）",
+          "url": "https://www.energia.co.jp/press/2023/14674.html",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "LNG（コンバインドサイクル）"
+    },
+    "osm-way-216781917": {
+      "name": "新大分発電所",
+      "method": "火力（ガス）",
+      "detail": "1〜3号系列いずれもコンバインドサイクル発電（複合発電）、燃料 LNG。1号系列 120,000kW×6、2号系列 230,000kW×4、3号系列 245,000kW×3・500,000kW×1",
+      "sources": [
+        {
+          "name": "九州電力「新大分発電所」",
+          "url": "https://www.kyuden.co.jp/business_outline/power/thermal-power/plant/shinoita.html",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "LNG（コンバインドサイクル）"
+    },
+    "osm-way-605327360": {
+      "name": "姉崎火力発電所",
+      "method": "火力（ガス）",
+      "detail": "新1〜3号機 各約65万kW、燃料 LNG、発電種別 GTCC（2023年2月・4月・8月運転開始）",
+      "sources": [
+        {
+          "name": "JERA 姉崎火力発電所 パンフレット（2026年1月作成）",
+          "url": "https://www.jera.co.jp/static/files/corporate/business/thermal-power/list/anegasaki/pdf/anegasaki_202603_jp.pdf",
+          "checkedAt": "2026-10-19",
+          "forType": true
+        },
+        {
+          "name": "JERA「姉崎火力発電所」（発電所一覧）",
+          "url": "https://www.jera.co.jp/corporate/business/thermal-power/list/anegasaki",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "LNG（コンバインドサイクル）"
+    },
+    "osm-way-605327355": {
+      "name": "千葉火力発電所",
+      "method": "火力（ガス）",
+      "detail": "1号系列 36.0万kW×4軸・2号系列 36.0万kW×4軸・3号系列 50.0万kW×3軸、燃料 LNG、発電種別 コンバインドサイクル",
+      "sources": [
+        {
+          "name": "JERA 千葉火力発電所 パンフレット（2020年7月作成）",
+          "url": "https://www.jera.co.jp/static/files/corporate/business/thermal-power/list/chiba/pdf/chiba.pdf",
+          "checkedAt": "2026-10-19",
+          "forType": true
+        },
+        {
+          "name": "JERA「千葉火力発電所」（発電所一覧）",
+          "url": "https://www.jera.co.jp/corporate/business/thermal-power/list/chiba",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "LNG（コンバインドサイクル）"
+    },
+    "osm-way-605327349": {
+      "name": "横浜火力発電所",
+      "method": "火力（ガス）",
+      "detail": "7号系列・8号系列 各37.7万kW×4軸、燃料 LNG、発電種別 コンバインドサイクル（1〜6号機は廃止）",
+      "sources": [
+        {
+          "name": "JERA 横浜火力発電所 パンフレット（2025年7月作成）",
+          "url": "https://www.jera.co.jp/static/files/corporate/business/thermal-power/list/yokohama/pdf/yokohama_2025_jp.pdf",
+          "checkedAt": "2026-10-19",
+          "forType": true
+        },
+        {
+          "name": "JERA「横浜火力発電所」（発電所一覧）",
+          "url": "https://www.jera.co.jp/corporate/business/thermal-power/list/yokohama",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "LNG（コンバインドサイクル）"
+    },
+    "osm-way-605327354": {
+      "name": "川崎火力発電所",
+      "method": "火力（ガス）",
+      "detail": "1号系列 50.0万kW×3軸・2号系列 50.0／71.0／71.0万kW、燃料 LNG、発電種別 コンバインドサイクル",
+      "sources": [
+        {
+          "name": "JERA 川崎火力発電所 パンフレット（2024年9月作成）",
+          "url": "https://www.jera.co.jp/static/files/corporate/business/thermal-power/list/kawasaki/pdf/kawasaki_2024_jp.pdf",
+          "checkedAt": "2026-10-19",
+          "forType": true
+        },
+        {
+          "name": "JERA「川崎火力発電所」（発電所一覧）",
+          "url": "https://www.jera.co.jp/corporate/business/thermal-power/list/kawasaki",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "LNG（コンバインドサイクル）"
+    },
+    "osm-way-605327357": {
+      "name": "富津火力発電所",
+      "method": "火力（ガス）",
+      "detail": "1〜4号系列（1号系列 16.7万kW×6軸・16.5万kW×1軸、2号系列 16.2万kW×7軸、3号系列 38.0万kW×4軸、4号系列 50.7万kW×3軸）、燃料 LNG、発電種別 コンバインドサイクル",
+      "sources": [
+        {
+          "name": "JERA 富津火力発電所 パンフレット（2024年9月作成）",
+          "url": "https://www.jera.co.jp/static/files/corporate/business/thermal-power/list/futtsu/pdf/futtsu_2024_jp.pdf",
+          "checkedAt": "2026-10-19",
+          "forType": true
+        },
+        {
+          "name": "JERA「富津火力発電所」（発電所一覧）",
+          "url": "https://www.jera.co.jp/corporate/business/thermal-power/list/futtsu",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "LNG（コンバインドサイクル）"
+    },
+    "osm-way-180359734": {
+      "name": "新名古屋火力発電所",
+      "method": "火力（ガス）",
+      "detail": "7号系列 24.3万kW×6軸・8号系列 40.0万kW×4軸、燃料 LNG、発電種別 コンバインドサイクル",
+      "sources": [
+        {
+          "name": "JERA 新名古屋火力発電所 パンフレット（2025年7月作成）",
+          "url": "https://www.jera.co.jp/static/files/corporate/business/thermal-power/list/shinnagoya/pdf/shinNagoya_2025_jp.pdf",
+          "checkedAt": "2026-10-19",
+          "forType": true
+        },
+        {
+          "name": "JERA「新名古屋火力発電所」（発電所一覧）",
+          "url": "https://www.jera.co.jp/corporate/business/thermal-power/list/shinnagoya",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "LNG（コンバインドサイクル）"
+    },
+    "osm-way-180359744": {
+      "name": "知多火力発電所",
+      "method": "火力（ガス）",
+      "detail": "6号機 70.0万kW＋6GT 15.4万kW、燃料 LNG、発電種別「コンバインドサイクル（リパワー）」（本文の表記は排気再燃式コンバインドサイクル）。1〜5号機は廃止",
+      "sources": [
+        {
+          "name": "JERA 知多火力発電所 パンフレット（2026年4月作成）",
+          "url": "https://www.jera.co.jp/static/files/corporate/business/thermal-power/list/chita/pdf/chita_2026_jp.pdf",
+          "checkedAt": "2026-10-19",
+          "forType": true
+        },
+        {
+          "name": "JERA「知多火力発電所」（発電所一覧）",
+          "url": "https://www.jera.co.jp/corporate/business/thermal-power/list/chita",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "LNG（コンバインドサイクル）"
+    },
+    "osm-way-180359747": {
+      "name": "知多第二火力発電所",
+      "method": "火力（ガス）",
+      "detail": "1号機 70.0万kW＋1GT 15.4万kW・2号機 70.0万kW＋2GT 15.4万kW、燃料 LNG、発電種別「コンバインドサイクル（リパワー）」（本文の表記は排気再燃型コンバインドサイクル）",
+      "sources": [
+        {
+          "name": "JERA 知多第二火力発電所 パンフレット（2025年7月作成）",
+          "url": "https://www.jera.co.jp/static/files/corporate/business/thermal-power/list/chitadaini/pdf/chitaDaini_2025_jp.pdf",
+          "checkedAt": "2026-10-19",
+          "forType": true
+        },
+        {
+          "name": "JERA「知多第二火力発電所」（発電所一覧）",
+          "url": "https://www.jera.co.jp/corporate/business/thermal-power/list/chitadaini",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "LNG（コンバインドサイクル）"
+    },
+    "osm-way-404901530": {
+      "name": "南横浜火力発電所",
+      "method": "火力（ガス）",
+      "detail": "1号機 35.0万kW・2号機 35.0万kW・3号機 45.0万kW、燃料 LNG、発電種別 汽力",
+      "sources": [
+        {
+          "name": "JERA 南横浜火力発電所 パンフレット（2024年9月作成）",
+          "url": "https://www.jera.co.jp/static/files/corporate/business/thermal-power/list/minami-yokohama/pdf/minamiYokohama_2024_jp.pdf",
+          "checkedAt": "2026-10-19",
+          "forType": true
+        },
+        {
+          "name": "JERA「南横浜火力発電所」（発電所一覧）",
+          "url": "https://www.jera.co.jp/corporate/business/thermal-power/list/minami-yokohama",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "LNG（汽力）"
+    },
+    "osm-way-605327352": {
+      "name": "東扇島火力発電所",
+      "method": "火力（ガス）",
+      "detail": "1号機・2号機 各100.0万kW、燃料 LNG、発電種別 汽力",
+      "sources": [
+        {
+          "name": "JERA 東扇島火力発電所 パンフレット（2024年9月作成）",
+          "url": "https://www.jera.co.jp/static/files/corporate/business/thermal-power/list/higashiogishima/pdf/higashiOhgishima_2024_jp.pdf",
+          "checkedAt": "2026-10-19",
+          "forType": true
+        },
+        {
+          "name": "JERA「東扇島火力発電所」（発電所一覧）",
+          "url": "https://www.jera.co.jp/corporate/business/thermal-power/list/higashiogishima",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "LNG（汽力）"
+    },
+    "osm-way-605327358": {
+      "name": "袖ヶ浦火力発電所",
+      "method": "火力（ガス）",
+      "detail": "2〜4号機 各100.0万kW、燃料 LNG、発電種別 汽力（1号機は2025年9月廃止）。ほかに水素発電設備 0.039万kW（燃料 水素、発電種別 内燃、2024年11月）があるが、主な2〜4号機に合わせて種別は LNG（汽力）とした（2026-10-19 オーナー判断）",
+      "sources": [
+        {
+          "name": "JERA 袖ケ浦火力発電所 パンフレット（2026年9月作成）",
+          "url": "https://www.jera.co.jp/static/files/corporate/business/thermal-power/list/sodegaura/pdf/sodegaura_2026_jp.pdf",
+          "checkedAt": "2026-10-19",
+          "forType": true
+        },
+        {
+          "name": "JERA「袖ケ浦火力発電所」（発電所一覧）",
+          "url": "https://www.jera.co.jp/corporate/business/thermal-power/list/sodegaura",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "LNG（汽力）"
+    },
+    "osm-way-300345952": {
+      "name": "鹿島火力発電所",
+      "method": "火力（ガス）",
+      "detail": "7号系列 42.0万kW×3軸、燃料「都市ガス」、発電種別 コンバインドサイクル（1〜6号機は2023年3月廃止）",
+      "sources": [
+        {
+          "name": "JERA 鹿島火力発電所 パンフレット（2026年7月作成）",
+          "url": "https://www.jera.co.jp/static/files/corporate/business/thermal-power/list/kashima/pdf/kashima_2026_jp.pdf",
+          "checkedAt": "2026-10-19",
+          "forType": true
+        },
+        {
+          "name": "JERA「鹿島火力発電所」（発電所一覧）",
+          "url": "https://www.jera.co.jp/corporate/business/thermal-power/list/kashima",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "ガス（コンバインドサイクル）",
+      "note": "資料の燃料は「都市ガス」で LNG と書かないため、RULES 3節により「ガス（コンバインドサイクル）」とした。"
+    },
+    "osm-way-565401935": {
+      "name": "品川火力発電所",
+      "method": "火力（ガス）",
+      "detail": "1号系列 38.0万kW×3軸、燃料「都市ガス」、発電種別 コンバインドサイクル",
+      "sources": [
+        {
+          "name": "JERA 品川火力発電所 パンフレット（2024年9月作成）",
+          "url": "https://www.jera.co.jp/static/files/corporate/business/thermal-power/list/shinagawa/pdf/shinagawa_2024_jp.pdf",
+          "checkedAt": "2026-10-19",
+          "forType": true
+        },
+        {
+          "name": "JERA「品川火力発電所」（発電所一覧）",
+          "url": "https://www.jera.co.jp/corporate/business/thermal-power/list/shinagawa",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "ガス（コンバインドサイクル）",
+      "note": "資料の燃料は「都市ガス」で LNG と書かないため、RULES 3節により「ガス（コンバインドサイクル）」とした。"
+    },
+    "osm-way-929016336": {
+      "name": "福島ガス発電所",
+      "method": "火力（ガス）",
+      "detail": "福島天然ガス発電所（福島ガス発電株式会社、福島県相馬郡新地町）：LNG を気化したガスを燃料とする、ガスタービン・コンバインドサイクル（GTCC）方式の発電設備2基、出力合計118万kW。1号機 2020年4月30日・2号機 2020年8月24日営業運転開始",
+      "sources": [
+        {
+          "name": "石油資源開発 適時開示「福島ガス発電(株) 福島天然ガス発電所 1号機の営業運転開始について」（2020-05-07）",
+          "url": "https://www2.jpx.co.jp/disc/16620/140120200507404985.pdf",
+          "checkedAt": "2026-10-19",
+          "forType": true
+        },
+        {
+          "name": "石油資源開発 適時開示「同 2号機の営業運転開始について」（2020-08-24）",
+          "url": "https://www2.jpx.co.jp/disc/16620/140120200824484700.pdf",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "LNG（コンバインドサイクル）"
+    },
+    "osm-way-588341171": {
+      "name": "扇島パワーステーション",
+      "method": "火力（ガス）",
+      "detail": "株式会社扇島パワー：天然ガスを燃料とし、高効率コンバインドサイクル発電システムを採用、出力1,221,300kW（HJKS の 407.1MW×3 と一致）",
+      "sources": [
+        {
+          "name": "神奈川県「扇島パワーステーションの概要」（環境アセスメント、2025年6月1日更新）",
+          "url": "https://www.pref.kanagawa.jp/docs/pf7/cnt/f247/p363942.html",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "ガス（コンバインドサイクル）",
+      "note": "資料の燃料は「天然ガス」で LNG と書かないため、RULES 3節により「ガス（コンバインドサイクル）」とした。"
+    },
+    "osm-way-704399794": {
+      "name": "真岡発電所",
+      "method": "火力（ガス）",
+      "detail": "株式会社コベルコパワー真岡：東京ガスから都市ガスの供給を受け、ガスタービン・コンバインドサイクル発電方式、124.8万kW（62.4万kW×2基）。1号機 2019年10月・2号機 2020年3月営業運転開始",
+      "sources": [
+        {
+          "name": "神戸製鋼所 適時開示「株式会社コベルコパワー真岡 真岡発電所 2号機の営業運転開始について」（2020-03-02）",
+          "url": "https://www2.jpx.co.jp/disc/54060/140120200302472324.pdf",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "ガス（コンバインドサイクル）",
+      "note": "資料の燃料は「都市ガス」で LNG と書かないため、RULES 3節により「ガス（コンバインドサイクル）」とした。"
+    },
+    "osm-way-1161552601": {
+      "name": "川崎天然ガス発電所",
+      "method": "火力（ガス）",
+      "detail": "川崎天然ガス発電株式会社：発電方式 ガスタービン及び汽力（コンバインドサイクル発電方式）、燃料 天然ガス、出力 84.74万kW（42.37万kW×2基）（準備書時点の計画値。HJKS の認可出力は 413MW×2 で、差の理由は未確認）",
+      "sources": [
+        {
+          "name": "環境省 報道発表「川崎天然ガス発電所に係る環境影響評価準備書に対する環境大臣意見の提出について」（2005-10-17）",
+          "url": "https://www.env.go.jp/press/6459.html",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "ガス（コンバインドサイクル）",
+      "note": "資料は計画時点（2005年）。資料の燃料は「天然ガス」で LNG と書かないため、RULES 3節により「ガス（コンバインドサイクル）」とした。"
+    },
+    "osm-way-242706111": {
+      "name": "相生バイオマス発電所",
+      "method": "火力（バイオマス）",
+      "detail": "相生バイオエナジー株式会社（関西電力60%・三菱商事クリーンエナジー40%）：主燃料 木質ペレット、発電出力200,000kW、2023年3月24日本格運転開始（汽力かどうかは資料に記載なし）",
+      "sources": [
+        {
+          "name": "関西電力 プレスリリース「相生バイオマス発電所の本格運転開始」（2023-03-27）",
+          "url": "https://www.kepco.co.jp/corporate/pr/2023/pdf/20230327_1j.pdf",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "バイオマス"
+    },
+    "tokyo-place-日本製鉄鹿島火力発電所": {
+      "name": "日本製鉄鹿島火力発電所",
+      "method": "火力（石炭）",
+      "detail": "日本製鉄 東日本製鉄所 鹿島地区の発電所（IPP）：出力 507,000kW、燃料 石炭、ボイラー（超臨界圧貫流形再熱式）",
+      "sources": [
+        {
+          "name": "日本製鉄「発電所の設備概要（鹿島地区）」",
+          "url": "https://www.nipponsteel.com/works/east-nippon/kashima/ipp/02.html",
+          "checkedAt": "2026-10-19"
+        }
+      ],
+      "type": "石炭",
+      "note": "HJKS の「日本製鉄㈱ 鹿島発電所 NS鹿島」との対応による。HJKS の認可出力 475MW と資料の 507,000kW の差の理由は未確認。位置はオーナーが示した位置（2026-11-17、保留127）。以前は OSM の区画（名称「日本製鉄鹿島火力発電所」、way 754317488）に当てていたが、オーナーの説明でその区画は鹿島パワーの鹿島火力発電所とした。"
+    },
+    "kansai-place-大河内発電所": {
+      "name": "大河内発電所",
+      "method": "水力",
+      "subtype": "純揚水",
+      "detail": "純揚水式・最大出力 1,280,000kW・平成4年10月運転開始（関西電力の水力発電所一覧）",
+      "sources": [
+        {
+          "name": "関西電力 水力発電所一覧（2026年7月末時点）",
+          "url": "https://www.kepco.co.jp/energy_supply/energy/newenergy/water/plant/list.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "chugoku-place-俣野川発電所": {
+      "name": "俣野川発電所",
+      "method": "水力",
+      "subtype": "揚水",
+      "detail": "揚水式・出力 1,200,000kW（純揚水か混合揚水かは資料から読み取れない）",
+      "sources": [
+        {
+          "name": "中国電力「俣野川発電所 ご案内ホール」",
+          "url": "https://www.energia.co.jp/area/tottori/entry/290.html",
+          "checkedAt": "2026-10-20",
+          "forType": true
+        },
+        {
+          "name": "中国電力 水力発電所一覧（2026年3月31日時点）",
+          "url": "https://www.energia.co.jp/energy/general/water/water_all.html",
+          "checkedAt": "2026-10-20"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "chugoku-place-南原発電所": {
+      "name": "南原発電所",
+      "method": "水力",
+      "subtype": "純揚水",
+      "detail": "純揚水式・出力 620,000kW（発電電動機 326MVA/350MW×2、昭和51年7月営業運転開始）",
+      "sources": [
+        {
+          "name": "中国電力 お知らせ「南原発電所からの漏油について」（2024-03-31）",
+          "url": "https://www.energia.co.jp/assets/2023/info/p202403331-1a.pdf",
+          "checkedAt": "2026-10-24",
+          "forType": true
+        },
+        {
+          "name": "日立評論 Vol.58 No.12（1976-12）「中国電力株式会社南原発電所用326MVA/350MW発電電動機運転開始」",
+          "url": "https://www.hitachihyoron.com/jp/pdf/1976/12/1976_12_08.pdf",
+          "checkedAt": "2026-10-24",
+          "forType": true
+        },
+        {
+          "name": "中国電力 水力発電所一覧（2026年3月31日時点）",
+          "url": "https://www.energia.co.jp/energy/general/water/water_all.html",
+          "checkedAt": "2026-10-24"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "kyushu-place-大平発電所": {
+      "name": "大平発電所",
+      "method": "水力",
+      "subtype": "純揚水",
+      "detail": "純揚水式・出力 500,000kW・昭和50年12月運転開始",
+      "sources": [
+        {
+          "name": "九州電力 九州電力の水力発電所（2025年3月現在）",
+          "url": "https://www.kyuden.co.jp/business_outline/power/renewable-energy/hydroelectric-power/list.html",
+          "checkedAt": "2026-10-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "shikoku-place-本川発電所": {
+      "name": "本川発電所",
+      "method": "水力",
+      "subtype": "揚水",
+      "detail": "揚水式・認可出力 61.5万kW（地下発電所。純揚水か混合揚水かは資料から読み取れない）",
+      "sources": [
+        {
+          "name": "四国電力「本川発電所の見学」",
+          "url": "https://www.yonden.co.jp/energy/p_station/hydro/hongawa.html",
+          "checkedAt": "2026-10-23"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "osm-way-210661976": {
+      "name": "奥矢作第一発電所",
+      "method": "水力",
+      "subtype": "純揚水",
+      "detail": "二段式の純揚水（奥矢作第二と一体で運用）・出力 323,000kW・所在地 愛知県豊田市小田木町大水別",
+      "sources": [
+        {
+          "name": "中部電力「奥矢作第一・第二水力発電所」",
+          "url": "https://www.chuden.co.jp/energy/renew/ren_setsubi/water/wat_chuden/okuyahagi/",
+          "checkedAt": "2026-10-23",
+          "forType": true
+        },
+        {
+          "name": "中部電力 設備概要（水力発電所、2026年3月末現在）",
+          "url": "https://www.chuden.co.jp/corporate/company/officelist/com_setsubi/",
+          "checkedAt": "2026-10-23"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "chubu-place-奥矢作第二発電所": {
+      "name": "奥矢作第二発電所",
+      "method": "水力",
+      "subtype": "純揚水",
+      "detail": "二段式の純揚水（奥矢作第一と一体で運用）・全地下式・出力 780,000kW・所在地 愛知県豊田市牛地町駒山",
+      "sources": [
+        {
+          "name": "中部電力「奥矢作第一・第二水力発電所」",
+          "url": "https://www.chuden.co.jp/energy/renew/ren_setsubi/water/wat_chuden/okuyahagi/",
+          "checkedAt": "2026-10-23",
+          "forType": true
+        },
+        {
+          "name": "中部電力 設備概要（水力発電所、2026年3月末現在）",
+          "url": "https://www.chuden.co.jp/corporate/company/officelist/com_setsubi/",
+          "checkedAt": "2026-10-23"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "osm-way-756358390": {
+      "name": "小丸川発電所",
+      "method": "水力",
+      "subtype": "揚水",
+      "detail": "揚水式・出力 1,200,000kW（2011年7月全号機運転）・地下約400mの発電所・所在地 宮崎県児湯郡木城町大字石河内（純揚水か混合揚水かは資料から読み取れない）",
+      "sources": [
+        {
+          "name": "九州電力「小丸川発電所」パンフレット（系統図は2024年4月現在）",
+          "url": "https://www.kyuden.co.jp/var/rev0/0909/7408/hydro_omarugawa_2026_09.pdf",
+          "checkedAt": "2026-10-24",
+          "forType": true
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "tokyo-place-奥清津第二発電所": {
+      "name": "奥清津第二発電所",
+      "method": "水力",
+      "subtype": "純揚水",
+      "detail": "純揚水式（ダム水路式）・出力 600,000kW（2台）・平成8年運転開始・所在地 新潟県南魚沼郡湯沢町大字三国502（奥清津発電所と同じ）",
+      "sources": [
+        {
+          "name": "電源開発「奥清津発電所について」",
+          "url": "https://www.jpower.co.jp/okky/about/",
+          "checkedAt": "2026-10-24",
+          "forType": true
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "kyushu-place-一ツ瀬発電所": {
+      "name": "一ツ瀬発電所",
+      "method": "水力",
+      "detail": "出力 180,000kW・昭和38年6月運転開始・一般水力では九州最大",
+      "sources": [
+        {
+          "name": "九州電力 九州電力の水力発電所（2025年3月現在）",
+          "url": "https://www.kyuden.co.jp/business_outline/power/renewable-energy/hydroelectric-power/list.html",
+          "checkedAt": "2026-10-26"
+        }
+      ]
+    },
+    "chugoku-place-新成羽川発電所": {
+      "name": "新成羽川発電所",
+      "method": "水力",
+      "detail": "出力 303,000kW（中国電力 水力発電所一覧（2026年3月31日時点））。型式（ダム式・揚水など）は一次資料で未確認",
+      "sources": [
+        {
+          "name": "中国電力 水力発電所一覧（2026年3月31日時点）",
+          "url": "https://www.energia.co.jp/energy/general/water/water_all.html",
+          "checkedAt": "2026-11-10",
+          "forType": true
+        }
+      ],
+      "type": "水力"
+    },
+    "osm-relation-11579756": {
+      "name": "長山発電所",
+      "method": "水力",
+      "detail": "ダム水路式・最大出力 38,500kW・1960年7月運転開始",
+      "sources": [
+        {
+          "name": "J-POWER 水力発電所一覧（2026年7月1日現在）",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html",
+          "checkedAt": "2026-11-10"
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "osm-way-844165231": {
+      "name": "魚梁瀬発電所",
+      "method": "水力",
+      "detail": "ダム式・最大出力 36,000kW・1965年6月運転開始",
+      "sources": [
+        {
+          "name": "J-POWER 水力発電所一覧（2026年7月1日現在）",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html",
+          "checkedAt": "2026-11-10"
+        }
+      ],
+      "type": "水力（ダム式）"
+    },
+    "hokkaido-place-足寄発電所": {
+      "name": "足寄発電所",
+      "method": "水力",
+      "detail": "ダム水路式・最大出力 42,300kW・1955年10月運転開始（一覧の所在地は北海道足寄郡足寄町）",
+      "sources": [
+        {
+          "name": "J-POWER 水力発電所一覧（2026年7月1日現在）",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html",
+          "checkedAt": "2026-11-10"
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "kansai-place-御母衣第二発電所": {
+      "name": "御母衣第二発電所",
+      "method": "水力",
+      "detail": "ダム水路式・最大出力 59,200kW・1963.12.19 運転開始",
+      "sources": [
+        {
+          "name": "J-POWER 水力発電所一覧（2026年7月1日現在）",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html",
+          "checkedAt": "2026-11-18"
+        }
+      ],
+      "type": "水力（ダム水路式）"
+    },
+    "osm-way-1028287115": {
+      "name": "新祖山発電所",
+      "method": "水力",
+      "detail": "ダム水路式・最大出力 68,000kW・昭和42年2月 運転開始（庄川水系庄川）",
+      "sources": [
+        {
+          "name": "関西電力 水力発電所一覧（ページに基準日の記載なし）",
+          "url": "https://www.kepco.co.jp/energy_supply/energy/newenergy/water/plant/list.html",
+          "checkedAt": "2026-11-18"
+        }
+      ],
+      "note": "ページに基準日の記載がないため、確認日（2026-11-18）を記録。",
+      "type": "水力（ダム水路式）"
+    },
+    "osm-way-1028287111": {
+      "name": "祖山発電所",
+      "method": "水力",
+      "detail": "ダム水路式・最大出力 54,300kW・昭和5年12月 運転開始（庄川水系庄川）",
+      "sources": [
+        {
+          "name": "関西電力 水力発電所一覧（ページに基準日の記載なし）",
+          "url": "https://www.kepco.co.jp/energy_supply/energy/newenergy/water/plant/list.html",
+          "checkedAt": "2026-11-18"
+        }
+      ],
+      "note": "ページに基準日の記載がないため、確認日（2026-11-18）を記録。",
+      "type": "水力（ダム水路式）"
+    },
+    "kansai-place-新丸山発電所": {
+      "name": "新丸山発電所",
+      "method": "水力",
+      "detail": "ダム水路式・最大出力 63,700kW・昭和46年5月 運転開始（木曽川水系木曽川）",
+      "sources": [
+        {
+          "name": "関西電力 水力発電所一覧（ページに基準日の記載なし）",
+          "url": "https://www.kepco.co.jp/energy_supply/energy/newenergy/water/plant/list.html",
+          "checkedAt": "2026-11-18"
+        }
+      ],
+      "note": "ページに基準日の記載がないため、確認日（2026-11-18）を記録。",
+      "type": "水力（ダム水路式）"
+    },
+    "kansai-place-丸山発電所": {
+      "name": "丸山発電所",
+      "method": "水力",
+      "detail": "ダム水路式・最大出力 141,000kW・昭和29年4月 運転開始（木曽川水系木曽川）",
+      "sources": [
+        {
+          "name": "関西電力 水力発電所一覧（ページに基準日の記載なし）",
+          "url": "https://www.kepco.co.jp/energy_supply/energy/newenergy/water/plant/list.html",
+          "checkedAt": "2026-11-18"
+        }
+      ],
+      "note": "ページに基準日の記載がないため、確認日（2026-11-18）を記録。",
+      "type": "水力（ダム水路式）"
+    },
+    "osm-way-1136534571": {
+      "name": "長野発電所",
+      "method": "水力",
+      "subtype": "揚水",
+      "detail": "ダム式（揚水式）・最大出力 220,000kW・1968.05.25 運転開始（九頭竜川。純揚水か混合揚水かは一覧から読み取れない）",
+      "sources": [
+        {
+          "name": "J-POWER 水力発電所一覧（2026年7月1日現在）",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html",
+          "checkedAt": "2026-11-18"
+        }
+      ],
+      "type": "水力（揚水）"
+    },
+    "chubu-place-小坂川発電所": {
+      "name": "小坂川発電所",
+      "method": "水力",
+      "detail": "水路式・出力 21,300kW・1983年11月営業運転開始（木曽川水系、小坂川他）",
+      "sources": [
+        {
+          "name": "中部電力 中部電力の水力発電所一覧（2026年3月末現在）",
+          "url": "https://www.chuden.co.jp/energy/renew/ren_setsubi/water/wat_chuden/wat_list/",
+          "checkedAt": "2026-11-19"
+        }
+      ],
+      "type": "水力（水路式）"
+    },
+    "osm-way-1093999564": {
+      "name": "実証設備複合サイクル発電所（三菱重工）",
+      "method": "火力",
+      "detail": "三菱重工業 高砂製作所構内の「実証設備複合サイクル発電所（通称：第二T地点）」：ガスタービン・コンバインドサイクル（GTCC、JAC形ガスタービン）、出力 56万6,000kW、2020年7月1日に長期実証運転を開始、地域の電力網に接続して運用（資料の作成日 2022-02-14）。燃料の種類は資料に明記なし",
+      "sources": [
+        {
+          "name": "三菱重工 プレスリリース「高砂製作所に水素発電実証設備「高砂水素パーク」を整備へ」（2022-02-14）",
+          "url": "https://www.mhi.com/jp/news/220214.html",
+          "checkedAt": "2026-11-20"
+        }
+      ],
+      "type": "火力",
+      "note": "資料はガスタービン・コンバインドサイクル（GTCC）と書くだけ。"
+    },
+    "osm-way-969601128": {
+      "name": "神鋼加古川発電所",
+      "method": "火力",
+      "detail": "神戸製鋼所 加古川製鉄所の自家発電所：ボイラ2缶とガスタービン・コンバインドサイクル（GTCC）2基に更新（2009年4月〜、2014年12月完工予定）、主燃料は副生ガス（高炉ガス・コークス炉ガス）、補助燃料は LPG。1号 GTCC は2011年7月13日営業運転開始、設計出力は GT 87.2MW＋ST 52.8MW（1号機1基の値）。2号 GTCC は2014年12月末の営業運転開始予定（資料の時点。稼働は未確認）。発電所全体の出力は資料に記載なし",
+      "sources": [
+        {
+          "name": "神戸製鋼所「神鋼加古川発電所におけるガスタービン・コンバインドサイクル発電設備の導入」（R&D 神戸製鋼技報 Vol.64 No.1、2014年4月）",
+          "url": "https://www.kobelco.co.jp/r-d/technology-review/dumm/__icsFiles/afieldfile/2025/03/19/232_033-038.pdf",
+          "checkedAt": "2026-11-20",
+          "forType": true
+        },
+        {
+          "name": "神戸製鋼所 プレスリリース（計画の発表）「加古川製鉄所自家発電所における、「ボイラの更新」と「高効率発電設備の新設」について」（2008-07-11）",
+          "url": "https://www.kobelco.co.jp/releases/2008/1180098_14784.html",
+          "checkedAt": "2026-11-20"
+        },
+        {
+          "name": "神戸製鋼所 プレスリリース（計画の発表）「加古川製鉄所「高効率発電設備」の増設について」（2011-11-14）",
+          "url": "https://www.kobelco.co.jp/releases/2011/1186803_14781.html",
+          "checkedAt": "2026-11-20"
+        }
+      ],
+      "type": "火力",
+      "note": "燃料は副生ガス（高炉ガス・コークス炉ガス）。発電所全体の出力は一次資料で未確認。"
+    },
+    "hokkaido-place-せたな大里ウインドファーム": {
+      "name": "せたな大里ウインドファーム",
+      "method": "風力",
+      "detail": "発電所出力 50,000kW、風車 3,200kW×16基、2020年1月営業運転開始、所在地 北海道久遠郡せたな町瀬棚区（西大里および元浦地区）",
+      "sources": [
+        {
+          "name": "J-POWER 風力発電所 せたな大里ウインドファーム",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/wind/setanaosato.html",
+          "checkedAt": "2026-11-20"
+        }
+      ],
+      "type": "風力"
+    },
+    "relation/11816417": {
+      "name": "ユーラス八雲ソーラーパーク",
+      "method": "太陽光",
+      "detail": "連系容量 75,000kW、蓄電設備 約27.8MWh、2020年10月16日運転開始、所在地 北海道二海郡八雲町山崎および花浦",
+      "sources": [
+        {
+          "name": "ユーラスエナジー パンフレット「ユーラス八雲ソーラーパーク」（発行日の記載なし）",
+          "url": "https://www.eurus-energy.com/project/assets/pdf/yakumo_pamphlet.pdf",
+          "checkedAt": "2026-11-21"
+        }
+      ],
+      "type": "太陽光"
+    },
+    "hokkaido-place-上ノ国第二風力発電所": {
+      "name": "上ノ国第二風力発電所",
+      "method": "風力",
+      "detail": "発電所出力 41,532kW（風車 4,300kW×10基、発電所全体の出力合計を41,532kW以内に制御）、2024年5月営業運転開始、所在地 北海道檜山郡上ノ国町",
+      "sources": [
+        {
+          "name": "J-POWER 風力発電所 上ノ国第二風力発電所",
+          "url": "https://www.jpower.co.jp/bs/renewable_energy/wind/kaminokuni2.html",
+          "checkedAt": "2026-11-20"
+        }
+      ],
+      "type": "風力"
+    }
+  },
+  "addFacilities": [
+    {
+      "region": "tokyo",
+      "facility": {
+        "id": "japc-tokai-1",
+        "assetId": "tokyo-fac-plant-東海発電所",
+        "name": "東海発電所",
+        "kind": "plant",
+        "position": [
+          36.4668274884058,
+          140.6071
+        ],
+        "voltages": [],
+        "scopeConnected": false,
+        "url": "https://www.japc.co.jp/tokai/haishi/tokai_haishi.html",
+        "attributes": [
+          {
+            "label": "位置の根拠",
+            "value": "日本原子力発電 東海事業所の敷地の代表点（東海第二発電所と同じ敷地）。原子炉建屋などの個別の位置は未確認。地図上で東海第二と重ならないよう、東海第二の代表点から西へ約130mずらして表示。"
+          },
+          {
+            "label": "事業者",
+            "value": "日本原子力発電"
+          },
+          {
+            "label": "系統との接続",
+            "value": "廃止措置中のため、接続する送電線は描かない。"
+          },
+          {
+            "label": "出力の扱い",
+            "value": "発電所の出力は送電容量として扱わない（廃止措置中のため出力はない）。"
+          },
+          {
+            "label": "出典",
+            "value": "日本原子力発電「東海発電所の廃止措置」（https://www.japc.co.jp/tokai/haishi/tokai_haishi.html 、2026-10-10確認）：1998年3月31日に営業運転を停止、2001年12月4日に廃止措置に着手、2006年6月30日に廃止措置計画の認可。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "tokyo",
+      "facility": {
+        "id": "osm-node-1210028290",
+        "assetId": "tokyo-fac-plant-矢木沢発電所",
+        "name": "矢木沢発電所",
+        "kind": "plant",
+        "position": [
+          36.9110242,
+          139.0564656
+        ],
+        "voltages": [],
+        "scopeConnected": true,
+        "url": "https://www.openstreetmap.org/node/1210028290",
+        "attributes": [
+          {
+            "label": "要注意（位置推定）",
+            "value": "建屋の位置は空中写真で確かめたが、発電所の名前の根拠（地理院の注記・一次資料の所在地）がその位置にない（一次資料は県名とダム式だけ）。建屋が発電所か、一次資料の端点の矢木沢開閉所かも確かめられていない（一次資料未確認）。"
+          },
+          {
+            "label": "位置の根拠",
+            "value": "国土地理院 シームレス空中写真（撮影年未確認、2026-10-24取得）でダム直下に見える建屋の中心。国土地理院の送電線記号（ベクトルタイル試験公開、2026-10-24取得）は八木沢線の鉄塔からこの建屋の上（中心から約22m）まで続く。Google マップで当たりを付けた。OSMの点「矢木沢水力発電所」（node 1210028290、国土数値情報 発電所データ 平成19年由来）から約78m西へ移した（2026-10-24 オーナー承認）。国土地理院の地図注記「矢木沢ダム」から約380m南（ダム式でダム直下）。"
+          },
+          {
+            "label": "事業者",
+            "value": "東京電力リニューアブルパワー"
+          },
+          {
+            "label": "出力の扱い",
+            "value": "発電所の出力は送電容量として扱わない。OSMの出力240MWは一次資料（160,000kW）と異なるため使わない。"
+          },
+          {
+            "label": "出典",
+            "value": "東京電力リニューアブルパワー 水力発電所一覧（2025年3月末現在）（https://www.tepco.co.jp/rp/business/hydroelectric_power/domestic/list.html 、2026-10-10確認）：群馬県、矢木沢（揚水式）、利根川水系利根川、最大出力160,000kW、ダム式、1965年12月運転開始。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "kansai",
+      "facility": {
+        "id": "kansai-place-大河内発電所",
+        "assetId": "kansai-place-大河内発電所",
+        "name": "大河内発電所",
+        "kind": "plant",
+        "position": [
+          35.133952833,
+          134.709290833
+        ],
+        "voltages": [],
+        "scopeConnected": true,
+        "url": "https://www.kepco.co.jp/energy_supply/energy/newenergy/water/plant/list.html",
+        "attributes": [
+          {
+            "label": "要注意（位置推定）",
+            "value": "発電所の位置を一次資料で確認できていない（一次資料未確認）。地下式の発電所で、置いた位置は地図注記の位置であり、地下の発電設備そのものの位置とは限らない。"
+          },
+          {
+            "label": "位置の根拠",
+            "value": "国土地理院 地図注記「大河内発電所」（分類 建物（発電所）、北緯35.133953・東経134.709291、experimental_anno z15、2026-10-20取得）。500kV の線が集まる大河内開閉所（osm-way-962796302）から約1km 北西。"
+          },
+          {
+            "label": "事業者",
+            "value": "関西電力"
+          },
+          {
+            "label": "系統との接続",
+            "value": "大河内開閉所（osm-way-962796302、大河内線・播磨北線の端点）に直接つながるとみなした（推測）。発電所と開閉所の間の送電線は描かない（喜撰山・沼原と同じ形）。"
+          },
+          {
+            "label": "出力の扱い",
+            "value": "発電所の出力は送電線の容量・潮流として扱わない。運転状態・号機構成は未照合。"
+          },
+          {
+            "label": "出典",
+            "value": "関西電力 水力発電所一覧（2026年7月末時点、https://www.kepco.co.jp/energy_supply/energy/newenergy/water/plant/list.html 、2026-10-18確認）：大河内発電所 純揚水式 1,280,000kW 平成4年10月。位置は国土地理院 地図注記（2026-10-20取得）。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "chugoku",
+      "facility": {
+        "id": "chugoku-place-俣野川発電所",
+        "assetId": "chugoku-place-俣野川発電所",
+        "name": "俣野川発電所",
+        "kind": "plant",
+        "position": [
+          35.25731,
+          133.51119
+        ],
+        "voltages": [],
+        "scopeConnected": true,
+        "url": "https://www.energia.co.jp/area/tottori/entry/290.html",
+        "attributes": [
+          {
+            "label": "要注意（位置推定）",
+            "value": "発電所の位置を一次資料で確認できていない（一次資料未確認）。地下式の発電所で、置いた位置は地図注記の位置であり、地下の発電設備そのものの位置とは限らない。"
+          },
+          {
+            "label": "位置の根拠",
+            "value": "国土地理院 地図注記「俣野川地下発電所」（北緯35.25731・東経133.51119、experimental_anno z15、2026-10-20取得）。俣野川開閉所（OSM の 220kV の区画 way 1417209902）から約958m 南。"
+          },
+          {
+            "label": "事業者",
+            "value": "中国電力"
+          },
+          {
+            "label": "系統との接続",
+            "value": "俣野川開閉所（osm-way-1417209902、俣野川線・新鳥取線の端点）に直接つながるとみなした（推測）。発電所と開閉所の間の送電線は描かない（大河内・喜撰山と同じ形）。"
+          },
+          {
+            "label": "出力の扱い",
+            "value": "発電所の出力は送電線の容量・潮流として扱わない。運転状態・号機構成は未照合。"
+          },
+          {
+            "label": "出典",
+            "value": "中国電力「俣野川発電所 ご案内ホール」（https://www.energia.co.jp/area/tottori/entry/290.html 、2026-10-20確認）：上池（岡山県新庄村）と下池（鳥取県江府町）の落差約500m で120万kW の揚水式発電所。中国電力 水力発電所一覧（2026年3月31日時点）：俣野川発電所 1,200,000kW。位置は国土地理院 地図注記（2026-10-20取得）。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "chugoku",
+      "facility": {
+        "id": "chugoku-place-南原発電所",
+        "assetId": "chugoku-place-南原発電所",
+        "name": "南原発電所",
+        "kind": "plant",
+        "position": [
+          34.567959,
+          132.511158
+        ],
+        "voltages": [],
+        "scopeConnected": true,
+        "url": "https://www.energia.co.jp/energy/general/water/water_all.html",
+        "attributes": [
+          {
+            "label": "要注意（位置推定）",
+            "value": "国土地理院の発電所記号の位置に置いたが、その位置に発電所の名前の根拠（地理院の注記・一次資料の所在地）がない（一次資料の所在地は「広島市安佐北区」まで）。近くにもう1つ発電所記号（南原ダムの直下）があり、北側を揚水の発電所とみなした（2026-10-24 オーナー判断）。地下式とみられ、地下の発電設備そのものの位置とは限らない。"
+          },
+          {
+            "label": "位置の根拠",
+            "value": "国土地理院 ベクトルタイル（試験公開、experimental_bvmap ズーム16、2026-10-24取得）の発電所の地図記号の位置。OSM の 220kV・2回線の線（way 1427454298）の北端から約48m 西。国土地理院 シームレス空中写真（撮影年未確認、2026-10-24取得）で、線の北端に小さな屋外設備が見える。Google マップで当たりを付けた。"
+          },
+          {
+            "label": "事業者",
+            "value": "中国電力"
+          },
+          {
+            "label": "系統との接続",
+            "value": "南原発電所の電源線（約1km、架空。北端の短い区間は地中と推定）で南原発電所の開閉所（推定、osm-way-317980479）につながり、開閉所から南原発電所の連系線で山陰幹線につながる。発電所側の端の接続は推測。"
+          },
+          {
+            "label": "出力の扱い",
+            "value": "発電所の出力は送電線の容量・潮流として扱わない。号機の出力は HJKS（1号機・2号機 各310MW）。"
+          },
+          {
+            "label": "出典",
+            "value": "中国電力 お知らせ「南原発電所からの漏油について」（2024-03-31、https://www.energia.co.jp/assets/2023/info/p202403331-1a.pdf 、2026-10-24確認）：揚水式水力発電所、広島県広島市安佐北区。日立評論 Vol.58 No.12（1976-12、資料の作成日。2026-10-24確認）：純揚水発電所、山陰幹線上（山陰と広島地区を結ぶ幹線）の南原峡県立自然公園内、発電電動機 326MVA/350MW×2。中国電力 水力発電所一覧（2026年3月31日時点、2026-10-24確認）：南原発電所 620,000kW。位置は国土地理院（2026-10-24取得）。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "kyushu",
+      "facility": {
+        "id": "kyushu-place-大平発電所",
+        "assetId": "kyushu-place-大平発電所",
+        "name": "大平発電所",
+        "kind": "plant",
+        "position": [
+          32.42417397894737,
+          130.7031303
+        ],
+        "voltages": [],
+        "scopeConnected": true,
+        "url": "https://www.kyuden.co.jp/business_outline/power/renewable-energy/hydroelectric-power/list.html",
+        "attributes": [
+          {
+            "label": "要注意（位置推定）",
+            "value": "発電所の位置を一次資料で確認できていない（一次資料未確認）。国土地理院の地図注記に発電所はない。"
+          },
+          {
+            "label": "位置の根拠",
+            "value": "OSM の区画「大平水力発電所」（way 216499699、事業者 九州電力、揚水。2026-10-02時点 data/raw/kyushu-osm）。この区画は地図では大平変電所（OCCTO の「大平ss」、九州の空容量一覧では「大平sws」）として登録しているため、発電所は別の設備に分けた（2026-10-23 オーナー判断「別の設備に分ける」）。表示の位置は、実際の位置を推定したものではなく、地図上で変電所と重ならないよう区画の代表点から経度方向に約130m 西へずらしたもの。"
+          },
+          {
+            "label": "事業者",
+            "value": "九州電力"
+          },
+          {
+            "label": "系統との接続",
+            "value": "大平変電所（osm-way-216499699、中九州大平線・大平人吉線の端点）に直接つながるとみなした（推測）。発電所と変電所の間の送電線は描かない。"
+          },
+          {
+            "label": "出力の扱い",
+            "value": "発電所の出力は送電線の容量・潮流として扱わない。運転状態・号機構成は未照合。"
+          },
+          {
+            "label": "出典",
+            "value": "九州電力「九州電力の水力発電所（発電所の一覧と位置図）」（2025年3月現在、https://www.kyuden.co.jp/business_outline/power/renewable-energy/hydroelectric-power/list.html 、2026-10-18確認）：大平 昭和50年12月 500,000kW、当社初の純揚水式発電所。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "shikoku",
+      "facility": {
+        "id": "shikoku-place-本川発電所",
+        "assetId": "shikoku-place-本川発電所",
+        "name": "本川発電所",
+        "kind": "plant",
+        "position": [
+          33.76049,
+          133.34615
+        ],
+        "voltages": [],
+        "scopeConnected": true,
+        "url": "https://www.yonden.co.jp/energy/p_station/hydro/hongawa.html",
+        "attributes": [
+          {
+            "label": "要注意（位置推定）",
+            "value": "発電所の位置を一次資料で確認できていない（一次資料未確認）。地下式の発電所で、置いた位置は地図注記の位置であり、地下の発電設備そのものの位置とは限らない。"
+          },
+          {
+            "label": "位置の根拠",
+            "value": "国土地理院 地図注記「本川地下発電所」（北緯33.76049・東経133.34615、experimental_anno z15、2026-10-20取得）。本川変電所（osm-way-1037463614）から約692m。"
+          },
+          {
+            "label": "事業者",
+            "value": "四国電力"
+          },
+          {
+            "label": "系統との接続",
+            "value": "本川変電所（osm-way-1037463614、本川線・高知幹線の端点。OCCTO の照合表では端点は「本川PS」）に直接つながるとみなした（推測）。発電所と変電所の間の送電線は描かない。"
+          },
+          {
+            "label": "出力の扱い",
+            "value": "発電所の出力は送電線の容量・潮流として扱わない。運転状態・号機構成は未照合。"
+          },
+          {
+            "label": "出典",
+            "value": "四国電力「本川発電所の見学」（https://www.yonden.co.jp/energy/p_station/hydro/hongawa.html 、2026-10-23確認）：約560m の落差を利用する認可出力61.5万kW の揚水発電所、地下発電所。位置は国土地理院 地図注記（2026-10-20取得）。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "chubu",
+      "facility": {
+        "id": "chubu-place-奥矢作第二発電所",
+        "assetId": "chubu-place-奥矢作第二発電所",
+        "name": "奥矢作第二発電所",
+        "kind": "plant",
+        "position": [
+          35.228833,
+          137.446278
+        ],
+        "voltages": [
+          275
+        ],
+        "scopeConnected": true,
+        "url": "https://www.chuden.co.jp/energy/renew/ren_setsubi/water/wat_chuden/okuyahagi/",
+        "attributes": [
+          {
+            "label": "位置の根拠",
+            "value": "オーナー指定の座標（北緯35度13分43.8秒・東経137度26分46.6秒、2026-10-23）。中部電力パワーグリッドの系統予想潮流・空容量マッピング（2026年10月21日時点、2026-10-23取得）の名前のない 275kV の線の端とほぼ同じ位置（約2m）。中部電力の所在地（豊田市牛地町駒山）の町内（国土地理院の住所検索による町の代表点から約680m）。地下式で、地下の発電設備そのものの位置とは限らない。OSM の区画・国土地理院の注記はない。"
+          },
+          {
+            "label": "事業者",
+            "value": "中部電力"
+          },
+          {
+            "label": "系統との接続",
+            "value": "中部PGのマッピングで、名前のない 275kV の線が奥矢作第一発電所の位置の記号とつながる。マッピングの記号・線には名前がなく、奥矢作第二発電所の線とみなしたのは所在地からの推定。"
+          },
+          {
+            "label": "出力の扱い",
+            "value": "発電所の出力は送電線の容量・潮流として扱わない。運転状態・号機構成は未照合。"
+          },
+          {
+            "label": "出典",
+            "value": "中部電力「奥矢作第一・第二水力発電所」（https://www.chuden.co.jp/energy/renew/ren_setsubi/water/wat_chuden/okuyahagi/ 、2026-10-23確認）：中部電力初の純揚水式、2つの発電所を一体で運用する二段式揚水、第二は矢作ダム（下池）の上流約3.7kmの左岸に全地下式、出力 780,000kW。中部電力 設備概要（水力発電所、2026年3月末現在）（https://www.chuden.co.jp/corporate/company/officelist/com_setsubi/ 、2026-10-23確認）：所在地 愛知県豊田市牛地町駒山。位置はオーナー指定（2026-10-23）。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "kyushu",
+      "facility": {
+        "id": "osm-way-756358390",
+        "assetId": "kyushu-fac-plant-小丸川発電所",
+        "name": "小丸川発電所",
+        "kind": "plant",
+        "position": [
+          32.25107,
+          131.37062
+        ],
+        "voltages": [],
+        "scopeConnected": true,
+        "url": "https://www.openstreetmap.org/way/756358390",
+        "attributes": [
+          {
+            "label": "要注意（位置推定）",
+            "value": "地下約400mの発電所（九州電力のパンフレット）。OSM の区画の位置で、地下の発電設備そのものの位置とは限らない。国土地理院の地図注記は「地下発電所」で、発電所の名前の注記はない。"
+          },
+          {
+            "label": "位置の根拠",
+            "value": "OSM の区画「小丸川水力発電所」（way 756358390、layer=-1、事業者 九州電力、2026-10-02時点 data/raw/kyushu-osm）の代表点。国土地理院 地図注記「地下発電所」（experimental_anno z15、2026-10-24取得）が約235m。ひむか変電所から約1.4km 西。"
+          },
+          {
+            "label": "事業者",
+            "value": "九州電力"
+          },
+          {
+            "label": "系統との接続",
+            "value": "ひむか変電所（osm-way-216953915）に直接つながるとみなした（推測）。九州電力 小丸川発電所パンフレットの系統図（2024年4月現在）で、発電所の印が主要変電所・開閉所の印（50万Vの線が分かれる点）に接して描かれ、間に送電線は描かれていない。パンフレットには発電所から開閉所へのケーブル（トンネル）の記載がある。電力・ガス取引監視等委員会の資料に「小丸川発電所における一番目の変電所がひむか変電所」とあるが、検索結果の要約だけで本文は未確認。国土地理院の発電所の地図記号はひむか変電所の位置にある（2026-10-24取得）。発電所と変電所の間の送電線は描かない。"
+          },
+          {
+            "label": "出力の扱い",
+            "value": "発電所の出力は送電線の容量・潮流として扱わない。号機の出力は HJKS（1〜4号機 各300MW）。"
+          },
+          {
+            "label": "出典",
+            "value": "九州電力「小丸川発電所」パンフレット（https://www.kyuden.co.jp/var/rev0/0909/7408/hydro_omarugawa_2026_09.pdf 、系統図は2024年4月現在、2026-10-24確認）：揚水式、全号機120万キロワット（2011年7月）、宮崎県児湯郡木城町大字石河内、地下約400mの発電所、開閉所・ケーブル。位置は OSM と国土地理院（2026-10-24取得）。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "tokyo",
+      "facility": {
+        "id": "tokyo-place-奥清津第二発電所",
+        "assetId": "tokyo-place-奥清津第二発電所",
+        "name": "奥清津第二発電所",
+        "kind": "plant",
+        "position": [
+          36.847503,
+          138.766436
+        ],
+        "voltages": [],
+        "scopeConnected": true,
+        "url": "https://www.jpower.co.jp/okky/about/",
+        "attributes": [
+          {
+            "label": "要注意（位置推定）",
+            "value": "位置はオーナー指定（2026-10-24）。一次資料の所在地は奥清津発電所と同じ住所までで、地下の発電設備そのものの位置とは限らない。"
+          },
+          {
+            "label": "位置の根拠",
+            "value": "オーナー指定の座標（2026-10-24）。土木学会関東支部新潟会のページの「奥清津発電所および奥清津第二発電所配置図」で、奥清津第二発電所が奥清津発電所の北側に描かれていることを踏まえたもの（配置図は補助資料で、一次資料ではない）。国土地理院 地図注記「奥清津発電所」（2026-10-24取得）が約231m 南。奥清津発電所の印（オーナー指定、2026-10-24）は約230m 南。"
+          },
+          {
+            "label": "事業者",
+            "value": "電源開発"
+          },
+          {
+            "label": "系統との接続",
+            "value": "奥清津発電所（osm-relation-13413356、東京PG No.69 の連系線の端）に直接つながるとみなした（推測）。東京PG 系統構成図の No.69 に匿名の発電所の記号が2つあり、奥清津・奥清津第二と推定（docs/TOKYO_500_FC_BLOCK.md）。発電所の間の送電線は描かない。"
+          },
+          {
+            "label": "出力の扱い",
+            "value": "発電所の出力は送電容量として扱わない。号機の出力は HJKS（1・2号機 各300MW）。奥清津発電所の OSM 登録値 1600MW は、奥清津（100万kW）と奥清津第二（60万kW）の合計とみられる（推定）。"
+          },
+          {
+            "label": "出典",
+            "value": "電源開発「奥清津発電所について」（https://www.jpower.co.jp/okky/about/ 、2026-10-24確認）：奥清津第二発電所 60万kW（2台）、平成8年運転開始、ダム水路式（純揚水式）、所在地 新潟県南魚沼郡湯沢町大字三国502（奥清津発電所と同じ）。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "kyushu",
+      "facility": {
+        "id": "kyushu-place-一ツ瀬発電所",
+        "assetId": "kyushu-place-一ツ瀬発電所",
+        "name": "一ツ瀬発電所",
+        "kind": "plant",
+        "position": [
+          32.1949719,
+          131.3224733
+        ],
+        "voltages": [],
+        "scopeConnected": true,
+        "url": "https://www.kyuden.co.jp/business_outline/power/renewable-energy/hydroelectric-power/list.html",
+        "attributes": [
+          {
+            "label": "要注意（位置推定）",
+            "value": "発電所の位置を一次資料で確認できていない（一次資料未確認）。"
+          },
+          {
+            "label": "位置の根拠",
+            "value": "OSM の区画「一ツ瀬水力発電所」（way 231759891、事業者 九州電力、2026-10-02時点 data/raw/kyushu-osm）。この区画は地図では一ツ瀬変電所（OCCTO の「一ツ瀬ss」）として登録しているため、発電所は別の設備に分けた（大平発電所と同じ扱い）。表示の位置は、地図上で変電所と重ならないよう区画の代表点から経度方向に約130m 西へずらしたもの。"
+          },
+          {
+            "label": "事業者",
+            "value": "九州電力"
+          },
+          {
+            "label": "系統との接続",
+            "value": "一ツ瀬変電所（osm-way-231759891、一ツ瀬柏田線・ひむか一ツ瀬線の端点）に直接つながるとみなした（推測）。九州電力送配電「2024年度 ローカル系統 系統構成（実績）」（託送の公表資料、https://www.kyuden.co.jp/td_service_wheeling_rule-document_disclosure.html 、2026-10-26確認、転載禁止）〔26 宮崎〕の図で、発電所の印が一ツ瀬変電所の印に直に接する（図に発電所の名前はなく、位置から一ツ瀬発電所とみなした）。発電所と系統の間の送電線は描かない（2026-10-26 オーナー判断「発電所のみ設置し送電線は記載しない」）。"
+          },
+          {
+            "label": "出力の扱い",
+            "value": "発電所の出力は送電線の容量・潮流として扱わない。運転状態は未照合。"
+          },
+          {
+            "label": "出典",
+            "value": "九州電力「九州電力の水力発電所（発電所の一覧と位置図）」（2025年3月現在、https://www.kyuden.co.jp/business_outline/power/renewable-energy/hydroelectric-power/list.html 、2026-10-26確認）：一ツ瀬 昭和38年6月 180,000kW、一般水力では九州最大。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "kyushu",
+      "facility": {
+        "id": "osm-way-744431833",
+        "assetId": "kyushu-fac-way-744431833",
+        "name": "大分共同発電所",
+        "kind": "plant",
+        "position": [
+          33.268923788888884,
+          131.65021927777778
+        ],
+        "voltages": [],
+        "scopeConnected": true,
+        "url": "https://www.openstreetmap.org/way/744431833",
+        "attributes": [
+          {
+            "label": "OSM登録",
+            "value": "名称：大分共同発電所、事業者：大分共同火力"
+          },
+          {
+            "label": "発電設備出力（OSM登録値）",
+            "value": "655 MW"
+          },
+          {
+            "label": "事業者",
+            "value": "九州共同発電株式会社（HJKS）"
+          },
+          {
+            "label": "系統との接続",
+            "value": "九州電力送配電「2024年度 ローカル系統 系統構成（実績）」（託送の公表資料、https://www.kyuden.co.jp/td_service_wheeling_rule-document_disclosure.html 、2026-10-26確認、転載禁止）〔15 大分〕の図で、大分変電所の北の発電所の印から220kVの2回線が大分変電所へ延びる。図に発電所の名前はなく、位置から大分共同発電所とみなした（推定。需要家の受電線の可能性もある）。発電所と系統の間の送電線は描かない（2026-10-26 オーナー判断「発電所のみ設置し送電線は記載しない」）。"
+          },
+          {
+            "label": "出力の扱い",
+            "value": "発電所の出力は送電線の容量・潮流として扱わない。運転状態は未照合。"
+          },
+          {
+            "label": "出典",
+            "value": "JEPX 発電情報公開システム（HJKS）ユニット一覧（data/raw/hjks、2026-10-09取得）：大分共同発電所（九州共同発電株式会社）1〜3号機 計657,000kW。位置は OSM の区画（way 744431833、2026-10-02時点 data/raw/kyushu-osm）の代表点。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "kyushu",
+      "facility": {
+        "id": "osm-way-605420901",
+        "assetId": "kyushu-fac-way-605420901",
+        "name": "戸畑共同発電所",
+        "kind": "plant",
+        "position": [
+          33.92678778571429,
+          130.84598191428572
+        ],
+        "voltages": [],
+        "scopeConnected": true,
+        "url": "https://www.openstreetmap.org/way/605420901",
+        "attributes": [
+          {
+            "label": "OSM登録",
+            "value": "名称：戸畑共同火力発電所"
+          },
+          {
+            "label": "発電設備出力（OSM登録値）",
+            "value": "891 MW"
+          },
+          {
+            "label": "事業者",
+            "value": "九州共同発電株式会社（HJKS）"
+          },
+          {
+            "label": "系統との接続",
+            "value": "九州電力送配電「2024年度 ローカル系統 系統構成（実績）」（託送の公表資料、https://www.kyuden.co.jp/td_service_wheeling_rule-document_disclosure.html 、2026-10-26確認、転載禁止）〔2 小倉〕の図で、北九州変電所から北へ延びる220kVの2回線（架空のあと地中）の北端に発電所の印がある。図に発電所の名前はなく、位置から戸畑共同発電所とみなした（推定）。途中に需要家の設備がある（OSM、補助資料）。発電所と系統の間の送電線は描かない（2026-10-26 オーナー判断「発電所のみ設置し送電線は記載しない」）。"
+          },
+          {
+            "label": "出力の扱い",
+            "value": "発電所の出力は送電線の容量・潮流として扱わない。運転状態は未照合。"
+          },
+          {
+            "label": "出典",
+            "value": "JEPX 発電情報公開システム（HJKS）ユニット一覧（data/raw/hjks、2026-10-09取得）：戸畑共同発電所（九州共同発電株式会社）2〜6号機 計1,040,000kW。位置は OSM の区画（way 605420901、2026-10-02時点 data/raw/kyushu-osm）の代表点。名前は HJKS（OSM は「戸畑共同火力発電所」）。OSM の出力（891MW）と HJKS の計 1,040MW の差の理由は未確認。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "chugoku",
+      "facility": {
+        "id": "chugoku-place-新小野田発電所",
+        "assetId": "chugoku-place-新小野田発電所",
+        "name": "新小野田発電所",
+        "kind": "plant",
+        "position": [
+          33.96867,
+          131.16615
+        ],
+        "voltages": [
+          220
+        ],
+        "scopeConnected": true,
+        "url": "https://www.energia.co.jp/nw/service/retailer/keitou/access/",
+        "attributes": [
+          {
+            "label": "位置の根拠",
+            "value": "国土地理院 ベクトルタイル（試験公開、experimental_bvmap ズーム14、2026-11-10取得）の発電所等の地図記号（北緯33.96867・東経131.16615）。名前は国土地理院の地図注記「新小野田発電所」（北緯33.96983・東経131.16354、約300m 北西、2026-11-09取得）。"
+          },
+          {
+            "label": "名称の根拠",
+            "value": "中国電力ネットワーク 系統空容量マップ（220kV以上、ページの更新 2026-10-28）で新小野田（基S6）の隣に発電所の記号があり、空容量一覧の線名「新小野田火力連絡線」「新小野田火力山口線」の端点が新小野田（変）。名前は国土地理院の地図注記の表記（新小野田発電所）にした。オーナーの指示の名前は「新小野田火力発電所」。"
+          },
+          {
+            "label": "事業者",
+            "value": "中国電力（推定。系統空容量マップの線名「新小野田火力」から火力とみなした。事業者・燃料・出力は一次資料で未確認）"
+          },
+          {
+            "label": "系統との接続",
+            "value": "新小野田変電所（約120m 南東、位置推定）に直接つながるとみなした（推測）。送電線は描いていない。"
+          },
+          {
+            "label": "出力の扱い",
+            "value": "発電所の出力は送電線の容量・潮流として扱わない。号機の出力は HJKS で未照合（手元の HJKS の写しに載っていない。HJKS に載らないことを廃止の根拠にしない）。"
+          },
+          {
+            "label": "出典",
+            "value": "中国電力ネットワーク 系統空容量マップ（220kV以上、https://www.energia.co.jp/nw/service/retailer/keitou/access/pdf/mapping.pdf 、ページの更新 2026-10-28、2026-11-09確認）。位置は国土地理院（2026-11-09〜10取得）。2026-11-10 オーナー承認（保留100）。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "chugoku",
+      "facility": {
+        "id": "chugoku-place-新成羽川発電所",
+        "assetId": "chugoku-place-新成羽川発電所",
+        "name": "新成羽川発電所",
+        "kind": "plant",
+        "position": [
+          34.8217,
+          133.40173
+        ],
+        "voltages": [
+          220
+        ],
+        "scopeConnected": true,
+        "url": "https://www.energia.co.jp/energy/general/water/water_all.html",
+        "attributes": [
+          {
+            "label": "要注意（位置推定）",
+            "value": "国土地理院の発電所等の地図記号の位置に置いた。名前の根拠は近くの地図注記「新成羽川ダム」（約150m 北西）で、発電所そのものの注記はない。"
+          },
+          {
+            "label": "位置の根拠",
+            "value": "国土地理院 ベクトルタイル（試験公開、experimental_bvmap ズーム14、2026-11-10取得）の発電所等の地図記号（北緯34.82170・東経133.40173）。地図注記（2026-11-10取得）「新成羽川ダム」（北緯34.82273・東経133.40045）。OSM の名前のない区画（way 1417213784）が記号のすぐ脇にある。"
+          },
+          {
+            "label": "名称の根拠",
+            "value": "中国電力ネットワークの系統空容量マップ（220kV以上）と系統構成（2025年度）の図で、新岡山（基S17）の東の発電所の記号（名前の記載なし）を新成羽川発電所とした（2026-11-10 オーナーの判断）。"
+          },
+          {
+            "label": "事業者",
+            "value": "中国電力"
+          },
+          {
+            "label": "系統との接続",
+            "value": "新成羽川発電所の電源線（約3km、うち約0.9kmは直線）で新倉敷連絡線に分岐でつながる（接続点は推測）。"
+          },
+          {
+            "label": "出力の扱い",
+            "value": "発電所の出力は送電線の容量・潮流として扱わない。HJKS（2026-10-09の写し）には載っていない（号機が10万kW未満のためとみられる、推定）。"
+          },
+          {
+            "label": "出典",
+            "value": "中国電力 水力発電所一覧（2026年3月31日時点）（https://www.energia.co.jp/energy/general/water/water_all.html 、2026-11-10確認）：高梁川水系 新成羽川発電所 303,000kW。系統の図は中国電力ネットワーク 系統空容量マップ（220kV以上、2026-11-09確認）・系統構成（2025年度）。位置は国土地理院（2026-11-10取得）。2026-11-10 オーナー承認（保留102）。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "hokkaido",
+      "facility": {
+        "id": "hokkaido-place-足寄発電所",
+        "assetId": "hokkaido-place-足寄発電所",
+        "name": "足寄発電所",
+        "kind": "plant",
+        "position": [
+          43.22588,
+          143.54651
+        ],
+        "voltages": [
+          187
+        ],
+        "scopeConnected": true,
+        "url": "https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html",
+        "attributes": [
+          {
+            "label": "位置の確認",
+            "value": "国土地理院の地図注記「足寄発電所」（北緯43.22588・東経143.54651、2026-11-10取得）。国土地理院 シームレス空中写真（撮影年未確認、2026-11-10取得）で、導水管の先の発電所の建屋がこの位置にあり、北隣が足寄変電所の開閉設備。"
+          },
+          {
+            "label": "事業者",
+            "value": "電源開発（J-POWER）"
+          },
+          {
+            "label": "系統との接続",
+            "value": "送電線を描かず、北隣の足寄変電所（187kV）に直接つながるとみなした（推測）。どの母線・電圧に接続するかは一次資料で未確認。187kV に接続すると予測した根拠：足寄変電所は 187kV の変電所（北海道電力ネットワーク 系統構成）で、電源開発の芽登第一・本別・糠平の各発電所からの 187kV の線（他社線、推定）が足寄変電所に集まる。"
+          },
+          {
+            "label": "出力の扱い",
+            "value": "発電所の出力は送電容量として扱わない。HJKS は10万kW以上のユニットだけを載せるため、この発電所（42,300kW）は HJKS にない。"
+          },
+          {
+            "label": "出典",
+            "value": "J-POWER 水力発電所一覧（2026年7月1日現在）（https://www.jpower.co.jp/bs/renewable_energy/hydro/ichiran.html 、2026-11-10確認）：足寄、十勝川-美里別川、北海道足寄郡足寄町、ダム水路式、最大出力 42,300kW、1955年10月10日運転開始。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "tokyo",
+      "facility": {
+        "id": "tokyo-place-日本製鉄鹿島火力発電所",
+        "assetId": "tokyo-place-日本製鉄鹿島火力発電所",
+        "name": "日本製鉄鹿島火力発電所",
+        "kind": "plant",
+        "position": [
+          35.9479,
+          140.691
+        ],
+        "voltages": [],
+        "scopeConnected": true,
+        "url": "https://www.nipponsteel.com/works/east-nippon/kashima/ipp/02.html",
+        "attributes": [
+          {
+            "label": "要注意（位置推定）",
+            "value": "位置はオーナーが示した位置（2026-11-17）を、国土地理院の空中写真で設備が見える所に合わせた推定。"
+          },
+          {
+            "label": "位置の根拠",
+            "value": "Google マップで当たりを付けた。国土地理院 シームレス空中写真（撮影年未確認、2026-11-17取得）で発電設備（建屋・煙突）が見える位置の中心付近。"
+          },
+          {
+            "label": "系統との接続",
+            "value": "接続する送電線は未確認（地図の線につないでいない）。"
+          },
+          {
+            "label": "運転状態",
+            "value": "運転状態・号機構成は未照合（10万kW以上の号機の出力は HJKS で確認。発電所の出力は送電容量として扱わない）。"
+          },
+          {
+            "label": "事業者",
+            "value": "日本製鉄（HJKS「日本製鉄㈱ 鹿島発電所」）"
+          },
+          {
+            "label": "出典",
+            "value": "2026-11-17 オーナー回答（保留127 K10）「既存の日本製鉄鹿島火力発電所場所は鹿島パワーに。…」、確認への回答「赤丸で囲んだ発電所の位置で追加。」。発電方式は日本製鉄の資料（plants の記録）。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "tokyo",
+      "facility": {
+        "id": "tokyo-place-鹿島共同火力発電所",
+        "assetId": "tokyo-place-鹿島共同火力発電所",
+        "name": "鹿島共同火力発電所",
+        "kind": "plant",
+        "position": [
+          35.9415,
+          140.6885
+        ],
+        "voltages": [],
+        "scopeConnected": true,
+        "attributes": [
+          {
+            "label": "要注意（位置推定）",
+            "value": "位置はオーナーが示した位置（2026-11-17）を、国土地理院の空中写真で設備が見える所に合わせた推定。"
+          },
+          {
+            "label": "位置の根拠",
+            "value": "Google マップで当たりを付けた。国土地理院 シームレス空中写真（撮影年未確認、2026-11-17取得）で発電設備（建屋・煙突）が見える位置の中心付近。"
+          },
+          {
+            "label": "系統との接続",
+            "value": "接続する送電線は未確認（地図の線につないでいない）。"
+          },
+          {
+            "label": "要注意（C区分）",
+            "value": "名前・位置はオーナーの説明による。事業者・発電方式・出力は一次資料で未照合（発電所の出力は送電容量として扱わない）。"
+          },
+          {
+            "label": "出典",
+            "value": "2026-11-17 オーナー回答（保留127 K10）「その南南西に鹿島共同火力発電所を描写。」、確認への回答「赤丸で囲んだ発電所の位置で追加。」。東京PG「275kV以上系統 空容量マッピング」（2019年4月24日作成の旧版）の系統図に「鹿島共火」（鹿島変電所に（40）でつながる、2019年時点）。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "hokkaido",
+      "facility": {
+        "id": "hokkaido-place-せたな大里ウインドファーム",
+        "assetId": "hokkaido-place-せたな大里ウインドファーム",
+        "name": "せたな大里ウインドファーム",
+        "kind": "plant",
+        "position": [
+          42.474788,
+          139.856574
+        ],
+        "voltages": [],
+        "scopeConnected": true,
+        "url": "https://www.jpower.co.jp/bs/renewable_energy/wind/setanaosato.html",
+        "attributes": [
+          {
+            "label": "要注意（位置推定）",
+            "value": "風力発電所は風車16基が広がるため、マークは代表の1点（風車の記号の1つ）に置いた。"
+          },
+          {
+            "label": "位置の根拠",
+            "value": "国土地理院 ベクトルタイル（試験公開、z16、2026-11-20取得）の風車の記号（16基のうちの1基の位置）。J-POWER の所在地「せたな町瀬棚区（西大里および元浦地区）」と、地理院の注記「瀬棚区西大里」の近くで一致。Google マップで当たりを付けた。"
+          },
+          {
+            "label": "事業者",
+            "value": "電源開発（J-POWER）"
+          },
+          {
+            "label": "名称の確認",
+            "value": "オーナー指示の名前は「せたな中里ウィンドファーム」。J-POWER の風力発電所一覧に「中里」はなく、公表名「せたな大里ウインドファーム」で描く（2026-11-21 オーナー回答「他は推奨でOK」）。"
+          },
+          {
+            "label": "出力の扱い",
+            "value": "発電所の出力は送電容量として扱わない。HJKS は10万kW以上のユニットだけを載せるため、この発電所（50,000kW）は HJKS にない。"
+          },
+          {
+            "label": "出典",
+            "value": "J-POWER 風力発電所 せたな大里ウインドファーム（https://www.jpower.co.jp/bs/renewable_energy/wind/setanaosato.html 、2026-11-20確認）：所在地 北海道久遠郡せたな町瀬棚区（西大里および元浦地区）、発電所出力 50,000kW、風車発電機 3,200kW×16基、営業運転開始 2020年1月。2026-11-21 オーナー回答（保留138）「L4〜L6は電圧が低いので描かないことに変更。ただし、L1～3と発電所の関係が分かるようにそれぞれの詳細タブに分かるように記載。他は推奨でOK。」。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "hokkaido",
+      "facility": {
+        "id": "relation/11816417",
+        "assetId": "hokkaido-fac-relation-11816417",
+        "name": "ユーラス八雲ソーラーパーク",
+        "kind": "plant",
+        "position": [
+          42.3011,
+          140.26834
+        ],
+        "voltages": [],
+        "scopeConnected": true,
+        "url": "https://www.openstreetmap.org/relation/11816417",
+        "attributes": [
+          {
+            "label": "要注意（位置推定）",
+            "value": "位置は OSM の区画（relation 11816417、名称「八雲ソーラーパーク」）の範囲の中心。"
+          },
+          {
+            "label": "位置の根拠",
+            "value": "OSM の区画（data/raw/hokkaido-p138/north/facilities.json、2026-11-20取得）。ユーラスのパンフレットの地図（山崎駅の西）と所在地「八雲町山崎および花浦」と合う。区画の出力のタグは使わない。"
+          },
+          {
+            "label": "事業者",
+            "value": "ユーラスエナジー（パンフレットの名前は「ユーラス八雲ソーラーパーク」）"
+          },
+          {
+            "label": "出力の扱い",
+            "value": "連系容量 75,000kW（パンフレット）。発電所の出力は送電容量として扱わない。HJKS の対象（10万kW以上のユニット）ではない。"
+          },
+          {
+            "label": "出典",
+            "value": "ユーラスエナジー パンフレット「ユーラス八雲ソーラーパーク」（発行日の記載なし）（https://www.eurus-energy.com/project/assets/pdf/yakumo_pamphlet.pdf 、2026-11-21確認、2026-11-21 オーナー回答で今回だけ取得）：所在地 北海道二海郡八雲町山崎および花浦、連系容量 75,000kW、蓄電設備 約2万7,800kWh、運転開始日 2020年10月16日、自営線ルート 約14km で「連系変電所」へ。2026-11-21 オーナー回答（保留138）「L4〜L6は電圧が低いので描かないことに変更。ただし、L1～3と発電所の関係が分かるようにそれぞれの詳細タブに分かるように記載。他は推奨でOK。」。"
+          }
+        ]
+      }
+    },
+    {
+      "region": "hokkaido",
+      "facility": {
+        "id": "hokkaido-place-上ノ国第二風力発電所",
+        "assetId": "hokkaido-place-上ノ国第二風力発電所",
+        "name": "上ノ国第二風力発電所",
+        "kind": "plant",
+        "position": [
+          41.739636,
+          140.126059
+        ],
+        "voltages": [],
+        "scopeConnected": true,
+        "url": "https://www.jpower.co.jp/bs/renewable_energy/wind/kaminokuni2.html",
+        "attributes": [
+          {
+            "label": "要注意（位置推定）",
+            "value": "位置はオーナーが指定した座標（2026-11-20 オーナー指示）。"
+          },
+          {
+            "label": "位置の根拠",
+            "value": "オーナー指定の座標（北緯41.739636・東経140.126059）。OSM では同じ位置に名前のない変電設備の区画（way 1470221040）があり、そこから東へ 187kV 1回線の線（way 1470207150、約8kmで途切れる）が出る。区画は発電所の設備とみなし、別の設備としては足さない。"
+          },
+          {
+            "label": "事業者",
+            "value": "電源開発（J-POWER）"
+          },
+          {
+            "label": "出力の扱い",
+            "value": "発電所の出力は送電容量として扱わない。HJKS は10万kW以上のユニットだけを載せるため、この発電所（41,532kW）は HJKS にない。"
+          },
+          {
+            "label": "出典",
+            "value": "J-POWER 風力発電所 上ノ国第二風力発電所（https://www.jpower.co.jp/bs/renewable_energy/wind/kaminokuni2.html 、2026-11-20確認）：所在地 北海道檜山郡上ノ国町、発電所出力 41,532kW、風車発電機 定格出力4,300kW×10基（発電所全体の出力合計を41,532kW以内に制御）、営業運転開始 2024年5月。2020年の北海道電力の供給計画に「知内線No.53―仮称上ノ国第二風力開閉所」の連系線の新設計画（既存の記録 docs/research/hokkaido-shiriuchi-kitami-review.json）。2026-11-20 オーナー指示「知内線沿いの木古内開閉所とその電源線を追加して。またそこに連系する電源開発の上ノ国第二風力発電所（風力）（41.739636, 140.126059）を追加して」。2026-11-21 オーナー回答（保留138）「L4〜L6は電圧が低いので描かないことに変更。ただし、L1～3と発電所の関係が分かるようにそれぞれの詳細タブに分かるように記載。他は推奨でOK。」。"
+          }
+        ]
+      }
+    }
+  ],
+  "unitsNotInHjks": {
+    "note": "HJKS（public/data/plant-units.json）にない号機（廃止措置中・建設中）。詳細パネルの号機の内訳の灰色の欄に足す（合計に含めない）。tools/build-plant-sources.mjs が src/plant-extra-units.ts を生成。2026-11-10 オーナー承認（保留105）。source は sources の番号。大間原子力発電所は public/data/plant-profiles.json の号機（建設中）がすでに出るので載せない",
+    "plants": {
+      "osm-way-605382253": {
+        "name": "島根原子力発電所",
+        "sources": [
+          {
+            "name": "原子力規制委員会「中国電力株式会社　島根原子力発電所の規制」（発電所別情報。作成日の記載なし）",
+            "url": "https://www.nra.go.jp/hatsudensho/shimane_index.html",
+            "checkedAt": "2026-11-10"
+          },
+          {
+            "name": "中国電力「増設計画概要」（島根原子力発電所3号機）",
+            "url": "https://www.energia.co.jp/atom/atom13-1.html",
+            "checkedAt": "2026-10-18"
+          }
+        ],
+        "units": [
+          {
+            "name": "1号機",
+            "mw": 460,
+            "start": "1974-03-29",
+            "status": "廃止措置中",
+            "source": 0
+          },
+          {
+            "name": "3号機",
+            "mw": 1373,
+            "start": null,
+            "status": "建設中",
+            "source": 1,
+            "note": "規制委は「建設中」。出力は中国電力の増設計画概要（ABWR 137.3万kW、営業運転開始は未定）"
+          }
+        ]
+      },
+      "osm-way-605420905": {
+        "name": "美浜原子力発電所",
+        "sources": [
+          {
+            "name": "原子力規制委員会「関西電力株式会社　美浜発電所の規制」（発電所別情報。作成日の記載なし）",
+            "url": "https://www.nra.go.jp/hatsudensho/mihama_index.html",
+            "checkedAt": "2026-11-10"
+          }
+        ],
+        "units": [
+          {
+            "name": "1号機",
+            "mw": 340,
+            "start": "1970-11-28",
+            "status": "廃止措置中",
+            "source": 0
+          },
+          {
+            "name": "2号機",
+            "mw": 500,
+            "start": "1972-07-25",
+            "status": "廃止措置中",
+            "source": 0
+          }
+        ]
+      },
+      "osm-way-806310370": {
+        "name": "浜岡原子力発電所",
+        "sources": [
+          {
+            "name": "原子力規制委員会「中部電力株式会社　浜岡原子力発電所の規制」（発電所別情報。作成日の記載なし）",
+            "url": "https://www.nra.go.jp/hatsudensho/hamaoka_index.html",
+            "checkedAt": "2026-11-10"
+          }
+        ],
+        "units": [
+          {
+            "name": "1号機",
+            "mw": 540,
+            "start": "1976-03-17",
+            "status": "廃止措置中",
+            "source": 0
+          },
+          {
+            "name": "2号機",
+            "mw": 840,
+            "start": "1978-11-29",
+            "status": "廃止措置中",
+            "source": 0
+          }
+        ]
+      },
+      "osm-way-449155824": {
+        "name": "敦賀原子力発電所",
+        "sources": [
+          {
+            "name": "原子力規制委員会「日本原子力発電株式会社　敦賀発電所の規制」（発電所別情報。作成日の記載なし）",
+            "url": "https://www.nra.go.jp/hatsudensho/tsuruga_index.html",
+            "checkedAt": "2026-11-10"
+          }
+        ],
+        "units": [
+          {
+            "name": "1号機",
+            "mw": 357,
+            "start": "1970-03-14",
+            "status": "廃止措置中",
+            "source": 0
+          }
+        ]
+      },
+      "osm-way-172644773": {
+        "name": "玄海原子力発電所",
+        "sources": [
+          {
+            "name": "原子力規制委員会「九州電力株式会社　玄海原子力発電所の規制」（発電所別情報。作成日の記載なし）",
+            "url": "https://www.nra.go.jp/hatsudensho/genkai_index.html",
+            "checkedAt": "2026-11-10"
+          }
+        ],
+        "units": [
+          {
+            "name": "1号機",
+            "mw": 559,
+            "start": "1975-10-15",
+            "status": "廃止措置中",
+            "source": 0
+          }
+        ]
+      }
+    }
+  }
+}

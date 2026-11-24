@@ -1,0 +1,15 @@
+{
+  "sources": [
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=140.57,41.90,140.64,41.96",
+      "retrievedAt": "2026-09-26T14:36:45.504Z",
+      "sha256": "1b402e3a34c85d0a691fe1717903c2f434b27199b53662cd1e29651ba1df15a0",
+      "note": "Overpass 406/429; official OSM bbox API, limited Hokuto area only"
+    },
+    {
+      "url": "https://api.openstreetmap.org/api/0.6/map?bbox=140.600,41.884,140.610,41.894",
+      "retrievedDate": "2026-09-26",
+      "sha256": "bbf54ca1685e143a21cecfb249bfc7db9807c76eb7f2fbaea0a6d3d553b726c0"
+    }
+  ]
+}

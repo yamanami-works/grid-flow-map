@@ -1,0 +1,155 @@
+{
+  "checkedAt": "2026-09-27",
+  "scope": {
+    "routeCount": 5,
+    "publicSectionCount": 6
+  },
+  "sections": [
+    {
+      "publicSectionId": "48",
+      "name": "知内線",
+      "voltageKV": 187,
+      "publicDirection": "知内線（#53） → 大野変電所",
+      "geography": "未収録",
+      "flow": "未照合",
+      "research": "根拠不足で保留",
+      "note": "知内線187kV主経路way254271543と大野側引込254271534/539を取得。公表#53の地理位置を同定できず、送48の区間境界を確定できない。番号入り位置図または地理ノードとの対応根拠が必要。 docs/HOKKAIDO_SHIRIUCHI_KITAMI_REVIEW.md。"
+    },
+    {
+      "publicSectionId": "49",
+      "name": "知内線",
+      "voltageKV": 187,
+      "publicDirection": "知内開閉所 → 知内線（#53）",
+      "geography": "未収録",
+      "flow": "未照合",
+      "research": "根拠不足で保留",
+      "note": "知内発電所敷地側の187kV知内線引込1470207110/111を取得。公表知内開閉所と敷地内接続設備の対応、および#53境界が未確認。隣接66kV区画1470207116を187kV開閉所に転用しない。 docs/HOKKAIDO_SHIRIUCHI_KITAMI_REVIEW.md。"
+    },
+    {
+      "publicSectionId": "50",
+      "name": "鶴岡支線",
+      "voltageKV": 187,
+      "publicDirection": "―",
+      "geography": "未収録",
+      "flow": "未照合",
+      "research": "根拠不足で保留",
+      "note": "現行設備表の端点は―、187kV1回線。2020供給計画の知内線No.53―仮称上ノ国第二風力開閉所連系計画は確認したが、鶴岡支線との正式な対応・地理経路は未確認。同一計画と断定しない。（2026-11-21 保留138：北海道電力 第99期第2四半期報告書で 鶴岡支線＝知内線No.53〜Ａ開閉所（2022年9月運用開始）を確認。Ａ開閉所を木古内開閉所とみなし、scripts/hokkaido-138.mjs で描いた（推測）。） docs/HOKKAIDO_SHIRIUCHI_KITAMI_REVIEW.md。"
+    },
+    {
+      "publicSectionId": "86",
+      "name": "静内線",
+      "voltageKV": 187,
+      "publicDirection": "北静内変電所 → 春別開閉所",
+      "geography": "未収録",
+      "flow": "未照合",
+      "research": "調査中",
+      "note": "公表北静内変電所―春別開閉所、187kV1回線を保存一次資料で確認。手元原本に対象全経路なし。路線名による地理取得はOverpass 406/429で未完了。設備区画・到達経路の取得と照合が残る。根拠不足確定ではなく取得未完了。 docs/HOKKAIDO_SHIRIUCHI_KITAMI_REVIEW.md。"
+    },
+    {
+      "publicSectionId": "107",
+      "name": "北見東線",
+      "voltageKV": 187,
+      "publicDirection": "発電所 → 女満別変電所",
+      "geography": "未収録",
+      "flow": "未照合",
+      "research": "根拠不足で保留",
+      "note": "北見東線way172210551・足寄側引込1456432697/699、女満別側1456451675/676を取得。女満別はrelation19925192。足寄変電所と公表匿名端点「発電所」の対応が未確認。発電所へ名称置換しない。 docs/HOKKAIDO_SHIRIUCHI_KITAMI_REVIEW.md。"
+    },
+    {
+      "publicSectionId": "113",
+      "name": "北見幹線",
+      "voltageKV": 187,
+      "publicDirection": "発電所 → 留辺蘂変電所",
+      "geography": "未収録",
+      "flow": "未照合",
+      "research": "根拠不足で保留",
+      "note": "公表は発電所―留辺蘂、187kV2回線。匿名発電所の名称・区画と本線経路が未同定。地理名検索も取得エラーで未完了。現行端点を識別する一次資料と187kV連続形状が必要。 docs/HOKKAIDO_SHIRIUCHI_KITAMI_REVIEW.md。"
+    }
+  ],
+  "productionAdded": 0,
+  "sourceVersion": "北海道NW系統構成2026-05-29/設備一覧2026-08-28、取得2026-09-26",
+  "sourceManifest": "data/raw/hokkaido-central/sources.json",
+  "acquisitionErrors": [
+    {
+      "endpoint": "https://overpass-api.de/api/interpreter",
+      "httpStatus": 406,
+      "retriedOutsideSandbox": true
+    },
+    {
+      "endpoint": "https://overpass.private.coffee/api/interpreter",
+      "httpStatus": 429,
+      "note": "反復せず停止。地理データ不存在とは判断しない。"
+    }
+  ],
+  "nissho": {
+    "review": "既存記録とsrc/hokkaido-domain.tsの一致を確認。再調査なし。",
+    "scope": "新冠開閉所―北新得変電所の本線全体",
+    "publicSectionBoundary": "#162未同定、送74/75各別の実績ではない",
+    "productionChange": false
+  },
+  "historicalPlanNotes": [
+    {
+      "id": "research-plan-shiriuchi53-kaminokuni2",
+      "target": "仮称上ノ国第二風力連系線新設",
+      "announcedSchedule": "2021.7",
+      "precision": "month",
+      "beforeAfter": "知内線No.53―仮称上ノ国第二風力開閉所の187kV1回線0.1km新設計画",
+      "mapping": "鶴岡支線との同一性未確認。資産IDを推測で付与しない。",
+      "sourceUrl": "https://www.hepco.co.jp/info/2019/__icsFiles/afieldfile/2020/03/25/200325.pdf",
+      "sourceName": "2020年度供給計画概要",
+      "publishedAt": "2020-03-25",
+      "documentCheckedAt": "2026-09-27",
+      "progressCheckedAt": null,
+      "status": "公表時は着工準備中。予定時期経過・運用開始未確認",
+      "application": "調査記録のみ。現行計画との重複・変更履歴と対象IDの照合後に画面登録を判断",
+      "requiredUpdates": [
+        "設備情報",
+        "対象区間・接続",
+        "地理形状",
+        "潮流照合"
+      ]
+    },
+    {
+      "id": "research-plan-kita-shizunai-bank-2020",
+      "target": "北静内変電所の個別バンク",
+      "announcedSchedule": "2023.2",
+      "precision": "month",
+      "beforeAfter": "187/66/11kV、増加15MVA、計画容量60MVA・1台",
+      "mapping": "個別バンクID未照合。施設全体容量へ転用しない。",
+      "sourceUrl": "https://www.hepco.co.jp/info/2019/__icsFiles/afieldfile/2020/03/25/200325.pdf",
+      "sourceName": "2020年度供給計画概要",
+      "publishedAt": "2020-03-25",
+      "documentCheckedAt": "2026-09-27",
+      "progressCheckedAt": null,
+      "status": "公表時は着工準備中。予定時期経過・運用開始未確認",
+      "application": "調査記録のみ。現行計画との重複・変更履歴と対象IDの照合後に画面登録を判断",
+      "requiredUpdates": [
+        "設備情報",
+        "対象区間・接続",
+        "地理形状",
+        "潮流照合"
+      ]
+    },
+    {
+      "id": "research-plan-rubeshibe-bank-2020",
+      "target": "留辺蘂変電所のバンク群",
+      "announcedSchedule": "2021.10",
+      "precision": "month",
+      "beforeAfter": "60→100MVA容量変更と別60MVA廃止、総320→300MVA計画",
+      "mapping": "個別バンクID未照合。現行容量の自動変更なし。",
+      "sourceUrl": "https://www.hepco.co.jp/info/2019/__icsFiles/afieldfile/2020/03/25/200325.pdf",
+      "sourceName": "2020年度供給計画概要",
+      "publishedAt": "2020-03-25",
+      "documentCheckedAt": "2026-09-27",
+      "progressCheckedAt": null,
+      "status": "公表時は着工準備中。予定時期経過・運用開始未確認",
+      "application": "調査記録のみ。現行計画との重複・変更履歴と対象IDの照合後に画面登録を判断",
+      "requiredUpdates": [
+        "設備情報",
+        "対象区間・接続",
+        "地理形状",
+        "潮流照合"
+      ]
+    }
+  ]
+}

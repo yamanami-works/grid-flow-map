@@ -1,0 +1,141 @@
+{
+  "reviewedAt": "2026-09-27T04:42:56.551240+00:00",
+  "decision": "hold-no-geographic-junction-identification",
+  "addedLines": 0,
+  "baseline": "backups/hokkaido-nanae-2026-09-27T04-32-39-569Z",
+  "sources": [
+    {
+      "path": "data/raw/hokkaido-187-survey/94quarterlyreport_3q.pdf",
+      "url": "https://www.hepco.co.jp/corporate/ir/ir_lib/pdf/94quarterlyreport_3q.pdf",
+      "sha256": "d6294dd736fefb0b0d41c1fed4e2f4c354c304f081c1df5aac00ab33cb086738",
+      "retrievedDate": "2026-09-27"
+    },
+    {
+      "path": "data/raw/hokkaido-187-survey/96quarterlyreport_3q.pdf",
+      "url": "https://www.hepco.co.jp/corporate/ir/ir_lib/pdf/96quarterlyreport_3q.pdf",
+      "sha256": "bd6b3ba13bf80e808d6bf8138d14d8d9987ac3110a555dcf764b66772e40fa7c",
+      "retrievedDate": "2026-09-27"
+    },
+    {
+      "path": "data/raw/hokkaido-187-survey/hakodate-main.xml",
+      "url": "https://api.openstreetmap.org/api/0.6/way/180133431/full",
+      "sha256": "d7a77ad2d47017a9e1711683abfbe278a98a9a472292b0d4698f6c15ea24885f",
+      "retrievedDate": "2026-09-27"
+    }
+  ],
+  "junctions": [
+    {
+      "publicName": "#299",
+      "branch": "今金中里支線",
+      "endpoint": "今金中里変電所",
+      "operationStarted": "2017-05",
+      "source": "94quarterlyreport_3q.pdf",
+      "pdfPage": 8,
+      "physicalType": "unconfirmed",
+      "osmNodeId": null
+    },
+    {
+      "publicName": "#366",
+      "branch": "上八雲支線",
+      "endpoint": "上八雲開閉所",
+      "operationStarted": "2019-10",
+      "source": "96quarterlyreport_3q.pdf",
+      "pdfPage": 9,
+      "physicalType": "unconfirmed",
+      "osmNodeId": null
+    }
+  ],
+  "publicSegments": [
+    {
+      "number": 55,
+      "from": "北七飯変電所",
+      "to": "#366"
+    },
+    {
+      "number": 54,
+      "from": "#366",
+      "to": "#299"
+    },
+    {
+      "number": 53,
+      "from": "#299",
+      "to": "双葉開閉所"
+    }
+  ],
+  "geography": {
+    "osmWay": 180133431,
+    "nodeCount": 492,
+    "numberedNodes": 0,
+    "status": "reference-only-not-published",
+    "adjacencyQuery": "Overpass POST and GET returned HTTP406; adjacency not established"
+  },
+  "occto": {
+    "retrievedAt": "2026-09-27T04:36:38.0852875Z",
+    "date": "2026-09-27",
+    "actualCount": 40,
+    "capacityCount": 39,
+    "row": {
+      "id": "hk-bf2c9b9924864a10",
+      "name": "函館幹線",
+      "voltageKV": 187,
+      "from": "双葉SWS",
+      "to": "北七飯SS",
+      "note": "OCCTO北海道公表実績。北斗幹線以外は地理照合未完了。",
+      "values": [
+        101,
+        106,
+        89,
+        103,
+        115,
+        124,
+        125,
+        116,
+        133,
+        118,
+        138,
+        118,
+        119,
+        127,
+        91,
+        66,
+        76,
+        120,
+        139,
+        140,
+        147,
+        133,
+        137,
+        99,
+        114,
+        130,
+        127,
+        128,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    },
+    "lastValidTime": "2026-09-27T13:30:00",
+    "lastValidMW": 128,
+    "matchingCapacities": [],
+    "capacityPolicy": "unknown; do not substitute NW planning capacity or another row",
+    "animation": "withheld; published aggregate interval is not a per-branch measurement"
+  }
+}

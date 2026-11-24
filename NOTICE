@@ -1,0 +1,6 @@
+ライセンスの適用範囲（2026-10-31）
+- LICENSE の MIT License は、このリポジトリのプログラム（ソースコード・スクリプト・テスト）と文書に適用する。
+- OpenStreetMap から作った地理データ（public/data/ の線・設備など）は、Open Database License (ODbL) 1.0 による。
+  © OpenStreetMap contributors。詳しくは public/data/LICENSE.txt。
+- OCCTO（電力広域的運営推進機関）、国土地理院、一般送配電事業者・発電事業者などの公表資料に由来する内容は、
+  それぞれの提供元の利用条件による（このリポジトリが別のライセンスを付けるものではない）。

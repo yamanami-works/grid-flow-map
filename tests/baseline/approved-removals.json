@@ -1,0 +1,5812 @@
+[
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-relation-15402384",
+  "reason": "中津川第一の重複（OSM way 1135976065「中津川第一発電所」と32m差の同じ発電所、接続線なし）。way を残す",
+  "approvedAt": "2026-10-03"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-308208570-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（塩原線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-233220611-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（下郷線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-233220596-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（下郷線 / 塩原線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-105432590-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（広野火力線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-244378760-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（十和田幹線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-736989140-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（十和田幹線;天間林線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-104391632-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（新いわき幹線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-170408769-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（新いわき線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-66332078-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（新新潟幹線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1029623368-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（西上武幹線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1029623369-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（西上武幹線/箱島線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-201966024-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（青葉幹線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-104392607-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（川内線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1029623367-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（中東京幹線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-104391627-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（南いわき幹線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-66739042-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（南新潟幹線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-66098195-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（南新潟幹線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-104392606-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（福島幹線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-104392602-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（福島東幹線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-239825180-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（北上幹線 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236935-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236936-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236937-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236950-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236951-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236952-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236953-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236954-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236955-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236956-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236957-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236958-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236959-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236960-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236961-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236962-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236963-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236979-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236980-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236981-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236982-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236983-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236984-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236985-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236986-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027237001-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027237002-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027237003-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027237004-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585778-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585779-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1029623371-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1029623374-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1029623375-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1029623376-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-104422180-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-106076879-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-106076981-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-106077073-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1150595871-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1313835053-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1313835054-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1313835055-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1313835056-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-132913266-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-132913267-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-170755250-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-192447472-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-199522664-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-211254162-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-233220593-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-250015248-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-250015255-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-250015258-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-250015264-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-250015274-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-250015280-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-250015282-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-250015284-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-250430939-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-250462658-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-287373651-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-315497701-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-658557428-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-658557430-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-785319853-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-785319854-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-785319855-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-785319856-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840226-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840230-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798992454-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798992455-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798992457-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798992461-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798992462-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798992544-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798992545-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-799095832-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-799095833-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-799095834-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-799095835-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-799095836-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-832860628-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526189-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526190-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526191-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526192-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526244-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526245-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526246-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526247-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526248-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526250-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526251-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526288-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526289-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526290-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526291-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526292-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526293-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526294-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526295-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526296-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526297-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526298-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526299-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526300-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526301-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526302-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526303-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526304-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526309-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526310-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897932339-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897932340-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897932341-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897932342-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897932343-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897932344-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897932345-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897932346-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897932347-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897932348-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897932349-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897932350-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897932351-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897932352-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897932353-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897932354-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897932355-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-901872432-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-901872433-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-901872434-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-901872440-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-901872441-500",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 500kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-319135059-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（JR東日本小千谷第二発電所ーTEPCO中東京線 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-105884502-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（阿武隈線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1078145068-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（阿武隈線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1150624234-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（阿武隈線 / 常陸大宮線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1150638423-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（阿武隈線 / 大子線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-439445243-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（奥羽幹線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-233259795-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（奥只見線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-104577681-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（牡鹿幹線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316727564-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（今別幹線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-192430385-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（児玉線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-887614680-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（児玉線;キヤノン美里線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316606878-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（秋盛幹線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318152332-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（秋田火力線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318152340-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（秋田火力線;秋田臨海線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-175994377-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（秋田幹線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-103960298-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（松島幹線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-240201830-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（水沢幹線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-103678358-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（仙台幹線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316552300-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（早池峰幹線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-659138212-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（蔵王幹線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-250462659-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（蔵王幹線;秋柴線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-302164680-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（大潟幹線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-519125413-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（中東京幹線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-785319826-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（朝日幹線 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-104522365-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（那珂線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-587609410-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（那珂線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1078400922-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（那珂線 / 阿武隈線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-518992990-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（八木沢線 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-302148044-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（北奥幹線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1019876509-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1026086953-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1026086954-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1026086955-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1026086956-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1026086957-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236941-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236942-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236943-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236946-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236947-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236948-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236949-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236964-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236965-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236966-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236967-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236968-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236969-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236974-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236975-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236976-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236977-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236997-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236998-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027236999-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027237000-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027413622-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027413623-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027413624-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027413633-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027413634-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027413723-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1027413724-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554673-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554674-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554675-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554676-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554678-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554688-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554689-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554690-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554694-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554695-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554696-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554704-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554705-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554706-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554707-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554730-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554740-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554741-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554742-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554743-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554744-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554745-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554746-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554747-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554749-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554750-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554751-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554752-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554753-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554754-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028554755-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585546-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585547-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585548-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585549-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585550-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585551-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585552-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585558-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585654-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585657-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585659-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585739-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585768-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585769-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585770-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585771-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585773-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585774-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585776-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585777-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585780-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585787-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585789-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585791-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585792-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585806-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585807-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585809-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585810-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585815-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585816-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585817-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585834-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585835-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585839-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585840-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585841-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585851-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585852-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585853-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585854-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585855-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585863-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585864-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585865-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585877-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585878-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585879-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585880-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585892-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1028585893-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1029623365-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1029623366-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1030935555-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1035740050-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1035740051-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1035740052-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1035740080-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1035740081-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1035740082-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1035740083-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1035740084-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1035740085-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1035740086-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1035740087-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1035740088-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1035740089-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1035740090-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1036289265-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1036289266-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1036289267-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1036289268-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1036289269-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1036289270-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1036289271-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1036289272-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-103837316-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-103837318-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-1042235622-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-106076935-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-169928474-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-170016155-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-170016157-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-192447472-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-199544553-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-201966020-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-201966021-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-232998813-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-232998816-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-233038415-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-233174202-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-233174203-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-233174204-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-244367606-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-256696387-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-256696401-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-293714064-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-293714066-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-308203805-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-308203806-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-308203807-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-308203809-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-308203812-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-308203813-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-308203818-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-308348222-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-308348223-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316420969-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316420971-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316420976-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316420977-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316420980-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316420981-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316420983-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316420986-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316420987-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316420988-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316420990-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316459338-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316459339-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316459342-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316459350-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316459351-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316459353-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316552298-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316552302-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316552303-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316552304-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316552305-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316552307-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316552310-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316552311-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316566540-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316566541-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316566543-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316566545-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316566546-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316566547-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316566548-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316566576-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316566580-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316566581-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316566583-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316566584-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316566586-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316566587-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316581621-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316581622-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316581623-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316581624-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316581625-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316581627-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316581634-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316603459-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316603460-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316603461-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316603463-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316727591-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316727602-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316778650-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316778651-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316778656-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316778657-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316778659-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316778660-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316778661-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316778662-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316778663-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316778664-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316778665-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-316824397-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-317111991-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-317376274-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-317376276-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-317376279-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-317376280-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318152334-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318152336-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318152337-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318152339-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318152374-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218823-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218827-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218829-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218830-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218851-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218860-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218868-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218898-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218900-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218901-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218903-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218905-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218908-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218909-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218910-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218911-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218912-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218916-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218917-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318218922-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-318302321-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-319098728-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-319098729-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-319098730-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-319098731-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-319098733-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-323304966-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-323304967-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-323304969-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-323304970-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-323304976-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-323304994-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-325791720-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-343505353-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-343505354-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-343505357-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-343505359-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-343505364-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-343505365-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-343505366-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-519125415-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-519125416-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-519907806-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-519907807-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-587882972-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-653731307-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-714627764-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-714627765-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-721952035-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-760531684-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-760531685-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-760531687-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-760531688-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-783335364-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-783335365-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-785319807-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-785319827-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-785319828-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-785319830-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-785319831-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-785319832-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-785319839-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-785319841-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-785319842-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-785319843-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-785319844-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-785319852-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-793859049-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-793859050-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-796358017-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-796358020-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-796358021-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840192-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840193-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840194-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840195-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840196-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840197-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840198-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840199-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840200-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840205-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840207-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840209-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840211-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840212-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840213-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840225-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840227-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840228-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-797840229-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798339737-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798339739-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798339740-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798339741-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798339744-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798339745-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798835112-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798835113-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798835114-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798835115-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798835117-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798835118-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798835119-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798992448-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798992451-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798992452-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-798992453-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-799095820-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-799095821-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-799095828-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-799095829-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-799095831-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-799331836-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-799331837-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-801612150-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-801612151-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-801612153-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-801612154-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-801612156-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-801612157-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-801612158-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-801612159-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-801612160-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-801612161-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-801612162-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-801612163-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-801612173-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-828488610-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088622-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088623-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088715-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088716-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088717-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088718-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088719-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088720-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088721-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088722-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088723-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088724-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088725-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088726-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088727-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088728-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088729-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088730-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088731-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-829088732-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-830255571-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-830255572-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-830255576-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-830255577-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-831262101-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-833554591-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-833554592-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-833554593-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-833554594-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-833554610-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-833554611-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-833554612-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-834176122-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-834176123-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-834176124-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-834176125-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-834176126-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-834176127-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-834176128-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-834176129-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-834176130-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-834176131-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-834176133-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-834176134-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-834176135-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-834176136-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-834176137-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-834176138-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-835186156-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-835186157-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-835186158-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-835186159-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-835186160-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-835186163-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-889456760-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-889456761-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-889456762-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-889456763-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-889456764-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-889456765-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-890021870-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-890021871-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-890021872-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-890021873-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-890021890-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-890021891-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-890021892-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-890021893-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-896016076-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-896016079-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-896016082-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-896016083-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-896016084-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-896018985-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-896018986-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-896018988-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-896018989-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-896018990-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-896018991-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526193-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526194-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526195-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526196-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526197-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526198-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526200-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526210-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526222-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526225-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526226-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526227-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526228-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526229-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526230-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526231-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526232-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526233-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526234-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526235-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526236-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526237-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526238-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526239-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526240-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526241-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526242-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526243-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526255-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526256-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526257-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526263-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526264-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526265-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526266-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526267-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526268-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526280-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526281-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526282-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526283-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526284-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897526285-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897932336-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-897932337-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-899080788-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-899080789-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-899080790-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-899080791-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-899080792-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-899080793-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-899080794-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-899080795-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-899080796-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-899080797-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-926267181-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-926267182-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-926267183-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-926267184-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-926267185-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-926267186-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-926267187-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-926267188-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-926267189-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-926267190-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-926267191-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-926267192-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-926267193-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-926267194-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-926267195-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-926267196-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-926267197-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-926267198-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-971349914-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（（無名） 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-104501049-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（鳴瀬幹線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-199482689-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（勿来幹線 275kV、地図から消える）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "lines",
+  "id": "osm-105884531-275",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（勿来支線 275kV、新東北または東京データに同じOSM線分あり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-103812542",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（広野火力発電所、東京データにあり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-103816782",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（名称未登録（way 103816782））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-103816815",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（名称未登録（way 103816815））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-104173570",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（名称未登録（way 104173570））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-104380334",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（JR東日本 新福島変電所）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-104391636",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（新いわき開閉所、東京データにあり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-104409614",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（福島第二原子力発電所、東京データにあり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-158064651",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（田子倉発電所）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-191144549",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（JR東日本 新古川変電所）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-216480979",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（柏崎刈羽原子力発電所、東京データにあり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-232998815",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（名称未登録（way 232998815））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-233220600",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（下郷水力発電所、東京データにあり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-316459359",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（名称未登録（way 316459359））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-316566585",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（JR東日本 新七戸変電所）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-316581632",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（JR東日本 新水沢変電所）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-387325748",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（JR北海道 今別変電所）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-609752479",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（新盛岡変電所）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-618344823",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（上越火力発電所）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-714627766",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（上北変換所）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-725152862",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（名称未登録（way 725152862））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-834176146",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（JR東日本 新郡山変電所）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-835186162",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（名称未登録（way 835186162））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-890021885",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（JR東日本 院内変電所）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-901872431",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（名称未登録（way 901872431））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-901872439",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（名称未登録（way 901872439））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-1027413725",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（名称未登録（way 1027413725））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-1028554679",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（名称未登録（way 1028554679））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-1028554756",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（名称未登録（way 1028554756））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-1028554758",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（名称未登録（way 1028554758））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-1028585766",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（名称未登録（way 1028585766））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-1028585775",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（名称未登録（way 1028585775））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-1028585808",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（名称未登録（way 1028585808））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-1028585811",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（名称未登録（way 1028585811））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-1030329139",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（名称未登録（way 1030329139））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-1160171158",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（名称未登録（way 1160171158））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-1227550931",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（新湯沢変電所）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-relation-13413356",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（奥清津発電所、東京データにあり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-66098469",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（西群馬開閉所、東京データにあり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-132913106",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（新筑波変電所、東京データにあり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-168839127",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（新茂木、東京データにあり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-199544541",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（新北信変電所）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-233174201",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（発電設備（way 233174201））",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-250540807",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（東群馬変電所、東京データにあり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-168857610",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（新今市開閉所、東京データにあり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-266349347",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（新渋川変電所）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-1030329140",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（塩原発電所、東京データにあり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-848771201",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（需要家）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-170767190",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（西毛変電所、東京データにあり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "tohoku-trunk-osm.json",
+  "kind": "facilities",
+  "id": "osm-way-105291887",
+  "reason": "東北の作り直し（1区間＝1本、案A：公表区間に対応しないOSMの線は収録しない）。tohoku-trunk.json へ置き換え（那珂変電所、東京データにあり）",
+  "approvedAt": "2026-10-04"
+ },
+ {
+  "file": "kyushu-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-190517710",
+  "reason": "新鹿児島変電所の取り違え：OSMの同名の九州旅客鉄道（九州新幹線）の変電所だった。九州電力送配電の新鹿児島変電所（OSM way 237475191、鹿児島市）に置き換え（オーナー指摘）",
+  "approvedAt": "2026-10-05"
+ },
+ {
+  "file": "tohoku-trunk.json",
+  "kind": "lines",
+  "id": "ledger-infer-tohoku-275-653731307",
+  "reason": "東福島支線（推定）の取り下げ：終点がJR東日本新福島変電所（鉄道会社の変電所）になっていた。公表の終点の東福島変電所までOSMでたどれないため、未描画の公表区間の一覧へ（オーナー指摘の新鹿児島変電所と同じ取り違え）",
+  "approvedAt": "2026-10-05"
+ },
+ {
+  "file": "tohoku-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-104380334",
+  "reason": "JR東日本新福島変電所（鉄道会社の変電所）。東福島支線（推定）の取り下げに伴い外す",
+  "approvedAt": "2026-10-05"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "lines",
+  "id": "ledger-infer-tokyo-275-704195151",
+  "reason": "千葉印西線（推定）の取り下げ：線名の「千葉」から千葉火力～千葉中央を推定していたが、公表・OCCTOの端点は新京葉→千葉印西。千葉印西変電所の位置がOSM・国土地理院で分からないため未描画の一覧へ",
+  "approvedAt": "2026-10-05"
+ },
+ {
+  "file": "chugoku-trunk.json",
+  "kind": "lines",
+  "id": "ledger-infer-chugoku-220-318438197",
+  "reason": "新小野田火力連絡線（推定）の取り下げ：公表の端点（新山口→新小野田）があるのに線名の地名から推定していた。新小野田の設備がOSMにないため未描画の一覧へ",
+  "approvedAt": "2026-10-05"
+ },
+ {
+  "file": "chugoku-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-318438206",
+  "reason": "新小野田火力連絡線（推定）の取り下げに伴い、推定の端点として加えた設備を外す",
+  "approvedAt": "2026-10-05"
+ },
+ {
+  "file": "kansai-trunk.json",
+  "kind": "lines",
+  "id": "kansai-275-西大阪-小曽根変電所",
+  "reason": "西大阪小曽根線＋北豊中線の直線3本を、関西電力送配電の系統図どおり十字の4区間（kansai-275-西大阪十字-73～76）に描き直した（オーナー指示）",
+  "approvedAt": "2026-10-06"
+ },
+ {
+  "file": "kansai-trunk.json",
+  "kind": "lines",
+  "id": "kansai-275-西大阪-下穂積変電所",
+  "reason": "西大阪小曽根線＋北豊中線の直線3本を、関西電力送配電の系統図どおり十字の4区間（kansai-275-西大阪十字-73～76）に描き直した（オーナー指示）",
+  "approvedAt": "2026-10-06"
+ },
+ {
+  "file": "kansai-trunk.json",
+  "kind": "lines",
+  "id": "kansai-275-西大阪-北豊中変電所",
+  "reason": "西大阪小曽根線＋北豊中線の直線3本を、関西電力送配電の系統図どおり十字の4区間（kansai-275-西大阪十字-73～76）に描き直した（オーナー指示）",
+  "approvedAt": "2026-10-06"
+ },
+ {
+  "file": "hokkaido-hokuto.json",
+  "kind": "lines",
+  "id": "ledger-infer-hokkaido-187-1456416950",
+  "reason": "北海道の春別・静内の線の対応をオーナー指摘で見直し（2026-10-06）：OSM way 1456416950 は送85 春別支線（hokkaido-section-85）、way 414978983 は送86 静内線（hokkaido-section-86）として描き直した",
+  "approvedAt": "2026-10-06"
+ },
+ {
+  "file": "hokkaido-hokuto.json",
+  "kind": "lines",
+  "id": "plant-hokkaido-187-414978983",
+  "reason": "北海道の春別・静内の線の対応をオーナー指摘で見直し（2026-10-06）：OSM way 1456416950 は送85 春別支線（hokkaido-section-85）、way 414978983 は送86 静内線（hokkaido-section-86）として描き直した",
+  "approvedAt": "2026-10-06"
+ },
+ {
+  "file": "hokkaido-hokuto.json",
+  "kind": "lines",
+  "id": "plant-hokkaido-187-1482857316",
+  "reason": "北新得の北東の他社線をオーナー指示で見直し（2026-10-06）：同じOSMの線を公表の他社線（送114 幌加―糠平、送110 芽登第一―糠平、送108 本別―足寄、hokkaido-section-114/110/108）として描き直した",
+  "approvedAt": "2026-10-06"
+ },
+ {
+  "file": "hokkaido-hokuto.json",
+  "kind": "lines",
+  "id": "plant-hokkaido-187-617425235",
+  "reason": "北新得の北東の他社線をオーナー指示で見直し（2026-10-06）：同じOSMの線を公表の他社線（送114 幌加―糠平、送110 芽登第一―糠平、送108 本別―足寄、hokkaido-section-114/110/108）として描き直した",
+  "approvedAt": "2026-10-06"
+ },
+ {
+  "file": "hokkaido-hokuto.json",
+  "kind": "lines",
+  "id": "plant-hokkaido-187-172210552",
+  "reason": "北新得の北東の他社線をオーナー指示で見直し（2026-10-06）：同じOSMの線を公表の他社線（送114 幌加―糠平、送110 芽登第一―糠平、送108 本別―足寄、hokkaido-section-114/110/108）として描き直した",
+  "approvedAt": "2026-10-06"
+ },
+ {
+  "file": "hokkaido-hokuto.json",
+  "kind": "facilities",
+  "id": "osm-way-935013386",
+  "reason": "伊達ソーラー発電所は基幹系統への連系ではないため描かない（オーナー判断）",
+  "approvedAt": "2026-10-07"
+ },
+ {
+  "file": "hokkaido-hokuto.json",
+  "kind": "facilities",
+  "id": "osm-way-935150425",
+  "reason": "伊達ソーラーパークは基幹系統への連系ではないため描かない（オーナー判断）",
+  "approvedAt": "2026-10-07"
+ },
+ {
+  "file": "kansai-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-605420909",
+  "reason": "ふげん（廃止）：基幹系統への連系とはみなさない（基幹電圧の線の端が発電所の区画の中になく、線が近くを通るだけ）。オーナー指示「基幹系統に明らかに接続していない発電所は削除」",
+  "approvedAt": "2026-10-07"
+ },
+ {
+  "file": "tohoku-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-1030329188",
+  "reason": "七戸町卒古沢太陽光発電所：基幹系統への連系とはみなさない（基幹電圧の線の端が発電所の区画の中になく、線が近くを通るだけ）。オーナー指示「基幹系統に明らかに接続していない発電所は削除」",
+  "approvedAt": "2026-10-07"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-1134435807",
+  "reason": "市原潤井戸太陽光発電所：基幹系統への連系とはみなさない（基幹電圧の線の端が発電所の区画の中になく、線が近くを通るだけ）。オーナー指示「基幹系統に明らかに接続していない発電所は削除」",
+  "approvedAt": "2026-10-07"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-1134665294",
+  "reason": "潤井戸発電所：基幹系統への連系とはみなさない（基幹電圧の線の端が発電所の区画の中になく、線が近くを通るだけ）。オーナー指示「基幹系統に明らかに接続していない発電所は削除」",
+  "approvedAt": "2026-10-07"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-1152825497",
+  "reason": "新古河太陽光発電所：基幹系統への連系とはみなさない（基幹電圧の線の端が発電所の区画の中になく、線が近くを通るだけ）。オーナー指示「基幹系統に明らかに接続していない発電所は削除」",
+  "approvedAt": "2026-10-07"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-211249858",
+  "reason": "白岡太陽光発電所：基幹系統への連系とはみなさない（基幹電圧の線の端が発電所の区画の中になく、線が近くを通るだけ）。オーナー指示「基幹系統に明らかに接続していない発電所は削除」",
+  "approvedAt": "2026-10-07"
+ },
+ {
+  "file": "chugoku-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-659874779",
+  "reason": "松江 バイオマス発電：基幹系統への連系とはみなさない（基幹電圧の線の端が発電所の区画の中になく、線が近くを通るだけ）。オーナー指示「基幹系統に明らかに接続していない発電所は削除」",
+  "approvedAt": "2026-10-07"
+ },
+ {
+  "file": "shikoku-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-492707501",
+  "reason": "松尾川第二発電所：基幹系統への連系とはみなさない（基幹電圧の線の端が発電所の区画の中になく、線が近くを通るだけ）。オーナー指示「基幹系統に明らかに接続していない発電所は削除」",
+  "approvedAt": "2026-10-07"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-544385597",
+  "reason": "千手発電所：JR東日本の鉄道用の系統の水力で、基幹系統への連系ではない（オーナー指示「基幹系統に明らかに接続していない発電所は削除」）",
+  "approvedAt": "2026-10-07"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-658678499",
+  "reason": "JR東日本小千谷発電所：JR東日本の鉄道用の系統の水力で、基幹系統への連系ではない（オーナー指示「基幹系統に明らかに接続していない発電所は削除」）",
+  "approvedAt": "2026-10-07"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-658690610",
+  "reason": "JR東日本 小千谷第二発電所：JR東日本の鉄道用の系統の水力で、基幹系統への連系ではない（オーナー指示「基幹系統に明らかに接続していない発電所は削除」） ※2026-10-11 オーナー判断（案1）で復元：中東京幹線につながる連系線（tokyo-feeder-275-319135059）を描くため",
+  "approvedAt": "2026-10-07"
+ },
+ {
+  "file": "tohoku-trunk.json",
+  "kind": "lines",
+  "id": "plant-tohoku-275-103837318",
+  "reason": "旧福島第一原子力発電所の電源線：始点を発電所の区画内の線の端に揃えたため、同じ線のIDが plant-tohoku-275-103837316 に変わった",
+  "approvedAt": "2026-10-07"
+ },
+ {
+  "file": "tohoku-trunk.json",
+  "kind": "lines",
+  "id": "osm-103671668-275",
+  "reason": "新仙台火力線（OSM way 103671668）は0129線と同じ鉄塔（OSMでは0129線の東側と同じ「新仙台火力線」の名、275kV/154kV・4回線）。経路は0129線の直線の補完に付け替えた（docs/research/tohoku-0129-fix.json）。2026-10-10 オーナー判断「案A」",
+  "approvedAt": "2026-10-10"
+ },
+ {
+  "file": "kyushu-trunk.json",
+  "kind": "lines",
+  "id": "kyushu-plant-220-way-365487155",
+  "reason": "電源線「川内火力線」（OSM way 700628500、川内発電所は2022-04-01廃止）は、一次資料の川薩南九州線（川薩sws→南九州、九州電力送配電 送電線一覧 27地区 No.3）の経路の一部として ledger-kyushu-220-700628500 に描く（docs/research/kyushu-sensatsu-fix.json）。2026-10-10 オーナー承認",
+  "approvedAt": "2026-10-10"
+ },
+ {
+  "file": "tohoku-dc-osm.json",
+  "kind": "lines",
+  "id": "osm-801582499-250",
+  "reason": "北斗変換所の構内の引込（OSM line=bay、名前なし、両端とも変換所の区画内）。送電線ではないため描かない（tools/fix-dc-bays.mjs、前後の図 reports/line-audit/images/bay-*.svg）。2026-10-10 オーナー承認",
+  "approvedAt": "2026-10-10"
+ },
+ {
+  "file": "tohoku-dc-osm.json",
+  "kind": "lines",
+  "id": "osm-801612155-250",
+  "reason": "今別変換所の構内の引込（OSM line=bay、名前なし、両端とも変換所の区画内）。送電線ではないため描かない（tools/fix-dc-bays.mjs、前後の図 reports/line-audit/images/bay-*.svg）。2026-10-10 オーナー承認",
+  "approvedAt": "2026-10-10"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "lines",
+  "id": "jpower-275-way-232998815",
+  "reason": "奥只見線（奥只見発電所側、約0.6km）は奥只見線 tokyo-section-57 と同じOSM線分（way 233259795）の重複。オーナー判断で奥只見線の終点を奥只見発電所につないだため除く",
+  "approvedAt": "2026-10-10"
+ },
+ {
+  "file": "kansai-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-562412411",
+  "reason": "新宮変電所。熊野幹線（No.88）の終点を、系統図のとおりDJ（新宮）の手前の発電所＝池原発電所（推測）に描き直したため、275kVの基幹系統につながる線がなくなった。2026-10-16 オーナー判断で削除",
+  "approvedAt": "2026-10-16"
+ },
+ {
+  "file": "kyushu-trunk.json",
+  "kind": "lines",
+  "id": "ledger-infer-kyushu-220-s-osm-way-1199776835-osm-way-1199776830",
+  "reason": "送電線（新大分変電所～東大分変電所）（空容量一覧 No.2 の名前を伏せた行から推定で描いた直線、D区分）は新大分連絡線と重複。国土地理院の記号・空中写真で新大分変電所から川を渡る線は新大分連絡線の経路。新大分連絡線を新大分変電所まで延ばし、この行はその線とみなす（保留31）",
+  "approvedAt": "2026-10-25"
+ },
+ {
+  "file": "chugoku-trunk.json",
+  "kind": "lines",
+  "id": "chugoku-220-新西広島岩国線",
+  "reason": "新岩国連絡線（OCCTO運用容量の表・中国電力ネットワーク 系統空容量 No.基L21 の新西広島（変）→新岩国（変））と同じ区間の重複。経路は新岩国連絡線へ統合（2026-11-09 オーナー回答「1はA案」、保留97）",
+  "approvedAt": "2026-11-09"
+ },
+ {
+  "file": "chugoku-trunk.json",
+  "kind": "lines",
+  "id": "chugoku-plant-220-way-605420903",
+  "reason": "岩国火力発電所の連系線（OSMだけが根拠、発電所は2020-06-30廃止）は、新岩国連絡線の終点を新岩国変電所にしたことで同じOSMの区間（way 641638469 の東側）になり重複。発電所の点は残す（2026-11-09 オーナー回答「削除する（推奨）」、保留97）",
+  "approvedAt": "2026-11-09"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-1078429703",
+  "reason": "日本テクノ那珂グリーンパワー：地図のどの送電線にもつながっていない発電所（接続する送電線は未収録）（2026-11-16 オーナー指示「東京エリアで描いた送電線に明らかに接続していない下記の発電所を削除」、2026-11-17 オーナー回答「推奨で承認」、保留124-1）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-926402862",
+  "reason": "日立造船 茨城工場：地図のどの送電線にもつながっていない発電所（接続する送電線は未収録）（2026-11-16 オーナー指示「東京エリアで描いた送電線に明らかに接続していない下記の発電所を削除」、2026-11-17 オーナー回答「推奨で承認」、保留124-1）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-1154169960",
+  "reason": "鬼怒川発電所：地図のどの送電線にもつながっていない発電所（接続する送電線は未収録）（2026-11-16 オーナー指示「東京エリアで描いた送電線に明らかに接続していない下記の発電所を削除」、2026-11-17 オーナー回答「推奨で承認」、保留124-1）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-704399794",
+  "reason": "真岡発電所：地図のどの送電線にもつながっていない発電所（接続する送電線は未収録）（2026-11-16 オーナー指示「東京エリアで描いた送電線に明らかに接続していない下記の発電所を削除」、2026-11-17 オーナー回答「推奨で承認」、保留124-1）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-1133676170",
+  "reason": "市原パワー市原発電所：地図のどの送電線にもつながっていない発電所（接続する送電線は未収録）（2026-11-16 オーナー指示「東京エリアで描いた送電線に明らかに接続していない下記の発電所を削除」、2026-11-17 オーナー回答「推奨で承認」、保留124-1）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-1444382011",
+  "reason": "（OSM無名）＝宇部興産 千葉工場の敷地内の発電所（OSM の事業者タグ Bay Side Energy と位置（市原市五井南海岸）で特定）：地図のどの送電線にもつながっていない発電所（接続する送電線は未収録）（2026-11-16 オーナー指示「東京エリアで描いた送電線に明らかに接続していない下記の発電所を削除」、2026-11-17 オーナー回答「推奨で承認」、保留124-1）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-917145638",
+  "reason": "鈴川エネルギーセンター：地図のどの送電線にもつながっていない発電所（接続する送電線は未収録）（2026-11-16 オーナー指示「東京エリアで描いた送電線に明らかに接続していない下記の発電所を削除」、2026-11-17 オーナー回答「推奨で承認」、保留124-1）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "lines",
+  "id": "plant-tokyo-275-315662803",
+  "reason": "安曇水力発電所の電源線（推定、OSM way 315662803）は梓川線（No.77）の安曇側の区間として統合（梓川線の端を安曇水力発電所にした。オーナーの説明 2026-11-16「梓川線の端点は安曇水力発電所で梓川線から分岐して水殿水力発電所までがNo78の送電線」、2026-11-17 オーナー回答「推奨で承認」、保留124-3）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-943646268",
+  "reason": "日本テクノ袖ケ浦グリーンパワー：地図の500kV・275kVの送電線につながっていない発電所（接続する送電線は未収録）（2026-11-17 オーナー指示「東京エリアで描いた500kV,275kV送電線に明らかに接続していない下記の発電所を削除。…」、同日オーナー回答「保留125は全て承認」、保留125）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-1133603221",
+  "reason": "新中袖発電所：地図の500kV・275kVの送電線につながっていない発電所（接続する送電線は未収録）（2026-11-17 オーナー指示「東京エリアで描いた500kV,275kV送電線に明らかに接続していない下記の発電所を削除。…」、同日オーナー回答「保留125は全て承認」、保留125）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-1198135329",
+  "reason": "（OSM無名）新中袖発電所の約110m西の発電所の区画＝中袖クリーンパワー（docs/research/plant-primary-sources.json で特定済み）：地図の500kV・275kVの送電線につながっていない発電所（接続する送電線は未収録）。オーナー指示の「新中袖発電所とその左の（OSM無名）」をこの区画と解釈し、判断用の図（袖ケ浦の6番）でオーナーが承認（2026-11-17 オーナー指示「東京エリアで描いた500kV,275kV送電線に明らかに接続していない下記の発電所を削除。…」、同日オーナー回答「保留125は全て承認」、保留125）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-404901529",
+  "reason": "磯子火力発電所：地図の500kV・275kVの送電線につながっていない発電所（接続する送電線は未収録）（2026-11-17 オーナー指示「東京エリアで描いた500kV,275kV送電線に明らかに接続していない下記の発電所を削除。…」、同日オーナー回答「保留125は全て承認」、保留125）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-404901530",
+  "reason": "南横浜火力発電所：地図の500kV・275kVの送電線につながっていない発電所（接続する送電線は未収録）（2026-11-17 オーナー指示「東京エリアで描いた500kV,275kV送電線に明らかに接続していない下記の発電所を削除。…」、同日オーナー回答「保留125は全て承認」、保留125）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-1161552601",
+  "reason": "Kawasaki Natural Gas Power Generation (KNGPG) Plant：地図の500kV・275kVの送電線につながっていない発電所（接続する送電線は未収録）（2026-11-17 オーナー指示「東京エリアで描いた500kV,275kV送電線に明らかに接続していない下記の発電所を削除。…」、同日オーナー回答「保留125は全て承認」、保留125）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-1100962066",
+  "reason": "Genex Mizue Power Plant：地図の500kV・275kVの送電線につながっていない発電所（接続する送電線は未収録）（2026-11-17 オーナー指示「東京エリアで描いた500kV,275kV送電線に明らかに接続していない下記の発電所を削除。…」、同日オーナー回答「保留125は全て承認」、保留125）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-1092461703",
+  "reason": "東京ガスベイパワー：地図の500kV・275kVの送電線につながっていない発電所（接続する送電線は未収録）。廃止の記録は docs/research/retired-plants.json に残す（2026-11-17 オーナー指示「東京エリアで描いた500kV,275kV送電線に明らかに接続していない下記の発電所を削除。…」、同日オーナー回答「保留125は全て承認」、保留125）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-246750093",
+  "reason": "城山水力発電所：対象電圧外の連系（154kV、オーナーの説明・一次資料未確認）。地図の500kV・275kVの送電線につながっていない（接続する送電線は未収録）。廃止ではない（2026-11-17 オーナー指示「城山水力発電所、中津川第一発電所、秋元発電所も154kV連系なので削除して」、同日オーナー回答「進めて」、保留126）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-1135976065",
+  "reason": "中津川第一発電所：対象電圧外の連系（154kV、オーナーの説明・一次資料未確認）。地図の500kV・275kVの送電線につながっていない（接続する送電線は未収録）。廃止ではない（2026-11-17 オーナー指示「城山水力発電所、中津川第一発電所、秋元発電所も154kV連系なので削除して」、同日オーナー回答「進めて」、保留126）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-180786612",
+  "reason": "秋元発電所：対象電圧外の連系（154kV、オーナーの説明・一次資料未確認）。地図の500kV・275kVの送電線につながっていない（接続する送電線は未収録）。廃止ではない（2026-11-17 オーナー指示「城山水力発電所、中津川第一発電所、秋元発電所も154kV連系なので削除して」、同日オーナー回答「進めて」、保留126）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-565401935",
+  "reason": "品川火力発電所：地図の500kV・275kVの送電線につながっていない発電所（接続する送電線は未収録）（2026-11-17 オーナー指示「加えて、品川火力発電所、JFE扇島火力発電所は削除」、保留127）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-619569840",
+  "reason": "JFE扇島火力発電所：地図の500kV・275kVの送電線につながっていない発電所（接続する送電線は未収録）（2026-11-17 オーナー指示「加えて、品川火力発電所、JFE扇島火力発電所は削除」、保留127）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "tokyo-trunk.json",
+  "kind": "lines",
+  "id": "plant-tokyo-275-103827618",
+  "reason": "常陸那珂火力線（OSM から描いた電源線、那珂変電所―常陸那珂火力発電所）を No.15（tokyo-section-15）に統合。東京PG 2019年版の系統図で（15）が常陸那珂火力線のため（2026-11-17 オーナー回答「K1は承認」、保留127）",
+  "approvedAt": "2026-11-17"
+ },
+ {
+  "file": "kansai-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-324055341",
+  "reason": "富南変電所（OSM では 154/66kV）。新北陸幹線を城端開閉所まで延ばし、275kV の線につながらなくなった。2026-11-18 オーナー指示（保留130）「富南変電所は275kV変電所でないと思われるので削除」、回答「1は姫路周り以外は実施してよい」（保留130-2）",
+  "approvedAt": "2026-11-18"
+ },
+ {
+  "file": "hokuriku-trunk.json",
+  "kind": "lines",
+  "id": "plant-hokuriku-275-1028287103",
+  "reason": "新成出水力発電所の電源線（推定）→新北陸幹線（成出～城端）を同じ ID で関西のデータ（kansai-trunk.json）へ移した（削除ではない）。2026-11-18 オーナー指示（保留130）「関西のタブで表示するようにして」、回答「3は関西だけ」（保留130-6）",
+  "approvedAt": "2026-11-18"
+ },
+ {
+  "file": "hokuriku-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-440225776",
+  "reason": "新成出水力発電所を同じ ID で関西のデータ（kansai-trunk.json）へ移した（削除ではない）。2026-11-18 オーナー指示（保留130）「関西のタブで表示するようにして」、回答「3は関西だけ」（保留130-6）",
+  "approvedAt": "2026-11-18"
+ },
+ {
+  "file": "chubu-trunk.json",
+  "kind": "lines",
+  "id": "jpower-275-way-440218167",
+  "reason": "御母衣幹線→御母衣北幹線を同じ ID で関西のデータ（kansai-trunk.json）へ移した（削除ではない）。2026-11-18 オーナー指示（保留130）「関西のタブで表示するようにして」、回答「3は関西だけ」（保留130-6）",
+  "approvedAt": "2026-11-18"
+ },
+ {
+  "file": "chubu-trunk.json",
+  "kind": "facilities",
+  "id": "osm-way-440218167",
+  "reason": "御母衣発電所を同じ ID で関西のデータ（kansai-trunk.json）へ移した（削除ではない）。2026-11-18 オーナー指示（保留130）「関西のタブで表示するようにして」、回答「3は関西だけ」（保留130-6）",
+  "approvedAt": "2026-11-18"
+ }
+]

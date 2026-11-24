@@ -1,0 +1,123 @@
+{
+  "date": "2026-09-27",
+  "baseline": "backups/hokkaido-donan-2026-09-27T04-57-54-474Z",
+  "candidates": [
+    {
+      "section": "9",
+      "name": "道央南幹線",
+      "result": "added"
+    },
+    {
+      "section": "10",
+      "name": "南早来線",
+      "result": "held"
+    },
+    {
+      "section": "11",
+      "name": "苫東厚真線",
+      "result": "held"
+    }
+  ],
+  "sourceFiles": [
+    {
+      "path": "data\\raw\\hokkaido-187-survey\\doou-south-main.xml",
+      "sha256": "57386effecf93e761af8a81763d9ee916c2d3b824a7b7fcadcc61feb8ad37f68"
+    },
+    {
+      "path": "data\\raw\\hokkaido-187-survey\\doou-mid-ways.xml",
+      "sha256": "bb33bc223180a45e04c62f8ec366217a610c3ffb8496fabc27956b5b24f11d1f"
+    },
+    {
+      "path": "data\\raw\\hokkaido-187-survey\\way-640411278.xml",
+      "sha256": "10dfdf5ea2f0fe1dbb4c798b61c2ed21890fcd7ba090024143b6807194b59497"
+    },
+    {
+      "path": "data\\raw\\hokkaido-187-survey\\minamihayakita.xml",
+      "sha256": "3a7b10b278aabdceffae4126e35802eb8036e4b76956e3994e9444e65eb2eccf"
+    },
+    {
+      "path": "data\\raw\\hokkaido-187-survey\\way-640503497.xml",
+      "sha256": "58d1ec4534970e5fe66d8239e87fb34799caac4326b5ab226035ac479d2cc322"
+    },
+    {
+      "path": "data\\raw\\hokkaido-187-survey\\way-640503500.xml",
+      "sha256": "0748b418c1166a04a245636fd4234d407083e76a6f4ed15c4eb0871dbdb45e3e"
+    },
+    {
+      "path": "data\\raw\\hokkaido-187-survey\\tomatoatsuma.xml",
+      "sha256": "70a8edeafdc9d4bda8d80206434e39020af81ee3bfd526b0af31dffeaa03f16f"
+    }
+  ],
+  "flowRetrievedAt": "2026-09-27T05:13:34.0156881Z",
+  "actual": [
+    {
+      "id": "hk-4572095fe380b466",
+      "name": "道央南幹線",
+      "voltageKV": 275,
+      "from": "西双葉SWS",
+      "to": "南早来SS",
+      "note": "OCCTO北海道公表実績。北斗幹線以外は地理照合未完了。",
+      "values": [
+        -308,
+        -280,
+        -232,
+        -280,
+        -292,
+        -324,
+        -364,
+        -384,
+        -412,
+        -408,
+        -424,
+        -416,
+        -416,
+        -408,
+        -316,
+        -244,
+        -288,
+        -364,
+        -376,
+        -340,
+        -328,
+        -356,
+        -364,
+        -316,
+        -348,
+        -388,
+        -368,
+        -332,
+        -332,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    }
+  ],
+  "capacities": [
+    {
+      "id": "hk-cap-3",
+      "name": "道央南幹線",
+      "voltageKV": 275,
+      "from": "南早来変電所",
+      "to": "西双葉開閉所",
+      "capacityMW": 1197,
+      "constraint": "熱容量"
+    }
+  ]
+}

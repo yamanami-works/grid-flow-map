@@ -1,0 +1,45 @@
+{
+ "source": "国土地理院 ベクトルタイル（試験公開、experimental_bvmap）の送電線 ftCode 8202 を加工",
+ "checkedAt": "2026-10-24",
+ "tilesRetrievedOn": [
+  "2026-10-24"
+ ],
+ "zoom": 14,
+ "rule": "経路のある線は 20m ごとの点で記号から 30m 以内の割合（onShare）、最大の外れ、200m を超える外れ（offRunsM）、2本以上の記号が 30m 以内にある割合（parallelShare）、線から 100m 以上外れて延びる記号の数（branchSuspects）。直線の線と未描画の区間は、300m 以内に記号がある点の割合（nearShare）と、幅 600m の範囲の記号の長さ。直線の線は、両端から 200m 以内の記号どうしが記号だけでつながるか（endsConnectedBySymbol。つながっても同じ線とは限らない）。地理院の記号には地中線・線名・電圧がない。",
+ "results": [
+  {
+   "kind": "route",
+   "id": "shikoku-osm-187-722648701",
+   "name": "蔭平線",
+   "voltageKV": 187,
+   "tier": "C",
+   "samples": 2119,
+   "onShare": 0.945,
+   "maxOffM": 67,
+   "offRunsM": [
+    320,
+    480,
+    360,
+    220,
+    560
+   ],
+   "parallelShare": 0.198,
+   "branchSuspects": 7
+  },
+  {
+   "kind": "straight",
+   "id": "tokyo-section-95",
+   "name": "東新宿線（ルート不明・直線）",
+   "voltageKV": 275,
+   "tier": "D",
+   "samples": 963,
+   "nearShare": 0.36,
+   "nearestFromStartM": 93,
+   "gsiLengthM": 45503,
+   "gsiFeatures": 186,
+   "symbolNearStart": true,
+   "symbolNearEnd": false,
+   "endsConnectedBySymbol": false
+  }
+ ]
+}

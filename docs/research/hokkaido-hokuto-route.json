@@ -1,0 +1,400 @@
+{
+  "lines": [
+    {
+      "id": "801582506",
+      "tags": {
+        "cables": "3",
+        "circuits": "1",
+        "frequency": "50",
+        "name": "北斗幹線",
+        "name:en": "Hokuto Main Line",
+        "name:ja": "北斗幹線",
+        "name:ja_rm": "Dōnan-kansen",
+        "operator": "北海道電力ネットワーク",
+        "operator:en": "Hokkaido Electric Power Network",
+        "operator:ja": "北海道電力ネットワーク",
+        "operator:short": "ほくでんネットワーク",
+        "operator:wikidata": "Q64504223",
+        "power": "line",
+        "ref": "道南幹線",
+        "source": "Bing",
+        "voltage": "275000",
+        "wires": "double"
+      },
+      "nodes": [
+        "7497452705",
+        "7497452723"
+      ],
+      "endpoints": [
+        {
+          "node": "7497452705",
+          "lonlat": [
+            140.5859476,
+            41.9162522
+          ],
+          "insideFacilities": [
+            "801582512"
+          ]
+        },
+        {
+          "node": "7497452723",
+          "lonlat": [
+            140.5868268,
+            41.9157548
+          ],
+          "insideFacilities": []
+        }
+      ],
+      "coordinatesLatLon": [
+        [
+          41.9162522,
+          140.5859476
+        ],
+        [
+          41.9157548,
+          140.5868268
+        ]
+      ]
+    },
+    {
+      "id": "801582507",
+      "tags": {
+        "cables": "3",
+        "circuits": "1",
+        "frequency": "50",
+        "name": "北斗幹線",
+        "name:en": "Hokuto Main Line",
+        "name:ja": "北斗幹線",
+        "name:ja_rm": "Dōnan-kansen",
+        "operator": "北海道電力ネットワーク",
+        "operator:en": "Hokkaido Electric Power Network",
+        "operator:ja": "北海道電力ネットワーク",
+        "operator:short": "ほくでんネットワーク",
+        "operator:wikidata": "Q64504223",
+        "power": "line",
+        "ref": "道南幹線",
+        "source": "Bing",
+        "voltage": "275000",
+        "wires": "double"
+      },
+      "nodes": [
+        "7497452706",
+        "7497452723"
+      ],
+      "endpoints": [
+        {
+          "node": "7497452706",
+          "lonlat": [
+            140.5861358,
+            41.9163704
+          ],
+          "insideFacilities": [
+            "801582512"
+          ]
+        },
+        {
+          "node": "7497452723",
+          "lonlat": [
+            140.5868268,
+            41.9157548
+          ],
+          "insideFacilities": []
+        }
+      ],
+      "coordinatesLatLon": [
+        [
+          41.9163704,
+          140.5861358
+        ],
+        [
+          41.9157548,
+          140.5868268
+        ]
+      ]
+    },
+    {
+      "id": "1457108954",
+      "tags": {
+        "cables": "6",
+        "circuits": "2",
+        "frequency": "50",
+        "name": "北斗幹線",
+        "name:en": "Hokuto Main Line",
+        "name:ja": "北斗幹線",
+        "name:ja_rm": "Dōnan-kansen",
+        "operator": "北海道電力ネットワーク",
+        "operator:en": "Hokkaido Electric Power Network",
+        "operator:ja": "北海道電力ネットワーク",
+        "operator:short": "ほくでんネットワーク",
+        "operator:wikidata": "Q64504223",
+        "power": "line",
+        "ref": "道南幹線",
+        "source": "Bing",
+        "voltage": "275000",
+        "wires": "double"
+      },
+      "nodes": [
+        "2600589370",
+        "2600589383",
+        "2600589398",
+        "2600589404",
+        "2600589410",
+        "2600589413",
+        "2600589420",
+        "2600589423",
+        "2600589429",
+        "2600589435",
+        "2600589437",
+        "2600589444",
+        "7497452723"
+      ],
+      "endpoints": [
+        {
+          "node": "2600589370",
+          "lonlat": [
+            140.6051356,
+            41.8880397
+          ],
+          "insideFacilities": []
+        },
+        {
+          "node": "7497452723",
+          "lonlat": [
+            140.5868268,
+            41.9157548
+          ],
+          "insideFacilities": []
+        }
+      ],
+      "coordinatesLatLon": [
+        [
+          41.8880397,
+          140.6051356
+        ],
+        [
+          41.8893427,
+          140.6041004
+        ],
+        [
+          41.8910016,
+          140.6018785
+        ],
+        [
+          41.8946649,
+          140.6000865
+        ],
+        [
+          41.8966483,
+          140.5990792
+        ],
+        [
+          41.8991968,
+          140.597806
+        ],
+        [
+          41.9015516,
+          140.5966746
+        ],
+        [
+          41.9044824,
+          140.5937501
+        ],
+        [
+          41.9061951,
+          140.5926718
+        ],
+        [
+          41.9094576,
+          140.590607
+        ],
+        [
+          41.9112976,
+          140.5894785
+        ],
+        [
+          41.9149787,
+          140.5879067
+        ],
+        [
+          41.9157548,
+          140.5868268
+        ]
+      ]
+    },
+    {
+      "id": "254271527",
+      "tags": {
+        "cables": "3",
+        "circuits": "1",
+        "frequency": "50",
+        "name": "北斗幹線",
+        "name:en": "Hokuto Main Line",
+        "name:ja": "北斗幹線",
+        "name:ja_rm": "Dōnan-kansen",
+        "operator": "北海道電力ネットワーク",
+        "operator:en": "Hokkaido Electric Power Network",
+        "operator:ja": "北海道電力ネットワーク",
+        "operator:short": "ほくでんネットワーク",
+        "operator:wikidata": "Q64504223",
+        "power": "line",
+        "ref": "道南幹線",
+        "source": "Bing",
+        "voltage": "275000",
+        "wires": "double"
+      },
+      "nodes": [
+        "2600589370",
+        "2600638841"
+      ],
+      "endpoints": [
+        {
+          "node": "2600589370",
+          "lonlat": [
+            140.6051356,
+            41.8880397
+          ],
+          "insideFacilities": []
+        },
+        {
+          "node": "2600638841",
+          "lonlat": [
+            140.6056768,
+            41.887971
+          ],
+          "insideFacilities": [
+            "254271516"
+          ]
+        }
+      ],
+      "coordinatesLatLon": [
+        [
+          41.8880397,
+          140.6051356
+        ],
+        [
+          41.887971,
+          140.6056768
+        ]
+      ]
+    },
+    {
+      "id": "254271530",
+      "tags": {
+        "cables": "3",
+        "circuits": "1",
+        "frequency": "50",
+        "name": "北斗幹線",
+        "name:en": "Hokuto Main Line",
+        "name:ja": "北斗幹線",
+        "name:ja_rm": "Dōnan-kansen",
+        "operator": "北海道電力ネットワーク",
+        "operator:en": "Hokkaido Electric Power Network",
+        "operator:ja": "北海道電力ネットワーク",
+        "operator:short": "ほくでんネットワーク",
+        "operator:wikidata": "Q64504223",
+        "power": "line",
+        "ref": "道南幹線",
+        "source": "Bing",
+        "voltage": "275000",
+        "wires": "double"
+      },
+      "nodes": [
+        "2600589370",
+        "2600638861"
+      ],
+      "endpoints": [
+        {
+          "node": "2600589370",
+          "lonlat": [
+            140.6051356,
+            41.8880397
+          ],
+          "insideFacilities": []
+        },
+        {
+          "node": "2600638861",
+          "lonlat": [
+            140.6056691,
+            41.888157
+          ],
+          "insideFacilities": [
+            "254271516"
+          ]
+        }
+      ],
+      "coordinatesLatLon": [
+        [
+          41.8880397,
+          140.6051356
+        ],
+        [
+          41.888157,
+          140.6056691
+        ]
+      ]
+    }
+  ],
+  "facilities": [
+    {
+      "id": "801582512",
+      "tags": {
+        "frequency": "50",
+        "location": "outdoor",
+        "name": "北斗変換所",
+        "name:en": "Hokuto converter station",
+        "operator": "北海道電力ネットワーク",
+        "operator:en": "Hokkaido Electric Power Network",
+        "operator:ja": "北海道電力ネットワーク",
+        "operator:short": "ほくでんネットワーク",
+        "operator:wikidata": "Q64504223",
+        "power": "substation",
+        "substation": "converter",
+        "voltage": "275000;250000"
+      },
+      "nodes": [
+        "7497452722",
+        "7497452721",
+        "7497452720",
+        "7497452719",
+        "7497452718",
+        "7497452717",
+        "7497452722"
+      ]
+    },
+    {
+      "id": "254271516",
+      "tags": {
+        "frequency": "50",
+        "location": "outdoor",
+        "name": "Ōno Substation",
+        "name:ja": "北海道電力(株) 大野変電所",
+        "operator": "北海道電力ネットワーク",
+        "operator:en": "Hokkaido Electric Power Network",
+        "operator:ja": "北海道電力ネットワーク",
+        "operator:short": "ほくでんネットワーク",
+        "operator:wikidata": "Q64504223",
+        "power": "substation",
+        "substation": "transmission",
+        "voltage": "275000;187000;66000"
+      },
+      "nodes": [
+        "2600638909",
+        "2600638905",
+        "2600638889",
+        "2600638881",
+        "2600638876",
+        "5838611132",
+        "2600638784",
+        "2600638792",
+        "2600638796",
+        "2600638800",
+        "2600638807",
+        "2600638812",
+        "2600638909"
+      ]
+    }
+  ],
+  "route": "north bay branches 801582506/507 -> shared 7497452723 -> trunk1457108954 -> shared2600589370 -> south branches254271527/530",
+  "interpretation": "OSM shared-node continuity and footprint containment only; individual electrical circuits/busbars not verified",
+  "status": "research-only; geographic reference; no individual circuit/bus electrical verification"
+}

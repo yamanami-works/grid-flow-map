@@ -1,0 +1,605 @@
+{
+ "schemaVersion": 1,
+ "generatedAt": "2026-11-16T15:00:21.684Z",
+ "basis": "各社の系統空容量一覧（送電線）の基幹電圧の行のうち、地図に描いていないもの。2026-10-04時点。",
+ "counts": {
+  "hokkaido": {
+   "published": 89,
+   "undrawn": 4
+  },
+  "tohoku": {
+   "published": 67,
+   "undrawn": 14
+  },
+  "tokyo": {
+   "published": 142,
+   "undrawn": 0
+  },
+  "chubu": {
+   "published": 103,
+   "undrawn": 4
+  },
+  "hokuriku": {
+   "published": 15,
+   "undrawn": 1
+  },
+  "kansai": {
+   "published": 107,
+   "undrawn": 16
+  },
+  "chugoku": {
+   "published": 38,
+   "undrawn": 1
+  },
+  "shikoku": {
+   "published": 45,
+   "undrawn": 4
+  },
+  "kyushu": {
+   "published": 94,
+   "undrawn": 12
+  }
+ },
+ "rows": [
+  {
+   "region": "hokkaido",
+   "no": "32",
+   "name": "他社線",
+   "voltageKV": 187,
+   "circuits": "",
+   "direction": "―",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "北海道電力ネットワーク 系統空容量（基幹系統・送電線）"
+  },
+  {
+   "region": "hokkaido",
+   "no": "37",
+   "name": "他社線",
+   "voltageKV": 187,
+   "circuits": "",
+   "direction": "―",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "北海道電力ネットワーク 系統空容量（基幹系統・送電線）"
+  },
+  {
+   "region": "hokkaido",
+   "no": "47",
+   "name": "他社線",
+   "voltageKV": 187,
+   "circuits": "",
+   "direction": "―",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "北海道電力ネットワーク 系統空容量（基幹系統・送電線）"
+  },
+  {
+   "region": "hokkaido",
+   "no": "51",
+   "name": "他社線",
+   "voltageKV": 187,
+   "circuits": "",
+   "direction": "―",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "北海道電力ネットワーク 系統空容量（基幹系統・送電線）"
+  },
+  {
+   "region": "hokuriku",
+   "no": "H201",
+   "name": "（線名なし）",
+   "voltageKV": 500,
+   "circuits": "",
+   "direction": "-",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "北陸電力送配電 予想潮流・空容量（基幹系統・送電線）"
+  },
+  {
+   "region": "kansai",
+   "no": "16",
+   "name": "送電線",
+   "voltageKV": 500,
+   "circuits": "",
+   "direction": "発電所→D",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "関西電力送配電 空容量一覧（154kV以上・送電線）"
+  },
+  {
+   "region": "kansai",
+   "no": "18",
+   "name": "送電線",
+   "voltageKV": 500,
+   "circuits": "",
+   "direction": "発電所→D",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "関西電力送配電 空容量一覧（154kV以上・送電線）"
+  },
+  {
+   "region": "kansai",
+   "no": "19",
+   "name": "送電線",
+   "voltageKV": 500,
+   "circuits": "",
+   "direction": "発電所→J",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "関西電力送配電 空容量一覧（154kV以上・送電線）"
+  },
+  {
+   "region": "kansai",
+   "no": "20",
+   "name": "送電線",
+   "voltageKV": 500,
+   "circuits": "",
+   "direction": "発電所→G",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "関西電力送配電 空容量一覧（154kV以上・送電線）"
+  },
+  {
+   "region": "kansai",
+   "no": "23",
+   "name": "送電線",
+   "voltageKV": 500,
+   "circuits": "",
+   "direction": "発電所→開閉所",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "関西電力送配電 空容量一覧（154kV以上・送電線）"
+  },
+  {
+   "region": "kansai",
+   "no": "25",
+   "name": "送電線",
+   "voltageKV": 500,
+   "circuits": "",
+   "direction": "発電所→E",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "関西電力送配電 空容量一覧（154kV以上・送電線）"
+  },
+  {
+   "region": "kansai",
+   "no": "28",
+   "name": "送電線",
+   "voltageKV": 500,
+   "circuits": "",
+   "direction": "発電所→D",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "関西電力送配電 空容量一覧（154kV以上・送電線）"
+  },
+  {
+   "region": "kansai",
+   "no": "32",
+   "name": "送電線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "AG→AF",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "関西電力送配電 空容量一覧（154kV以上・送電線）"
+  },
+  {
+   "region": "kansai",
+   "no": "33",
+   "name": "送電線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "発電所→AF",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "関西電力送配電 空容量一覧（154kV以上・送電線）"
+  },
+  {
+   "region": "kansai",
+   "no": "80",
+   "name": "送電線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "BT→BN",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "関西電力送配電 空容量一覧（154kV以上・送電線）"
+  },
+  {
+   "region": "kansai",
+   "no": "82",
+   "name": "送電線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "BS→BR",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "関西電力送配電 空容量一覧（154kV以上・送電線）"
+  },
+  {
+   "region": "kansai",
+   "no": "207",
+   "name": "送電線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "発電所→BB",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "関西電力送配電 空容量一覧（154kV以上・送電線）"
+  },
+  {
+   "region": "kansai",
+   "no": "209",
+   "name": "送電線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "発電所→BG",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "関西電力送配電 空容量一覧（154kV以上・送電線）"
+  },
+  {
+   "region": "kansai",
+   "no": "211",
+   "name": "送電線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "発電所→BG",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "関西電力送配電 空容量一覧（154kV以上・送電線）"
+  },
+  {
+   "region": "kansai",
+   "no": "212",
+   "name": "送電線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "発電所→BG",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "関西電力送配電 空容量一覧（154kV以上・送電線）"
+  },
+  {
+   "region": "kansai",
+   "no": "215",
+   "name": "送電線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "発電所→AE",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "関西電力送配電 空容量一覧（154kV以上・送電線）"
+  },
+  {
+   "region": "chugoku",
+   "no": "基L28",
+   "name": "新竹原火力線",
+   "voltageKV": 220,
+   "circuits": "",
+   "direction": "新広島(変)→発電所",
+   "reason": "OSMで線名・経路が分からず、端点の設備からもたどれない",
+   "source": "中国電力ネットワーク 系統空容量（220kV以上・送電線）"
+  },
+  {
+   "region": "shikoku",
+   "no": "6",
+   "name": "橘湾火力線",
+   "voltageKV": 500,
+   "circuits": "",
+   "direction": "<7>発電所→阿南変換所",
+   "reason": "OSMで線名・経路が分からず、端点の設備からもたどれない",
+   "source": "四国電力送配電 系統空容量（基幹系統・送電線）"
+  },
+  {
+   "region": "shikoku",
+   "no": "40",
+   "name": "伊新線(新改)",
+   "voltageKV": 187,
+   "circuits": "",
+   "direction": "<18>発電所→新改開閉所(変14)",
+   "reason": "OSMで線名・経路が分からず、端点の設備からもたどれない",
+   "source": "四国電力送配電 系統空容量（基幹系統・送電線）"
+  },
+  {
+   "region": "kyushu",
+   "no": "3",
+   "name": "東豊前線",
+   "voltageKV": 220,
+   "circuits": "",
+   "direction": "東豊前→豊前",
+   "reason": "OSMで線名・経路が分からず、端点の設備からもたどれない",
+   "source": "九州電力送配電 予想潮流・空容量一覧表（送電線）"
+  },
+  {
+   "region": "kyushu",
+   "no": "5",
+   "name": "送電線",
+   "voltageKV": 220,
+   "circuits": "",
+   "direction": "―→西九州",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "九州電力送配電 予想潮流・空容量一覧表（送電線）"
+  },
+  {
+   "region": "kyushu",
+   "no": "7",
+   "name": "送電線",
+   "voltageKV": 220,
+   "circuits": "",
+   "direction": "西九州→―",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "九州電力送配電 予想潮流・空容量一覧表（送電線）"
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "送電線",
+   "voltageKV": 500,
+   "circuits": "",
+   "direction": "―→西九州",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "九州電力送配電 予想潮流・空容量一覧表（送電線）"
+  },
+  {
+   "region": "kyushu",
+   "no": "6",
+   "name": "送電線",
+   "voltageKV": 220,
+   "circuits": "",
+   "direction": "―→東佐世保",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "九州電力送配電 予想潮流・空容量一覧表（送電線）"
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "送電線",
+   "voltageKV": 220,
+   "circuits": "",
+   "direction": "―→―",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "九州電力送配電 予想潮流・空容量一覧表（送電線）"
+  },
+  {
+   "region": "kyushu",
+   "no": "3",
+   "name": "送電線",
+   "voltageKV": 220,
+   "circuits": "",
+   "direction": "―→―",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "九州電力送配電 予想潮流・空容量一覧表（送電線）"
+  },
+  {
+   "region": "kyushu",
+   "no": "5",
+   "name": "送電線",
+   "voltageKV": 220,
+   "circuits": "",
+   "direction": "―→―",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "九州電力送配電 予想潮流・空容量一覧表（送電線）"
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "送電線",
+   "voltageKV": 500,
+   "circuits": "",
+   "direction": "―→中九州",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "九州電力送配電 予想潮流・空容量一覧表（送電線）"
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "送電線",
+   "voltageKV": 500,
+   "circuits": "",
+   "direction": "―→―",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "九州電力送配電 予想潮流・空容量一覧表（送電線）"
+  },
+  {
+   "region": "kyushu",
+   "no": "3",
+   "name": "川薩南九州線",
+   "voltageKV": 220,
+   "circuits": "",
+   "direction": "川薩sws→南九州",
+   "reason": "OSMで線名・経路が分からず、端点の設備からもたどれない",
+   "source": "九州電力送配電 予想潮流・空容量一覧表（送電線）"
+  },
+  {
+   "region": "kyushu",
+   "no": "5",
+   "name": "送電線",
+   "voltageKV": 220,
+   "circuits": "",
+   "direction": "―→―",
+   "reason": "線名・端点が公表資料で伏せられ、OSMでたどる手がかりがない",
+   "source": "九州電力送配電 予想潮流・空容量一覧表（送電線）"
+  },
+  {
+   "region": "tohoku",
+   "no": "0157",
+   "name": "0157線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "奥羽幹線分岐→発電所",
+   "reason": "OSMで線名・経路が分からず、端点の設備からもたどれない",
+   "source": "東北電力ネットワーク 系統空容量（基幹系統）"
+  },
+  {
+   "region": "tohoku",
+   "no": "0158",
+   "name": "0158線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "蔵王幹線分岐→発電所",
+   "reason": "OSMで線名・経路が分からず、端点の設備からもたどれない",
+   "source": "東北電力ネットワーク 系統空容量（基幹系統）"
+  },
+  {
+   "region": "tohoku",
+   "no": "0132",
+   "name": "0132線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "東北幹線分岐→発電所",
+   "reason": "OSMで線名・経路が分からず、端点の設備からもたどれない",
+   "source": "東北電力ネットワーク 系統空容量（基幹系統）"
+  },
+  {
+   "region": "chubu",
+   "no": "",
+   "name": "新信濃分岐",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "",
+   "reason": "OSMで線名・経路が分からず、端点の設備からもたどれない",
+   "source": "中部電力パワーグリッド 系統空容量・予想潮流マッピング"
+  },
+  {
+   "region": "chubu",
+   "no": "",
+   "name": "50744350-0",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "",
+   "reason": "OSMで線名・経路が分からず、端点の設備からもたどれない",
+   "source": "中部電力パワーグリッド 系統空容量・予想潮流マッピング"
+  },
+  {
+   "region": "chubu",
+   "no": "",
+   "name": "50744800-0",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "",
+   "reason": "OSMで線名・経路が分からず、端点の設備からもたどれない",
+   "source": "中部電力パワーグリッド 系統空容量・予想潮流マッピング"
+  },
+  {
+   "region": "chubu",
+   "no": "612",
+   "name": "三好分岐線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "",
+   "reason": "OSMで線名・経路が分からず、端点の設備からもたどれない",
+   "source": "中部電力パワーグリッド 系統空容量・予想潮流マッピング"
+  },
+  {
+   "region": "tohoku",
+   "no": "0101",
+   "name": "0101線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "今別変換所→需要家",
+   "reason": "需要家の線（一括では描かない。端点の確定に必要なときに個別に追加：docs/CUSTOMER_FACILITIES.md）",
+   "source": "東北電力ネットワーク 系統空容量（基幹系統）"
+  },
+  {
+   "region": "tohoku",
+   "no": "0105",
+   "name": "0105線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "北部幹線分岐→需要家",
+   "reason": "需要家の線（一括では描かない。端点の確定に必要なときに個別に追加：docs/CUSTOMER_FACILITIES.md）",
+   "source": "東北電力ネットワーク 系統空容量（基幹系統）"
+  },
+  {
+   "region": "tohoku",
+   "no": "0109",
+   "name": "0109線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "雫石開閉所→需要家",
+   "reason": "需要家の線（一括では描かない。端点の確定に必要なときに個別に追加：docs/CUSTOMER_FACILITIES.md）",
+   "source": "東北電力ネットワーク 系統空容量（基幹系統）"
+  },
+  {
+   "region": "tohoku",
+   "no": "0111",
+   "name": "0111線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "水沢変電所→需要家",
+   "reason": "需要家の線（一括では描かない。端点の確定に必要なときに個別に追加：docs/CUSTOMER_FACILITIES.md）",
+   "source": "東北電力ネットワーク 系統空容量（基幹系統）"
+  },
+  {
+   "region": "tohoku",
+   "no": "0113",
+   "name": "0113線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "水沢幹線分岐→需要家",
+   "reason": "需要家の線（一括では描かない。端点の確定に必要なときに個別に追加：docs/CUSTOMER_FACILITIES.md）",
+   "source": "東北電力ネットワーク 系統空容量（基幹系統）"
+  },
+  {
+   "region": "tohoku",
+   "no": "0119",
+   "name": "0119線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "奥羽幹線分岐→需要家",
+   "reason": "需要家の線（一括では描かない。端点の確定に必要なときに個別に追加：docs/CUSTOMER_FACILITIES.md）",
+   "source": "東北電力ネットワーク 系統空容量（基幹系統）"
+  },
+  {
+   "region": "tohoku",
+   "no": "0127",
+   "name": "0127線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "名取変電所→需要家",
+   "reason": "需要家の線（一括では描かない。端点の確定に必要なときに個別に追加：docs/CUSTOMER_FACILITIES.md）",
+   "source": "東北電力ネットワーク 系統空容量（基幹系統）"
+  },
+  {
+   "region": "tohoku",
+   "no": "0134",
+   "name": "0134線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "福島変電所→需要家",
+   "reason": "需要家の線（一括では描かない。端点の確定に必要なときに個別に追加：docs/CUSTOMER_FACILITIES.md）",
+   "source": "東北電力ネットワーク 系統空容量（基幹系統）"
+  },
+  {
+   "region": "tohoku",
+   "no": "0142",
+   "name": "0142線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "須賀川変電所→需要家",
+   "reason": "需要家の線（一括では描かない。端点の確定に必要なときに個別に追加：docs/CUSTOMER_FACILITIES.md）",
+   "source": "東北電力ネットワーク 系統空容量（基幹系統）"
+  },
+  {
+   "region": "tohoku",
+   "no": "0151",
+   "name": "0151線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "送電線分岐→需要家",
+   "reason": "需要家の線（一括では描かない。端点の確定に必要なときに個別に追加：docs/CUSTOMER_FACILITIES.md）",
+   "source": "東北電力ネットワーク 系統空容量（基幹系統）"
+  },
+  {
+   "region": "tohoku",
+   "no": "0152",
+   "name": "0152線",
+   "voltageKV": 275,
+   "circuits": "",
+   "direction": "送電線分岐→需要家",
+   "reason": "需要家の線（一括では描かない。端点の確定に必要なときに個別に追加：docs/CUSTOMER_FACILITIES.md）",
+   "source": "東北電力ネットワーク 系統空容量（基幹系統）"
+  },
+  {
+   "region": "shikoku",
+   "no": "45",
+   "name": "需要家線",
+   "voltageKV": 187,
+   "circuits": "2",
+   "direction": "―",
+   "reason": "需要家の線（一括では描かない。端点の確定に必要なときに個別に追加：docs/CUSTOMER_FACILITIES.md）",
+   "source": "四国電力送配電 系統空容量（基幹系統・送電線）"
+  },
+  {
+   "region": "shikoku",
+   "no": "46",
+   "name": "需要家線",
+   "voltageKV": 187,
+   "circuits": "1",
+   "direction": "―",
+   "reason": "需要家の線（一括では描かない。端点の確定に必要なときに個別に追加：docs/CUSTOMER_FACILITIES.md）",
+   "source": "四国電力送配電 系統空容量（基幹系統・送電線）"
+  }
+ ]
+}

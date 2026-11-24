@@ -1,0 +1,29 @@
+{
+  "note": "公表区間の端点「X線分岐」を、OSMで2つの線が共有するノードとして特定したもの。分岐点で線を区切り、分岐点は設備にしない（shared-node）。",
+  "branches": [
+    {
+      "name": "青梅線・豊岡線分岐",
+      "node": 1470960519,
+      "position": [
+        35.8001586,
+        139.3158385
+      ],
+      "evidence": "OSMの豊岡線（275kV）の末端ノードが青梅線の経路上の頂点と一致（距離0m）。東京PG設備表No.88（新飯能→青梅線・豊岡線分岐）、No.89（分岐→青梅）、No.90（分岐→豊岡）。",
+      "cuts": [
+        {
+          "lineId": "tokyo-section-88",
+          "keep": "start"
+        },
+        {
+          "lineId": "tokyo-section-89",
+          "keep": "start"
+        }
+      ],
+      "ends": [
+        {
+          "lineId": "tokyo-section-90"
+        }
+      ]
+    }
+  ]
+}

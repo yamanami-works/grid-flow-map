@@ -1,0 +1,139 @@
+{
+ "generatedAt": "2026-10-05T14:30:27.483Z",
+ "regions": {
+  "tokyo": {
+   "lines": [
+    {
+     "id": "owner-tokyo-275-千葉印西線",
+     "assetId": "owner-tokyo-275-千葉印西線",
+     "name": "千葉印西線",
+     "named": true,
+     "voltageKV": 275,
+     "currentType": "ac",
+     "schematic": true,
+     "construction": "unknown",
+     "osmIds": [
+      -9600001
+     ],
+     "paths": [
+      [
+       [
+        35.780961938333334,
+        140.06948683166664
+       ],
+       [
+        35.81806392520163,
+        140.15884137503545
+       ]
+      ]
+     ],
+     "connections": [
+      {
+       "node": null,
+       "position": [
+        35.780961938333334,
+        140.06948683166664
+       ],
+       "status": "facility-area",
+       "facilities": [
+        {
+         "id": "osm-way-168727982",
+         "name": "新京葉変電所"
+        }
+       ],
+       "neighborWays": []
+      },
+      {
+       "node": null,
+       "position": [
+        35.81806392520163,
+        140.15884137503545
+       ],
+       "status": "facility-area",
+       "facilities": [
+        {
+         "id": "owner-千葉印西変電所",
+         "name": "千葉印西変電所"
+        }
+       ],
+       "neighborWays": []
+      }
+     ],
+     "referenceReview": {
+      "status": "section",
+      "endpoints": "新京葉変電所―千葉印西変電所（ルート不明・直線）"
+     },
+     "attributes": [
+      {
+       "label": "要注意（D区分）",
+       "value": "両端の設備は公表資料で分かるが、OSMに275kVの線の登録がなく経路が分からないため直線で表示。地中・架空の別は不明（破線）。"
+      },
+      {
+       "label": "公表区間",
+       "value": "東京PG 基幹275kV No.146：新京葉―千葉印西（3回線）。OCCTO東京 千葉印西線 新京葉→千葉印西。"
+      },
+      {
+       "label": "注記",
+       "value": "千葉印西変電所の位置はオーナー提供の座標（2026-10-05）。OSMでは新京葉変電所の周辺に千葉印西方面の275kVの線がない（地中ケーブルとみられる）。"
+      },
+      {
+       "label": "出典",
+       "value": "東京電力パワーグリッド 設備一覧、OCCTO系統情報サービス（東京）。新京葉変電所の位置はOSM。"
+      }
+     ]
+    }
+   ],
+   "facilities": [
+    {
+     "id": "owner-千葉印西変電所",
+     "assetId": "owner-fac-千葉印西変電所",
+     "name": "千葉印西変電所",
+     "kind": "substation",
+     "position": [
+      35.81806392520163,
+      140.15884137503545
+     ],
+     "voltages": [
+      275
+     ],
+     "scopeConnected": true,
+     "attributes": [
+      {
+       "label": "要注意（位置）",
+       "value": "OSM・国土地理院の地名検索に登録がない設備。位置はオーナー提供の座標（2026-10-05）。"
+      },
+      {
+       "label": "位置の根拠",
+       "value": "オーナー提供の座標 北緯35.81806392520163・東経140.15884137503545（2026-10-05）。"
+      },
+      {
+       "label": "出典",
+       "value": "設備名は東京電力パワーグリッドの設備一覧（基幹275kV No.146 千葉印西線）とOCCTO東京の潮流実績の端点。"
+      }
+     ]
+    },
+    {
+     "id": "osm-way-168727982",
+     "assetId": "asset-8e2b59f3-a1c3-4060-a4b6-ce16decc3697",
+     "name": "新京葉変電所",
+     "kind": "substation",
+     "position": [
+      35.780961938333334,
+      140.06948683166664
+     ],
+     "voltages": [
+      500
+     ],
+     "scopeConnected": true,
+     "url": "https://www.openstreetmap.org/way/168727982",
+     "attributes": [
+      {
+       "label": "公表端点の照合",
+       "value": "東京PG2026-06-22版の500kV公表端点と同名OSM設備区画への到達を照合。個別回線・母線実結線、他電圧バンクは未照合。"
+      }
+     ]
+    }
+   ]
+  }
+ }
+}

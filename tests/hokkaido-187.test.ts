@@ -1,0 +1,35 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import {readFileSync} from 'node:fs';
+import {reviewedHokkaidoDay} from '../src/hokkaido-domain.ts';
+import {referenceFlowPath} from '../src/flow-path.ts';
+import {capacityReferenceUsage} from '../src/occto-domain.ts';
+import {uniqueAssets,combineRegionDays} from '../src/regions.ts';
+const data=JSON.parse(readFileSync('public/data/hokkaido-hokuto.json','utf8'));
+const raw=JSON.parse(readFileSync('public/data/hokkaido-flow.json','utf8'));
+test('Ohno 187 reaches both reference parcels without bridging or absorbing adjacent 66kV parcel',()=>{
+ const line=data.lines.find((l:any)=>l.name==='大野線');assert.equal(line.currentType,'ac');assert.equal(line.voltageKV,187);
+ assert.equal(line.paths.length,5);assert.equal(data.facilities.filter((f:any)=>f.name==='大野変電所').length,1);
+ assert.ok(!data.facilities.some((f:any)=>f.id==='way/262597731'));
+ const record={id:'test',name:'大野線',voltageKV:187,from:'北七飯変電所',to:'大野変電所',values:[],note:''};
+ const path=referenceFlowPath(record,data.lines,false);assert.ok(path);
+ const ends=(name:string)=>line.connections.filter((c:any)=>c.facilities.some((f:any)=>f.name===name)).map((c:any)=>JSON.stringify(c.position));
+ assert.ok(ends(record.from).includes(JSON.stringify(path[0])));assert.ok(ends(record.to).includes(JSON.stringify(path.at(-1))));
+ const edges=new Set(line.paths.flatMap((p:number[][])=>p.slice(1).flatMap((x,i)=>[JSON.stringify([p[i],x]),JSON.stringify([x,p[i]])])));
+ for(let i=1;i<path.length;i++)assert.ok(edges.has(JSON.stringify([path[i-1],path[i]])));
+ assert.equal(uniqueAssets([...data.facilities,...data.facilities]).length,data.facilities.length);
+});
+test('Reviewed Ohno aliases preserve ID and missing/zero, and capacity is directional',()=>{
+ const day=raw.days.find((d:any)=>d.actual.lines.some((l:any)=>l.name==='大野線'));assert.ok(day);
+ const source=day.actual.lines.find((l:any)=>l.name==='大野線');const reviewed=reviewedHokkaidoDay(day);
+ const line=reviewed.actual.lines.find((l:any)=>l.name==='大野線')!;assert.ok(line);assert.equal(line.id,source.id);assert.deepEqual(line.values,source.values);
+ assert.equal(line.from,'北七飯変電所');assert.equal(line.to,'大野変電所');
+ const capacities=[{name:'大野線',voltageKV:187,from:'大野変電所',to:'北七飯変電所',capacityMW:401}];
+ assert.equal(capacityReferenceUsage(line,100,capacities),null);assert.equal(capacityReferenceUsage(line,-100,capacities),100/401*100);
+ assert.equal(capacityReferenceUsage(line,-100,[{...capacities[0],capacityMW:null}]),null);
+ const altered={...day,actual:{...day.actual,lines:[{...source,values:[0,null],from:'別設備'}]}};
+ assert.equal(reviewedHokkaidoDay(altered).actual.lines.length,0);
+ const zero=reviewedHokkaidoDay({...day,actual:{...day.actual,lines:[{...source,values:[0,null]}]}});
+ assert.deepEqual(zero.actual.lines[0].values,[0,null]);
+ const combined=combineRegionDays([[zero]]);assert.deepEqual(combined[0].actual.lines[0].values.slice(0,2),[0,null]);
+});

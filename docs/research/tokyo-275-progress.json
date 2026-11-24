@@ -1,0 +1,1525 @@
+{
+  "source": "data/raw/tokyo-prestart/forecast.pdf",
+  "version": "2026-06-22",
+  "checkedAt": "2026-09-30",
+  "scope": "東京PG設備表に基幹275kVと掲載された全95公表行。",
+  "counts": {
+    "total": 95,
+    "full": 78,
+    "partial": 1,
+    "schematic": 9,
+    "held": 7,
+    "flowMatched": 44,
+    "tierA": 9,
+    "tierB": 25,
+    "tierC": 41,
+    "tierD": 9,
+    "inProgress": 0
+  },
+  "occtoSkipped": [
+    {
+      "occto": "河北線 新古河→北東京",
+      "reason": "同じ端点の公表行が複数（回線別）で割当先が一意でない"
+    },
+    {
+      "occto": "京浜線1/2L 571T(西南多摩線)→京浜",
+      "reason": "OCCTOの端点が公表区間と一致しない"
+    },
+    {
+      "occto": "京浜線3/4L 西東京→京浜",
+      "reason": "同じ端点の公表行が複数（回線別）で割当先が一意でない"
+    },
+    {
+      "occto": "江東線 新京葉→葛南",
+      "reason": "OCCTOの端点が公表区間と一致しない"
+    },
+    {
+      "occto": "鹿島線 鹿島→筑波南",
+      "reason": "OCCTOの端点が公表区間と一致しない"
+    },
+    {
+      "occto": "西南川越線 南川越→多摩",
+      "reason": "OCCTOの端点が公表区間と一致しない"
+    },
+    {
+      "occto": "中沢線 新所沢→中東京",
+      "reason": "同じ端点の公表行が複数（回線別）で割当先が一意でない"
+    },
+    {
+      "occto": "東京南線1/2L 京浜→南横須賀",
+      "reason": "OCCTOの端点が公表区間と一致しない"
+    },
+    {
+      "occto": "東京南線3/4L 京浜→南横須賀",
+      "reason": "OCCTOの端点が公表区間と一致しない"
+    }
+  ],
+  "sections": [
+    {
+      "section": 11,
+      "name": "那珂線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新茂木",
+        "那珂"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "既に収録済み：那珂線（既存・東京初回）"
+    },
+    {
+      "section": 12,
+      "name": "阿武隈線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "那珂",
+        "発電所"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "OSM 8線分（計約76.3km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：那珂線 / 阿武隈線、阿武隈線 / 常陸大宮線、阿武隈線 / 大子線。東京PG資料は発電所端点を匿名化。OSMで到達した発電所は勿来発電所。個別回線・母線は未確認。"
+    },
+    {
+      "section": 13,
+      "name": "十王線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "阿武隈線分岐",
+        "常磐"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": false,
+      "verdict": "same-plus-unnamed",
+      "reason": "OSM 4線分（計約1.8km）。275kVの共有ノードだけで連結、交差・近接で接続しない。分岐端点は分岐元の線との共有OSMノードとして表示し、設備を作らない。個別回線・母線は未確認。"
+    },
+    {
+      "section": 14,
+      "name": "送電線",
+      "circuits": 2,
+      "publicEndpoints": [
+        null,
+        null
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "needs-other-named",
+      "reason": "OSM 2線分（計約16.3km）。275kVの共有ノードだけで連結、交差・近接で接続しない。公表資料では名称または端点が匿名。系統構成図(14)：那珂から匿名発電所《1002018》。OSMでたどった端点（那珂―発電所）で照合。別名の線分を経由：東海原子力線（共架・区間名の違いの可能性、未照合）。東京PG資料は発電所端点を匿名化。OSMで到達した発電所は東海発電所。個別回線・母線は未確認。"
+    },
+    {
+      "section": 15,
+      "name": "送電線",
+      "circuits": 2,
+      "publicEndpoints": [
+        null,
+        null
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "needs-other-named",
+      "reason": "OSM 2線分（計約16.3km）。275kVの共有ノードだけで連結、交差・近接で接続しない。公表資料では名称または端点が匿名。系統構成図(15)：那珂から匿名発電所《1002017》。OSMでたどった端点（那珂―発電所）で照合。別名の線分を経由：東海原子力線（共架・区間名の違いの可能性、未照合）。東京PG資料は発電所端点を匿名化。OSMで到達した発電所は東海発電所。個別回線・母線は未確認。"
+    },
+    {
+      "section": 22,
+      "name": "沼原線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新栃木",
+        "発電所"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "partial",
+      "reason": "OSM 3線分（計約55.6km）。275kVの共有ノードだけで連結、交差・近接で接続しない。終点側の同名線がOSMで途切れており、起点から同名線でたどれる範囲だけを描いた部分表示。個別回線・母線は未確認。 【仕上げ】末端の直線：沼原発電所側の末端はルート不明のため直線で表示（地中・架空の別は不明・破線）。根拠：線名「沼原線」と東京PG設備表の発電所端点。地中・架空の別は不明。"
+    },
+    {
+      "section": 26,
+      "name": "君津線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "房総",
+        "新木更津"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "A",
+      "flowReviewed": true,
+      "verdict": "same-plus-unnamed",
+      "reason": "OSM 3線分（計約22.7km）。275kVの共有ノードだけで連結、交差・近接で接続しない。個別回線・母線は未確認。"
+    },
+    {
+      "section": 27,
+      "name": "姉崎線1・2L",
+      "circuits": 2,
+      "publicEndpoints": [
+        "房総",
+        "発電所"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "OSM 3線分（計約16.2km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：姉崎線3・4L。東京PG資料は発電所端点を匿名化。OSMで到達した発電所は姉崎火力発電所（区画の約218m手前で終わる）。個別回線・母線は未確認。 【仕上げ】末端の直線：姉崎火力発電所側の末端はルート不明のため直線で表示（地中・架空の別は不明・破線）。根拠：線名「姉崎線」と東京PG設備表の発電所端点。地中・架空の別は不明。"
+    },
+    {
+      "section": 28,
+      "name": "姉崎線3・4L",
+      "circuits": 2,
+      "publicEndpoints": [
+        "房総",
+        "発電所"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "OSM 3線分（計約16.2km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：姉崎線3・4L。東京PG資料は発電所端点を匿名化。OSMで到達した発電所は姉崎火力発電所（区画の約218m手前で終わる）。個別回線・母線は未確認。 【仕上げ】末端の直線：姉崎火力発電所側の末端はルート不明のため直線で表示（地中・架空の別は不明・破線）。根拠：線名「姉崎線」と東京PG設備表の発電所端点。地中・架空の別は不明。"
+    },
+    {
+      "section": 29,
+      "name": "送電線",
+      "circuits": 2,
+      "publicEndpoints": [
+        null,
+        null
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "系統構成図(29)は房総から匿名発電所《1002070》（姉崎とは別）。OSMでは姉崎線を除くと房総から発電所区画へ到達せず、五井火力線も房総につながらない（2026-10-17に訂正：つながる）。 【2026-10-17】OSMの「五井火力線」（way 168782022＋1247083092）は房総変電所の区画の内側から五井火力発電所の区画（way 605327351。建設中の登録のまま）の内側までつながる。地図には五井火力発電所と五井火力線（E区分）を描いたが、(29)には対応させていない（匿名の発電所が五井火力だと示す一次資料がない）。 【2026-10-17 オーナー承認】(29)を五井火力線（tokyo-feeder-275-168782022、房総変電所―五井火力発電所）に対応付けた（C区分＋推測。根拠は両端・2回線・OSMの線名で、匿名の発電所が五井火力だと示す一次資料はない）。OCCTOに行がないので潮流・容量はなし。",
+      "anonReview": {
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "東京PG系統構成図（keitoukousei_kikan.pdf 2ページ、図の日付2025-12-01、2026-10-16確認）",
+          "OSM（data/raw/tokyo-275/anon-2026-10-16.json、2026-10-16取得、4か所。取得記録は同じ場所の anon-2026-10-16.source.json）",
+          "OSM（data/raw/tokyo-275/held-cables.json 2026-09-29取得、lines-south.json 2026-09-29取得）",
+          "OSM（data/raw/tokyo-275/goi-2026-10-17.json、2026-10-17取得。五井火力発電所の区画）"
+        ],
+        "diagram": "房総から《1002070》（姉崎とは別の発電所記号）。",
+        "osm": "OSM「五井火力線」：way 168782022（名前は「五井火力線／北五井火力線（休止中）」で北五井火力線との共架の表記。休止中が五井火力線にもかかるかは未確認。電圧タグなし、2回線、約10.6km。2026-10-16取得の原本に含む）と way 1247083092（275kV、約0.3km、房総変電所側。2026-09-29取得の held-cables.json・lines-south.json にあり、2026-10-16の取得範囲の外）が、房総変電所の近くから五井の海岸へ延びる。西の端は鉄塔で、OSMに五井火力発電所の区画はない（2026-10-17に訂正：建設中の登録で区画がある）。 【2026-10-17追記】OSMには五井火力発電所の区画（way 605327351）があり、construction:power=plant（建設中）の登録のままのため以前の取得（power=plant が条件）で見つからなかった。五井火力線の西の端の鉄塔はこの区画の内側にある。",
+        "primary": "五井ユナイテッドジェネレーション「五井火力発電所更新計画 環境影響評価結果 概要」（https://www.goi-united.com/pdf/pdf01.pdf 、作成日不明、2026-10-16確認）：位置 千葉県市原市五井海岸1番地、234万kW（78万kW×3基）。構内に開閉所と「送電線へ」の図はあるが、接続先の変電所・線名の記載なし。同社サイト（https://www.goi-united.com/ 、2026-10-16確認）：新1〜3号機は2024-08-01・2024-11-14・2025-03-01に営業運転開始。経産省の準備書の審査書（junbisyo_shinsasyo.pdf）は2026-10-16時点で開けない（404）。",
+        "result": "未確認（候補あり）：OSMの五井火力線は房総変電所と五井火力発電所（2024〜2025年に営業運転開始、一次資料、2026-10-16確認）を結ぶ。系統構成図(29)の端（房総・発電所）と合うが、(29)が五井火力であることを示す一次資料はないので対応させない。2026-10-17 から地図に五井火力発電所と五井火力線（E区分、潮流なし）を描いている。 【2026-10-17】オーナー承認で(29)を五井火力線に対応付けた（推測）。"
+      },
+      "tier": "C"
+    },
+    {
+      "section": 30,
+      "name": "送電線",
+      "circuits": 2,
+      "publicEndpoints": [
+        null,
+        null
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "OSM 1線分（計約1.3km）。275kVの共有ノードだけで連結、交差・近接で接続しない。公表資料では名称または端点が匿名。系統構成図(30)：千葉中央から匿名発電所《1002014》。OSMでたどった端点（千葉中央―発電所）で照合。同名の派生・共架表記：千葉火力線1・2L。東京PG資料は発電所端点を匿名化。OSMで到達した発電所は千葉火力発電所（区画の約120m手前で終わる）。個別回線・母線は未確認。 【仕上げ】末端の直線：千葉火力発電所側の末端はルート不明のため直線で表示（地中・架空の別は不明・破線）。根拠：東京PG系統構成図(30)の発電所記号とOSMの千葉火力線。地中・架空の別は不明。 【2026-10-17】(30)を千葉火力線1・2Lに対応付けたのは推測として記録した（(31)を千葉火力線3・4Lへ移したため）。"
+    },
+    {
+      "section": 31,
+      "name": "送電線",
+      "circuits": 2,
+      "publicEndpoints": [
+        null,
+        null
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "OSM 1線分（計約1.3km）。275kVの共有ノードだけで連結、交差・近接で接続しない。公表資料では名称または端点が匿名。系統構成図(31)：千葉中央から匿名発電所《1002014》。OSMでたどった端点（千葉中央―発電所）で照合。同名の派生・共架表記：千葉火力線1・2L。東京PG資料は発電所端点を匿名化。OSMで到達した発電所は千葉火力発電所（区画の約120m手前で終わる）。個別回線・母線は未確認。 【仕上げ】末端の直線：千葉火力発電所側の末端はルート不明のため直線で表示（地中・架空の別は不明・破線）。根拠：東京PG系統構成図(31)の発電所記号とOSMの千葉火力線。地中・架空の別は不明。 【2026-10-17 差し替え】経路を千葉火力線3・4L（way 704195151）に変更。西の端は千葉火力の東隣の無名の開閉所の区画（way 704195148）の内側で、発電所の代表点まで約0.37kmの直線。(31)を3・4Lに対応付けたのは推測。"
+    },
+    {
+      "section": 32,
+      "name": "送電線",
+      "circuits": 2,
+      "publicEndpoints": [
+        null,
+        null
+      ],
+      "geography": "none",
+      "research": "held",
+      "flowReviewed": false,
+      "verdict": "no-path",
+      "reason": "系統構成図(32)は千葉中央から匿名発電所《1002013》（千葉火力《1002014》とは別）。OSMでは千葉火力線を除くと到達しない。",
+      "anonReview": {
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "東京PG系統構成図（keitoukousei_kikan.pdf 2ページ、図の日付2025-12-01、2026-10-16確認）",
+          "OSM（data/raw/tokyo-275/anon-2026-10-16.json、2026-10-16取得、4か所。取得記録は同じ場所の anon-2026-10-16.source.json）"
+        ],
+        "diagram": "千葉中央から《1002013》。(30)(31)は千葉中央から2つの発電所記号（どちらも《1002014》）。",
+        "osm": "千葉中央変電所に入る275kVのOSMの線は、千葉中央線・千葉火力線1・2L・千葉火力線3・4L（way 704195151。2026-10-17 から No.31 として描く）・千葉葛南線（地中）だけ。近くに地図にない発電所の区画（OSM way 1150296189・1165957087。名称はOSMのみで一次資料未確認、自家発の可能性があるため記録しない）があるが、275kVの線はつながっていない。",
+        "primary": "なし",
+        "result": "未確認（候補なし）：(32)の線はOSMにない。近さだけで発電所を当てない。千葉火力線3・4Lは 2026-10-17 から No.31 として描く（対応付けは推測）。"
+      }
+    },
+    {
+      "section": 33,
+      "name": "千葉中央線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "北千葉線分岐",
+        "千葉中央"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "OSM 5線分（計約5km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：千葉中央線/塩田線、千葉中央線 / 生実線。分岐端点は分岐元の線との共有OSMノードとして表示し、設備を作らない。個別回線・母線は未確認。"
+    },
+    {
+      "section": 34,
+      "name": "北総線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "北千葉線分岐",
+        "北総"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "OSM 3線分（計約10.2km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：北総線/佐倉線。分岐端点は分岐元の線との共有OSMノードとして表示し、設備を作らない。個別回線・母線は未確認。"
+    },
+    {
+      "section": 35,
+      "name": "花見川線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "北千葉線分岐",
+        "花見川"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": false,
+      "verdict": "same-name-only",
+      "reason": "OSM 1線分（計約10.4km）。275kVの共有ノードだけで連結、交差・近接で接続しない。分岐端点は分岐元の線との共有OSMノードとして表示し、設備を作らない。個別回線・母線は未確認。"
+    },
+    {
+      "section": 36,
+      "name": "北千葉線（房総～花見川）",
+      "circuits": 2,
+      "publicEndpoints": [
+        "花見川（北千葉線分岐）",
+        "房総"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "needs-other-named",
+      "reason": "OSM 4線分（計約34.4km）。275kVの共有ノードだけで連結、交差・近接で接続しない。別名の線分を経由：花見川線（共架・区間名の違いの可能性、未照合）。個別回線・母線は未確認。"
+    },
+    {
+      "section": 39,
+      "name": "香取線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新佐原",
+        "鹿島"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": true,
+      "verdict": "variant-name",
+      "reason": "OSM 5線分（計約25.1km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：香取線 / 湖南線。個別回線・母線は未確認。"
+    },
+    {
+      "section": 40,
+      "name": "送電線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "鹿島",
+        "発電所"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "needs-other-named",
+      "reason": "OSM 4線分（計約4.7km）。275kVの共有ノードだけで連結、交差・近接で接続しない。別名の線分を経由：鹿島第二火力線（共架・区間名の違いの可能性、未照合）。東京PG資料は発電所端点を匿名化。OSMで到達した発電所は鹿島火力発電所。個別回線・母線は未確認。"
+    },
+    {
+      "section": 43,
+      "name": "送電線",
+      "circuits": 1,
+      "publicEndpoints": [
+        null,
+        null
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "needs-other-named",
+      "reason": "OSM 4線分（計約4.7km）。275kVの共有ノードだけで連結、交差・近接で接続しない。公表資料では名称または端点が匿名。系統構成図(43)：鹿島から匿名発電所。OSMでたどった端点（鹿島―発電所）で照合。別名の線分を経由：鹿島第二火力線（共架・区間名の違いの可能性、未照合）。東京PG資料は発電所端点を匿名化。OSMで到達した発電所は鹿島火力発電所。個別回線・母線は未確認。"
+    },
+    {
+      "section": 44,
+      "name": "送電線",
+      "circuits": 1,
+      "publicEndpoints": [
+        null,
+        null
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "needs-other-named",
+      "reason": "OSM 4線分（計約4.7km）。275kVの共有ノードだけで連結、交差・近接で接続しない。公表資料では名称または端点が匿名。系統構成図(44)：鹿島から匿名発電所《1002008》。OSMでたどった端点（鹿島―発電所）で照合。別名の線分を経由：鹿島第二火力線（共架・区間名の違いの可能性、未照合）。東京PG資料は発電所端点を匿名化。OSMで到達した発電所は鹿島火力発電所。個別回線・母線は未確認。"
+    },
+    {
+      "section": 45,
+      "name": "鹿島線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新野田",
+        "鹿島"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "passes-facility",
+      "reason": "OSM 10線分（計約75.8km）。275kVの共有ノードだけで連結、交差・近接で接続しない。経路の途中で他の設備区画（筑波南変電所）を通過。途中の設備との電気的接続は推定しない。同名の派生・共架表記：鹿島線 / 船津線、鹿島線/船津線。個別回線・母線は未確認。"
+    },
+    {
+      "section": 49,
+      "name": "東京東線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新野田",
+        "新京葉"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "A",
+      "flowReviewed": true,
+      "verdict": "same-name-only",
+      "reason": "OSM 1線分（計約23.1km）。275kVの共有ノードだけで連結、交差・近接で接続しない。個別回線・母線は未確認。"
+    },
+    {
+      "section": 50,
+      "name": "東京北線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新野田",
+        "北東京"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": true,
+      "verdict": "variant-name",
+      "reason": "OSM 2線分（計約25km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：東京北線 (Tōkyō Kita Sen)。個別回線・母線は未確認。"
+    },
+    {
+      "section": 51,
+      "name": "北葛飾線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新野田",
+        "北葛飾"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": true,
+      "verdict": "variant-name",
+      "reason": "OSM 1線分（計約8.6km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：北葛飾線/野田線。個別回線・母線は未確認。"
+    },
+    {
+      "section": 53,
+      "name": "河北線1・2L",
+      "circuits": 2,
+      "publicEndpoints": [
+        "北東京",
+        "新古河"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "OSM 4線分（計約16.5km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：河北線3・4L / 小北線、河北線3・4L、河北線3・4L / 猪苗代新幹線。個別回線・母線は未確認。"
+    },
+    {
+      "section": 54,
+      "name": "河北線3・4L",
+      "circuits": 2,
+      "publicEndpoints": [
+        "北東京",
+        "新古河"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "OSM 4線分（計約16.5km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：河北線3・4L / 小北線、河北線3・4L、河北線3・4L / 猪苗代新幹線。個別回線・母線は未確認。"
+    },
+    {
+      "section": 55,
+      "name": "中東京幹線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "玉原線分岐",
+        "発電所"
+      ],
+      "geography": "none",
+      "research": "held",
+      "flowReviewed": false,
+      "verdict": "facility-missing",
+      "reason": "インピーダンス資料では発電所1002036―信濃川変電所。信濃川変電所がOSM取得分にない。"
+    },
+    {
+      "section": 56,
+      "name": "田子倉線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "発電所",
+        "発電所"
+      ],
+      "geography": "none",
+      "research": "held",
+      "flowReviewed": false,
+      "verdict": "no-path",
+      "reason": "インピーダンス資料では発電所間（1002039―1002040―1002036）。OSMでは田子倉発電所区画から同名線をたどれない。"
+    },
+    {
+      "section": 57,
+      "name": "奥只見線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "東群馬",
+        "発電所"
+      ],
+      "geography": "partial",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "partial",
+      "reason": "OSM 2線分（計約72.5km）。275kVの共有ノードだけで連結、交差・近接で接続しない。終点側の同名線がOSMで途切れており、起点から同名線でたどれる範囲だけを描いた部分表示。個別回線・母線は未確認。"
+    },
+    {
+      "section": 61,
+      "name": "東毛線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新新田",
+        "東毛"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": true,
+      "verdict": "needs-other-named",
+      "reason": "OSM 3線分（計約3.6km）。275kVの共有ノードだけで連結、交差・近接で接続しない。別名の線分を経由：新坂戸線（只見幹線）/新新田東毛線（共架・区間名の違いの可能性、未照合）。個別回線・母線は未確認。"
+    },
+    {
+      "section": 64,
+      "name": "北熊谷線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新岡部",
+        "北熊谷"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": true,
+      "verdict": "variant-name",
+      "reason": "OSM 4線分（計約12.9km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：北熊谷線;北埼玉線、北熊谷線;新田線;豊里線、北熊谷線;新田線。個別回線・母線は未確認。"
+    },
+    {
+      "section": 65,
+      "name": "児玉線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新岡部",
+        "西毛"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": true,
+      "verdict": "long-unnamed",
+      "reason": "OSM 6線分（計約25.1km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：児玉線;榛沢線、児玉線;キヤノン美里線。個別回線・母線は未確認。"
+    },
+    {
+      "section": 66,
+      "name": "玉原線",
+      "circuits": 2,
+      "publicEndpoints": [
+        null,
+        null
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "partial",
+      "reason": "OSM 2線分（計約37.6km）。275kVの共有ノードだけで連結、交差・近接で接続しない。公表資料では名称または端点が匿名。送電線インピーダンス資料：No.66＝中東京幹線(中)（信濃川―矢木沢開閉所―新榛名、玉原線と共架区間あり）。OSMでたどった端点（新榛名―矢木沢）で照合。終点側の同名線がOSMで途切れており、起点から同名線でたどれる範囲だけを描いた部分表示。個別回線・母線は未確認。 【仕上げ】末端の直線：玉原発電所側の末端はルート不明のため直線で表示（地中・架空の別は不明・破線）。根拠：OSMの玉原線（275kV）の末端は玉原発電所構内の無名区画（way 518992995、末端から74m）に達し、発電所区画から395m。公表資料で端点は匿名。2026-10-01 残作業で末端から発電所区画の代表点まで直線で補完。地中・架空の別は不明。"
+    },
+    {
+      "section": 76,
+      "name": "高瀬川線",
+      "circuits": 2,
+      "publicEndpoints": [
+        null,
+        null
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": false,
+      "verdict": "adopted-C",
+      "reason": "高瀬川線：OSM way 315662818（275kV・2回線・東京PG、約49.1km）を新信濃変電所の区画内から高瀬ダム―七倉ダム間の末端鉄塔まで採用。新高瀬川発電所の区画はOSM未登録のため、末端鉄塔の点で代用（KSJの発電機点は約6.7km離れており不使用）。2026-09-30オーナー指示で保留解除。",
+      "tier": "C"
+    },
+    {
+      "section": 77,
+      "name": "梓川線",
+      "circuits": 1,
+      "publicEndpoints": [
+        "新信濃",
+        "発電所"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "long-unnamed",
+      "reason": "OSM 1線分（計約13.7km）。275kVの共有ノードだけで連結、交差・近接で接続しない。東京PG資料は発電所端点を匿名化。OSMで到達した発電所は水殿水力発電所。個別回線・母線は未確認。"
+    },
+    {
+      "section": 78,
+      "name": "送電線",
+      "circuits": 1,
+      "publicEndpoints": [
+        null,
+        null
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "long-unnamed",
+      "reason": "OSM 1線分（計約13.7km）。275kVの共有ノードだけで連結、交差・近接で接続しない。公表資料では名称または端点が匿名。系統構成図(78)：新信濃から梓川線(77)と同じ匿名発電所《1002065》。OSMでたどった端点（新信濃―発電所）で照合。東京PG資料は発電所端点を匿名化。OSMで到達した発電所は水殿水力発電所。個別回線・母線は未確認。"
+    },
+    {
+      "section": 82,
+      "name": "佐久間東幹線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新富士",
+        "発電所"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": false,
+      "reason": "既に収録済み：佐久間東幹線No.82（FCまとまり）"
+    },
+    {
+      "section": 83,
+      "name": "佐久間東幹線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新富士",
+        "北相模"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "既に収録済み：佐久間東幹線No.83（FCまとまり）"
+    },
+    {
+      "section": 88,
+      "name": "青梅線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新飯能",
+        "青梅線・豊岡線分岐"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": true,
+      "verdict": "partial",
+      "reason": "OSM 3線分（計約10.7km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：青梅線;上ノ原線。分岐端点は分岐元の線との共有OSMノードとして表示し、設備を作らない。終点側の同名線がOSMで途切れており、起点から同名線でたどれる範囲だけを描いた部分表示。個別回線・母線は未確認。 【仕上げ】分岐点：青梅線・豊岡線分岐はOSMの共有ノードで特定（設備にしない）。根拠：OSMの豊岡線（275kV）の末端ノードが青梅線の経路上の頂点と一致（距離0m）。東京PG設備表No.88（新飯能→青梅線・豊岡線分岐）、No.89（分岐→青梅）、No.90（分岐→豊岡）。"
+    },
+    {
+      "section": 89,
+      "name": "青梅線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "青梅線・豊岡線分岐",
+        "青梅"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": true,
+      "verdict": "partial",
+      "reason": "OSM 2線分（計約10.9km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：青梅線;上ノ原線。分岐端点は分岐元の線との共有OSMノードとして表示し、設備を作らない。終点側の同名線がOSMで途切れており、起点から同名線でたどれる範囲だけを描いた部分表示。個別回線・母線は未確認。 【仕上げ】分岐点：青梅線・豊岡線分岐はOSMの共有ノードで特定（設備にしない）。根拠：OSMの豊岡線（275kV）の末端ノードが青梅線の経路上の頂点と一致（距離0m）。東京PG設備表No.88（新飯能→青梅線・豊岡線分岐）、No.89（分岐→青梅）、No.90（分岐→豊岡）。"
+    },
+    {
+      "section": 90,
+      "name": "豊岡線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "青梅線・豊岡線分岐",
+        "豊岡"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "partial",
+      "reason": "OSM 1線分（計約5.5km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：豊岡線;上ノ原線。分岐端点は分岐元の線との共有OSMノードとして表示し、設備を作らない。終点側の同名線がOSMで途切れており、起点から同名線でたどれる範囲だけを描いた部分表示。個別回線・母線は未確認。 【仕上げ】分岐点：青梅線・豊岡線分岐はOSMの共有ノードで特定（設備にしない）。根拠：OSMの豊岡線（275kV）の末端ノードが青梅線の経路上の頂点と一致（距離0m）。東京PG設備表No.88（新飯能→青梅線・豊岡線分岐）、No.89（分岐→青梅）、No.90（分岐→豊岡）。"
+    },
+    {
+      "section": 91,
+      "name": "東京西線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新多摩",
+        "西東京"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": true,
+      "verdict": "passes-facility",
+      "reason": "OSM 19線分（計約26.4km）。275kVの共有ノードだけで連結、交差・近接で接続しない。経路の途中で他の設備区画（南多摩変電所）を通過。途中の設備との電気的接続は推定しない。同名の派生・共架表記：東京西線;青梅線（廃線）、東京西線;秋留線;青梅南多摩線、東京西線;由木線;府中線、東京西線;由木線、東京西線;愛宕線。個別回線・母線は未確認。"
+    },
+    {
+      "section": 92,
+      "name": "港北線（港北～荏田）",
+      "circuits": 2,
+      "publicEndpoints": [
+        "荏田",
+        "港北"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "OSM 3線分（計約5.9km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：港北線 / 平台線。個別回線・母線は未確認。"
+    },
+    {
+      "section": 93,
+      "name": "横浜港北線",
+      "circuits": 4,
+      "publicEndpoints": [
+        "港北",
+        "発電所"
+      ],
+      "geography": "schematic",
+      "research": "reviewed",
+      "flowReviewed": false,
+      "verdict": "no-path",
+      "reason": "D区分（オーナー判断2026-09-30）：両端は分かるが地理経路がOSMにないため直線で表示。東京PG資料は発電所端点を匿名化。線名「横浜港北線」と系統構成図の発電所記号の位置（横浜大黒付近）から横浜火力発電所と推定。地中・架空の別は不明（両端付近の275kV線分が一方になし、または地中・架空が混在）→破線（港北変電所付近：地中0・架空3線分、横浜火力発電所付近：地中0・架空0線分）。",
+      "tier": "D",
+      "construction": "unknown"
+    },
+    {
+      "section": 94,
+      "name": "西北線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "西東京",
+        "北多摩"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": true,
+      "verdict": "partial",
+      "reason": "OSM 1線分（計約7.1km）。275kVの共有ノードだけで連結、交差・近接で接続しない。終点側の同名線がOSMで途切れており、起点から同名線でたどれる範囲だけを描いた部分表示。個別回線・母線は未確認。 【仕上げ】末端の直線：北多摩変電所側の末端はルート不明のため直線で表示（地中・架空の別は不明・破線）。根拠：東京PG設備表の端点（西東京―北多摩）。地中・架空の別は不明。"
+    },
+    {
+      "section": 95,
+      "name": "東新宿線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "北多摩",
+        "東新宿"
+      ],
+      "geography": "schematic",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "verdict": "no-path",
+      "reason": "D区分（オーナー判断2026-09-30）：両端は分かるが地理経路がOSMにないため直線で表示。地中送電線と推定（両端付近の275kV線分が地中ケーブル）→点線（北多摩変電所付近：地中1・架空0線分、東新宿変電所付近：地中1・架空0線分）。",
+      "tier": "D",
+      "construction": "underground"
+    },
+    {
+      "section": 96,
+      "name": "新宿線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "北多摩",
+        "新宿"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": true,
+      "verdict": "same-name-only",
+      "reason": "OSM 1線分（計約17.2km）。275kVの共有ノードだけで連結、交差・近接で接続しない。端点の設備がOSMで点として登録されており、半径120mの範囲を区画とみなした。個別回線・母線は未確認。"
+    },
+    {
+      "section": 97,
+      "name": "新宿城南線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "新宿",
+        "城南"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": true,
+      "verdict": "same-name-only",
+      "reason": "OSM 1線分（計約3.7km）。275kVの共有ノードだけで連結、交差・近接で接続しない。端点の設備がOSMで点として登録されており、半径120mの範囲を区画とみなした。個別回線・母線は未確認。"
+    },
+    {
+      "section": 98,
+      "name": "西南多摩線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "多摩",
+        "西東京"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": true,
+      "verdict": "needs-other-named",
+      "reason": "OSM 3線分（計約17.3km）。275kVの共有ノードだけで連結、交差・近接で接続しない。別名の線分を経由：只見幹線（共架・区間名の違いの可能性、未照合）。個別回線・母線は未確認。"
+    },
+    {
+      "section": 99,
+      "name": "佐久間東幹線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "西東京",
+        "北相模"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "reason": "既に収録済み：佐久間東幹線No.99（残区間まとまり）"
+    },
+    {
+      "section": 100,
+      "name": "秦浜線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新秦野",
+        "京浜"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": true,
+      "verdict": "passes-facility",
+      "reason": "OSM 14線分（計約27.5km）。275kVの共有ノードだけで連結、交差・近接で接続しない。経路の途中で他の設備区画（中相模変電所）を通過。途中の設備との電気的接続は推定しない。同名の派生・共架表記：秦浜線;湘南線、秦浜線 / 湘南線 / 東秦野線、秦浜線 / 下沖線、秦浜線 / 相模川線 / 海老名西線、秦浜線;中綾線;綾瀬線。個別回線・母線は未確認。"
+    },
+    {
+      "section": 101,
+      "name": "東京南線1・2L",
+      "circuits": 2,
+      "publicEndpoints": [
+        "京浜",
+        "発電所"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "OSM 2線分（計約34.7km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：東京南線1,2号線。東京PG資料は発電所端点を匿名化。OSMで到達した発電所はJERA 横須賀火力発電所（区画の約142m手前で終わる）。個別回線・母線は未確認。 【仕上げ】末端の直線：JERA 横須賀火力発電所側の末端はルート不明のため直線で表示（地中・架空の別は不明・破線）。根拠：東京PG設備表の発電所端点、OCCTOの端点名「南横須賀」、OSMの線路末端が発電所区画の約375m手前。地中・架空の別は不明。"
+    },
+    {
+      "section": 102,
+      "name": "東京南線3・4L",
+      "circuits": 2,
+      "publicEndpoints": [
+        "京浜",
+        "発電所"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "OSM 2線分（計約34.7km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：東京南線1,2号線。東京PG資料は発電所端点を匿名化。OSMで到達した発電所はJERA 横須賀火力発電所（区画の約142m手前で終わる）。個別回線・母線は未確認。 【仕上げ】末端の直線：JERA 横須賀火力発電所側の末端はルート不明のため直線で表示（地中・架空の別は不明・破線）。根拠：東京PG設備表の発電所端点、OCCTOの端点名「南横須賀」、OSMの線路末端が発電所区画の約375m手前。地中・架空の別は不明。"
+    },
+    {
+      "section": 103,
+      "name": "京浜線1・2L",
+      "circuits": 2,
+      "publicEndpoints": [
+        "西東京",
+        "京浜"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "OSM 5線分（計約22.6km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：京浜線1,2号線、京浜線3,4号線。個別回線・母線は未確認。"
+    },
+    {
+      "section": 104,
+      "name": "京浜線3・4L",
+      "circuits": 2,
+      "publicEndpoints": [
+        "京浜",
+        "西東京"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "OSM 5線分（計約22.6km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：京浜線1,2号線、京浜線3,4号線。個別回線・母線は未確認。"
+    },
+    {
+      "section": 105,
+      "name": "南川崎線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "京浜",
+        "南川崎"
+      ],
+      "geography": "schematic",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "verdict": "no-path",
+      "reason": "D区分（オーナー判断2026-09-30）：両端は分かるが地理経路がOSMにないため直線で表示。地中・架空の別は不明（両端付近の275kV線分が一方になし、または地中・架空が混在）→破線（京浜変電所付近：地中0・架空22線分、南川崎変電所付近：地中1・架空0線分）。",
+      "tier": "D",
+      "construction": "unknown"
+    },
+    {
+      "section": 106,
+      "name": "送電線",
+      "circuits": 2,
+      "publicEndpoints": [
+        null,
+        null
+      ],
+      "geography": "none",
+      "research": "held",
+      "flowReviewed": false,
+      "verdict": "no-path",
+      "reason": "系統構成図(106)は南川崎から匿名発電所《1002043》。臨海部に候補の発電所が複数あり特定できない。",
+      "anonReview": {
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "東京PG系統構成図（keitoukousei_kikan.pdf 2ページ、図の日付2025-12-01、2026-10-16確認）",
+          "OSM（data/raw/tokyo-275/anon-2026-10-16.json、2026-10-16取得、4か所。取得記録は同じ場所の anon-2026-10-16.source.json）"
+        ],
+        "diagram": "南川崎から《1002043》。",
+        "osm": "南川崎変電所に入る275kVのOSMの線は池上線（地中、地図で使用中）だけ。白石線（154kV）、南川崎南太田線（154kV 地中）はある。近くに線のない発電所（地図にある KNGPG・JFE扇島・扇島パワー・東扇島、地図にない OSM way 79238458。名称はOSMのみで一次資料未確認）がある。",
+        "primary": "なし",
+        "result": "未確認（候補なし）：(106)の線はOSMにない（地中線が登録されていない可能性）。近さだけで発電所を当てない。"
+      }
+    },
+    {
+      "section": 107,
+      "name": "南池上線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "南川崎",
+        "池上"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": true,
+      "verdict": "needs-other-named",
+      "reason": "OSM 1線分（計約7.9km）。275kVの共有ノードだけで連結、交差・近接で接続しない。別名の線分を経由：池上線（共架・区間名の違いの可能性、未照合）。個別回線・母線は未確認。"
+    },
+    {
+      "section": 108,
+      "name": "中沢線1・2L",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新所沢",
+        "中東京"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "OSM 2線分（計約1.7km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：中沢線1・2L。個別回線・母線は未確認。"
+    },
+    {
+      "section": 109,
+      "name": "中沢線3・4L",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新所沢",
+        "中東京"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "OSM 2線分（計約1.7km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：中沢線1・2L。個別回線・母線は未確認。"
+    },
+    {
+      "section": 110,
+      "name": "南狭山線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新所沢",
+        "南狭山"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": true,
+      "verdict": "variant-name",
+      "reason": "OSM 5線分（計約13.6km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：南狭山線 / 笠幡線、南狭山線 / 日高線。個別回線・母線は未確認。"
+    },
+    {
+      "section": 111,
+      "name": "新座線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "南狭山",
+        "新座"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": true,
+      "verdict": "variant-name",
+      "reason": "OSM 4線分（計約12.4km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：新座線 / 狭山線 / 脇田線、新座線 / 狭山線、新座線;下清戸線。個別回線・母線は未確認。"
+    },
+    {
+      "section": 112,
+      "name": "北武蔵野線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新座",
+        "練馬"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": true,
+      "verdict": "partial",
+      "reason": "OSM 1線分（計約7.2km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：北武蔵野線/城北線。終点側の同名線がOSMで途切れており、起点から同名線でたどれる範囲だけを描いた部分表示。個別回線・母線は未確認。 【仕上げ】末端の直線：練馬変電所側の末端はルート不明のため直線で表示（地中と推定・点線）。根拠：東京PG設備表の端点（新座―練馬）。隣接するOSM線分が地中ケーブルのため地中と推定。"
+    },
+    {
+      "section": 114,
+      "name": "水道橋線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "練馬",
+        "水道橋"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "A",
+      "flowReviewed": true,
+      "verdict": "same-name-only",
+      "reason": "OSM 1線分（計約10.4km）。275kVの共有ノードだけで連結、交差・近接で接続しない。個別回線・母線は未確認。"
+    },
+    {
+      "section": 115,
+      "name": "東新宿水道橋線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "東新宿",
+        "水道橋"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "A",
+      "flowReviewed": true,
+      "verdict": "same-name-only",
+      "reason": "OSM 1線分（計約4km）。275kVの共有ノードだけで連結、交差・近接で接続しない。個別回線・母線は未確認。"
+    },
+    {
+      "section": 116,
+      "name": "坂戸川越線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新坂戸",
+        "南川越"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": true,
+      "verdict": "variant-name",
+      "reason": "OSM 3線分（計約8.4km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：坂戸川越線（只見幹線）。個別回線・母線は未確認。"
+    },
+    {
+      "section": 117,
+      "name": "西南川越線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "南川越",
+        "南狭山"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "OSM 3線分（計約6.5km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：西南川越線（只見幹線）。個別回線・母線は未確認。"
+    },
+    {
+      "section": 118,
+      "name": "西南川越線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "南狭山",
+        "多摩"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "needs-other-named",
+      "reason": "OSM 3線分（計約12.4km）。275kVの共有ノードだけで連結、交差・近接で接続しない。別名の線分を経由：只見幹線（共架・区間名の違いの可能性、未照合）。個別回線・母線は未確認。"
+    },
+    {
+      "section": 120,
+      "name": "東京中線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新坂戸",
+        "北東京"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": true,
+      "verdict": "variant-name",
+      "reason": "OSM 5線分（計約25.3km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：東京中線;川島町線、東京中線 / 加納線、東京中線 / 久喜線。個別回線・母線は未確認。"
+    },
+    {
+      "section": 121,
+      "name": "上尾線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "東京中線分岐",
+        "上尾"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "OSM 3線分（計約7.8km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：上尾線 / 東埼玉線。分岐端点は分岐元の線との共有OSMノードとして表示し、設備を作らない。個別回線・母線は未確認。"
+    },
+    {
+      "section": 122,
+      "name": "北与野線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "上尾",
+        "北与野"
+      ],
+      "geography": "schematic",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "verdict": "no-path",
+      "reason": "D区分（オーナー判断2026-09-30）：両端は分かるが地理経路がOSMにないため直線で表示。地中・架空の別は不明（両端付近の275kV線分が一方になし、または地中・架空が混在）→破線（上尾変電所付近：地中1・架空3線分、北与野変電所付近：地中0・架空0線分）。",
+      "tier": "D",
+      "construction": "unknown"
+    },
+    {
+      "section": 123,
+      "name": "西越谷線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "北東京",
+        "西越谷"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": true,
+      "verdict": "variant-name",
+      "reason": "OSM 6線分（計約17.1km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：西越谷線 / 白岡線、西越谷線 / 美園線。個別回線・母線は未確認。"
+    },
+    {
+      "section": 124,
+      "name": "春日部線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "北東京",
+        "京北"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": true,
+      "verdict": "variant-name",
+      "reason": "OSM 8線分（計約26.7km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：春日部線;岩白線;鷲宮線、春日部線;岩白線、春日部線１号線。個別回線・母線は未確認。"
+    },
+    {
+      "section": 125,
+      "name": "豊島線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "京北",
+        "豊島"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": true,
+      "verdict": "same-name-only",
+      "reason": "OSM 1線分（計約12.6km）。275kVの共有ノードだけで連結、交差・近接で接続しない。端点の設備がOSMで点として登録されており、半径120mの範囲を区画とみなした。個別回線・母線は未確認。"
+    },
+    {
+      "section": 126,
+      "name": "東内幸町線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "豊島",
+        "東内幸町"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": true,
+      "verdict": "same-name-only",
+      "reason": "OSM 1線分（計約7.5km）。275kVの共有ノードだけで連結、交差・近接で接続しない。端点の設備がOSMで点として登録されており、半径120mの範囲を区画とみなした。個別回線・母線は未確認。"
+    },
+    {
+      "section": 127,
+      "name": "高輪線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "東内幸町",
+        "高輪"
+      ],
+      "geography": "schematic",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "verdict": "no-path",
+      "reason": "D区分（オーナー判断2026-09-30）：両端は分かるが地理経路がOSMにないため直線で表示。地中送電線と推定（両端付近の275kV線分が地中ケーブル）→点線（東内幸町変電所付近：地中1・架空0線分、高輪変電所付近：地中1・架空0線分）。",
+      "tier": "D",
+      "construction": "underground"
+    },
+    {
+      "section": 128,
+      "name": "池上線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "川崎高輪線分岐",
+        "池上"
+      ],
+      "geography": "none",
+      "research": "held",
+      "flowReviewed": false,
+      "verdict": "no-path",
+      "reason": "池上線：端点「川崎高輪線分岐」の分岐位置が分からない（川崎高輪線自体もルート不明の直線表示）。"
+    },
+    {
+      "section": 129,
+      "name": "川崎高輪線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "高輪",
+        "発電所"
+      ],
+      "geography": "schematic",
+      "research": "reviewed",
+      "flowReviewed": false,
+      "verdict": "no-path",
+      "reason": "D区分（オーナー判断2026-09-30）：両端は分かるが地理経路がOSMにないため直線で表示。東京PG資料は発電所端点を匿名化。線名「川崎高輪線」から川崎火力発電所と推定（系統構成図の発電所記号は東川崎付近）。地中・架空の別は不明（両端付近の275kV線分が一方になし、または地中・架空が混在）→破線（高輪変電所付近：地中1・架空0線分、川崎火力発電所付近：地中0・架空0線分）。",
+      "tier": "D",
+      "construction": "unknown"
+    },
+    {
+      "section": 130,
+      "name": "上野線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "北葛飾",
+        "上野"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "A",
+      "flowReviewed": true,
+      "verdict": "same-name-only",
+      "reason": "OSM 1線分（計約20km）。275kVの共有ノードだけで連結、交差・近接で接続しない。個別回線・母線は未確認。"
+    },
+    {
+      "section": 131,
+      "name": "上野水道橋線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "上野",
+        "水道橋"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": true,
+      "verdict": "same-name-only",
+      "reason": "OSM 1線分（計約6.6km）。275kVの共有ノードだけで連結、交差・近接で接続しない。線路の端点が設備区画の外（200m以内）で終わり、近接到達として扱った。個別回線・母線は未確認。"
+    },
+    {
+      "section": 132,
+      "name": "墨東線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "北葛飾",
+        "永代橋"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": true,
+      "verdict": "passes-facility",
+      "reason": "OSM 2線分（計約26.2km）。275kVの共有ノードだけで連結、交差・近接で接続しない。経路の途中で他の設備区画（墨東変電所）を通過。途中の設備との電気的接続は推定しない。個別回線・母線は未確認。"
+    },
+    {
+      "section": 134,
+      "name": "江東線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新京葉",
+        "江東"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "passes-facility",
+      "reason": "OSM 6線分（計約28.9km）。275kVの共有ノードだけで連結、交差・近接で接続しない。経路の途中で他の設備区画（葛南変電所）を通過。途中の設備との電気的接続は推定しない。同名の派生・共架表記：江東線 / 二和線、江東線 / 船橋線 / 藤崎線。個別回線・母線は未確認。"
+    },
+    {
+      "section": 135,
+      "name": "城南線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "江東",
+        "城南"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "A",
+      "flowReviewed": true,
+      "verdict": "same-name-only",
+      "reason": "OSM 1線分（計約10.5km）。275kVの共有ノードだけで連結、交差・近接で接続しない。個別回線・母線は未確認。"
+    },
+    {
+      "section": 136,
+      "name": "千葉葛南線",
+      "circuits": 2,
+      "publicEndpoints": [
+        "葛南",
+        "千葉中央"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "A",
+      "flowReviewed": true,
+      "verdict": "same-name-only",
+      "reason": "OSM 1線分（計約22.6km）。275kVの共有ノードだけで連結、交差・近接で接続しない。個別回線・母線は未確認。"
+    },
+    {
+      "section": 137,
+      "name": "葛南世田谷線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "葛南",
+        "世田谷"
+      ],
+      "geography": "schematic",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "verdict": "no-path",
+      "reason": "D区分（オーナー判断2026-09-30）：両端は分かるが地理経路がOSMにないため直線で表示。地中・架空の別は不明（両端付近の275kV線分が一方になし、または地中・架空が混在）→破線（葛南変電所付近：地中1・架空1線分、世田谷変電所付近：地中1・架空0線分）。",
+      "tier": "D",
+      "construction": "unknown"
+    },
+    {
+      "section": 138,
+      "name": "世田谷線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "荏田",
+        "世田谷"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "A",
+      "flowReviewed": true,
+      "verdict": "same-name-only",
+      "reason": "OSM 1線分（計約12.5km）。275kVの共有ノードだけで連結、交差・近接で接続しない。個別回線・母線は未確認。"
+    },
+    {
+      "section": 139,
+      "name": "川崎豊洲線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "新豊洲",
+        "発電所"
+      ],
+      "geography": "schematic",
+      "research": "reviewed",
+      "flowReviewed": false,
+      "verdict": "no-path",
+      "reason": "D区分（オーナー判断2026-09-30）：両端は分かるが地理経路がOSMにないため直線で表示。東京PG資料は発電所端点を匿名化。線名「川崎豊洲線」から川崎火力発電所と推定。地中・架空の別は不明（両端付近の275kV線分が一方になし、または地中・架空が混在）→破線（新豊洲変電所付近：地中1・架空0線分、川崎火力発電所付近：地中0・架空0線分）。",
+      "tier": "D",
+      "construction": "unknown"
+    },
+    {
+      "section": 140,
+      "name": "豊洲内幸町線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "新豊洲",
+        "東内幸町"
+      ],
+      "geography": "schematic",
+      "research": "reviewed",
+      "flowReviewed": true,
+      "verdict": "no-path",
+      "reason": "D区分（オーナー判断2026-09-30）：両端は分かるが地理経路がOSMにないため直線で表示。地中送電線と推定（両端付近の275kV線分が地中ケーブル）→点線（新豊洲変電所付近：地中1・架空0線分、東内幸町変電所付近：地中1・架空0線分）。",
+      "tier": "D",
+      "construction": "underground"
+    },
+    {
+      "section": 141,
+      "name": "豊洲永代橋線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "新豊洲",
+        "永代橋"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "A",
+      "flowReviewed": true,
+      "verdict": "same-name-only",
+      "reason": "OSM 1線分（計約3.1km）。275kVの共有ノードだけで連結、交差・近接で接続しない。個別回線・母線は未確認。"
+    },
+    {
+      "section": 142,
+      "name": "送電線",
+      "circuits": 2,
+      "publicEndpoints": [
+        null,
+        null
+      ],
+      "geography": "none",
+      "research": "held",
+      "flowReviewed": false,
+      "verdict": "anonymous",
+      "reason": "系統構成図(142)は匿名発電所《1002012》から横浜港北線に合流。発電所・合流位置とも特定できない。",
+      "anonReview": {
+        "checkedAt": "2026-10-16",
+        "sources": [
+          "東京PG系統構成図（keitoukousei_kikan.pdf 2ページ、図の日付2025-12-01、2026-10-16確認）",
+          "OSM（data/raw/tokyo-275/anon-2026-10-16.json、2026-10-16取得、4か所。取得記録は同じ場所の anon-2026-10-16.source.json）"
+        ],
+        "diagram": "《1002012》から(93)（港北→《1002044》）へ合流。合流は模式図の上だけで、地理上の位置は分からない。",
+        "osm": "取得範囲は横浜大黒の付近だけ（(93)の終点を地図では横浜火力と推定しているため、その周り）。この範囲に275kVの線・地中線はない。",
+        "primary": "なし",
+        "result": "未確認（候補なし）：調べた範囲（横浜大黒の付近）に(142)の線・合流点はない。範囲の外は調べていない。"
+      }
+    },
+    {
+      "section": 143,
+      "name": "北千葉線（花見川～新京葉）",
+      "circuits": 2,
+      "publicEndpoints": [
+        "新京葉",
+        "花見川（北千葉線分岐）"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "needs-other-named",
+      "reason": "OSM 2線分（計約22.5km）。275kVの共有ノードだけで連結、交差・近接で接続しない。別名の線分を経由：花見川線（共架・区間名の違いの可能性、未照合）。個別回線・母線は未確認。"
+    },
+    {
+      "section": 144,
+      "name": "港北線（荏田～西東京）",
+      "circuits": 2,
+      "publicEndpoints": [
+        "西東京",
+        "荏田"
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "B",
+      "flowReviewed": false,
+      "verdict": "variant-name",
+      "reason": "OSM 4線分（計約11.1km）。275kVの共有ノードだけで連結、交差・近接で接続しない。同名の派生・共架表記：港北線;生田線、港北線 / 鴨志田線。個別回線・母線は未確認。"
+    },
+    {
+      "section": 145,
+      "name": "新豊根佐久間線",
+      "circuits": 2,
+      "publicEndpoints": [
+        null,
+        null
+      ],
+      "geography": "full",
+      "research": "reviewed",
+      "tier": "C",
+      "flowReviewed": false,
+      "verdict": "partial",
+      "reason": "OSM 2線分（計約5.5km）。275kVの共有ノードだけで連結、交差・近接で接続しない。公表資料では名称または端点が匿名。東京PG設備表No.145 新豊根佐久間線（端点匿名、関連行 基幹275kV 82）。OSM名で照合。OSMでたどった端点（佐久間発電所―新豊根発電所）で照合。終点側の同名線がOSMで途切れており、起点から同名線でたどれる範囲だけを描いた部分表示。個別回線・母線は未確認。 【仕上げ】末端の直線：新豊根発電所側の末端はルート不明のため直線で表示（地中・架空の別は不明・破線）。根拠：線名「新豊根佐久間線」。地中・架空の別は不明。"
+    },
+    {
+      "section": 146,
+      "name": "千葉印西線",
+      "circuits": 3,
+      "publicEndpoints": [
+        "新京葉",
+        "千葉印西"
+      ],
+      "geography": "none",
+      "research": "held",
+      "flowReviewed": false,
+      "verdict": "no-path",
+      "reason": "千葉印西変電所がOSM未登録で位置が分からない。"
+    }
+  ],
+  "drawingRules": "地中送電線（OSM power=cable）は点線、架空送電線は実線。両端は分かるがルート不明の線は直線（地中と推定できれば点線、架空なら実線、不明は破線）。オーナー判断2026-09-30。"
+}

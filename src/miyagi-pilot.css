@@ -1,0 +1,10 @@
+#pilot-mode{position:absolute;z-index:465;top:122px;left:22px;background:#fffef9;border:1px solid #b8c9bf;border-radius:8px;padding:7px;font-size:11px;box-shadow:0 2px 6px #1232}.pilot-active #pilot-legend{display:block;position:absolute;z-index:450;left:22px;bottom:30px;background:#fffe;border:1px solid #d2ded8;border-radius:8px;padding:10px;font-size:11px;max-width:calc(100% - 44px);line-height:1.8}#pilot-legend small,#pilot-legend span{display:block}#pilot-legend i{display:inline-block;width:12px;height:4px;margin:0 4px 2px 7px}.pilot-link,#pilot-upper{font:inherit;padding:7px;border:1px solid #bfcfc7;border-radius:5px;background:#f2f7f4;color:#285d49;cursor:pointer}.pilot-active #detail{padding:18px}.pilot-active #pilot-close{float:right}.pilot-active #detail h3{margin:4px 0}.pilot-active #detail .data-facts{grid-template-columns:1fr 1.1fr}.pilot-active #real-time,.pilot-active #map-flow-key,.pilot-active #mobile-flow-toggle,.pilot-active #show-flow-visual,.pilot-active #data-mode,.pilot-active label[for=data-mode],.pilot-active #real-map-status,.pilot-active #real-footer{display:none!important}
+@media(max-width:760px){#pilot-mode{left:12px;top:160px;padding:4px;font-size:11px}.pilot-active #pilot-legend{left:12px;bottom:25px;max-width:calc(100% - 24px);font-size:10px;padding:6px}.pilot-active #detail{bottom:115px!important;max-height:45dvh!important;z-index:480}}
+
+.pilot-active .trunk-settings{display:none!important}[data-mobile-kind][hidden],.layer-options label[hidden]{display:none!important}
+@media(max-width:760px){#mobile-layers{background:#fffffff5;border:1px solid #c6d7cf;border-radius:10px;padding:8px;max-height:50dvh;overflow:auto;pointer-events:auto}#mobile-layers[hidden]{display:none}.pilot-active #mobile-layers{top:210px;right:12px}.pilot-active #pilot-mode{top:160px}}
+
+#pilot-legend{display:none}#pilot-mode select{font:inherit;padding:6px;border:1px solid #ccd9d1;border-radius:5px;background:white;color:#244d40}
+
+/* 携帯では基幹系統／下位系統の切替を出さない（公開版と同じ。2026-11-03） */
+@media(max-width:760px){#region-controls #pilot-mode{display:none}}

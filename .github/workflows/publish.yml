@@ -1,0 +1,100 @@
+# 30分ごとに潮流を取得・検証して GitHub Pages に配置する（公開残件3-D、2026-11-01）。
+# 決まりは docs/RULES.md 5節「自動配置（30分ごと）とデータの検証」「GitHub Actions とリポジトリの保護」。
+# 外部アクションはコミットの ID（SHA）で固定し、版をコメントに書く（2026-11-01 にタグの SHA を確かめた）。
+name: publish
+
+on:
+  schedule:
+    - cron: '7,37 * * * *'   # 30分ごと。混む毎時0分・30分を避ける
+  workflow_dispatch:
+    inputs:
+      initial:
+        description: '初回の配置（公開中のサイトに前回分がないときだけ。前回分なしで始める）'
+        type: boolean
+        default: false
+  push:
+    branches: [main]
+
+permissions: {}
+
+concurrency:
+  group: publish
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 60
+    permissions:
+      contents: read
+    env:
+      GRID_PUBLIC_CHECKOUT: '1'
+      SITE_URL: https://yamanami-works.github.io/grid-flow-map/
+      INITIAL: ${{ github.event_name == 'workflow_dispatch' && inputs.initial && '--initial' || '' }}
+    outputs:
+      stale: ${{ steps.validate.outputs.stale }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@949feb2413d6458794dcd2491c4babbbce0c15c1 # v7.1.0
+        with:
+          node-version: '22'
+      # インストール時のスクリプトは実行しない（あるのは esbuild・fsevents だけで不要。乗っ取られた依存が成果物を書き換える余地を減らす。2026-11-24）
+      - run: npm ci --ignore-scripts
+      # ⓪ 前回分の読み戻し（公開中のサイトから。カタログの sha256 で照合。失敗したら配置しない）
+      - run: node scripts/restore-flows.mjs "$SITE_URL" $INITIAL
+      # 原子力の号機の運転状態（原子力規制委員会、1日1回。2026-11-10、docs/RULES.md 5節）：
+      #   公開中のサイトの前回分を読み戻し（sha256 で照合）、日本時間で今日取得済みなら取らない。push では読み戻しだけ。失敗しても配置は止めない
+      - env:
+          NRA_MODE: ${{ github.event_name == 'push' && '--restore-only' || '' }}
+        run: node scripts/fetch-nra-status.mjs "$SITE_URL" $NRA_MODE
+      # 前回との比較の相手として写しておく（ないものは写さない＝初回）
+      # 東北の日別（public/data/occto/）は Git の管理外なので、初回は読み戻しでも作られない。取得の前にフォルダを作る
+      - run: |
+          mkdir -p public/data/occto tmp/prev-flows
+          for n in occto-tohoku hokkaido-flow tokyo-flow chubu-flow hokuriku-flow kansai-flow chugoku-flow shikoku-flow kyushu-flow tie-flow; do
+            if [ -f "public/data/$n.json" ]; then cp "public/data/$n.json" tmp/prev-flows/; fi
+          done
+      # ① 取得（今日と前日の失敗は失敗）。main への push では取得せず、読み戻した前回分（照合済み）で配置する
+      #    （コードの修正を公表の停止中や異常値のときも出せるように。2026-11-03）
+      - if: github.event_name != 'push'
+        run: node scripts/update-all.mjs
+      # ② 前回との比較の検証。鮮度（観測のある最新の日付が日本時間の今日か前日）は配置を止めず、警告と stale の出力だけ
+      - id: validate
+        run: node scripts/validate-flows.mjs tmp/prev-flows $INITIAL
+      # ③ テスト ④ ビルド ⑤ 公開前チェック
+      - run: npm test
+      - run: npm run build
+      - run: npm run check:publish
+      - uses: actions/upload-pages-artifact@fc324d3547104276b827a68afc52ff2a11cc49c9 # v5.0.0
+        with:
+          path: dist
+
+  deploy:
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 10
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@368f82528645a54fb793d4d04e342629a3f51346 # v5.0.1
+
+  # 鮮度の知らせ：定期・手動の実行で古いデータがあれば、配置の後でこのジョブを失敗にして管理者に知らせる。
+  # 配置は止めない（push の実行が待ちの間に取り消されても、次の定期実行で修正が出るように）。どのデータが古いかは build の警告に出る
+  freshness:
+    needs: [build, deploy]
+    if: needs.build.outputs.stale == 'true' && github.event_name != 'push'
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    permissions: {}
+    steps:
+      - run: |
+          echo "::error::潮流データに、観測のある最新の日付が日本時間の今日・前日でないものがある（build の警告を参照）"
+          exit 1

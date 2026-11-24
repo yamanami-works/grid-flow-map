@@ -1,0 +1,8609 @@
+{
+ "generatedAt": "2026-11-23T01:18:24.493Z",
+ "rule": "各社の系統空容量（送電線）一覧の基幹電圧の行。地図の線と線名（括弧書き・回線番号を除く）・電圧で照合。フェンス（複数線の合計）は除く。",
+ "rows": [
+  {
+   "region": "hokkaido",
+   "no": "2",
+   "name": "道央北幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "西当別変電所→西野変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "4",
+   "name": "道央西幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "西双葉開閉所→西野変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "5",
+   "name": "泊幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "発電所→西野変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "6",
+   "name": "後志幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "発電所→後志幹線(#115)",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "7",
+   "name": "後志幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "西双葉開閉所→後志幹線(#115)",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "8",
+   "name": "京極幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "発電所→後志幹線(#115)",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "9",
+   "name": "道央南幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "南早来変電所→西双葉開閉所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "10",
+   "name": "南早来線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "発電所→南早来変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "11",
+   "name": "苫東厚真線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "発電所→南早来変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "12",
+   "name": "道央東幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "南早来変電所→西当別変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "13",
+   "name": "石狩火力幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "―",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "21",
+   "name": "苗穂北線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "西当別変電所→苗穂変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "22",
+   "name": "篠路線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "西当別変電所→篠路変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "23",
+   "name": "西札幌線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "西札幌変電所→篠路変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "24",
+   "name": "室蘭西幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "西野変電所→西札幌変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "25",
+   "name": "室蘭西幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "双葉開閉所→西野変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "26",
+   "name": "室蘭西幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "西室蘭開閉所→双葉開閉所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "27",
+   "name": "室蘭西幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "西室蘭開閉所→室蘭変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "28",
+   "name": "南九条線",
+   "kv": 187,
+   "circuits": "3",
+   "direction": "西野変電所→南九条変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "29",
+   "name": "西小樽線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "西野変電所→西小樽変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "30",
+   "name": "双葉幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "苫小牧変電所→双葉開閉所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "31",
+   "name": "胆振幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "西伊達変電所→西室蘭開閉所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "32",
+   "name": "他社線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "―",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "33",
+   "name": "室蘭東幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "苫小牧変電所→室蘭変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "34",
+   "name": "苫小牧火力線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "東苫小牧変電所→苫小牧変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "35",
+   "name": "勇払線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "勇払線(#16)→東苫小牧変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "36",
+   "name": "勇払線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "南早来変電所→勇払線(#16)",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "37",
+   "name": "他社線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "―",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "38",
+   "name": "追分線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "南早来変電所→追分開閉所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "39",
+   "name": "他社線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "追分開閉所→恵庭変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "40",
+   "name": "他社線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "恵庭変電所→南札幌変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "41",
+   "name": "南札幌幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "北江別変電所→南札幌変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "42",
+   "name": "北江別線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "西当別変電所→北江別変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "45",
+   "name": "道南幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "北斗変換所→西双葉開閉所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "46",
+   "name": "北斗幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "大野変電所→北斗変換所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "47",
+   "name": "他社線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "―",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "48",
+   "name": "知内線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "知内線(#53)→大野変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "49",
+   "name": "知内線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "知内開閉所→知内線(#53)",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "50",
+   "name": "鶴岡支線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "―",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "51",
+   "name": "他社線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "―",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "52",
+   "name": "大野線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "大野変電所→北七飯変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "53",
+   "name": "函館幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "函館幹線(#299)→双葉開閉所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "54",
+   "name": "函館幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "函館幹線(#366)→函館幹線(#299)",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "55",
+   "name": "函館幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "北七飯変電所→函館幹線(#366)",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "56",
+   "name": "今金中里支線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "―",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "57",
+   "name": "上八雲支線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "―",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "58",
+   "name": "他社線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "函館変換所→北七飯変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "61",
+   "name": "道北幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "西当別変電所→旭川嵐山開閉所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "62",
+   "name": "旭川南線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "旭川嵐山開閉所→旭川変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "63",
+   "name": "名寄幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "旭川嵐山開閉所→西名寄変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "64",
+   "name": "北幌延線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "西名寄変電所→西中川変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "65",
+   "name": "他社線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "西中川変電所→他社変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "66",
+   "name": "名寄幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "旭川嵐山開閉所→西旭川変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "67",
+   "name": "旭川幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "西滝川変電所→西旭川変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "68",
+   "name": "滝川幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "西奈井江開閉所→西滝川変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "69",
+   "name": "奈井江幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "北江別変電所→西奈井江開閉所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "71",
+   "name": "狩勝幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "南早来変電所→北新得変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "73",
+   "name": "他社線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "北新得変電所→追分開閉所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "74",
+   "name": "日勝幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "日勝幹線(#162)→北新得変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "75",
+   "name": "日勝幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "新冠開閉所→日勝幹線(#162)",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "76",
+   "name": "日勝幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "発電所→新冠開閉所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "77",
+   "name": "奥沙流支線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "―",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "78",
+   "name": "奥新冠線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "―",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "79",
+   "name": "奥新冠線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "奥新冠線(#47)→新冠開閉所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "80",
+   "name": "奥新冠線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "岩清水開閉所→奥新冠線(#47)",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "81",
+   "name": "下新冠支線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "―",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "82",
+   "name": "高見線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "高見線(#20)→岩清水開閉所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "83",
+   "name": "高見線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "高見線(#3)→高見線(#20)",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "84",
+   "name": "高見線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "高見開閉所→高見線(#3)",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "85",
+   "name": "春別支線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "春別開閉所→高見線(#20)",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "86",
+   "name": "静内線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "北静内変電所→春別開閉所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "87",
+   "name": "東の沢支線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "―",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "89",
+   "name": "日高幹線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "岩清水開閉所→南早来変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "91",
+   "name": "富村線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "富村線(#59)→北新得変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "92",
+   "name": "富村線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "―",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "94",
+   "name": "上十勝支線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "―",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "101",
+   "name": "岩松西線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "北新得変電所→北芽室変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "102",
+   "name": "西音更線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "北新得変電所→西音更変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "103",
+   "name": "道東幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "北新得変電所→宇円別変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "104",
+   "name": "釧路北線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "宇円別変電所→東釧路変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "105",
+   "name": "西春別線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "東釧路変電所→西春別変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "106",
+   "name": "釧路幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "宇円別変電所→発電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "107",
+   "name": "北見東線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "発電所→女満別変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "108",
+   "name": "他社線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "―",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "109",
+   "name": "他社線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "発電所→発電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "110",
+   "name": "他社線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "発電所→発電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "113",
+   "name": "北見幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "発電所→留辺蘂変電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "114",
+   "name": "他社線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "―",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokkaido",
+   "no": "115",
+   "name": "他社線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "北新得変電所→発電所",
+   "file": "data/raw/tso-lines/hokkaido/sys_capa_kikan01_line_202609_01.csv",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "hokuriku",
+   "no": "H101",
+   "name": "",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "-",
+   "file": "data/raw/tso-lines/hokuriku/sys_capa_kikan01_line_202609_05.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "hokuriku",
+   "no": "H102",
+   "name": "",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "-",
+   "file": "data/raw/tso-lines/hokuriku/sys_capa_kikan01_line_202609_05.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "hokuriku",
+   "no": "H103",
+   "name": "",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "-",
+   "file": "data/raw/tso-lines/hokuriku/sys_capa_kikan01_line_202609_05.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "hokuriku",
+   "no": "H104",
+   "name": "新富山幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "城端→新富山",
+   "file": "data/raw/tso-lines/hokuriku/sys_capa_kikan01_line_202609_05.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "hokuriku-275-新富山幹線"
+   ]
+  },
+  {
+   "region": "hokuriku",
+   "no": "H105",
+   "name": "中央幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "加賀→城端",
+   "file": "data/raw/tso-lines/hokuriku/sys_capa_kikan01_line_202609_05.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "hokuriku-275-中央幹線"
+   ]
+  },
+  {
+   "region": "hokuriku",
+   "no": "H106",
+   "name": "加賀東金津線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "加賀→東金津",
+   "file": "data/raw/tso-lines/hokuriku/sys_capa_kikan01_line_202609_05.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "hokuriku-275-加賀東金津線"
+   ]
+  },
+  {
+   "region": "hokuriku",
+   "no": "H107",
+   "name": "東金津新福井線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新福井→東金津",
+   "file": "data/raw/tso-lines/hokuriku/sys_capa_kikan01_line_202609_05.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "hokuriku-275-東金津新福井線"
+   ]
+  },
+  {
+   "region": "hokuriku",
+   "no": "H108",
+   "name": "越前線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "越前→新福井",
+   "file": "data/raw/tso-lines/hokuriku/sys_capa_kikan01_line_202609_05.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "hokuriku-275-越前線"
+   ]
+  },
+  {
+   "region": "hokuriku",
+   "no": "H109",
+   "name": "南条越前線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "越前→南条",
+   "file": "data/raw/tso-lines/hokuriku/sys_capa_kikan01_line_202609_05.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "hokuriku-275-南条越前線"
+   ]
+  },
+  {
+   "region": "hokuriku",
+   "no": "H110",
+   "name": "敦賀火力線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "南条→敦賀火力",
+   "file": "data/raw/tso-lines/hokuriku/sys_capa_kikan01_line_202609_05.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "hokuriku-275-敦賀火力線"
+   ]
+  },
+  {
+   "region": "hokuriku",
+   "no": "H201",
+   "name": "",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "-",
+   "file": "data/raw/tso-lines/hokuriku/sys_capa_kikan01_line_202609_05.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "hokuriku",
+   "no": "H202",
+   "name": "能登幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "加賀→中能登",
+   "file": "data/raw/tso-lines/hokuriku/sys_capa_kikan01_line_202609_05.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "hokuriku-500-能登幹線"
+   ]
+  },
+  {
+   "region": "hokuriku",
+   "no": "H203",
+   "name": "能越幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "南福光→中能登",
+   "file": "data/raw/tso-lines/hokuriku/sys_capa_kikan01_line_202609_05.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "hokuriku-500-能越幹線"
+   ]
+  },
+  {
+   "region": "hokuriku",
+   "no": "H204",
+   "name": "加賀福光線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "加賀→南福光",
+   "file": "data/raw/tso-lines/hokuriku/sys_capa_kikan01_line_202609_05.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "hokuriku-500-加賀福光線"
+   ]
+  },
+  {
+   "region": "hokuriku",
+   "no": "H205",
+   "name": "加賀幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "越前→加賀",
+   "file": "data/raw/tso-lines/hokuriku/sys_capa_kikan01_line_202609_05.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "hokuriku-500-加賀幹線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "1",
+   "name": "播磨線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "A→B",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-播磨線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "2",
+   "name": "東播線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "B→C",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-東播線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "3",
+   "name": "丹波線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "C→E",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-丹波線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "4",
+   "name": "能勢線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "J→F",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-能勢線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "5",
+   "name": "北河内線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "F→H",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-北河内線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "6",
+   "name": "南近江線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "H→開閉所",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-南近江線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "7",
+   "name": "山城北線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "開閉所→G",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-山城北線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "8",
+   "name": "山城東線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "G→開閉所",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-山城東線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "9",
+   "name": "播磨中央線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "開閉所→J",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-播磨中央線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "10",
+   "name": "播磨西線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "A→開閉所",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-播磨西線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "11",
+   "name": "播磨北線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "A→D",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-播磨北線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "12",
+   "name": "大河内線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "開閉所→D",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-大河内線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "13",
+   "name": "新綾部線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "D→F",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-新綾部線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "14",
+   "name": "若狭幹線(山)",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "E→開閉所",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-若狭幹線（山）",
+    "kansai-500-若狭幹線（里）"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "15",
+   "name": "北近江線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "E→開閉所",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-北近江線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "16",
+   "name": "送電線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "発電所→D",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "17",
+   "name": "丹後幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "D→C",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-丹後幹線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "18",
+   "name": "送電線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "発電所→D",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "19",
+   "name": "送電線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "発電所→J",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "20",
+   "name": "送電線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "発電所→G",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "21",
+   "name": "若狭幹線(里)",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "F→開閉所",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-若狭幹線（山）",
+    "kansai-500-若狭幹線（里）"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "22",
+   "name": "奥多々良木線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "R→B",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "23",
+   "name": "送電線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "発電所→開閉所",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "24",
+   "name": "御坊幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "Q→P",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "25",
+   "name": "送電線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "発電所→E",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "26",
+   "name": "南大和線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "開閉所→G",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-南大和線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "27",
+   "name": "北大和線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "開閉所→G",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-北大和線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "28",
+   "name": "送電線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "発電所→D",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "29",
+   "name": "山城南線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "H→G",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-山城南線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "30-A",
+   "name": "北和泉線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "K→P",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-北和泉線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "30-B",
+   "name": "南和泉線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "I→K",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-南和泉線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "31",
+   "name": "信貴線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "P→H",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-信貴線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "90",
+   "name": "金剛線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "変換所→K",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-金剛線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "91",
+   "name": "紀北線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "変換所→I",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-500-紀北線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "32",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AG→AF",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "33",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "1",
+   "direction": "発電所→AF",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "34",
+   "name": "西播線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AF→AH",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-西播線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "35",
+   "name": "飾磨港線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AI→開閉所",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-飾磨港線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "36",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "開閉所→AM",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "37",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AJ→AM",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "38",
+   "name": "姫路支線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AH→AM",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "39",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AJ→AM",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "40",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AJ→開閉所",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "41",
+   "name": "姫路南支線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AH→開閉所",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "42",
+   "name": "新生駒線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "開閉所→BK",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-新生駒線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "43",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AL→AM",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "44",
+   "name": "新加古川線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AM→開閉所",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-新加古川線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "45",
+   "name": "西神戸線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AM→AO",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-西神戸線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "46",
+   "name": "東播支線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AN→AO",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "47",
+   "name": "六甲線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AO→AQ",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-六甲線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "48",
+   "name": "西神支線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AO→AK",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-西神支線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "49",
+   "name": "北神線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AP→AK",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-北神線（４２Ｔ～神戸）",
+    "kansai-275-北神線（北摂～４２Ｔ）"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "50",
+   "name": "三宮線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "AR→AP",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-三宮線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "51",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "発電所→AR",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "92",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "発電所→AQ",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "52",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "発電所→AL",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "53",
+   "name": "宝塚線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "開閉所→L",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-宝塚線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "54",
+   "name": "伊丹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AA→開閉所",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-伊丹線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "55",
+   "name": "新神戸線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AQ→AA",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-新神戸線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "56",
+   "name": "西京都線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AC→BA",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-西京都線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "57",
+   "name": "宮津線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "発電所→AS",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-plant-275-way-1029051469"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "58",
+   "name": "湖東線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AY→AX",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-湖東線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "59",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "発電所→AX",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "60",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "発電所→AX",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "61",
+   "name": "喜撰山線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "開閉所→N",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-喜撰山線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "62",
+   "name": "湖南線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "BF→開閉所",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-湖南線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "63",
+   "name": "栗東線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "BG→BF",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-栗東線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "64",
+   "name": "甲賀線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "BE→N",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-甲賀線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "65",
+   "name": "南京都線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "BI→N",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-南京都線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "66",
+   "name": "洛南支線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "BH→N",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-洛南支線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "67",
+   "name": "東大阪線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "BL→BI",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-東大阪線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "68",
+   "name": "新寝屋川支線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "BJ→BI",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "69",
+   "name": "西大阪線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "BD→J",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-西大阪線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "70",
+   "name": "西大阪東支線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "BD→BB",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-西大阪東支線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "71",
+   "name": "北大阪線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "開閉所→BB",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-北大阪線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "72",
+   "name": "淀川線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "BB→BC",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-淀川線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "73",
+   "name": "北豊中線、西大阪小曽根線",
+   "kv": 275,
+   "circuits": "1",
+   "direction": "AW→BD",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-西大阪十字-73",
+    "kansai-275-西大阪十字-75",
+    "kansai-275-西大阪十字-74"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "74",
+   "name": "西大阪小曽根線、小曽根支線",
+   "kv": 275,
+   "circuits": "1",
+   "direction": "AW→BD",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-西大阪十字-73",
+    "kansai-275-西大阪十字-74"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "75",
+   "name": "北豊中線",
+   "kv": 275,
+   "circuits": "1",
+   "direction": "AU→BD",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-西大阪十字-73",
+    "kansai-275-西大阪十字-75"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "76",
+   "name": "下穂積支線",
+   "kv": 275,
+   "circuits": "1",
+   "direction": "AV→BD",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-西大阪十字-76"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "77",
+   "name": "東大阪新生駒線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "BL→BK",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-東大阪新生駒線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "78",
+   "name": "泉南東大阪線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "BN→BL",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-泉南東大阪線（東大阪～１０９T）",
+    "kansai-275-泉南東大阪線（１０９T～泉南変電所）"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "79",
+   "name": "南河内支線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "BM→BL",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-南河内支線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "80",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "BT→BN",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "81",
+   "name": "紀の川線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "BR→BT",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-osm-275-630117950"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "82",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "BS→BR",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "84",
+   "name": "北葛城線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "BQ→K",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-北葛城線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "85",
+   "name": "南大阪線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "BO→K",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-南大阪線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "86",
+   "name": "南大阪泉北線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "BP→BO",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-南大阪泉北線"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "88",
+   "name": "熊野幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "DJ→BO",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "89",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "発電所→BP",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "201",
+   "name": "丸山幹線(関~甲賀)",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "開閉所→BE",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "202",
+   "name": "丸山幹線(丸山~関)",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "海E→開閉所",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "203",
+   "name": "御母衣北幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "開閉所→BE",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "jpower-275-way-440218167"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "204",
+   "name": "新北陸幹線(御母衣~栗東)",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "開閉所→BG",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-way-1028287090",
+    "kansai-275-way-1028287067",
+    "kansai-275-way-1257806203"
+   ],
+   "note": "drawnIds は線名の頭（新北陸幹線）で当てた参考で、区間とは対応しない。区間ごとの線は地図に別の ID で描いてある。"
+  },
+  {
+   "region": "kansai",
+   "no": "205",
+   "name": "大黒部幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "開閉所→BB",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-way-256682326"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "206",
+   "name": "新祖山線",
+   "kv": 275,
+   "circuits": "1",
+   "direction": "発電所→BB",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-way-618344831"
+   ]
+  },
+  {
+   "region": "kansai",
+   "no": "207",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "1",
+   "direction": "発電所→BB",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "208",
+   "name": "新北陸幹線(御母衣~成出)",
+   "kv": 275,
+   "circuits": "1",
+   "direction": "陸D→BG",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-way-1028287090",
+    "kansai-275-way-1028287067",
+    "kansai-275-way-1257806203"
+   ],
+   "note": "drawnIds は線名の頭（新北陸幹線）で当てた参考で、区間とは対応しない。区間ごとの線は地図に別の ID で描いてある。"
+  },
+  {
+   "region": "kansai",
+   "no": "209",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "1",
+   "direction": "発電所→BG",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "210",
+   "name": "新北陸幹線(御母衣~鳩谷)",
+   "kv": 275,
+   "circuits": "1",
+   "direction": "発電所→BG",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-way-1028287090",
+    "kansai-275-way-1028287067",
+    "kansai-275-way-1257806203"
+   ],
+   "note": "drawnIds は線名の頭（新北陸幹線）で当てた参考で、区間とは対応しない。区間ごとの線は地図に別の ID で描いてある。"
+  },
+  {
+   "region": "kansai",
+   "no": "211",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "1",
+   "direction": "発電所→BG",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "212",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "1",
+   "direction": "発電所→BG",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "213",
+   "name": "新北陸幹線(成出~城端)",
+   "kv": 275,
+   "circuits": "1",
+   "direction": "開閉所→陸D",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-way-1028287090",
+    "kansai-275-way-1028287067",
+    "kansai-275-way-1257806203"
+   ],
+   "note": "drawnIds は線名の頭（新北陸幹線）で当てた参考で、区間とは対応しない。区間ごとの線は地図に別の ID で描いてある。"
+  },
+  {
+   "region": "kansai",
+   "no": "214",
+   "name": "新北陸幹線(新愛本~城端)",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "AE→開閉所",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-way-1028287090",
+    "kansai-275-way-1028287067",
+    "kansai-275-way-1257806203"
+   ],
+   "note": "drawnIds は線名の頭（新北陸幹線）で当てた参考で、区間とは対応しない。区間ごとの線は地図に別の ID で描いてある。"
+  },
+  {
+   "region": "kansai",
+   "no": "215",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "1",
+   "direction": "発電所→AE",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kansai",
+   "no": "216",
+   "name": "新北陸幹線(黒四~新愛本)",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "発電所→AE",
+   "file": "data/raw/tso-lines/kansai/154kv_more_line.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kansai-275-way-1028287090",
+    "kansai-275-way-1028287067",
+    "kansai-275-way-1257806203"
+   ],
+   "note": "drawnIds は線名の頭（新北陸幹線）で当てた参考で、区間とは対応しない。区間ごとの線は地図に別の ID で描いてある。"
+  },
+  {
+   "region": "chugoku",
+   "no": "基L1",
+   "name": "中国西幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "西島根(変)→新山口(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-500-中国西幹線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L2",
+   "name": "中国中幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "日野(変)→西島根(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-500-中国中幹線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L3",
+   "name": "中国東幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "智頭(変)→日野(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-500-中国東幹線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L4",
+   "name": "新山口幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "東山口(変)→新山口(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-500-新山口幹線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L5",
+   "name": "東山口幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "新西広島(変)→東山口(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-500-東山口幹線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L6",
+   "name": "西島根幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "新西広島(変)→西島根(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-500-西島根幹線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L7",
+   "name": "新西広島幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "新広島(変)→新西広島(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-500-新西広島幹線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L8",
+   "name": "新広島幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "新岡山(変)→新広島(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-500-新広島幹線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L9",
+   "name": "新岡山幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "東岡山(変)→新岡山(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-500-新岡山幹線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L10",
+   "name": "北松江幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "日野(変)→北松江(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-500-北松江幹線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L11",
+   "name": "日野幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "新岡山(変)→日野(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-500-日野幹線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L12",
+   "name": "新小野田火力連絡線",
+   "kv": 220,
+   "circuits": "1",
+   "direction": "新山口(変)→新小野田(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-新小野田火力連絡線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L13",
+   "name": "新山口連絡線",
+   "kv": 220,
+   "circuits": "1",
+   "direction": "新山口(変)→山口(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-新山口連絡線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L14",
+   "name": "新小野田火力山口線",
+   "kv": 220,
+   "circuits": "1",
+   "direction": "山口(変)→新小野田(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-新小野田火力山口線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L15",
+   "name": "山口幹線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "新徳山(変)→山口(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-山口幹線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L16",
+   "name": "南山口支線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "山口幹線→南山口(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-南山口支線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L17",
+   "name": "東山口連絡線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "東山口(変)→新徳山(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-東山口連絡線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L19",
+   "name": "柳井火力連絡線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "東山口(変)→柳井火力(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-plant-220-way-605420904"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L21",
+   "name": "新岩国連絡線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "新西広島(変)→新岩国(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-新岩国連絡線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L22",
+   "name": "広島西幹線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "新西広島(変)→広島(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-広島西幹線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L23",
+   "name": "広島中央線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "広島西幹線→広島中央(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-広島中央線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L24",
+   "name": "山陰幹線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "広島(変)→松江(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "chugoku",
+   "no": "基L25",
+   "name": "作木支線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "山陰幹線→作木(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-作木支線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L26",
+   "name": "新広島連絡線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "新広島(変)→広島(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-新広島連絡線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L27",
+   "name": "黒瀬幹線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "新広島(変)→黒瀬(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-黒瀬幹線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L28",
+   "name": "新竹原火力線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "新広島(変)→発電所",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "chugoku",
+   "no": "基L29",
+   "name": "広島東幹線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "井原(開)→新広島(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-広島東幹線-新広島三原"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L30",
+   "name": "北尾道連絡線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "広島東幹線→北尾道(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-北尾道連絡線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L31",
+   "name": "新岡山連絡線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "新岡山(変)→井原(開)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-新岡山連絡線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L32",
+   "name": "井原連絡線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "新岡山(変)→井原(開)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-井原連絡線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L33",
+   "name": "笠岡幹線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "井原(開)→笠岡(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-笠岡幹線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L34",
+   "name": "新倉敷連絡線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "新岡山(変)→新倉敷(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "chugoku",
+   "no": "基L35",
+   "name": "岡山幹線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "岡山(変)→新倉敷(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-岡山幹線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L37",
+   "name": "東岡山連絡線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "東岡山(変)→岡山(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-東岡山連絡線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L38",
+   "name": "松江連絡線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "北松江(変)→松江(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-松江連絡線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L39",
+   "name": "俣野川線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "日野(変)→俣野川(開)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-俣野川線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L40",
+   "name": "新鳥取線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "新鳥取(変)→俣野川(開)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-新鳥取線"
+   ]
+  },
+  {
+   "region": "chugoku",
+   "no": "基L41",
+   "name": "新鳥取連絡線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "智頭(変)→新鳥取(変)",
+   "file": "data/raw/tso-lines/chugoku/sys_capa_kikan01_line_202609_07.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "chugoku-220-新鳥取連絡線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "1",
+   "name": "四国中央西幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "―",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-plant-500-way-456491989"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "2",
+   "name": "四国中央中幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "変2→変3",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-500-四国中央中幹線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "3",
+   "name": "四国中央東幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "変3→変4",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-500-四国中央東幹線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "4",
+   "name": "阿波幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "変5→変4",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-500-阿波幹線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "5",
+   "name": "南阿波幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "阿南変換所→変5",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-500-南阿波幹線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "6",
+   "name": "橘湾火力線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "<7>発電所→阿南変換所",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "shikoku",
+   "no": "7",
+   "name": "伊方北幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "―",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "shikoku",
+   "no": "8",
+   "name": "伊方南幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "―",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "shikoku",
+   "no": "9",
+   "name": "広見線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変22→変21",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-広見線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "10",
+   "name": "大洲北幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変21→変2",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-大洲北幹線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "11",
+   "name": "大洲南幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変21→変2",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-大洲南幹線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "12",
+   "name": "松山幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変2→変19",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-松山幹線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "13",
+   "name": "松山西線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変19→変20",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-松山西線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "15",
+   "name": "松山東線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変25→変20",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-松山東線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "16",
+   "name": "川内幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変25→変2",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-川内幹線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "17",
+   "name": "西条火力線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変24→変25",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-plant-187-way-704208234"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "18",
+   "name": "壬生川線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変23→変24",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-壬生川線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "19",
+   "name": "西条線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変25→変3",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-西条線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "20",
+   "name": "本川線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変3→変17",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-本川線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "21",
+   "name": "高知幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変13→変17",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-高知幹線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "22",
+   "name": "新改高知線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変14→変13",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-新改高知線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "23",
+   "name": "新改幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変14→変12",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-新改幹線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "24",
+   "name": "三島西線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変3→変26",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-三島西線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "25",
+   "name": "三島東線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変26→変12",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-三島東線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "26",
+   "name": "吉野川線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変12→変4",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-吉野川線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "27",
+   "name": "讃岐坂出線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変31→変4",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "shikoku",
+   "no": "28",
+   "name": "坂出火力線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変31→変28",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-plant-187-way-605687599"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "29",
+   "name": "香川線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変4→変28",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-香川線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "30",
+   "name": "麻線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変4→変30",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-麻線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "31",
+   "name": "高松線",
+   "kv": 187,
+   "circuits": "4",
+   "direction": "変4→変27",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-高松線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "32",
+   "name": "讃岐鳴門線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変4→送32No69",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-讃岐鳴門線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "33",
+   "name": "大川支線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "送32No69→変29",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-大川支線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "34",
+   "name": "阿波鳴門線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変5→変9",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-阿波鳴門線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "35",
+   "name": "阿波国府線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変8→変5",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-阿波国府線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "36",
+   "name": "蔭平線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "変11→変8",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-osm-187-722648701"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "37",
+   "name": "阿南火力線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変8→変10",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-plant-187-way-605689959"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "38",
+   "name": "阿南幹線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "変12→変10",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "shikoku",
+   "no": "39",
+   "name": "長山線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "送39No1→<16>発電所",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-長山線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "40",
+   "name": "伊新線(新改)",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "<18>発電所→新改開閉所(変14)",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "shikoku",
+   "no": "41",
+   "name": "伊新線(伊予)",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "<18>発電所→伊予開閉所(変25)",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "shikoku",
+   "no": "42",
+   "name": "奈半利川支線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "送39No1→変15",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-奈半利川支線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "43",
+   "name": "二又線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "―",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-plant-187-way-844182805"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "44",
+   "name": "魚梁瀬線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "―",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "shikoku-187-魚梁瀬線"
+   ]
+  },
+  {
+   "region": "shikoku",
+   "no": "45",
+   "name": "需要家線",
+   "kv": 187,
+   "circuits": "2",
+   "direction": "―",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "需要家（個別追加待ち）",
+   "drawnIds": []
+  },
+  {
+   "region": "shikoku",
+   "no": "46",
+   "name": "需要家線",
+   "kv": 187,
+   "circuits": "1",
+   "direction": "―",
+   "file": "data/raw/tso-lines/shikoku/sys_capa_kikan00_line_202610_08.csv",
+   "state": "需要家（個別追加待ち）",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "西谷門司線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "西谷→門司",
+   "file": "data/raw/tso-lines/kyushu/_１_門司、苅田地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-西谷門司線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "苅田分岐線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "西谷→苅田",
+   "file": "data/raw/tso-lines/kyushu/_１_門司、苅田地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-苅田分岐線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "3",
+   "name": "苅田連絡線",
+   "kv": 220,
+   "circuits": "1",
+   "direction": "南苅田→苅田",
+   "file": "data/raw/tso-lines/kyushu/_１_門司、苅田地区_送電線.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "4",
+   "name": "南苅田線",
+   "kv": 220,
+   "circuits": "1",
+   "direction": "南苅田→北九州",
+   "file": "data/raw/tso-lines/kyushu/_１_門司、苅田地区_送電線.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "脊振西福岡線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "脊振→西福岡",
+   "file": "data/raw/tso-lines/kyushu/_１０_伊都地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-脊振西福岡線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "脊振伊都線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "脊振→伊都",
+   "file": "data/raw/tso-lines/kyushu/_１０_伊都地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-脊振伊都線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "豊前西幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "豊前→中央",
+   "file": "data/raw/tso-lines/kyushu/_１１_豊前、宇佐、中津、高田地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-500-豊前西幹線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "東九州幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "東九州→豊前",
+   "file": "data/raw/tso-lines/kyushu/_１１_豊前、宇佐、中津、高田地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-500-東九州幹線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "3",
+   "name": "東豊前線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "東豊前→豊前",
+   "file": "data/raw/tso-lines/kyushu/_１１_豊前、宇佐、中津、高田地区_送電線.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "4",
+   "name": "大分北線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "豊前→速見",
+   "file": "data/raw/tso-lines/kyushu/_１１_豊前、宇佐、中津、高田地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-大分北　線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "5",
+   "name": "速見分岐線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "豊前→速見",
+   "file": "data/raw/tso-lines/kyushu/_１１_豊前、宇佐、中津、高田地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-速見分岐線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "熊本幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "熊本→中央",
+   "file": "data/raw/tso-lines/kyushu/_１２_中央、山家地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-500-熊本幹線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "脊振幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "脊振→中央",
+   "file": "data/raw/tso-lines/kyushu/_１２_中央、山家地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-500-脊振幹線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "3",
+   "name": "佐賀幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "西九州→中央",
+   "file": "data/raw/tso-lines/kyushu/_１２_中央、山家地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-500-佐賀幹線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "4",
+   "name": "山家線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "中央→山家",
+   "file": "data/raw/tso-lines/kyushu/_１２_中央、山家地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-山　家　線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "5",
+   "name": "山家東福岡線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "山家→東福岡",
+   "file": "data/raw/tso-lines/kyushu/_１２_中央、山家地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-山家東福岡線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "脊振鳥栖線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "脊振→鳥栖",
+   "file": "data/raw/tso-lines/kyushu/_１３_久留米、鳥栖地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-脊振鳥栖線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "鳥栖木佐木線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "木佐木→鳥栖",
+   "file": "data/raw/tso-lines/kyushu/_１３_久留米、鳥栖地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-鳥栖木佐木線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "3",
+   "name": "久留米分岐線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "鳥栖→久留米",
+   "file": "data/raw/tso-lines/kyushu/_１３_久留米、鳥栖地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-久留米分岐線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "4",
+   "name": "北佐賀木佐木線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "北佐賀→木佐木",
+   "file": "data/raw/tso-lines/kyushu/_１３_久留米、鳥栖地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-北佐賀木佐木線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "木佐木三池線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "三池→木佐木",
+   "file": "data/raw/tso-lines/kyushu/_１４_大牟田地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-木佐木三池線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "東大分線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "東大分→大分",
+   "file": "data/raw/tso-lines/kyushu/_１５_大分地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-東大分　線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "送電線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "新大分→東大分",
+   "file": "data/raw/tso-lines/kyushu/_１５_大分地区_送電線.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "3",
+   "name": "送電線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "新大分→東九州",
+   "file": "data/raw/tso-lines/kyushu/_１５_大分地区_送電線.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "4",
+   "name": "海崎線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "東九州→海崎",
+   "file": "data/raw/tso-lines/kyushu/_１５_大分地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-海　崎　線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "5",
+   "name": "大分南線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "大分→西大分",
+   "file": "data/raw/tso-lines/kyushu/_１５_大分地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-大分南　線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "熊本日田線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "熊本→日田",
+   "file": "data/raw/tso-lines/kyushu/_１６_日田地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-熊本日田線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "玄海幹線1号線",
+   "kv": 500,
+   "circuits": "1",
+   "direction": "―→西九州",
+   "file": "data/raw/tso-lines/kyushu/_１８_唐津、佐賀地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-plant-500-way-172644773"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "玄海幹線2号線北線",
+   "kv": 500,
+   "circuits": "1",
+   "direction": "―→脊振",
+   "file": "data/raw/tso-lines/kyushu/_１８_唐津、佐賀地区_送電線.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "3",
+   "name": "玄海幹線2号線南線",
+   "kv": 500,
+   "circuits": "1",
+   "direction": "西九州→脊振",
+   "file": "data/raw/tso-lines/kyushu/_１８_唐津、佐賀地区_送電線.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "4",
+   "name": "唐津西九州線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "西九州→唐津",
+   "file": "data/raw/tso-lines/kyushu/_１８_唐津、佐賀地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-唐津西九州線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "5",
+   "name": "送電線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "―→西九州",
+   "file": "data/raw/tso-lines/kyushu/_１８_唐津、佐賀地区_送電線.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "6",
+   "name": "西九州北佐賀線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "西九州→北佐賀",
+   "file": "data/raw/tso-lines/kyushu/_１８_唐津、佐賀地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-西九州北佐賀線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "7",
+   "name": "送電線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "西九州→―",
+   "file": "data/raw/tso-lines/kyushu/_１８_唐津、佐賀地区_送電線.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "送電線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "―→西九州",
+   "file": "data/raw/tso-lines/kyushu/_１９_武雄、東佐世保地区_送電線.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "西九州武雄線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "西九州→武雄",
+   "file": "data/raw/tso-lines/kyushu/_１９_武雄、東佐世保地区_送電線.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "3",
+   "name": "西佐世保武雄線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "西佐世保→武雄",
+   "file": "data/raw/tso-lines/kyushu/_１９_武雄、東佐世保地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-西佐世保武雄線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "4",
+   "name": "東佐世保分岐線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "武雄→東佐世保",
+   "file": "data/raw/tso-lines/kyushu/_１９_武雄、東佐世保地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-東佐世保分岐線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "5",
+   "name": "長崎幹線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "武雄→長崎",
+   "file": "data/raw/tso-lines/kyushu/_１９_武雄、東佐世保地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-長　崎　幹線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "6",
+   "name": "送電線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "―→東佐世保",
+   "file": "data/raw/tso-lines/kyushu/_１９_武雄、東佐世保地区_送電線.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "7",
+   "name": "送電線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "東佐世保→西九州",
+   "file": "data/raw/tso-lines/kyushu/_１９_武雄、東佐世保地区_送電線.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "槻田線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "槻田sws→北九州",
+   "file": "data/raw/tso-lines/kyushu/_２_小倉地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-槻　田　線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "送電線",
+   "kv": 220,
+   "circuits": "1",
+   "direction": "―→―",
+   "file": "data/raw/tso-lines/kyushu/_２_小倉地区_送電線.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "3",
+   "name": "送電線",
+   "kv": 220,
+   "circuits": "1",
+   "direction": "―→―",
+   "file": "data/raw/tso-lines/kyushu/_２_小倉地区_送電線.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "4",
+   "name": "到津線",
+   "kv": 220,
+   "circuits": "1",
+   "direction": "到津→槻田sws",
+   "file": "data/raw/tso-lines/kyushu/_２_小倉地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-到　津　線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "5",
+   "name": "送電線",
+   "kv": 220,
+   "circuits": "1",
+   "direction": "―→―",
+   "file": "data/raw/tso-lines/kyushu/_２_小倉地区_送電線.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "6",
+   "name": "西谷線",
+   "kv": 220,
+   "circuits": "3",
+   "direction": "北九州→西谷",
+   "file": "data/raw/tso-lines/kyushu/_２_小倉地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-西　谷　線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "北長崎線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "東佐世保→北長崎",
+   "file": "data/raw/tso-lines/kyushu/_２０_長崎地区_送電線.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "松島線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "東佐世保→松島",
+   "file": "data/raw/tso-lines/kyushu/_２０_長崎地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-松　島　線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "諫早分岐線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "武雄→諫早",
+   "file": "data/raw/tso-lines/kyushu/_２１_諫早地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-諫早分岐線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "中九州幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "中九州→熊本",
+   "file": "data/raw/tso-lines/kyushu/_２２_熊本地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-500-中九州幹線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "熊本三池線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "熊本→三池",
+   "file": "data/raw/tso-lines/kyushu/_２２_熊本地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-熊本三池線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "3",
+   "name": "北熊本分岐線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "熊本→北熊本",
+   "file": "data/raw/tso-lines/kyushu/_２２_熊本地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-北熊本分岐線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "4",
+   "name": "熊本南熊本線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "熊本→南熊本",
+   "file": "data/raw/tso-lines/kyushu/_２２_熊本地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-熊本南熊本線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "5",
+   "name": "弓削分岐線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "南熊本→弓削",
+   "file": "data/raw/tso-lines/kyushu/_２２_熊本地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-弓削分岐線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "6",
+   "name": "南熊本緑川線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "南熊本→緑川",
+   "file": "data/raw/tso-lines/kyushu/_２２_熊本地区_送電線.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "7",
+   "name": "熊本上椎葉線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "熊本→上椎葉",
+   "file": "data/raw/tso-lines/kyushu/_２２_熊本地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-熊本上椎葉線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "南九州幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "南九州→中九州",
+   "file": "data/raw/tso-lines/kyushu/_２３_八代、水俣、天草地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-500-南九州幹線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "送電線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "―→中九州",
+   "file": "data/raw/tso-lines/kyushu/_２３_八代、水俣、天草地区_送電線.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "3",
+   "name": "中九州南熊本線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "中九州→南熊本",
+   "file": "data/raw/tso-lines/kyushu/_２３_八代、水俣、天草地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-中九州南熊本線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "4",
+   "name": "中九州大平線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "中九州→大平sws",
+   "file": "data/raw/tso-lines/kyushu/_２３_八代、水俣、天草地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-中九州大平線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "5",
+   "name": "八代分岐線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "中九州→八代",
+   "file": "data/raw/tso-lines/kyushu/_２３_八代、水俣、天草地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-八代分岐線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "6",
+   "name": "大平人吉線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "大平sws→人吉",
+   "file": "data/raw/tso-lines/kyushu/_２３_八代、水俣、天草地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-大平人吉線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "日向幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "東九州→ひむか",
+   "file": "data/raw/tso-lines/kyushu/_２５_日向地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-500-日向幹線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "新日向分岐線",
+   "kv": 220,
+   "circuits": "1",
+   "direction": "新日向→一ツ瀬",
+   "file": "data/raw/tso-lines/kyushu/_２５_日向地区_送電線.csv",
+   "state": "未描画",
+   "drawnIds": [],
+   "note": "別の線として描かない。対応する線の候補（推定）：ひむか新日向線（OCCTO の行 ひむかss→新日向ss）＋ひむか一ッ瀬線（OCCTO の行 一ツ瀬ss→ひむかss）の一部。表の日向地区に ひむか新日向線 の行がなく、ひむか変電所ができる前の名前のまま載っているとみられる（推定）。分岐点・回線の対応を示す一次資料はない。"
+  },
+  {
+   "region": "kyushu",
+   "no": "3",
+   "name": "上椎葉新日向線",
+   "kv": 220,
+   "circuits": "1",
+   "direction": "上椎葉→新日向",
+   "file": "data/raw/tso-lines/kyushu/_２５_日向地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-上椎葉新日向線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "送電線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "ひむか→宮崎",
+   "file": "data/raw/tso-lines/kyushu/_２６_宮崎地区_送電線.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "宮崎幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "宮崎→南九州",
+   "file": "data/raw/tso-lines/kyushu/_２６_宮崎地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-500-宮崎幹線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "3",
+   "name": "一ツ瀬柏田線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "一ツ瀬→柏田",
+   "file": "data/raw/tso-lines/kyushu/_２６_宮崎地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-一ッ瀬柏田線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "4",
+   "name": "ひむか一ツ瀬線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "ひむか→一ツ瀬",
+   "file": "data/raw/tso-lines/kyushu/_２６_宮崎地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-ひむか一ッ瀬線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "送電線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "―→―",
+   "file": "data/raw/tso-lines/kyushu/_２７_川内、出水地区_送電線.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "出水分岐線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "南九州→出水",
+   "file": "data/raw/tso-lines/kyushu/_２７_川内、出水地区_送電線.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "3",
+   "name": "川薩南九州線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "川薩sws→南九州",
+   "file": "data/raw/tso-lines/kyushu/_２７_川内、出水地区_送電線.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "4",
+   "name": "川内分岐線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "南九州→川内",
+   "file": "data/raw/tso-lines/kyushu/_２７_川内、出水地区_送電線.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "5",
+   "name": "送電線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "―→―",
+   "file": "data/raw/tso-lines/kyushu/_２７_川内、出水地区_送電線.csv",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "南宮崎線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "高野sws→南宮崎",
+   "file": "data/raw/tso-lines/kyushu/_２８_霧島、都城地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-南宮崎　線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "宮崎分岐線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "宮崎→高野sws",
+   "file": "data/raw/tso-lines/kyushu/_２８_霧島、都城地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-宮崎分岐線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "3",
+   "name": "高野線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "南九州→高野sws",
+   "file": "data/raw/tso-lines/kyushu/_２８_霧島、都城地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-高　野　線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "4",
+   "name": "霧島分岐線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "南九州→霧島",
+   "file": "data/raw/tso-lines/kyushu/_２８_霧島、都城地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-霧島分岐線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "5",
+   "name": "都城線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "高野sws→都城",
+   "file": "data/raw/tso-lines/kyushu/_２８_霧島、都城地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-都　城　線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "鹿児島南線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "南九州→鹿児島",
+   "file": "data/raw/tso-lines/kyushu/_２９_鹿児島地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-鹿児島南線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "新鹿児島線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "他社→新鹿児島",
+   "file": "data/raw/tso-lines/kyushu/_２９_鹿児島地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-新鹿児島線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "若松分岐線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "北九州→若松",
+   "file": "data/raw/tso-lines/kyushu/_３_若松地区_送電線.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "大隅線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "高野→大隅",
+   "file": "data/raw/tso-lines/kyushu/_３０_大隅地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-大　隅　線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "北九州幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "脊振→北九州",
+   "file": "data/raw/tso-lines/kyushu/_４_八幡・遠賀地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-500-北九州幹線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "豊前北幹線",
+   "kv": 500,
+   "circuits": "2",
+   "direction": "豊前→北九州",
+   "file": "data/raw/tso-lines/kyushu/_４_八幡・遠賀地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-500-豊前北幹線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "3",
+   "name": "上津役線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "北九州→上津役",
+   "file": "data/raw/tso-lines/kyushu/_４_八幡・遠賀地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-上津役線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "4",
+   "name": "北九州豊前線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "豊前→北九州",
+   "file": "data/raw/tso-lines/kyushu/_４_八幡・遠賀地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-北九州豊前線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "古賀分岐線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "北九州→古賀",
+   "file": "data/raw/tso-lines/kyushu/_５_古賀地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-古賀分岐線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "2",
+   "name": "北九州東福岡線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "北九州→東福岡",
+   "file": "data/raw/tso-lines/kyushu/_５_古賀地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-北九州東福岡線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "筑豊線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "中央→筑豊",
+   "file": "data/raw/tso-lines/kyushu/_６_飯塚、田川地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-筑　豊　線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "東福岡住吉線",
+   "kv": 220,
+   "circuits": "3",
+   "direction": "東福岡→住吉",
+   "file": "data/raw/tso-lines/kyushu/_７_東福岡地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-東福岡住吉線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "中央南福岡線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "中央→南福岡",
+   "file": "data/raw/tso-lines/kyushu/_８_南福岡地区_送電線.csv",
+   "state": "描画済み",
+   "drawnIds": [
+    "kyushu-220-中央南福岡線"
+   ]
+  },
+  {
+   "region": "kyushu",
+   "no": "1",
+   "name": "西福岡赤坂線",
+   "kv": 220,
+   "circuits": "2",
+   "direction": "西福岡→赤坂",
+   "file": "data/raw/tso-lines/kyushu/_９_赤坂地区_送電線.csv",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "tohoku",
+   "no": "0001",
+   "name": "0001線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "上北変電所→発電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0001"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0002",
+   "name": "十和田幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "上北変電所→岩手変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0002"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0003",
+   "name": "北上幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "岩手変電所→宮城変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0003"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0004",
+   "name": "青葉幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "宮城変電所→西仙台変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0004"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0005",
+   "name": "宮城中央支線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "青葉幹線分岐→宮城中央変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0005"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0006",
+   "name": "常磐北幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "西仙台変電所→宮城丸森開閉所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-joban-north-500"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0007",
+   "name": "0007線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "宮城丸森開閉所→発電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0007"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0008",
+   "name": "相馬双葉幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "南相馬変電所→送電線分岐",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tie-500-相馬双葉幹線"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0009",
+   "name": "0009線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "0007線分岐→発電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-plant-500-way-929016336"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0010",
+   "name": "常磐南幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "宮城丸森開閉所→南相馬変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-joban-south-500"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0155",
+   "name": "今別幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "青森変電所→今別変換所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0155"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0101",
+   "name": "0101線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "今別変換所→需要家",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "tohoku",
+   "no": "0102",
+   "name": "北青幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "上北変電所→青森変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0102"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0103",
+   "name": "北奥幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "青森変電所→能代変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0103"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0104",
+   "name": "北部幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "上北変電所→岩手変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0104"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0105",
+   "name": "0105線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "北部幹線分岐→需要家",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "tohoku",
+   "no": "0106",
+   "name": "五戸幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "北部幹線分岐→五戸変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0106"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0107",
+   "name": "岩手幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "岩手変電所→雫石開閉所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0107"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0108",
+   "name": "秋盛幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "秋田変電所→雫石開閉所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0108"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0109",
+   "name": "0109線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "雫石開閉所→需要家",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "tohoku",
+   "no": "0110",
+   "name": "早池峰幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "水沢変電所→岩手変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0110"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0153",
+   "name": "東花巻支線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "早池峰幹線分岐→東花巻変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0153"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0111",
+   "name": "0111線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "水沢変電所→需要家",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "tohoku",
+   "no": "0112",
+   "name": "水沢幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "水沢変電所→宮城変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0112"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0113",
+   "name": "0113線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "水沢幹線分岐→需要家",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "tohoku",
+   "no": "0114",
+   "name": "大潟幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "秋田変電所→能代変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0114"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0115",
+   "name": "0115線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "能代変電所→発電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0115"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0117",
+   "name": "秋田幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "秋田変電所→羽後変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0117"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0118",
+   "name": "奥羽幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "宮城変電所→羽後変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0118"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0119",
+   "name": "0119線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "奥羽幹線分岐→需要家",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "tohoku",
+   "no": "0157",
+   "name": "0157線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "奥羽幹線分岐→発電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "tohoku",
+   "no": "0120",
+   "name": "陸羽幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "宮城変電所→新庄変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0120"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0121",
+   "name": "牡鹿幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "石巻変電所→発電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0121"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0122",
+   "name": "鳴瀬幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "宮城変電所→石巻変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0122"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0123",
+   "name": "宮城幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "宮城変電所→仙台変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0123"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0125",
+   "name": "松島幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "宮城中央変電所→発電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0125"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0124",
+   "name": "仙台幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "仙台変電所→西仙台変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0124"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0129",
+   "name": "0129線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "東仙台変電所→仙台変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0129"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0126",
+   "name": "蔵王幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "米沢変電所→西仙台変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0126"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0158",
+   "name": "0158線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "蔵王幹線分岐→発電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "tohoku",
+   "no": "0156",
+   "name": "名取幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "西仙台変電所→名取変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0156"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0127",
+   "name": "0127線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "名取変電所→需要家",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "tohoku",
+   "no": "0128",
+   "name": "朝日幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "西仙台変電所→越後開閉所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0128"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0130",
+   "name": "山形幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "新庄変電所→西山形変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0130"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0154",
+   "name": "南山形幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "西山形変電所→朝日幹線分岐",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0154"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0131",
+   "name": "東北幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "本名変電所→米沢変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0131"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0132",
+   "name": "0132線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "東北幹線分岐→発電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "tohoku",
+   "no": "0135",
+   "name": "飯豊幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "米沢変電所→新潟変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0135"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0133",
+   "name": "吾妻幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "米沢変電所→福島変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0133"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0134",
+   "name": "0134線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "福島変電所→需要家",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "tohoku",
+   "no": "0136",
+   "name": "相福幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "南相馬変電所→福島変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0136"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0137",
+   "name": "東福島支線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "相福幹線分岐→東福島変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-275-東福島支線"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0138",
+   "name": "0138線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "南相馬変電所→発電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0138"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0143",
+   "name": "いわき幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "南相馬変電所→新福島変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0143"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0139",
+   "name": "阿武隈幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "須賀川変電所→福島変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0139"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0142",
+   "name": "0142線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "須賀川変電所→需要家",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "tohoku",
+   "no": "0140",
+   "name": "勿来幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "須賀川変電所→発電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0140"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0141",
+   "name": "勿来支線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "勿来幹線分岐→いわき変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0141"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0144",
+   "name": "新潟幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "新潟変電所→本名変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0144"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0145",
+   "name": "0145線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "北新潟変電所→発電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0145"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0146",
+   "name": "0146線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "越後開閉所→発電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0146"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0147",
+   "name": "北新幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "北新潟変電所→越後開閉所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0147"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0148",
+   "name": "五頭幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "越後開閉所→新潟変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0148"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0149",
+   "name": "中越幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "越後開閉所→中越変電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0149"
+   ]
+  },
+  {
+   "region": "tohoku",
+   "no": "0151",
+   "name": "0151線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "送電線分岐→需要家",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "tohoku",
+   "no": "0152",
+   "name": "0152線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "送電線分岐→需要家",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "tohoku",
+   "no": "0150",
+   "name": "東上越幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "東上越変電所→発電所",
+   "file": "data/catalog/tohoku-coverage.json",
+   "state": "描画済み",
+   "drawnIds": [
+    "tohoku-section-0150"
+   ]
+  },
+  {
+   "region": "tokyo",
+   "no": "1",
+   "name": "川内線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新いわき（開）→南いわき（開）",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "2",
+   "name": "南いわき幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "東群馬→南いわき（開）",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "3",
+   "name": "富岡線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "-→-",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "4",
+   "name": "福島山幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新いわき（開）→新福島",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "5",
+   "name": "福島東幹線山線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新いわき（開）→新福島",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "6",
+   "name": "新いわき線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新今市（開）→新いわき（開）",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "7",
+   "name": "福島中幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新茂木→新いわき（開）",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "8",
+   "name": "福島東幹線里線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新筑波→新いわき（開）",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "9",
+   "name": "送電線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "10",
+   "name": "新茂木線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新栃木→新茂木",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "16",
+   "name": "福島幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新古河→新茂木",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "17",
+   "name": "中栃木線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新栃木→新今市（開）",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "18",
+   "name": "新栃木線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新新田→新栃木",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "19",
+   "name": "下郷線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "20",
+   "name": "今市線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "21",
+   "name": "塩原線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "23",
+   "name": "送電線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "24",
+   "name": "新袖ヶ浦線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "25",
+   "name": "新袖ヶ浦線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新佐原→新木更津",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "37",
+   "name": "房総線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新京葉→房総",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "38",
+   "name": "印旛線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新京葉→新佐原",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "46",
+   "name": "新佐原線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新筑波→新佐原",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "47",
+   "name": "新京葉線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新古河→新京葉",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "48",
+   "name": "新筑波線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新古河→新筑波",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "52",
+   "name": "新古河線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新坂戸→新古河",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "58",
+   "name": "東群馬幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "西群馬（開）→東群馬",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "59",
+   "name": "新赤城線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "東群馬→新新田",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "60",
+   "name": "新新田線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新岡部→新新田",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "62",
+   "name": "新坂戸線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新新田→新坂戸",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "63",
+   "name": "新岡部線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新岡部→新秩父（開）",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "67",
+   "name": "南新潟幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "68",
+   "name": "新新潟幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "69",
+   "name": "送電線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "70",
+   "name": "西群馬幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "東山梨→西群馬（開）",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "71",
+   "name": "神流川線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "72",
+   "name": "新吾妻線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新榛名→西群馬（開）",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "73",
+   "name": "西上武幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新所沢→西群馬（開）",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "74",
+   "name": "新榛名線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新秩父（開）→新榛名",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "75",
+   "name": "安曇幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新秩父（開）→新信濃",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "79",
+   "name": "葛野川線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "80",
+   "name": "西群馬幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新富士→東山梨",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "81",
+   "name": "新秦野線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新富士→新秦野",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "84",
+   "name": "新多摩線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新秦野→新多摩",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "85",
+   "name": "新秩父線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新多摩→新秩父（開）",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "86",
+   "name": "新所沢線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新所沢→新多摩",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "87",
+   "name": "新飯能線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新所沢線分岐→新飯能",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "133",
+   "name": "新豊洲線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "新豊洲→新京葉",
+   "file": "docs/research/tokyo-500-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "11",
+   "name": "那珂線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新茂木→那珂",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "12",
+   "name": "阿武隈線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "那珂→発電所",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "13",
+   "name": "十王線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "阿武隈線分岐→常磐",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "14",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "―→―",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "15",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "―→―",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "22",
+   "name": "沼原線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新栃木→発電所",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "26",
+   "name": "君津線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "房総→新木更津",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "27",
+   "name": "姉崎線1・2L",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "房総→発電所",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "28",
+   "name": "姉崎線3・4L",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "房総→発電所",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "29",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "―→―",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "30",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "―→―",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "31",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "―→―",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "32",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "―→―",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "held",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "33",
+   "name": "千葉中央線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "北千葉線分岐→千葉中央",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "34",
+   "name": "北総線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "北千葉線分岐→北総",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "35",
+   "name": "花見川線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "北千葉線分岐→花見川",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "36",
+   "name": "北千葉線(房総~花見川)",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "花見川（北千葉線分岐）→房総",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "39",
+   "name": "香取線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新佐原→鹿島",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "40",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "鹿島→発電所",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "43",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "1",
+   "direction": "―→―",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "44",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "1",
+   "direction": "―→―",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "45",
+   "name": "鹿島線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新野田→鹿島",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "49",
+   "name": "東京東線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新野田→新京葉",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "50",
+   "name": "東京北線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新野田→北東京",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "51",
+   "name": "北葛飾線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新野田→北葛飾",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "53",
+   "name": "河北線1・2L",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "北東京→新古河",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "54",
+   "name": "河北線3・4L",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "北東京→新古河",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "55",
+   "name": "中東京幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "玉原線分岐→発電所",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "held",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "56",
+   "name": "田子倉線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "発電所→発電所",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "held",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "57",
+   "name": "奥只見線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "東群馬→発電所",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "61",
+   "name": "東毛線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新新田→東毛",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "64",
+   "name": "北熊谷線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新岡部→北熊谷",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "65",
+   "name": "児玉線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新岡部→西毛",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "66",
+   "name": "玉原線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "―→―",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "76",
+   "name": "高瀬川線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "―→―",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "77",
+   "name": "梓川線",
+   "kv": 275,
+   "circuits": "1",
+   "direction": "新信濃→発電所",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "78",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "1",
+   "direction": "―→―",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "82",
+   "name": "佐久間東幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新富士→発電所",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "83",
+   "name": "佐久間東幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新富士→北相模",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "88",
+   "name": "青梅線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新飯能→青梅線・豊岡線分岐",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "89",
+   "name": "青梅線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "青梅線・豊岡線分岐→青梅",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "90",
+   "name": "豊岡線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "青梅線・豊岡線分岐→豊岡",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "91",
+   "name": "東京西線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新多摩→西東京",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "92",
+   "name": "港北線(港北~荏田)",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "荏田→港北",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "93",
+   "name": "横浜港北線",
+   "kv": 275,
+   "circuits": "4",
+   "direction": "港北→発電所",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "94",
+   "name": "西北線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "西東京→北多摩",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "95",
+   "name": "東新宿線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "北多摩→東新宿",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "96",
+   "name": "新宿線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "北多摩→新宿",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "97",
+   "name": "新宿城南線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "新宿→城南",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "98",
+   "name": "西南多摩線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "多摩→西東京",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "99",
+   "name": "佐久間東幹線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "西東京→北相模",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "100",
+   "name": "秦浜線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新秦野→京浜",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "101",
+   "name": "東京南線1・2L",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "京浜→発電所",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "102",
+   "name": "東京南線3・4L",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "京浜→発電所",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "103",
+   "name": "京浜線1・2L",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "西東京→京浜",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "104",
+   "name": "京浜線3・4L",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "京浜→西東京",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "105",
+   "name": "南川崎線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "京浜→南川崎",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "106",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "―→―",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "held",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "107",
+   "name": "南池上線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "南川崎→池上",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "108",
+   "name": "中沢線1・2L",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新所沢→中東京",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "109",
+   "name": "中沢線3・4L",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新所沢→中東京",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "110",
+   "name": "南狭山線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新所沢→南狭山",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "111",
+   "name": "新座線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "南狭山→新座",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "112",
+   "name": "北武蔵野線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新座→練馬",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "114",
+   "name": "水道橋線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "練馬→水道橋",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "115",
+   "name": "東新宿水道橋線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "東新宿→水道橋",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "116",
+   "name": "坂戸川越線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新坂戸→南川越",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "117",
+   "name": "西南川越線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "南川越→南狭山",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "118",
+   "name": "西南川越線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "南狭山→多摩",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "120",
+   "name": "東京中線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新坂戸→北東京",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "121",
+   "name": "上尾線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "東京中線分岐→上尾",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "122",
+   "name": "北与野線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "上尾→北与野",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "123",
+   "name": "西越谷線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "北東京→西越谷",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "124",
+   "name": "春日部線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "北東京→京北",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "125",
+   "name": "豊島線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "京北→豊島",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "126",
+   "name": "東内幸町線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "豊島→東内幸町",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "127",
+   "name": "高輪線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "東内幸町→高輪",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "128",
+   "name": "池上線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "川崎高輪線分岐→池上",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "held",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "129",
+   "name": "川崎高輪線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "高輪→発電所",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "130",
+   "name": "上野線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "北葛飾→上野",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "131",
+   "name": "上野水道橋線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "上野→水道橋",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "132",
+   "name": "墨東線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "北葛飾→永代橋",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "134",
+   "name": "江東線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新京葉→江東",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "135",
+   "name": "城南線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "江東→城南",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "136",
+   "name": "千葉葛南線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "葛南→千葉中央",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "137",
+   "name": "葛南世田谷線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "葛南→世田谷",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "138",
+   "name": "世田谷線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "荏田→世田谷",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "139",
+   "name": "川崎豊洲線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "新豊洲→発電所",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "140",
+   "name": "豊洲内幸町線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "新豊洲→東内幸町",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "141",
+   "name": "豊洲永代橋線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "新豊洲→永代橋",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "142",
+   "name": "送電線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "―→―",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "held",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "143",
+   "name": "北千葉線(花見川~新京葉)",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "新京葉→花見川（北千葉線分岐）",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "144",
+   "name": "港北線(荏田~西東京)",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "西東京→荏田",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "145",
+   "name": "新豊根佐久間線",
+   "kv": 275,
+   "circuits": "2",
+   "direction": "―→―",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "reviewed",
+   "state": "描画済み",
+   "drawnIds": []
+  },
+  {
+   "region": "tokyo",
+   "no": "146",
+   "name": "千葉印西線",
+   "kv": 275,
+   "circuits": "3",
+   "direction": "新京葉→千葉印西",
+   "file": "docs/research/tokyo-275-progress.json",
+   "tokyoResearch": "held",
+   "state": "描画済み",
+   "drawnIds": [
+    "owner-tokyo-275-千葉印西線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "550",
+   "name": "南武平町松ヶ枝線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-南武平町松ヶ枝線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "341",
+   "name": "中濃犬山線-2",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-中濃犬山線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "470",
+   "name": "瀬戸北豊田線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-瀬戸北豊田線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "450",
+   "name": "電名瀬戸線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-電名瀬戸線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "481",
+   "name": "東浦北豊田線-2",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-東浦北豊田線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "480",
+   "name": "東浦北豊田線-1",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-東浦北豊田線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "570",
+   "name": "東海下広井線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-東海下広井線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "570",
+   "name": "東海松ヶ枝線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-東海松ヶ枝線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "300",
+   "name": "名城松ヶ枝線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-名城松ヶ枝線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "280",
+   "name": "西尾張海部線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-西尾張海部線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "580",
+   "name": "知多第二東海線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-知多第二東海線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "560",
+   "name": "下広井南武平町線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-下広井南武平町線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "290",
+   "name": "海部牛島町線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-海部牛島町線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "770",
+   "name": "牛島町名城線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-牛島町名城線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "620",
+   "name": "知多火力線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-知多火力線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "540",
+   "name": "金山松ヶ枝線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-金山松ヶ枝線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "500",
+   "name": "知多火力東浦線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-知多火力東浦線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "490",
+   "name": "東名古屋分岐線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-東名分岐線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "520",
+   "name": "北豊田梅森線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-北豊田梅森線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "440",
+   "name": "犬山電名線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-犬山電名線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "530",
+   "name": "梅森金山線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-梅森金山線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "140",
+   "name": "駿遠幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-500-駿遠幹線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "150",
+   "name": "静岡幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-500-静岡幹線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "",
+   "name": "浜岡幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "chubu",
+   "no": "",
+   "name": "第二浜岡幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "chubu",
+   "no": "160",
+   "name": "静岡連絡線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-500-静岡連絡線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "600",
+   "name": "佐久間川根線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-佐久間川根線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "710",
+   "name": "三河遠江線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-三河遠江線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "690",
+   "name": "湖西三河線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-湖西三河線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "760",
+   "name": "駿河東清水線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-駿河東清水線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "740",
+   "name": "浜岡新佐倉線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-浜岡新佐倉線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "730",
+   "name": "浜岡駿遠線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-浜岡駿遠線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "750",
+   "name": "駿遠駿河線-1",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-駿遠駿河線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "751",
+   "name": "駿遠駿河線-2",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-駿遠駿河線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "753",
+   "name": "駿遠駿河線-3",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-駿遠駿河線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "752",
+   "name": "安倍分岐線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-安倍分岐線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "720",
+   "name": "遠江駿遠線-1",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-遠江駿遠線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "721",
+   "name": "遠江駿遠線-2",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-遠江駿遠線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "790",
+   "name": "静岡西分岐線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-静岡西分岐線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "780",
+   "name": "静岡東分岐線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-静岡東分岐線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "20",
+   "name": "三重連絡線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-500-三重連絡線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "250",
+   "name": "西部西尾張線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-西部西尾張線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "260",
+   "name": "西名古屋西尾張線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-西名古屋西尾張線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "170",
+   "name": "鈴鹿幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-鈴鹿幹線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "180",
+   "name": "伊勢幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-伊勢幹線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "220",
+   "name": "西部西名古屋線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-西部西名古屋線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "210",
+   "name": "尾鷲伊勢線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-尾鷲伊勢線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "241",
+   "name": "中勢亀山線-2",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-中勢亀山線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "240",
+   "name": "中勢亀山線-1",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-中勢亀山線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "230",
+   "name": "亀山西名古屋線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-亀山西名古屋線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "270",
+   "name": "川越火力線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-川越火力線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "190",
+   "name": "伊勢南勢線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-伊勢南勢線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "200",
+   "name": "伊勢中勢線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-伊勢中勢線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "242",
+   "name": "新鈴鹿分岐線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "chubu",
+   "no": "30",
+   "name": "西部幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-500-西部幹線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "50",
+   "name": "東部幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-500-東部幹線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "40",
+   "name": "愛岐幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-500-愛岐幹線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "10",
+   "name": "三岐幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-500-三岐幹線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "",
+   "name": "岐北分岐",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-500-岐北分岐"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "70",
+   "name": "越美幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-500-越美幹線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "60",
+   "name": "岐阜連絡線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-500-岐阜連絡"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "340",
+   "name": "中濃犬山線-1",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-中濃犬山線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "310",
+   "name": "西濃西部線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-西濃西部線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "",
+   "name": "高根馬瀬線-2",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-高根馬瀬線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "360",
+   "name": "高根馬瀬線-1",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-高根馬瀬線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "320",
+   "name": "北部西濃線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-北部西濃線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "350",
+   "name": "馬瀬北部線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-馬瀬北部線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "330",
+   "name": "北部中濃線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-北部中濃線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "",
+   "name": "関分岐",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-関分岐"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "130",
+   "name": "信濃幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-500-信濃幹線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "120",
+   "name": "南信幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-500-南信幹線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "370",
+   "name": "高根中信線-1",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-高根中信線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "",
+   "name": "高根中信線-2",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-高根中信線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "380",
+   "name": "信濃中信線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-信濃中信線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "390",
+   "name": "信濃東信線-1",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-信濃東信線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "391",
+   "name": "信濃東信線-2",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-信濃東信線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "",
+   "name": "信濃東信線-3",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-信濃東信線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "",
+   "name": "新信濃分岐",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "chubu",
+   "no": "400",
+   "name": "東信新北信線-1",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-東信新北信線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "",
+   "name": "東信新北信線-2",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-東信新北信線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "",
+   "name": "50744350-0",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "chubu",
+   "no": "393",
+   "name": "北松本分岐線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "chubu",
+   "no": "410",
+   "name": "佐久幹線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-佐久幹線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "",
+   "name": "50744800-0",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "匿名",
+   "drawnIds": []
+  },
+  {
+   "region": "chubu",
+   "no": "100",
+   "name": "新三河幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-500-新三河幹線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "90",
+   "name": "東栄幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-500-東栄幹線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "110",
+   "name": "豊根連絡線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-500-豊根連絡線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "80",
+   "name": "豊根幹線",
+   "kv": 500,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-500-豊根幹線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "460",
+   "name": "愛知瀬戸線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-愛知瀬戸線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "611",
+   "name": "東名古屋東部線-2",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-東名古屋東部線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "610",
+   "name": "東名古屋東部線-1",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-東名古屋東部線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "700",
+   "name": "田原湖西線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-田原湖西線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "430",
+   "name": "愛知分岐線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-愛知分岐線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "650",
+   "name": "東部額田線-1",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-東部額田線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "651",
+   "name": "東部額田線-2",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-東部額田線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "652",
+   "name": "東豊田分岐線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "chubu",
+   "no": "510",
+   "name": "東部北豊田線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-東部北豊田線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "612",
+   "name": "三好分岐線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "未描画",
+   "drawnIds": []
+  },
+  {
+   "region": "chubu",
+   "no": "660",
+   "name": "額田幸田線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-額田幸田線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "640",
+   "name": "額田三河線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-額田三河線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "670",
+   "name": "幸田新三河線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-幸田新三河線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "680",
+   "name": "幸田碧南線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-幸田碧南線"
+   ]
+  },
+  {
+   "region": "chubu",
+   "no": "630",
+   "name": "三河線",
+   "kv": 275,
+   "circuits": "",
+   "direction": "",
+   "file": "data/raw/substation-banks/chubu/chubu-gridmap.geojson.gz（線名・電圧のみ）",
+   "state": "描画済み",
+   "drawnIds": [
+    "chubu-275-三河線"
+   ]
+  }
+ ]
+}
