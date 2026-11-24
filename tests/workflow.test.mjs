@@ -1,7 +1,7 @@
 // .github/workflows/publish.yml が docs/RULES.md 5節「GitHub Actions とリポジトリの保護」「自動配置とデータの検証」を満たすことを文字列で確かめる（2026-11-01 保留46）。
 import test from 'node:test';
 import assert from 'node:assert/strict';
-import {readFileSync} from 'node:fs';
+import {readFileSync, readdirSync} from 'node:fs';
 import {SPLIT_FLOWS} from '../scripts/flow-split.mjs';
 
 const yml = readFileSync('.github/workflows/publish.yml', 'utf8').replace(/\r\n/g, '\n');
@@ -63,8 +63,15 @@ test('build の順序：読み戻し→前回分の写し→取得→検証→�
 
 test('main への push では取得しない（読み戻した前回分で配置）。失敗を続行する手順はない（保留53）', () => {
   assert.ok(!/continue-on-error/.test(yml));
-  assert.match(build, /\n {6}- if: github\.event_name != 'push'\n {8}run: node scripts\/update-all\.mjs\n/);
+  assert.match(build, /\n {6}- if: github\.event_name != 'push'\n {8}env:\n {10}NODE_EXTRA_CA_CERTS: \$\{\{ github\.workspace \}\}\/config\/ca\/globalsign-gcc-r46-ov-tls-ca-2025\.pem\n {8}run: node scripts\/update-all\.mjs\n/);
   assert.equal((yml.match(/update-all/g) ?? []).length, 1);
+});
+
+test('OCCTO の中間の証明書は取得（update-all）の手順にだけ追加の信頼先として渡し、証明書の検証を無効にする設定はどこにもない（2026-11-24）', () => {
+  assert.equal((yml.match(/NODE_EXTRA_CA_CERTS/g) ?? []).length, 1);
+  const files = ['.github/workflows/publish.yml', ...readdirSync('scripts', {recursive: true}).filter(f => /\.(mjs|js|ts)$/.test(f)).map(f => 'scripts/' + f)];
+  const off = /NODE_TLS_REJECT_UNAUTHORIZED|rejectUnauthorized|--insecure|curl -k\b/;
+  assert.deepEqual(files.filter(f => off.test(readFileSync(f, 'utf8'))), []);
 });
 
 test('鮮度は配置を止めない：検証の stale を build の出力にし、定期・手動のときだけ配置の後のジョブで失敗の印を出す（保留53）', () => {

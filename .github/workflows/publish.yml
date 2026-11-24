@@ -58,7 +58,12 @@ jobs:
           done
       # ① 取得（今日と前日の失敗は失敗）。main への push では取得せず、読み戻した前回分（照合済み）で配置する
       #    （コードの修正を公表の停止中や異常値のときも出せるように。2026-11-03）
+      #    OCCTO のサーバーは中間の証明書を送らない（2026-11-24 に SSL Labs で確認。Node は自分で取りに行かず「unable to verify the first certificate」になる）。
+      #    発行元の中間の証明書（GlobalSign GCC R46 OV TLS CA 2025、Root R46 の下）をこの手順だけで追加の信頼先として渡す。検証は無効にしない。
+      #    OCCTO が別の中間に替えて同じ失敗が出たら、config/ca の証明書と tests/ca-cert.test.mjs を差し替える
       - if: github.event_name != 'push'
+        env:
+          NODE_EXTRA_CA_CERTS: ${{ github.workspace }}/config/ca/globalsign-gcc-r46-ov-tls-ca-2025.pem
         run: node scripts/update-all.mjs
       # ② 前回との比較の検証。鮮度（観測のある最新の日付が日本時間の今日か前日）は配置を止めず、警告と stale の出力だけ
       - id: validate
