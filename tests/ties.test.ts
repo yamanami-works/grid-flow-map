@@ -1,4 +1,4 @@
-import test from 'node:test';import {rawSkip} from './raw-data.mjs';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
+import test from 'node:test';import {rawSkip,publicCheckout} from './raw-data.mjs';import assert from 'node:assert/strict';import {readFileSync} from 'node:fs';
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
 const data=Object.fromEntries(['chubu','hokuriku','kansai','chugoku','shikoku','kyushu'].map(r=>[r,read(`public/data/${r}-trunk.json`)]));
 const TIES:[string,string,string,string,string][]=[
@@ -53,10 +53,12 @@ test('相馬双葉幹線: No.54 から新ルートで福島幹線山線 No.10 �
   const e=evidenceOf(l);assert.equal(e.tier,'C');assert.ok(e.inferred.some(i=>i.point&&i.point[0]===B[0]&&i.point[1]===B[1]),'B は推測の点');
   assert.ok(l.attributes.some((a:any)=>a.label==='経路の根拠'&&/Google マップの航空写真（ズーム17）から 2026-11-05 に読み取った/.test(a.value)&&!/オーナー/.test(a.value)));}
  assert.ok(th.facilities.some((f:any)=>f.id==='osm-way-253566674'),'東北のデータに南いわき開閉所が残る');
- const t=read('public/data/tie-flow.json');let n=0;for(const d of t.days){const row=d.actual.lines.find((x:any)=>x.id==='tie-02-相馬双葉幹線');if(!row)continue;n++;
+ const t=read('public/data/tie-flow.json');let n=0;const missing:string[]=[];for(const d of t.days){const row=d.actual.lines.find((x:any)=>x.id==='tie-02-相馬双葉幹線');if(!row){missing.push(d.date);continue;}n++;
   assert.deepEqual([row.from,row.to],['南相馬変電所','分岐点'],d.date);for(const c of d.capacities.filter((c:any)=>c.id.startsWith('tie-cap-02-')))assert.ok([c.from,c.to].includes('分岐点')&&!JSON.stringify(c).includes('南いわき'),d.date);
   for(const g of [tk,th])assert.ok(referenceFlowPath(row,g.lines,false),d.date);}
- assert.ok(n>=20);
+ // 公開リポジトリの CI の初回の配置は潮流が数日分から始まる（docs/RULES.md 5節）。そのときだけ、ある日数（行がそろわない最新日は除く）までに緩める。手元は20日
+ const newest=t.days.map((d:any)=>d.date).sort().at(-1),avail=t.days.length-(missing.includes(newest)?1:0);
+ const need=publicCheckout()?Math.max(1,Math.min(20,avail)):20;assert.ok(n>=need,`相馬双葉幹線の行がある日 ${n}（必要 ${need}、行のない日 ${missing.join('、')||'なし'}）`);
  for(const r of ['tohoku','tokyo'])assert.ok(plansForRegion(tk.changePlans,r).some((p:any)=>p.id==='tohoku-tokyo-somafutaba-2026'&&p.revisions.at(-1).status==='運用開始確認済み'),r);
 });
 // 旧ルートの点の検査は原本 data/raw/north-ties/souma.json を使う。公開リポジトリの Actions では原本がないときだけ飛ばす（保留78・95、tests/raw-data.mjs）

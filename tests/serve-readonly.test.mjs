@@ -1,6 +1,6 @@
 // 2026-10-12 テスト用マップ（tools/serve-readonly.mjs）：カタログから携帯用だけのデータを除き、カタログにあるデータはすべて配信できること
-// 2026-11-24：公開リポジトリの CI（publicCheckout）では data/private がなく、prepare-foundation が携帯用の項目を元のカタログにも載せないので、「1件もない」を確かめる。
-// そのときは下の除外の検査は何も除かずに通るが、除外の働きは publicCatalog の単体テスト（最初のテスト）で確かめている。
+// 2026-11-24：公開リポジトリの CI（publicCheckout）では、test が build（prepare-foundation が携帯用の項目を外す）より前に動くため、元のカタログに携帯用の項目があるかは問わない。
+// 配信されるカタログに1件もないことの検査はどちらでも行い、除外の働きは publicCatalog の単体テスト（最初のテスト）でも確かめている。
 import test from 'node:test'; import assert from 'node:assert/strict';
 import fs from 'node:fs'; import {spawn} from 'node:child_process'; import http from 'node:http';
 import {publicCatalog} from '../tools/lib/public-catalog.mjs';
@@ -14,8 +14,8 @@ test('publicCatalog は携帯用だけのデータを除き、ほかはそのま
 
 test('配信されるカタログに携帯用だけのデータ（line-capacity・substation-voltages）がなく、載っているデータは 404 にならない', async () => {
   const raw = JSON.parse(fs.readFileSync('public/data/catalog.json', 'utf8'));
-  if (publicCheckout()) assert.ok(!raw.datasets.some(d => d.distribution === 'private-preview'), '公開リポジトリの CI では元のカタログにも載らない（prepare-foundation）');
-  else assert.ok(raw.datasets.some(d => d.distribution === 'private-preview'), '元のカタログには携帯用だけのデータがある');
+  // 公開リポジトリの CI では test が build（prepare-foundation）より前に動き、元のカタログに携帯用の項目が残ることがあるので有無を問わない（配信されるカタログに1件もないことは下で確かめる）
+  if (!publicCheckout()) assert.ok(raw.datasets.some(d => d.distribution === 'private-preview'), '元のカタログには携帯用だけのデータがある');
   const port = 18700 + Math.floor(Math.random() * 200);
   const server = spawn(process.execPath, ['tools/serve-readonly.mjs', '.', String(port), '--no-memo'], {stdio: ['ignore', 'pipe', 'inherit']});
   try {

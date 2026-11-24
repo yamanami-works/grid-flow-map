@@ -1,4 +1,4 @@
-import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync,existsSync,readdirSync,statSync} from 'node:fs';import path from 'node:path';import {publicText} from '../scripts/public-wording.mjs';
+import test from 'node:test';import assert from 'node:assert/strict';import {readFileSync,existsSync,readdirSync,statSync} from 'node:fs';import path from 'node:path';import {publicText} from '../scripts/public-wording.mjs';import {publicCheckout} from './raw-data.mjs';
 // 設備の代表点（2026-10-16 オーナー承認）：OSMの区画の頂点の平均が区画の外に落ちる設備は、区画の内側の点へ移す（docs/research/facility-points.json、広野火力は gap-completions）
 const read=(p:string)=>JSON.parse(readFileSync(p,'utf8'));
 const FILES=['tohoku-trunk','tohoku-dc-osm','hokkaido-hokuto','tokyo-trunk','chubu-trunk','hokuriku-trunk','kansai-trunk','chugoku-trunk','shikoku-trunk','kyushu-trunk'];
@@ -13,10 +13,12 @@ test('facility points from the table are applied once, and (with the raw OSM) li
   const nodes=new Map(els.filter((x:any)=>x.type==='node').map((x:any)=>[x.id,[x.lat,x.lon]]));const g=w.geometry?w.geometry.map((q:any)=>[q.lat,q.lon]):w.nodes.map((n:number)=>nodes.get(n));
   assert.ok(inside(f.position,g),e.name+' inside');assert.ok(!inside(e.oldPosition,g),e.name+' old point was outside');}
 });
-// 全国：OSMの閉じた区画（way）がある設備の代表点が、区画の外に落ちていないこと（原本 data/raw がある環境だけ。公開リポジトリにはない）。
+// 全国：OSMの閉じた区画（way）がある設備の代表点が、区画の外に落ちていないこと（OSM の原本がある環境だけ。公開リポジトリにはない）。
+// 公開リポジトリの CI では取得（update-all）が data/raw/occto-* を作るので、フォルダの有無ではなく OSM の原本ファイルの有無で飛ばす。手元で原本がなければ失敗
 // 複数の地域に同じIDで入る設備は、最初のファイルのものだけを見る（補正は地域ごとに当てるので、同じIDの設備は同じ座標になる）
-test('no facility point with a closed OSM way area lies outside it (only where the raw OSM is available)',()=>{
- if(!existsSync('data/raw'))return;
+const OSM_RAW='data/raw/tokyo-275/substations.json';
+test('no facility point with a closed OSM way area lies outside it (only where the raw OSM is available)',t=>{
+ if(!existsSync(OSM_RAW)&&publicCheckout()){t.skip('OSM の原本なし（公開リポジトリ）：'+OSM_RAW);return;}
  const want=new Set<number>();const facs:any[]=[];const seen=new Set();
  for(const f of FILES){for(const x of read(`public/data/${f}.json`).facilities){if(seen.has(x.id))continue;seen.add(x.id);const m=String(x.url??'').match(/openstreetmap\.org\/way\/(\d+)/);if(m){want.add(+m[1]);facs.push({x,way:+m[1],file:f});}}}
  const polys=new Map<number,number[][]>(),wn=new Map<number,number[]>(),nodes=new Map<number,number[]>();

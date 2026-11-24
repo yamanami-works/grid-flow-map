@@ -48,8 +48,9 @@ test('東北の回線数だけの公開ファイル：許可した項目（名�
   for (const l of d.lines) assert.deepEqual(Object.keys(l), CIRCUIT_FIELDS);
   assert.ok(!fs.existsSync('public/data/network-capacity.json'));
   const cat = JSON.parse(fs.readFileSync('public/data/catalog.json', 'utf8')).datasets;
-  // 2026-11-24：公開リポジトリの CI では data/private がなく、携帯用の項目はカタログに載らない（prepare-foundation）
-  if (publicCheckout()) assert.equal(cat.find(x => x.id === 'tohoku-capacity'), undefined);
+  // 公開リポジトリの CI では test が build（prepare-foundation が携帯用の項目を外す）より前に動くので、コミットされたカタログのまま「ない」か「携帯用」のどちらか。
+  // 配信物に入らないことは、serve-readonly の配信カタログの検査・publicCatalog の単体テスト・check:publish（dist の検査。CI では build の後に実行）で確かめる
+  if (publicCheckout()) assert.ok([undefined, 'private-preview'].includes(cat.find(x => x.id === 'tohoku-capacity')?.distribution));
   else assert.equal(cat.find(x => x.id === 'tohoku-capacity')?.distribution, 'private-preview');
   assert.ok(cat.some(x => x.id === 'tohoku-circuits' && !x.distribution));
 });
