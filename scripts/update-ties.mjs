@@ -16,7 +16,7 @@ const status={state:'checking',lastAttemptAt:now.toISOString(),lastSuccessAt:pre
 try{
  for(const [i,d] of dates.entries()){try{execFileSync(process.execPath,['scripts/fetch-occto-tie.mjs',d,'01,02,03,07,08,09,10,15'],{stdio:'inherit',timeout:240000});}catch(e){if(i>=dates.length-2)throw e;console.error('refetch failed',d);}}
  // 2026-10-09：前日の取り直しがOCCTO側の一時的な失敗で落ちると、今日の分も更新されず連系線の潮流が数時間止まっていた。失敗で止めるのは今日の分だけにする（前日は前回取得分を使う）（2026-11-01 に下記へ改めた）
- // 2026-11-01 改め（保留46 A、オーナー承認）：docs/RULES.md 5節「今日と前日の取得に失敗したら配置しない」に合わせ、前日の失敗も失敗にする（ほかの9か所と同じ）。古い2日の失敗は前回分のまま続ける。取得には再試行がある（fetch-occto-tie.mjs）
+ // 2026-11-01 改め（保留46 A、オーナー承認）：前日の失敗も失敗にする（ほかの9か所と同じ。2026-11-25 保留155 から、失敗した手順は update-all が前回分のまま残して配置を続け、次の実行で取り直す。docs/RULES.md 5節「自動配置」）。古い2日の失敗は前回分のまま続ける。取得には再試行がある（fetch-occto-tie.mjs）
  execFileSync(process.execPath,['--experimental-strip-types','scripts/tie-flow.mjs'],{stdio:'inherit',timeout:120000});
  const data=JSON.parse(readFileSync('public/data/tie-flow.json','utf8'));
  writeFileSync('tmp/tie-status.json',JSON.stringify({state:'success',lastAttemptAt:now.toISOString(),lastSuccessAt:new Date().toISOString(),publishedAt:data.updatedAt}));
