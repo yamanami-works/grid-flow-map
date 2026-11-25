@@ -167,3 +167,5 @@
 /* 携帯の上段（2026-11-22）：☷ を「選択」の文字に、潮流のボタンは右下から「選択」の下へ（上段に入らないため。≋ のマークも消した）。「選択」のパネルはボタンの下（118px、幅340px以下は170px）から。時刻パネルは下のボタンがなくなったので下へ（地図の出典・縮尺に重ならない 44px） */
 /* ⓘ「セキュリティ上の考え方」の引用（2026-11-22） */
 #real-info .info-quote{margin:8px 0;padding:4px 0 4px 12px;border-left:3px solid #c9d8cc;color:#56665a}#real-info .info-quote ul{list-style:none;margin:6px 0;padding:0;font-size:13px;line-height:1.7}#real-info .info-quote sup{font-size:10px}
+/* 冒頭の見出し（2026-11-25）：PC は1行。幅760px 以下は区切りのよいところで2行にする（1文字だけ折り返さないように） */
+.brand-br{display:none}@media(max-width:760px){.topbar .brand>div{display:flex;align-items:center}.topbar .wordmark{flex-shrink:0;white-space:nowrap}.topbar .brand-title{line-height:1.25;word-break:keep-all}.brand-br{display:inline}}

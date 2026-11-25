@@ -71,6 +71,11 @@ test('サイトのアイコンの元（static/）：PNG は 48・192px の正方
 test('画面：全国表示の題名はページの題名と同じ。ⓘ の先頭に「このサイトについて」がある', () => {
   const real = readFileSync('src/real.ts', 'utf8');
   assert.ok(real.includes(`region==='national'?'${title(src)}':`), '全国表示の題名');
+  // 冒頭の見出し（2026-11-25）：wbr・br を除くと題名の前半と同じ。PC では br を出さず、幅760px 以下だけ2行にする（狭い画面は語の切れ目 wbr でだけ折り返す）
+  const head = real.match(/<span class="brand-title">(.*?)<\/span>/)?.[1] ?? '';
+  assert.equal(head.replace('<wbr>', '').replace('<br class="brand-br">', ''), title(src).split('｜')[0]);
+  const css = readFileSync('src/real.css', 'utf8');
+  assert.match(css, /\.brand-br\{display:none\}@media\(max-width:760px\)\{[^}]*\}[^@]*\.brand-br\{display:inline\}/);
   assert.match(real, /<button id="real-info-close"[^>]*>×<\/button><\/div><h3>このサイトについて<\/h3><p>[^<]*可視化[^<]*<\/p><div class="callout">/);
 });
 
