@@ -35,6 +35,10 @@ function checkHead(html) {
     assert.doesNotMatch(tag, /\shref="(?:https?:)?\/\//i, '外部への link がない：' + tag);
   }
   assert.doesNotMatch(html, /\ssrc="(?:https?:)?\/\//i, '外部の src がない');
+  // サイトのアイコン（2026-11-25）：相対パスで assets/ の固定名を指す（ICO は使わない）
+  assert.deepEqual([...html.matchAll(/<link\s+rel="(icon|apple-touch-icon)"\s+href="([^"]*)"/g)].map(m => m[1] + ' ' + m[2]),
+    ['icon ./assets/icon.svg', 'icon ./assets/icon-48.png', 'apple-touch-icon ./assets/icon-192.png']);
+  assert.doesNotMatch(html, /\.ico\b/i);
 }
 
 /** PNG のチャンクの種類と大きさ */
@@ -53,6 +57,17 @@ test('共有用の画像の元（static/og-image.png）：1200×630 の PNG で�
   assert.deepEqual(p.chunks.filter(c => /^(tEXt|iTXt|zTXt|eXIf|tIME)$/.test(c)), []);
 });
 
+test('サイトのアイコンの元（static/）：PNG は 48・192px の正方形で文字情報のチャンクを含まない。SVG は外部参照・スクリプト・メタデータを含まない', () => {
+  for (const n of [48, 192]) {
+    const p = png(readFileSync(`static/icon-${n}.png`));
+    assert.deepEqual([p.w, p.h], [n, n]);
+    assert.deepEqual(p.chunks.filter(c => /^(tEXt|iTXt|zTXt|eXIf|tIME)$/.test(c)), []);
+  }
+  const svg = readFileSync('static/icon.svg', 'utf8');
+  assert.match(svg, /^<svg xmlns="http:\/\/www\.w3\.org\/2000\/svg" viewBox="0 0 48 48">/);
+  assert.doesNotMatch(svg, /<script|<metadata|href=|<!--|\son[a-z]+=/i);
+});
+
 test('画面：全国表示の題名はページの題名と同じ。ⓘ の先頭に「このサイトについて」がある', () => {
   const real = readFileSync('src/real.ts', 'utf8');
   assert.ok(real.includes(`region==='national'?'${title(src)}':`), '全国表示の題名');
@@ -66,6 +81,8 @@ test('dist/index.html（ビルド後。なければ飛ばす）：同じ meta �
   checkHead(html);
   assert.equal(verification(html), verification(src), '所有確認の値が build で変わらない');
   assert.ok(readFileSync('dist/assets/og-image.png').equals(readFileSync('static/og-image.png')), '共有用の画像が元と同じ');
+  for (const f of ['icon.svg', 'icon-48.png', 'icon-192.png']) assert.ok(readFileSync('dist/assets/' + f).equals(readFileSync('static/' + f)), 'アイコンが元と同じ：' + f);
+  assert.ok(!existsSync('dist/favicon.ico') && !existsSync('dist/assets/favicon.ico'), 'ICO は出さない');
   const csp = [...html.matchAll(/<meta\s+http-equiv="Content-Security-Policy"/gi)];
   assert.equal(csp.length, 1);
   const script = html.search(/<script\b/i);

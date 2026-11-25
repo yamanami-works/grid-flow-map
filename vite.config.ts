@@ -47,6 +47,8 @@ export default defineConfig({
       for(const file of files)this.emitFile({type:'asset',fileName:file,source:flowBytes.get(file)??await readFile(privateFiles.has(file)?'data/private/'+file.slice('data/'.length):'public/'+file)});
       // 共有用の画像（OGP、2026-11-24）：index.html の og:image が固定の URL で指すので、ハッシュなしの固定名で出す。元は tools/og-image/make-og-image.mjs で作る
       this.emitFile({type:'asset',fileName:'assets/og-image.png',source:await readFile('static/og-image.png')});
+      // サイトのアイコン（2026-11-25）：index.html の link が固定の名前で指す。元は tools/og-image/make-icon.mjs で作る（ICO は出さない）
+      for(const f of ['icon.svg','icon-48.png','icon-192.png'])this.emitFile({type:'asset',fileName:'assets/'+f,source:await readFile('static/'+f)});
     },
     // Host の照合は Vite のものが効かないので localHostOnly で行う（2026-11-24、scripts/live-data.mjs）
     configureServer(server){server.middlewares.use(localHostOnly(liveDataMiddleware()));},
