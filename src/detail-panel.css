@@ -131,3 +131,9 @@
 .dp-units>div>span:first-child{min-width:72px}
 /* 使用率100%超（2026-10-10） */
 .dp-panel .dp-over{display:inline-block;margin-left:6px;padding:0 6px;border-radius:4px;background:#F3E8FA;color:#6B2A93;font-size:12px;font-weight:700;vertical-align:2px}
+/* 号機の運転状態（HJKS 停止情報一覧、2026-11-24）：区分ごとの文字色。登録のない号機には出さない */
+.dp-panel .dp-units small.dp-outage-unplanned{color:#B3261E}
+.dp-panel .dp-units small.dp-outage-stop{color:#8A5300}
+.dp-panel .dp-units small.dp-outage-low{color:#1F5F99}
+/* 運転中の号機の出力は折り返さない（運転状態のカッコ書きで左が長くなるため。2026-11-24） */
+.dp-panel .dp-units>div:not(.dp-unit-off)>span:last-child{white-space:nowrap}

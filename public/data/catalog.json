@@ -489,6 +489,18 @@
       "sourceIds": [
         "nra"
       ]
+    },
+    {
+      "id": "unit-outages",
+      "region": "national",
+      "purpose": "status",
+      "feature": "capacity-detail",
+      "access": "public",
+      "url": "./data/unit-outages.json",
+      "schemaVersion": 1,
+      "sourceIds": [
+        "hjks"
+      ]
     }
   ]
 }

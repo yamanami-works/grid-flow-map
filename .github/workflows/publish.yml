@@ -49,6 +49,10 @@ jobs:
       - env:
           NRA_MODE: ${{ github.event_name == 'push' && '--restore-only' || '' }}
         run: node scripts/fetch-nra-status.mjs "$SITE_URL" $NRA_MODE
+      # 原子力以外の号機の運転状態（HJKS 停止情報一覧、1日1回。2026-11-24、docs/RULES.md 5節）：規制委と同じ流れ。失敗しても配置は止めない
+      - env:
+          HJKS_MODE: ${{ github.event_name == 'push' && '--restore-only' || '' }}
+        run: node scripts/fetch-hjks-outages.mjs "$SITE_URL" $HJKS_MODE
       # 前回との比較の相手として写しておく（ないものは写さない＝初回）
       # 東北の日別（public/data/occto/）は Git の管理外なので、初回は読み戻しでも作られない。取得の前にフォルダを作る
       - run: |

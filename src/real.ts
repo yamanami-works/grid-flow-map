@@ -42,6 +42,7 @@ import { dcReferences, tieCapacityNotes } from './dc-catalog';
 import { plantTypeView } from './plant-type';
 import { plantExtraUnits } from './plant-extra-units';
 import { type NuclearStatus, NRA_PLANT_IDS, nuclearStale, nuclearUnitStatus } from './nuclear-status';
+import { type UnitOutages, outagesStale, unitOutageView } from './unit-outages';
 import { mergeUnits, hjksUnitName, type UnitView } from './plant-unit-list';
 import 'leaflet/dist/leaflet.css';
 import './style.css';
@@ -94,6 +95,8 @@ type PlantUnits={retrievedAt:string;source:{name:string;url:string};plants:Recor
 let plantUnits:PlantUnits|null=null;
 // 原子力の号機の運転状態（原子力規制委員会、scripts/fetch-nra-status.mjs が1日1回取得。2026-11-10）
 let nuclearStatus:NuclearStatus|null=null;
+// 原子力以外の号機の運転状態（HJKS 停止情報一覧、scripts/fetch-hjks-outages.mjs が1日1回取得。2026-11-24）
+let unitOutages:UnitOutages|null=null;
 // Always start in the permitted national scope, independently of previous sessions.
 let region:RegionId='national';
 // Until every region's data has loaded, skip drawing: otherwise Tohoku renders first and the view jumps to national ~3 s later.
@@ -715,7 +718,11 @@ function facilityView(f:GeoFacility):DetailView{
  // 種別（2026-10-10）：一次資料（一覧の type・事業者の資料・HJKS）だけから決める。OSMのタグ・名前・地図のマークからは推定しない
  const pt=f.kind==='plant'?plantTypeView({primary:f.plantType??null,profileMethod:profile?.method??null,units:hj?.units.map(u=>({unit:hjksUnitName(u),format:u.format,status:u.status}))??[]}):null;
  const nraOf=(u:UnitView)=>u.status==='運転中'&&!u.extra?nuclearUnitStatus(nuclearStatus,f.id,u.name,new Date()):null;
- const unitRow=(u:UnitView)=>`<div class="${u.status==='運転中'?'':'dp-unit-off'}"><span>${esc(u.name)}${nraOf(u)?`<small class="dp-nra">（規制委：${esc(nraOf(u)!)}）</small>`:''}${u.start?`<small> ${esc(d(u.start))}</small>`:''}${u.status==='運転中'&&u.end?`<small> ${esc(d(u.end))}稼動終了予定</small>`:''}</span>${pt?.unitLabels[u.name]?`<span class="dp-unit-type">${esc(pt.unitLabels[u.name])}</span>`:''}<span>${u.status==='運転中'?num(u.mw)+' MW':esc(u.status)+(u.end?' '+esc(d(u.end)):'')+'（'+num(u.mw)+' MW）'}</span></div>`;
+ // 原子力以外の運転中の HJKS の号機だけに運転状態を付ける（HJKS 停止情報一覧。事業者の資料だけの号機・HJKS 外の号機・原子力には付けない。2026-11-24）
+ const hjRaw=new Map((hj?.units??[]).filter(u=>!/^原子力/.test(u.format??'')).map(u=>[hjksUnitName(u),u.unit] as const));
+ const outOf=(u:UnitView)=>u.status==='運転中'&&!u.extra&&hjRaw.has(u.name)?unitOutageView(unitOutages,f.id,hjRaw.get(u.name)!,new Date()):null;
+ const outageShown=plantUnitList.some(u=>u.status==='運転中'&&!u.extra&&hjRaw.has(u.name));
+ const unitRow=(u:UnitView)=>`<div class="${u.status==='運転中'?'':'dp-unit-off'}"><span>${esc(u.name)}${nraOf(u)?`<small class="dp-nra">（${esc(nraOf(u)!)}）</small>`:''}${(o=>o?`<small class="dp-outage dp-outage-${esc(o.tone)}">（${esc(o.text)}）</small>`:'')(outOf(u))}${u.start?`<small> ${esc(d(u.start))}</small>`:''}${u.status==='運転中'&&u.end?`<small> ${esc(d(u.end))}稼動終了予定</small>`:''}</span>${pt?.unitLabels[u.name]?`<span class="dp-unit-type">${esc(pt.unitLabels[u.name])}</span>`:''}<span>${u.status==='運転中'?num(u.mw)+' MW':esc(u.status)+(u.end?' '+esc(d(u.end)):'')+'（'+num(u.mw)+' MW）'}</span></div>`;
  const hjDiff=hj&&profile&&profile.capacityMW!==null&&plantTotal!==null&&Math.abs(plantTotal-profile.capacityMW)>=1?`事業者の公式資料では ${num(profile.capacityMW)} MW（${profile.capacityBasis}）、HJKSの認可出力（運転中ユニットの合計）は ${num(plantTotal)} MWです。HJKSの値を表示しています。`:null;
  const notes=uniqueNotes([hjDiff,...(f.attributes??[]).filter(a=>/^要注意/.test(a.label)).map(a=>a.value),f.statusCheck,
   f.kind==='plant'&&!retired?'設備出力は実際の発電量や送電容量ではありません。':null,ownerShown&&osmOut?`OSM登録の出力は ${osmOut}（本アプリの調査による値を表示しています）。`:null,f.kind!=='plant'?'個別の母線・変圧器の結線は未確認です。':null,
@@ -756,6 +763,7 @@ function facilityView(f:GeoFacility):DetailView{
   ...(profile?profile.sources.map(s=>({label:'発電所情報',name:'運営会社の一次資料',date:s.checkedAt,url:s.url})):[]),
   ...(ownerShown?[{label:'設備出力',name:'本アプリの調査（一次資料未確認）'}]:[]),
   ...(hj?[{label:'ユニット別出力',name:'日本卸電力取引所 発電情報公開システム（HJKS）',date:plantUnits!.retrievedAt+'取得',url:plantUnits!.source.url}]:profile?.unitsSource?[{label:'号機別出力',name:'運営会社の公式資料',date:profile.unitsSource.checkedAt,url:profile.unitsSource.url}]:[]),
+  ...(unitOutages&&outageShown?[{label:'号機の運転状態',name:outagesStale(unitOutages,new Date())?'取得できていません（最終取得 '+unitOutages.retrievedAt.slice(0,10)+'。運転状態は表示していません）':unitOutages.source.name+'（最終更新 '+unitOutages.latestUpdate.replace('T',' ').replace(/-/g,'/')+'。停止の登録がない号機には状態を書いていません。運転中とは限りません）',date:unitOutages.retrievedAt.slice(0,10)+'取得',url:unitOutages.source.url}]:[]),
   ...(nuclearStatus&&NRA_PLANT_IDS[f.id]?[{label:'号機の運転状態',name:nuclearStale(nuclearStatus,new Date())?'取得できていません（最終取得 '+nuclearStatus.retrievedAt.slice(0,10)+'。運転状態は表示していません）':nuclearStatus.source.name+'（'+nuclearStatus.pageUpdated.replace(/-/g,'/')+' 更新）',date:nuclearStatus.retrievedAt.slice(0,10)+'取得',url:nuclearStatus.source.url}]:[]),
   ...(extraShown?[...new Map(extraUnits.map(u=>[u.url,u])).values()].map(u=>({label:'号機（廃止措置中・建設中）',name:u.source,date:u.checkedAt,url:u.url})):[]),
   ...(retired?[{label:'廃止の根拠',name:f.statusSource??'未確認'}]:f.statusSource?[{label:'運用状態',name:f.statusSource}]:!statusShown(f)?[]:[{label:'運用状態',name:f.statusConfirmed===false?'未確認（既定値：運用中）':statusLabel(f)}]),
@@ -1042,7 +1050,7 @@ async function load() {
   catalog=await loadCatalog();
   prefetchTrunks();
   // 設備・容量のデータも一斉に読み始める（反映は以前と同じ順番）
-  const early=Object.fromEntries(['plant-units','nuclear-status','tohoku-plants','tohoku-capacity','tohoku-circuits','line-capacity','substation-voltages'].map(id=>{const p=safeFetch(id);p.catch(()=>{});return [id,p];}));
+  const early=Object.fromEntries(['plant-units','nuclear-status','unit-outages','tohoku-plants','tohoku-capacity','tohoku-circuits','line-capacity','substation-voltages'].map(id=>{const p=safeFetch(id);p.catch(()=>{});return [id,p];}));
   const results = await Promise.allSettled([
     fetch(datasetUrl(catalog,'tohoku-trunk')).then(r => { if (!r.ok) throw new Error('OSM geography missing'); return r.json(); }),
     fetch(datasetUrl(catalog,'tohoku-dc')).then(r => { if (!r.ok) throw new Error('DC geography missing'); return r.json(); }),
@@ -1050,6 +1058,7 @@ async function load() {
     fetch(datasetUrl(catalog,'tohoku-flow-latest'),{cache:'no-store'}).then(r=>{if(!r.ok)throw Error('OCCTO snapshot missing');return r.json();}),
   ]);
   try{const r=await early['plant-units'];if(r.ok){const d=await r.json();if(d.schemaVersion===1)plantUnits=d;}}catch{/* 無ければ事業者の公式資料・OSMの値 */}
+  try{const r=await early['unit-outages'];if(r.ok){const d=await r.json();if(d.schemaVersion===1&&d.units&&typeof d.retrievedAt==='string'&&typeof d.latestUpdate==='string')unitOutages=d;}}catch{/* 無ければ号機の運転状態を出さない */}
   try{const r=await early['nuclear-status'];if(r.ok){const d=await r.json();if(d.schemaVersion===1&&d.plants&&typeof d.retrievedAt==='string')nuclearStatus=d;}}catch{/* 無ければ運転状態を出さない */}
   try{const r=await early['tohoku-plants'];if(r.ok)plantProfiles=(await r.json()).records??[];}catch{/* Unknown plants retain registered information. */}
   try{const r=await early['tohoku-capacity'];if(r.ok)networkCapacity=await r.json();}catch{/* Preserve OCCTO display when source unavailable. */}

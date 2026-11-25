@@ -85,6 +85,8 @@ const definitions=[
  ['plant-units','equipment','capacity-detail','plant-units.json',['hjks'],'national'],
  // 原子力の号機の運転状態（原子力規制委員会、scripts/fetch-nra-status.mjs が1日1回取得。2026-11-10 保留110）。潮流と同じくハッシュを付けず毎回読む（version なし）
  ['nuclear-status','status','capacity-detail','nuclear-status.json',['nra'],'national'],
+ // 原子力以外の号機の運転状態（HJKS 停止情報一覧、scripts/fetch-hjks-outages.mjs が1日1回取得。2026-11-24 保留149）。原子力と同じくハッシュを付けず毎回読む
+ ['unit-outages','status','capacity-detail','unit-outages.json',['hjks'],'national'],
 ];
 const datasets=[];
 // version：潮流以外（地図・容量・設備）は中身のハッシュの先頭12桁。画面は ?v=<version> 付きで読み、ブラウザのキャッシュを使う（2026-10-10 表示速度の改善）。潮流は付けず毎回読む
