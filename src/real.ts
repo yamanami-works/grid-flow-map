@@ -28,6 +28,7 @@ import {lineWidth,particleWidth,lineWidthProfile} from './line-style';
 import {validDays,followsLatest,observedMessage,mergeLatest,type FlowIndexEntry} from './occto-refresh';
 import {canUse, voltageColor} from './access-policy';
 import {loadCatalog,datasetUrl} from './data-catalog';
+import {bindLocate} from './locate';
 import {voltageEvidence,bankSummary,TABLE_ORDER,type SubstationVoltageTable,type VoltageEvidence} from './substation-voltages';
 import type {DatasetManifest} from './data-contracts';
 let catalog:DatasetManifest;
@@ -202,7 +203,7 @@ $('#app').innerHTML = `
 <div class="map-column"><div id="real-map-status" class="map-notice" role="status" hidden></div><section class="map-area" aria-label="実データの送電線地図"><div id="map"></div><section id="change-plans-panel" aria-labelledby="change-plans-title" hidden><div class="plans-top"><h2 id="change-plans-title" tabindex="-1">系統変更予定</h2><button id="change-plans-close" class="icon-button" aria-label="系統変更予定を閉じる">×</button></div><p id="change-plans-hint" role="status" hidden></p><div id="change-plans-content"></div></section>
 <div class="map-top real-map-top"><div class="basemaps" role="group" aria-label="背景地図"><button data-base="pale" aria-pressed="true">地図</button><button data-base="seamlessphoto" aria-pressed="false">航空写真</button><button data-base="std" aria-pressed="false">国土地理院</button></div></div>
 <div class="demo-banner real-banner"><b>実地理データ</b><span>${esc(trunkDisplay.areaLabel)}</span></div>
-<div class="map-controls"><button id="real-zoom-in" class="icon-button" aria-label="地図を拡大">＋</button><button id="real-zoom-out" class="icon-button" aria-label="地図を縮小">−</button><button id="real-fit" class="icon-button" aria-label="東北全域へ戻る">⊙</button></div>
+<div class="map-controls"><button id="real-zoom-in" class="icon-button" aria-label="地図を拡大">＋</button><button id="real-zoom-out" class="icon-button" aria-label="地図を縮小">−</button><button id="real-fit" class="icon-button" aria-label="東北全域へ戻る">⊙</button><button id="real-locate" class="icon-button" aria-label="現在地へ移動" title="現在地へ移動" hidden><svg viewBox="0 0 24 24" width="18" height="18" aria-hidden="true" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2" fill="currentColor" stroke="none"/><path d="M12 2v4M12 18v4M2 12h4M18 12h4"/></svg></button></div><div id="real-locate-notice" class="locate-notice" role="status" aria-live="polite" hidden></div>
 <button class="mobile-browse" id="real-browse">⌕ 設備を探す</button><button id="show-flow-visual" type="button" disabled>▶ 潮流を見る</button>
 <button id="mobile-layers-toggle" aria-label="選択（地域・電圧・設備の表示設定）" aria-expanded="false" aria-controls="mobile-layers">選択</button><div id="mobile-layers" class="mobile-map-filters" aria-label="地図の表示切替" hidden><div id="mobile-voltage"></div><div class="mobile-kinds"><button data-mobile-kind="substation" aria-pressed="true">変電所</button><button data-mobile-kind="switchyard" aria-pressed="true">開閉所</button><button data-mobile-kind="plant" aria-pressed="true">発電所</button><button data-mobile-kind="converter" aria-pressed="true">変換所</button><button data-mobile-kind="customer" aria-pressed="true">需要家</button></div></div>
 <button id="mobile-flow-toggle" type="button" aria-expanded="false" aria-controls="map-flow-key real-time">潮流</button><div id="map-flow-key" tabindex="0" aria-label="潮流の凡例"><b id="flow-key-head"></b><ul id="flow-key-list"></ul><p id="flow-key-status" role="status"></p></div>
@@ -318,7 +319,7 @@ function facilityMarker(f:GeoFacility){
     return marker;
 }
 // 設備名のラベル（2026-11-22 指示、src/facility-labels.ts）。地図のボタン・凡例・時刻・詳細パネルなどの下には置かない
-const facilityLabels=new FacilityLabels(map,'.map-top,.map-controls,#map-flow-key,#real-time,#detail,#mobile-layers-toggle,#mobile-flow-toggle,#real-browse,#mobile-layers,.sidebar.mobile-open,.leaflet-control-attribution,.leaflet-control-scale,#real-map-status',()=>geography?.facilities??[]);
+const facilityLabels=new FacilityLabels(map,'.map-top,.map-controls,#real-locate-notice,#map-flow-key,#real-time,#detail,#mobile-layers-toggle,#mobile-flow-toggle,#real-browse,#mobile-layers,.sidebar.mobile-open,.leaflet-control-attribution,.leaflet-control-scale,#real-map-status',()=>geography?.facilities??[]);
 function syncFacilityMarkers(){
   if(pilot?.active){facilityLabels.clear();return;}
   const far=map.getZoom()<7,size=map.getSize(),view=size.x>0&&size.y>0?map.getBounds().pad(0.25):null;
@@ -1268,6 +1269,7 @@ $('#time-prev').onclick=()=>stepTime(-1);$('#time-next').onclick=()=>stepTime(1)
 $('#actual-hour').oninput = e => { followLatest=false;hourIndex = Number((e.target as HTMLInputElement).value); renderFlow(); };
 document.querySelectorAll<HTMLButtonElement>('[data-base]').forEach(b => b.onclick = () => changeBase(b.dataset.base!));
 $('#real-zoom-in').onclick = () => map.zoomIn(); $('#real-zoom-out').onclick = () => map.zoomOut(); $('#real-fit').onclick = fitAll;
+bindLocate(map, $<HTMLButtonElement>('#real-locate'), $('#real-locate-notice'));
 $('#show-flow-visual').onclick = () => {
  const available = official?.actual.lines.filter(l => l.values[timeIndex()] != null) ?? [];
  const record = available.find(l => l.name === '仙台幹線') ?? available[0];

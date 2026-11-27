@@ -47,7 +47,7 @@ const server = createServer(async (req,res) => {
   res.setHeader('X-Robots-Tag','noindex, nofollow, noarchive');
   res.setHeader('X-Frame-Options','DENY');
   res.setHeader('Content-Security-Policy',"default-src 'none'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https://cyberjapandata.gsi.go.jp; connect-src 'self'; font-src 'self'; base-uri 'none'; object-src 'none'; frame-ancestors 'none'; form-action 'self'");
-  res.setHeader('Permissions-Policy','camera=(), microphone=(), geolocation=()');
+  res.setHeader('Permissions-Policy','camera=(), microphone=(), geolocation=(self)'); // 現在地ボタンを携帯で確かめるため自サイトだけ許可（2026-11-26）
   const session = /(?:^|;\s*)grid_preview=([a-f0-9]{64})(?:;|$)/.exec(req.headers.cookie || '')?.[1];
   // 有効なセッションがあれば回数制限を見ない（不正な Authorization が付いていても、ログイン済みの閲覧は止めない）。
   // セッションのない要求は、正しい Basic 認証でも、その接続元が上限に達していれば 429（接続元ごとなので、ほかの人は巻き込まれない）

@@ -23,7 +23,9 @@ test('外部からの読み込みがなく、外へのリンクは決めたも�
  for(const m of all.matchAll(/<a\b[^>]*>/g))assert.match(m[0],/rel="noopener noreferrer"/);
 });
 test('事実の記載がルールと合う（Cookie・解析なし、潮流は OCCTO のみ、空欄なし）',()=>{
- assert.match(LEGAL_DOCS.privacy.body,/Cookie、アクセス解析、広告、位置情報/);
+ assert.match(LEGAL_DOCS.privacy.body,/Cookie、アクセス解析、広告は行っていません/);
+ assert.match(LEGAL_DOCS.privacy.body,/「現在地」ボタンを押したときだけ/);assert.match(LEGAL_DOCS.privacy.body,/保存も運営者への送信もしません/);assert.match(LEGAL_DOCS.privacy.body,/国土地理院に伝わります/);
+ assert.match(LEGAL_DOCS.privacy.body,/制定日：2026年11月16日　改定日：2026年11月26日/);assert.match(LEGAL_DOCS.disclaimer.body,/改定日：2026年11月26日/);assert.doesNotMatch(LEGAL_DOCS.terms.body,/改定日/);
  assert.match(LEGAL_DOCS.disclaimer.body,/OCCTO の公表実績だけ/);
  assert.match(LEGAL_DOCS.disclaimer.body,/0 で埋めず/);
  assert.doesNotMatch(all,/［|○月/);
